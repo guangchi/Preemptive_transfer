@@ -1,5 +1,7 @@
 # P/D KV 传输与局部排序实验
 
+硕士毕业设计：Preemptive_transfer
+
 本目录可以作为独立 GitHub 仓库：保存实验代码、文档、原始结果，以及定制 vLLM 的全部 10 个 Python 修改文件。恢复方式是安装对应官方 vLLM wheel，再应用源码快照；不是重新编译一整份 vLLM，也不是安装任意最新版后直接运行。
 
 新完整方案 = P 侧局部排序 + batch 完成后提前后台发送 KV + 短/中请求按请求按 batch 聚合 + long C8 + 短请求传输优先与 long 保护。关闭局部排序恢复旧方案。D 收齐请求 KV 后使用原调度器 decode。
@@ -90,4 +92,4 @@ python analyze_pd_local_sort_comparison.py --result-dir results/reproduce-compar
 
 建议将本目录直接作为仓库根目录。已提供 `.gitignore`，只忽略 bytecode、临时 PID、虚拟环境、本机恢复备份和模型等；实验结果、日志与文档仍保留。超过 GitHub 普通文件限制的 CUDA trace 已配置 Git LFS（需要 LFS 配额）。上传前先执行 `git lfs install --local`，再 `git add .`，使其被正确转换为 LFS 对象。
 
-当前目录尚未因此 README 自动创建远程仓库或完成 GitHub 登录。确定仓库名、可见性并完成认证后，才能 commit/push；只保存本目录即可，不需要保存外部模型和虚拟环境。
+本仓库保存该毕业设计的代码、实验文档和结果；模型权重和虚拟环境需单独准备。
