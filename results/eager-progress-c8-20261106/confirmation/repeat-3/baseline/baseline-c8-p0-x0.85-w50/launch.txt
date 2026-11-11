@@ -1,0 +1,10 @@
+/home/ubuntu/zjj/code/results/eager-progress-c8-20261106/confirmation/repeat-3/baseline/baseline-c8-p0-x0.85-w50/environment.json
+run_dir=/home/ubuntu/zjj/code/results/eager-progress-c8-20261106/confirmation/repeat-3/baseline/baseline-c8-p0-x0.85-w50
+mode=baseline
+prefill_pid=322660
+decode_pid=322661
+prefill_side_channel=127.0.0.1:5650
+decode_side_channel=127.0.0.1:5651
+P endpoint: http://127.0.0.1:8150/v1/completions
+D endpoint: http://127.0.0.1:8250/v1/completions
+A PD router must submit paired P/D requests with kv_transfer_params; the worker endpoints are not a router.

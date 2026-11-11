@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/zjj/code/run_pd_load.py", line 439, in <module>
+    main()
+  File "/home/ubuntu/zjj/code/run_pd_load.py", line 325, in main
+    results.append(future.result())
+                   ^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/cc/lib/python3.11/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/miniconda3/envs/cc/lib/python3.11/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/ubuntu/miniconda3/envs/cc/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+    result = self.fn(*self.args, **self.kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zjj/code/run_pd_load.py", line 237, in send
+    "router_ttft_ms": timings["router_ttft_ms"],
+                      ~~~~~~~^^^^^^^^^^^^^^^^^^
+KeyError: 'router_ttft_ms'
+{"timestamps_unix_s": {"start": 1793963261.054361, "pair_launch_complete": 1793963263.4752522, "workers_healthy": 1793963263.5572922, "router_healthy": 1793963263.663652, "load_start": 1793963278.6681848, "load_complete": 1793963280.326509, "trace_complete": 1793963280.3285823, "cleanup_start": 1793963280.46797, "cleanup_complete": 1793963280.522061}, "phase_durations_s": {"pair_launch_s": 2.420891046524048, "worker_health_s": 0.08204007148742676, "router_start_s": 0.10635972023010254, "warmup_s": 15.004532814025879, "load_replay_s": 1.6583242416381836, "trace_collection_s": 0.0020732879638671875, "cleanup_s": 0.05409121513366699, "group_wall_s": 19.467700004577637}}

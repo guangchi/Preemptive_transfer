@@ -1,0 +1,10 @@
+/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/16-full-x90-w100/preemptive-c8-p3-x0.90-w100/environment.json
+run_dir=/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/16-full-x90-w100/preemptive-c8-p3-x0.90-w100
+mode=preemptive
+prefill_pid=374647
+decode_pid=374648
+prefill_side_channel=127.0.0.1:5600
+decode_side_channel=127.0.0.1:5601
+P endpoint: http://127.0.0.1:8100/v1/completions
+D endpoint: http://127.0.0.1:8200/v1/completions
+A PD router must submit paired P/D requests with kv_transfer_params; the worker endpoints are not a router.

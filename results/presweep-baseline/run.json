@@ -1,0 +1,20 @@
+{
+  "chunk_size_blocks": "",
+  "concurrency": 3,
+  "elapsed_s": 4.735367,
+  "endpoint": "http://127.0.0.1:8010/v1/completions",
+  "gpu_sampling": true,
+  "interarrival_ms": 250.0,
+  "max_preemptions": "",
+  "mode": "baseline",
+  "model": "/home/ubuntu/zjj/models/Llama-3.1-8B-Instruct",
+  "protect_progress": "",
+  "request_count": 3,
+  "start_monotonic_s": 48871.708622919,
+  "stream": true,
+  "timeout_s": 120.0,
+  "vllm_version": "0.32.0",
+  "wait_threshold_ms": "",
+  "workload": "/home/ubuntu/zjj/code/workload.pre-sweep.jsonl",
+  "workload_sha256": "c88cac6bf56d7474624a8875ecf3b0efddd44f558fb702a6ae94688fa22ac55f"
+}

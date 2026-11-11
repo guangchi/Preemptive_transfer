@@ -1,0 +1,311 @@
+{
+  "vllm-baseline": {
+    "runs": [
+      {
+        "run": "run-1",
+        "makespan_s": 5.92287000000033,
+        "short": {
+          "ttft_ms": 2401.80875,
+          "e2e_ms": 2656.217
+        },
+        "medium": {
+          "ttft_ms": 3356.3593333333333,
+          "e2e_ms": 3640.1376666666665
+        },
+        "long": {
+          "ttft_ms": 3250.3537499999998,
+          "e2e_ms": 3556.7825000000003
+        }
+      },
+      {
+        "run": "run-2",
+        "makespan_s": 6.047323000000688,
+        "short": {
+          "ttft_ms": 2362.092125,
+          "e2e_ms": 2620.52075
+        },
+        "medium": {
+          "ttft_ms": 3258.6236666666664,
+          "e2e_ms": 3556.1373333333336
+        },
+        "long": {
+          "ttft_ms": 3233.8215,
+          "e2e_ms": 3540.51
+        }
+      },
+      {
+        "run": "run-3",
+        "makespan_s": 5.930992999999944,
+        "short": {
+          "ttft_ms": 2343.445875,
+          "e2e_ms": 2593.706
+        },
+        "medium": {
+          "ttft_ms": 3286.329,
+          "e2e_ms": 3583.5233333333335
+        },
+        "long": {
+          "ttft_ms": 3249.1549999999997,
+          "e2e_ms": 3559.54425
+        }
+      }
+    ],
+    "makespan_mean_s": 5.967062000000321,
+    "makespan_stdev_s": 0.06962662474256989,
+    "categories": {
+      "short": {
+        "ttft_ms": 2369.1155833333332,
+        "e2e_ms": 2623.4812500000003
+      },
+      "medium": {
+        "ttft_ms": 3300.4373333333333,
+        "e2e_ms": 3593.266111111111
+      },
+      "long": {
+        "ttft_ms": 3244.4434166666665,
+        "e2e_ms": 3552.2789166666666
+      }
+    },
+    "output_stability": {
+      "interleaved15-00-short": true,
+      "interleaved15-01-long": true,
+      "interleaved15-02-short": true,
+      "interleaved15-03-medium": true,
+      "interleaved15-04-short": true,
+      "interleaved15-05-long": true,
+      "interleaved15-06-short": true,
+      "interleaved15-07-long": true,
+      "interleaved15-08-short": true,
+      "interleaved15-09-medium": true,
+      "interleaved15-10-short": true,
+      "interleaved15-11-long": true,
+      "interleaved15-12-short": true,
+      "interleaved15-13-medium": true,
+      "interleaved15-14-short": true
+    },
+    "long_requests": {
+      "interleaved15-01-long": {
+        "e2e_ms": 2313.364,
+        "ttft_ms": 2005.47
+      },
+      "interleaved15-05-long": {
+        "e2e_ms": 3066.9886666666666,
+        "ttft_ms": 2758.967333333333
+      },
+      "interleaved15-07-long": {
+        "e2e_ms": 4163.363666666667,
+        "ttft_ms": 3854.6766666666667
+      },
+      "interleaved15-11-long": {
+        "e2e_ms": 4665.399333333334,
+        "ttft_ms": 4358.659666666666
+      }
+    }
+  },
+  "vllm-full": {
+    "runs": [
+      {
+        "run": "run-1",
+        "makespan_s": 5.511677999998938,
+        "short": {
+          "ttft_ms": 2288.565625,
+          "e2e_ms": 2558.862375
+        },
+        "medium": {
+          "ttft_ms": 2805.621,
+          "e2e_ms": 3090.3140000000003
+        },
+        "long": {
+          "ttft_ms": 2682.8695000000002,
+          "e2e_ms": 2988.4885
+        }
+      },
+      {
+        "run": "run-2",
+        "makespan_s": 5.514246999999159,
+        "short": {
+          "ttft_ms": 2291.182375,
+          "e2e_ms": 2562.06875
+        },
+        "medium": {
+          "ttft_ms": 2795.594666666667,
+          "e2e_ms": 3083.5533333333333
+        },
+        "long": {
+          "ttft_ms": 2684.39275,
+          "e2e_ms": 2991.40525
+        }
+      },
+      {
+        "run": "run-3",
+        "makespan_s": 5.498771000000488,
+        "short": {
+          "ttft_ms": 2286.29275,
+          "e2e_ms": 2558.784125
+        },
+        "medium": {
+          "ttft_ms": 2816.241,
+          "e2e_ms": 3101.3506666666667
+        },
+        "long": {
+          "ttft_ms": 2688.948,
+          "e2e_ms": 2999.18175
+        }
+      }
+    ],
+    "makespan_mean_s": 5.508231999999528,
+    "makespan_stdev_s": 0.008293541522574192,
+    "categories": {
+      "short": {
+        "ttft_ms": 2288.68025,
+        "e2e_ms": 2559.9050833333336
+      },
+      "medium": {
+        "ttft_ms": 2805.818888888889,
+        "e2e_ms": 3091.7393333333334
+      },
+      "long": {
+        "ttft_ms": 2685.4034166666665,
+        "e2e_ms": 2993.025166666667
+      }
+    },
+    "output_stability": {
+      "interleaved15-00-short": true,
+      "interleaved15-01-long": true,
+      "interleaved15-02-short": true,
+      "interleaved15-03-medium": true,
+      "interleaved15-04-short": true,
+      "interleaved15-05-long": true,
+      "interleaved15-06-short": true,
+      "interleaved15-07-long": true,
+      "interleaved15-08-short": true,
+      "interleaved15-09-medium": true,
+      "interleaved15-10-short": true,
+      "interleaved15-11-long": true,
+      "interleaved15-12-short": true,
+      "interleaved15-13-medium": true,
+      "interleaved15-14-short": true
+    },
+    "long_requests": {
+      "interleaved15-01-long": {
+        "e2e_ms": 1815.7503333333334,
+        "ttft_ms": 1508.944
+      },
+      "interleaved15-05-long": {
+        "e2e_ms": 2478.7543333333333,
+        "ttft_ms": 2170.4403333333335
+      },
+      "interleaved15-07-long": {
+        "e2e_ms": 3384.961,
+        "ttft_ms": 3076.306
+      },
+      "interleaved15-11-long": {
+        "e2e_ms": 4292.635,
+        "ttft_ms": 3985.923333333333
+      }
+    }
+  },
+  "sglang": {
+    "runs": [
+      {
+        "run": "run-1",
+        "makespan_s": 6.097347999999329,
+        "short": {
+          "ttft_ms": 3284.196875,
+          "e2e_ms": 3363.67875
+        },
+        "medium": {
+          "ttft_ms": 3789.9793333333337,
+          "e2e_ms": 3872.1833333333334
+        },
+        "long": {
+          "ttft_ms": 3831.67775,
+          "e2e_ms": 3896.95325
+        }
+      },
+      {
+        "run": "run-2",
+        "makespan_s": 6.1072820000008505,
+        "short": {
+          "ttft_ms": 3276.7468750000003,
+          "e2e_ms": 3357.524875
+        },
+        "medium": {
+          "ttft_ms": 3784.895,
+          "e2e_ms": 3867.491
+        },
+        "long": {
+          "ttft_ms": 3821.2129999999997,
+          "e2e_ms": 3886.09775
+        }
+      },
+      {
+        "run": "run-3",
+        "makespan_s": 6.138738000001467,
+        "short": {
+          "ttft_ms": 3297.1266250000003,
+          "e2e_ms": 3378.716875
+        },
+        "medium": {
+          "ttft_ms": 3809.808,
+          "e2e_ms": 3892.506
+        },
+        "long": {
+          "ttft_ms": 3843.97425,
+          "e2e_ms": 3908.8549999999996
+        }
+      }
+    ],
+    "makespan_mean_s": 6.114456000000549,
+    "makespan_stdev_s": 0.02160746935763212,
+    "categories": {
+      "short": {
+        "ttft_ms": 3286.0234583333336,
+        "e2e_ms": 3366.6401666666666
+      },
+      "medium": {
+        "ttft_ms": 3794.894111111111,
+        "e2e_ms": 3877.3934444444444
+      },
+      "long": {
+        "ttft_ms": 3832.2883333333334,
+        "e2e_ms": 3897.3019999999997
+      }
+    },
+    "output_stability": {
+      "interleaved15-00-short": true,
+      "interleaved15-01-long": true,
+      "interleaved15-02-short": true,
+      "interleaved15-03-medium": true,
+      "interleaved15-04-short": true,
+      "interleaved15-05-long": true,
+      "interleaved15-06-short": true,
+      "interleaved15-07-long": true,
+      "interleaved15-08-short": true,
+      "interleaved15-09-medium": true,
+      "interleaved15-10-short": true,
+      "interleaved15-11-long": true,
+      "interleaved15-12-short": true,
+      "interleaved15-13-medium": true,
+      "interleaved15-14-short": true
+    },
+    "long_requests": {
+      "interleaved15-01-long": {
+        "e2e_ms": 2653.674666666667,
+        "ttft_ms": 2652.378333333333
+      },
+      "interleaved15-05-long": {
+        "e2e_ms": 3557.082,
+        "ttft_ms": 3556.3393333333333
+      },
+      "interleaved15-07-long": {
+        "e2e_ms": 4500.740333333333,
+        "ttft_ms": 4372.145
+      },
+      "interleaved15-11-long": {
+        "e2e_ms": 4877.711,
+        "ttft_ms": 4748.290666666667
+      }
+    }
+  }
+}

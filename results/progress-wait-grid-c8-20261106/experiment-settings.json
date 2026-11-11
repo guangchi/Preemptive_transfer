@@ -1,0 +1,216 @@
+{
+  "schedule": [
+    {
+      "order": 1,
+      "setting": "baseline",
+      "progress_pct": 85,
+      "wait_ms": 50
+    },
+    {
+      "order": 2,
+      "setting": "full",
+      "progress_pct": 80,
+      "wait_ms": 50
+    },
+    {
+      "order": 3,
+      "setting": "full",
+      "progress_pct": 75,
+      "wait_ms": 150
+    },
+    {
+      "order": 4,
+      "setting": "full",
+      "progress_pct": 60,
+      "wait_ms": 50
+    },
+    {
+      "order": 5,
+      "setting": "full",
+      "progress_pct": 70,
+      "wait_ms": 100
+    },
+    {
+      "order": 6,
+      "setting": "full",
+      "progress_pct": 75,
+      "wait_ms": 50
+    },
+    {
+      "order": 7,
+      "setting": "full",
+      "progress_pct": 55,
+      "wait_ms": 150
+    },
+    {
+      "order": 8,
+      "setting": "full",
+      "progress_pct": 85,
+      "wait_ms": 100
+    },
+    {
+      "order": 9,
+      "setting": "full",
+      "progress_pct": 65,
+      "wait_ms": 50
+    },
+    {
+      "order": 10,
+      "setting": "full",
+      "progress_pct": 65,
+      "wait_ms": 150
+    },
+    {
+      "order": 11,
+      "setting": "baseline",
+      "progress_pct": 85,
+      "wait_ms": 50
+    },
+    {
+      "order": 12,
+      "setting": "full",
+      "progress_pct": 90,
+      "wait_ms": 150
+    },
+    {
+      "order": 13,
+      "setting": "full",
+      "progress_pct": 90,
+      "wait_ms": 50
+    },
+    {
+      "order": 14,
+      "setting": "full",
+      "progress_pct": 85,
+      "wait_ms": 150
+    },
+    {
+      "order": 15,
+      "setting": "full",
+      "progress_pct": 55,
+      "wait_ms": 50
+    },
+    {
+      "order": 16,
+      "setting": "full",
+      "progress_pct": 90,
+      "wait_ms": 100
+    },
+    {
+      "order": 17,
+      "setting": "full",
+      "progress_pct": 70,
+      "wait_ms": 150
+    },
+    {
+      "order": 18,
+      "setting": "full",
+      "progress_pct": 75,
+      "wait_ms": 100
+    },
+    {
+      "order": 19,
+      "setting": "full",
+      "progress_pct": 85,
+      "wait_ms": 50
+    },
+    {
+      "order": 20,
+      "setting": "full",
+      "progress_pct": 60,
+      "wait_ms": 150
+    },
+    {
+      "order": 21,
+      "setting": "baseline",
+      "progress_pct": 85,
+      "wait_ms": 50
+    },
+    {
+      "order": 22,
+      "setting": "full",
+      "progress_pct": 70,
+      "wait_ms": 50
+    },
+    {
+      "order": 23,
+      "setting": "full",
+      "progress_pct": 65,
+      "wait_ms": 100
+    },
+    {
+      "order": 24,
+      "setting": "full",
+      "progress_pct": 80,
+      "wait_ms": 100
+    },
+    {
+      "order": 25,
+      "setting": "full",
+      "progress_pct": 50,
+      "wait_ms": 50
+    },
+    {
+      "order": 26,
+      "setting": "full",
+      "progress_pct": 60,
+      "wait_ms": 100
+    },
+    {
+      "order": 27,
+      "setting": "full",
+      "progress_pct": 55,
+      "wait_ms": 100
+    },
+    {
+      "order": 28,
+      "setting": "full",
+      "progress_pct": 50,
+      "wait_ms": 150
+    },
+    {
+      "order": 29,
+      "setting": "full",
+      "progress_pct": 50,
+      "wait_ms": 100
+    },
+    {
+      "order": 30,
+      "setting": "full",
+      "progress_pct": 80,
+      "wait_ms": 150
+    },
+    {
+      "order": 31,
+      "setting": "baseline",
+      "progress_pct": 85,
+      "wait_ms": 50
+    }
+  ],
+  "seed": 20261106,
+  "candidate_repeats": 1,
+  "workload_sha256": "714990980c49534e539a125612ce1c8d36c68ac75a559e4bce93dabcb7ee9e14",
+  "fixed": {
+    "max_preemptions": 3,
+    "long_chunk_blocks": 8,
+    "short_medium_aggregation": "per request per compute batch"
+  },
+  "environment": {
+    "WORKLOAD": "/home/ubuntu/zjj/code/workload.sweep-interleaved-8s3m4l.jsonl",
+    "CONCURRENCY": "15",
+    "INTERARRIVAL_MS": "100",
+    "WAIT_SECONDS": "15",
+    "ENABLE_PREFIX_CACHING": "false",
+    "VLLM_BATCH_INVARIANT": "1",
+    "PD_KV_SOURCE_FENCE": "event",
+    "PD_STREAM_MAX_IN_FLIGHT": "1",
+    "PD_STREAM_EAGER_PROGRESS": "0",
+    "UCX_TCP_TX_SEG_SIZE": "128k",
+    "UCX_TCP_RX_SEG_SIZE": "128k",
+    "PD_STREAM_BY_BATCH": "1",
+    "PD_AGGREGATE_SHORT_MEDIUM": "1",
+    "PD_PRIORITY_PREEMPTION": "1"
+  },
+  "objective": "Minimum workload makespan; category TTFT/E2E and each long E2E also reported",
+  "progress_definition": "Successful transferred long blocks / total long blocks; at or above this threshold disallow preemption"
+}

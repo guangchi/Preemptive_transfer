@@ -1,0 +1,4 @@
+request_id,category,prompt_tokens,max_tokens,status,latency_ms,prefill_ms,decode_ms,reported_prompt_tokens,output_tokens,error
+pd-7-00000,short,69,100,200,2456.128,175.6,2446.733,69,100,
+pd-7-00001,medium,1062,100,0,90095.612,,,,,timed out
+pd-7-00002,long,11049,100,0,90003.984,,,,,timed out

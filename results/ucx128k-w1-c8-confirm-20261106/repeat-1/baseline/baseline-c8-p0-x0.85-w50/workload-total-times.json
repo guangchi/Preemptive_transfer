@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "requests": 15,
+      "successful_requests": 15,
+      "all_successful": true,
+      "first_client_send_monotonic_s": 42268.857185,
+      "last_client_finish_monotonic_s": 42274.997263,
+      "workload_makespan_s": 6.140078,
+      "first_submission_to_last_finish_s": 6.141395,
+      "successful_requests_per_s": 2.442966,
+      "generated_tokens": 120,
+      "note": "First client HTTP send to last response finish; includes interarrival and request queueing, excludes model startup/warmup/cleanup. Failed responses are retained in the end boundary.",
+      "run_dir": "/home/ubuntu/zjj/code/results/ucx128k-w1-c8-confirm-20261106/repeat-1/baseline/baseline-c8-p0-x0.85-w50",
+      "mode": "baseline",
+      "group_wall_s": 81.143448,
+      "phase_durations_s": {
+        "pair_launch_s": 2.402358293533325,
+        "worker_health_s": 55.75809621810913,
+        "router_start_s": 0.3606226444244385,
+        "warmup_s": 15.005168676376343,
+        "load_replay_s": 6.298722982406616,
+        "trace_collection_s": 0.07980680465698242,
+        "cleanup_s": 1.1448664665222168,
+        "group_wall_s": 81.14344811439514
+      },
+      "client_replay_elapsed_s": 6.143948
+    }
+  ]
+}

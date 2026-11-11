@@ -1,0 +1,41 @@
+/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/sglang/launch_server.py:71: UserWarning: 'python -m sglang.launch_server' is still supported, but 'sglang serve' is the recommended entrypoint.
+  Example: sglang serve --model-path <model> [options]
+  warnings.warn(
+[2026-11-09 11:42:01] kill_process_tree called: parent_pid=34584, include_parent=False, pid=34584
+Traceback (most recent call last):
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/sglang/launch_server.py", line 84, in <module>
+    run_server(server_args)
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/sglang/launch_server.py", line 29, in run_server
+    server_args.resolve_once()
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/sglang/srt/server_args.py", line 246, in resolve_once
+    run_resolution_pipeline(self)
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/sglang/srt/arg_groups/pipeline.py", line 100, in run_resolution_pipeline
+    from sglang.srt.arg_groups.model_path_hook import (
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/sglang/srt/arg_groups/model_path_hook.py", line 19, in <module>
+    from sglang.srt.utils.hf_transformers_utils import check_gguf_file
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/sglang/srt/utils/hf_transformers_utils.py", line 16, in <module>
+    from sglang.srt.utils.hf_transformers import *  # noqa: F401, F403
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/sglang/srt/utils/hf_transformers/__init__.py", line 26, in <module>
+    from .common import (
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/sglang/srt/utils/hf_transformers/common.py", line 24, in <module>
+    from sglang.srt.configs import (
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/sglang/srt/configs/__init__.py", line 1, in <module>
+    from sglang.srt.configs.afmoe import AfmoeConfig
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/sglang/srt/configs/afmoe.py", line 3, in <module>
+    from transformers import PretrainedConfig
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/transformers/__init__.py", line 30, in <module>
+    from . import dependency_versions_check
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/transformers/dependency_versions_check.py", line 56, in <module>
+    require_version_core(deps[pkg])
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/transformers/utils/versions.py", line 116, in require_version_core
+    return require_version(requirement, hint)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/transformers/utils/versions.py", line 110, in require_version
+    _compare_versions(op, got_ver, want_ver, requirement, pkg, hint)
+  File "/home/ubuntu/zjj/sglang-baseline/venv/lib/python3.11/site-packages/transformers/utils/versions.py", line 43, in _compare_versions
+    raise ImportError(
+ImportError: huggingface-hub>=1.5.0,<2.0 is required for a normal functioning of this module, but found huggingface-hub==2.4.0.
+Try: `pip install transformers -U` or `pip install -e '.[dev]'` if you're working with git main

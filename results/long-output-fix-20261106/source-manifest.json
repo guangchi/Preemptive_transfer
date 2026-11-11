@@ -1,0 +1,134 @@
+{
+  "report_pd_long_output_fix.py": {
+    "sha256": "2e6355aa3f0dbdb84e5b1fdd021a16dc6951b03bda57cdc0aabe93f2773fe55e",
+    "archived": "results/long-output-fix-20261106/source-final/report_pd_long_output_fix.py"
+  },
+  "run_pd_tuning_confirm.py": {
+    "sha256": "cef6e5e4dc09e53645d1143ecf23bc47ed4c9d83bf617f04411106536043998e",
+    "archived": "results/long-output-fix-20261106/source-final/run_pd_tuning_confirm.py"
+  },
+  "run_pd_sweep.sh": {
+    "sha256": "e474bc2720203b2b9ae546094bc7ababb929d58acc7169cc9ae3487c431b729f",
+    "archived": "results/long-output-fix-20261106/source-final/run_pd_sweep.sh"
+  },
+  "run_pd_pair.sh": {
+    "sha256": "abd79f89ab53085ea2d2a0af025740109fcbd9641cb3a80ddbf5ef0beb61d637",
+    "archived": "results/long-output-fix-20261106/source-final/run_pd_pair.sh"
+  },
+  "run_pd_router.py": {
+    "sha256": "ec424350bc347ff60bc7372b763edea46c821c7c4b458cedb45980fbcc997c04",
+    "archived": "results/long-output-fix-20261106/source-final/run_pd_router.py"
+  },
+  "run_pd_load.py": {
+    "sha256": "0e4df4057f44e55d079ba1e379f09cc7651fc6fa53f994f2f583a595186e6778",
+    "archived": "results/long-output-fix-20261106/source-final/run_pd_load.py"
+  },
+  "collect_pd_trace.py": {
+    "sha256": "f7a75675f93955f1fa415ff97b832741e23816a47205dfd700d71af87a15b4ea",
+    "archived": "results/long-output-fix-20261106/source-final/collect_pd_trace.py"
+  },
+  "collect_pd_total_time.py": {
+    "sha256": "130945d98611b663c3723328d544d87e319882af1622d699ee2f396f0a34c4af",
+    "archived": "results/long-output-fix-20261106/source-final/collect_pd_total_time.py"
+  },
+  "summarize_pd_experiment.py": {
+    "sha256": "3f03aaa22f57d4b4174c15ed4370a37ea8929c4afdfb0605180cf061c383c5ef",
+    "archived": "results/long-output-fix-20261106/source-final/summarize_pd_experiment.py"
+  },
+  "plot_pd_timeline.py": {
+    "sha256": "a64d926ca9f309c9615355b73aa98759bd7cd2f435b2bc43c77dac926d67d4d1",
+    "archived": "results/long-output-fix-20261106/source-final/plot_pd_timeline.py"
+  },
+  "write_pd_run_environment.py": {
+    "sha256": "1df0ecfd005c88b2836b819a4f48365947cbe7c1486e1979b73a3e013358c524",
+    "archived": "results/long-output-fix-20261106/source-final/write_pd_run_environment.py"
+  },
+  "requirements-test.txt": {
+    "sha256": "543a97dbbb696f6cc90304e2b2a3140e70ec7bb2b9545949c612578e789e0b39",
+    "archived": "results/long-output-fix-20261106/source-final/requirements-test.txt"
+  },
+  "pytest.ini": {
+    "sha256": "c809c969ec7e11b9ff37784e9c6fcc0b7c5148d168e18b05aed797e03fbd6ead",
+    "archived": "results/long-output-fix-20261106/source-final/pytest.ini"
+  },
+  "workload.sweep-interleaved-8s3m4l.jsonl": {
+    "sha256": "714990980c49534e539a125612ce1c8d36c68ac75a559e4bce93dabcb7ee9e14",
+    "archived": "results/long-output-fix-20261106/source-final/workload.sweep-interleaved-8s3m4l.jsonl"
+  },
+  "PD_PREEMPTIVE_TRANSFER_PLAN.md": {
+    "sha256": "29db3007c7a182f00d901bfccf0118d072284ce3067f0fc2cec9eb94509977e8",
+    "archived": "results/long-output-fix-20261106/source-final/PD_PREEMPTIVE_TRANSFER_PLAN.md"
+  },
+  "PD_PREEMPTIVE_TRANSFER_SYSTEM_REPORT.md": {
+    "sha256": "af488de612aee9c98679d063c05dcda76e0bcb418d006656d5d6469c44dc2a3c",
+    "archived": "results/long-output-fix-20261106/source-final/PD_PREEMPTIVE_TRANSFER_SYSTEM_REPORT.md"
+  },
+  "tests/test_pd_router.py": {
+    "sha256": "24942e96072386f835ed87c53b2499748300b4d60a2cdf81fa6ec11cb77ba6ea",
+    "archived": "results/long-output-fix-20261106/source-final/tests/test_pd_router.py"
+  },
+  "tests/test_collect_pd_trace.py": {
+    "sha256": "e2fbd3a6f2476077cce8106ac02dd184854584f5d985b99b77806e1b83a9eb6a",
+    "archived": "results/long-output-fix-20261106/source-final/tests/test_collect_pd_trace.py"
+  },
+  "tests/test_pd_engine_core_trace.py": {
+    "sha256": "1d479a7653fbdab07de50b275d3ac32d96c0e66f42dc5fa6a4b7dfb78f1fa955",
+    "archived": "results/long-output-fix-20261106/source-final/tests/test_pd_engine_core_trace.py"
+  },
+  "tests/test_pd_total_time.py": {
+    "sha256": "df487f948fdd65d293f75cf58ee8217a54f8407b4c901791cbe8815fea714d9d",
+    "archived": "results/long-output-fix-20261106/source-final/tests/test_pd_total_time.py"
+  },
+  "tests/test_pd_gpu_timing.py": {
+    "sha256": "bef8e722b804045869f8deb9bab1bdd948170e3a3fd2c55cd5ed25e4c06f51dc",
+    "archived": "results/long-output-fix-20261106/source-final/tests/test_pd_gpu_timing.py"
+  },
+  "tests/test_preemptive_transfer.py": {
+    "sha256": "e20f3aab0d112531e1a8c7d374e96666462da9f7b08f6acb5a27ae33d1ee2d74",
+    "archived": "results/long-output-fix-20261106/source-final/tests/test_preemptive_transfer.py"
+  },
+  "tests/test_push_completion.py": {
+    "sha256": "34e426167710ebc13c7105a7c619333a42976c360f61edec3bf427c04eae9891",
+    "archived": "results/long-output-fix-20261106/source-final/tests/test_push_completion.py"
+  },
+  "tests/test_run_environment.py": {
+    "sha256": "d2ceb39cc8c50a1b922e4efe926f8db730ddb66c1dba11b8a4fcc9aa655ff4e0",
+    "archived": "results/long-output-fix-20261106/source-final/tests/test_run_environment.py"
+  },
+  "snapshots/vllm-preemptive-20261103/SHA256SUMS": {
+    "sha256": "691e02fc0a95897df5516a1376fcf437891fba9bafe0bcd304ca4d9ce6b2d781",
+    "archived": "results/long-output-fix-20261106/source-final/snapshots/vllm-preemptive-20261103/SHA256SUMS"
+  },
+  "snapshots/vllm-preemptive-20261103/vllm/distributed/kv_transfer/kv_connector/v1/nixl/metadata.py": {
+    "sha256": "6e6d9ea69cbe64fbe797744175a24ef1c15fa1976bf2ec4cf33d17d8a9d56219",
+    "archived": "results/long-output-fix-20261106/source-final/snapshots/vllm-preemptive-20261103/vllm/distributed/kv_transfer/kv_connector/v1/nixl/metadata.py"
+  },
+  "snapshots/vllm-preemptive-20261103/vllm/distributed/kv_transfer/kv_connector/v1/nixl/preemptive_transfer.py": {
+    "sha256": "13e9fadaaa5537822f40c17cc17e53454e1797d7a0b6dbef92086a85277ff6da",
+    "archived": "results/long-output-fix-20261106/source-final/snapshots/vllm-preemptive-20261103/vllm/distributed/kv_transfer/kv_connector/v1/nixl/preemptive_transfer.py"
+  },
+  "snapshots/vllm-preemptive-20261103/vllm/distributed/kv_transfer/kv_connector/v1/nixl/push_scheduler.py": {
+    "sha256": "a1a493d6c4e89749842c80fc29d9785f395cb8d6c6d2869decc3fa8a1480bdd1",
+    "archived": "results/long-output-fix-20261106/source-final/snapshots/vllm-preemptive-20261103/vllm/distributed/kv_transfer/kv_connector/v1/nixl/push_scheduler.py"
+  },
+  "snapshots/vllm-preemptive-20261103/vllm/distributed/kv_transfer/kv_connector/v1/nixl/push_worker.py": {
+    "sha256": "890d140078d5cecd9b7c62b3bb8833d9595c2d649f69becbb9fdf801fc0626af",
+    "archived": "results/long-output-fix-20261106/source-final/snapshots/vllm-preemptive-20261103/vllm/distributed/kv_transfer/kv_connector/v1/nixl/push_worker.py"
+  },
+  "snapshots/vllm-preemptive-20261103/vllm/v1/core/sched/scheduler.py": {
+    "sha256": "e76fd5c4284b373ee6e9c93b09b9c6793d751b1bebf6d7d60f11e56553280491",
+    "archived": "results/long-output-fix-20261106/source-final/snapshots/vllm-preemptive-20261103/vllm/v1/core/sched/scheduler.py"
+  },
+  "snapshots/vllm-preemptive-20261103/vllm/v1/engine/core.py": {
+    "sha256": "a4f4ecbf21172f687906d7acfac7936d4e5e7979ccf1000385ed3596cca65552",
+    "archived": "results/long-output-fix-20261106/source-final/snapshots/vllm-preemptive-20261103/vllm/v1/engine/core.py"
+  },
+  "snapshots/vllm-preemptive-20261103/vllm/v1/worker/gpu_model_runner.py": {
+    "sha256": "b62d671eb029e2311a0b2099fd1fbe989bf50fbc2ac00cd38ea169cb06d233fc",
+    "archived": "results/long-output-fix-20261106/source-final/snapshots/vllm-preemptive-20261103/vllm/v1/worker/gpu_model_runner.py"
+  },
+  "snapshots/vllm-preemptive-20261103/vllm/v1/worker/pd_execution_timing.py": {
+    "sha256": "c93c1a669d72a4090be06f1c188af21122eea8b531a6ede2bb2fb2ee7f2c215e",
+    "archived": "results/long-output-fix-20261106/source-final/snapshots/vllm-preemptive-20261103/vllm/v1/worker/pd_execution_timing.py"
+  }
+}

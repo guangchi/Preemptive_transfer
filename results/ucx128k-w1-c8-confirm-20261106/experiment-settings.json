@@ -1,0 +1,11 @@
+{
+  "kv_source_fence": "event",
+  "stream_max_in_flight": 1,
+  "ucx_environment": {
+    "UCX_TCP_TX_SEG_SIZE": "128k",
+    "UCX_TCP_RX_SEG_SIZE": "128k"
+  },
+  "trace_write_phases": true,
+  "candidate": "c8-p3-x0.85-w50",
+  "note": "Explicit invocation environment, identical for both modes and all three repeats. Some early per-run sidecars predate addition of UCX field collection; the originals are retained."
+}

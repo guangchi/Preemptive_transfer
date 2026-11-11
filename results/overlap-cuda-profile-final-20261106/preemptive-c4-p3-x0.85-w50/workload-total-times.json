@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "requests": 15,
+      "successful_requests": 15,
+      "all_successful": true,
+      "first_client_send_monotonic_s": 37647.686162,
+      "last_client_finish_monotonic_s": 37670.873989,
+      "workload_makespan_s": 23.187827,
+      "first_submission_to_last_finish_s": 23.189123,
+      "successful_requests_per_s": 0.646891,
+      "generated_tokens": 120,
+      "note": "First client HTTP send to last response finish; includes interarrival and request queueing, excludes model startup/warmup/cleanup. Failed responses are retained in the end boundary.",
+      "run_dir": "/home/ubuntu/zjj/code/results/overlap-cuda-profile-final-20261106/preemptive-c4-p3-x0.85-w50",
+      "mode": "preemptive",
+      "group_wall_s": 98.808764,
+      "phase_durations_s": {
+        "pair_launch_s": 2.4207048416137695,
+        "worker_health_s": 56.285759687423706,
+        "router_start_s": 0.35970187187194824,
+        "warmup_s": 15.005329847335815,
+        "load_replay_s": 23.3400559425354,
+        "trace_collection_s": 0.1541271209716797,
+        "cleanup_s": 1.149949073791504,
+        "group_wall_s": 98.80876421928406
+      },
+      "client_replay_elapsed_s": 23.191519
+    }
+  ]
+}

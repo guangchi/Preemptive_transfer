@@ -1,0 +1,14 @@
+{
+  "requests": 3,
+  "http_200": 3,
+  "all_output_hashes_match_baseline": true,
+  "chunk_rows": 187,
+  "all_chunk_events_complete": true,
+  "d_first_scheduled_once_per_request": true,
+  "d_first_model_submit_once_per_request": true,
+  "d_kv_schedule_submit_client_token_order_valid": true,
+  "prefix_caching_false_matches_engine_logs": true,
+  "workload_checksum_valid": true,
+  "pytest_passed": 45,
+  "formal_sweep_run": false
+}

@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "requests": 15,
+      "successful_requests": 15,
+      "all_successful": true,
+      "first_client_send_monotonic_s": 41775.660906,
+      "last_client_finish_monotonic_s": 41789.513639,
+      "workload_makespan_s": 13.852733,
+      "first_submission_to_last_finish_s": 13.853984,
+      "successful_requests_per_s": 1.082819,
+      "generated_tokens": 120,
+      "note": "First client HTTP send to last response finish; includes interarrival and request queueing, excludes model startup/warmup/cleanup. Failed responses are retained in the end boundary.",
+      "run_dir": "/home/ubuntu/zjj/code/results/stream-window4-c8-event-confirm-20261106/repeat-2/c8-p3-x0.85-w50/preemptive-c8-p3-x0.85-w50",
+      "mode": "preemptive",
+      "group_wall_s": 88.584219,
+      "phase_durations_s": {
+        "pair_launch_s": 2.1184258460998535,
+        "worker_health_s": 56.003514766693115,
+        "router_start_s": 0.35463428497314453,
+        "warmup_s": 15.005197286605835,
+        "load_replay_s": 14.00846815109253,
+        "trace_collection_s": 0.12235426902770996,
+        "cleanup_s": 0.8876383304595947,
+        "group_wall_s": 88.584219455719
+      },
+      "client_replay_elapsed_s": 13.856393
+    }
+  ]
+}

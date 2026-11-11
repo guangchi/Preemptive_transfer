@@ -1,0 +1,23 @@
+{
+  "timestamps_unix_s": {
+    "start": 1793940171.9251168,
+    "pair_launch_complete": 1793940174.117772,
+    "workers_healthy": 1793940230.3659446,
+    "router_healthy": 1793940230.7285335,
+    "warmup_start": 1793940245.7339113,
+    "load_complete": 1793940266.300458,
+    "trace_complete": 1793940266.4518301,
+    "cleanup_start": 1793940266.5445964,
+    "cleanup_complete": 1793940267.43459
+  },
+  "phase_durations_s": {
+    "pair_launch_s": 2.192655324935913,
+    "worker_health_s": 56.24817252159119,
+    "router_start_s": 0.36258888244628906,
+    "warmup_s": 15.005377769470215,
+    "load_replay_s": 20.56654667854309,
+    "trace_collection_s": 0.15137219429016113,
+    "cleanup_s": 0.8899936676025391,
+    "group_wall_s": 95.50947332382202
+  }
+}

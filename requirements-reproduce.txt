@@ -1,0 +1,16 @@
+# Primary versions used by the recorded two-GPU vLLM experiments.
+# Python 3.11, Linux x86_64, CUDA 13 and a suitable NVIDIA driver are required.
+# Install nixl separately with --no-deps; see README for its cu12 metadata issue.
+vllm==0.32.0
+torch==2.13.0
+flashinfer-python==0.7.0.post1
+nixl-cu13==1.5.2
+transformers==5.19.0
+tokenizers==0.23.3
+pytest==9.2.0
+# Compiler/headers observed on the original machine (see README compatibility note).
+nvidia-cuda-nvcc==13.4.92
+nvidia-cuda-crt==13.4.92
+nvidia-nvvm==13.4.92
+nvidia-cuda-runtime==13.0.96
+nvidia-cuda-cccl==13.3.4.3.1

@@ -1,0 +1,155 @@
+{
+  "per_request_three_repeat_means": [
+    {
+      "setting": "baseline",
+      "request_id": "interleaved15-01-long",
+      "ttft_ms": 2091.7096666666666,
+      "e2e_ms": 2401.8083333333334,
+      "p_finished_from_client_ms": 1148.304889667391,
+      "p_finish_to_d_first_submit_ms": 868.2167083316017,
+      "first_transfer_call_from_client_ms": 1184.0423333342187,
+      "last_transfer_return_from_client_ms": 1950.1129999989644,
+      "write_count": 1
+    },
+    {
+      "setting": "baseline",
+      "request_id": "interleaved15-05-long",
+      "ttft_ms": 2989.684,
+      "e2e_ms": 3304.027,
+      "p_finished_from_client_ms": 2039.560829999876,
+      "p_finish_to_d_first_submit_ms": 878.8529513331014,
+      "first_transfer_call_from_client_ms": 2073.1956666665305,
+      "last_transfer_return_from_client_ms": 2822.6733333334173,
+      "write_count": 1
+    },
+    {
+      "setting": "baseline",
+      "request_id": "interleaved15-07-long",
+      "ttft_ms": 4209.794333333333,
+      "e2e_ms": 4523.207666666666,
+      "p_finished_from_client_ms": 2947.9532199984533,
+      "p_finish_to_d_first_submit_ms": 1188.1884670025709,
+      "first_transfer_call_from_client_ms": 2982.4033333328166,
+      "last_transfer_return_from_client_ms": 3004.4823333325135,
+      "write_count": 1
+    },
+    {
+      "setting": "baseline",
+      "request_id": "interleaved15-11-long",
+      "ttft_ms": 4564.122,
+      "e2e_ms": 4880.38,
+      "p_finished_from_client_ms": 3724.1534246665346,
+      "p_finish_to_d_first_submit_ms": 768.8788033337914,
+      "first_transfer_call_from_client_ms": 3727.8523333322178,
+      "last_transfer_return_from_client_ms": 3830.979999998817,
+      "write_count": 1
+    },
+    {
+      "setting": "c8-p3-x0.85-w50",
+      "request_id": "interleaved15-01-long",
+      "ttft_ms": 1540.927,
+      "e2e_ms": 1857.0783333333334,
+      "p_finished_from_client_ms": 1149.6061500001815,
+      "p_finish_to_d_first_submit_ms": 312.97382133440505,
+      "first_transfer_call_from_client_ms": 239.55433333564238,
+      "last_transfer_return_from_client_ms": 1341.6296666643273,
+      "write_count": 79
+    },
+    {
+      "setting": "c8-p3-x0.85-w50",
+      "request_id": "interleaved15-05-long",
+      "ttft_ms": 2221.8483333333334,
+      "e2e_ms": 2538.202333333333,
+      "p_finished_from_client_ms": 2040.6630750003387,
+      "p_finish_to_d_first_submit_ms": 111.61516233308551,
+      "first_transfer_call_from_client_ms": 1039.943333332,
+      "last_transfer_return_from_client_ms": 2145.601333332403,
+      "write_count": 79
+    },
+    {
+      "setting": "c8-p3-x0.85-w50",
+      "request_id": "interleaved15-07-long",
+      "ttft_ms": 3101.7703333333334,
+      "e2e_ms": 3419.1626666666666,
+      "p_finished_from_client_ms": 2948.9656419997723,
+      "p_finish_to_d_first_submit_ms": 84.37095699870649,
+      "first_transfer_call_from_client_ms": 1956.7473333324112,
+      "last_transfer_return_from_client_ms": 3025.8946666654083,
+      "write_count": 79
+    },
+    {
+      "setting": "c8-p3-x0.85-w50",
+      "request_id": "interleaved15-11-long",
+      "ttft_ms": 4049.0989999999997,
+      "e2e_ms": 4364.098,
+      "p_finished_from_client_ms": 3653.8917593303872,
+      "p_finish_to_d_first_submit_ms": 314.6376030005437,
+      "first_transfer_call_from_client_ms": 2752.44766666583,
+      "last_transfer_return_from_client_ms": 3870.823666661939,
+      "write_count": 79
+    }
+  ],
+  "preemption_decisions": [
+    {
+      "repeat": 1,
+      "short": "interleaved15-02-short",
+      "long": "cmpl-interleaved15-01-long-0-9aa39f88",
+      "sequence": "0",
+      "completed_blocks": "512",
+      "preemptions": "1",
+      "progress": "0.8192",
+      "wait_ms": "0.0"
+    },
+    {
+      "repeat": 1,
+      "short": "interleaved15-12-short",
+      "long": "cmpl-interleaved15-11-long-0-962130cb",
+      "sequence": "0",
+      "completed_blocks": "504",
+      "preemptions": "1",
+      "progress": "0.8064",
+      "wait_ms": "0.0"
+    },
+    {
+      "repeat": 2,
+      "short": "interleaved15-02-short",
+      "long": "cmpl-interleaved15-01-long-0-82dfb21f",
+      "sequence": "0",
+      "completed_blocks": "512",
+      "preemptions": "1",
+      "progress": "0.8192",
+      "wait_ms": "0.0"
+    },
+    {
+      "repeat": 2,
+      "short": "interleaved15-12-short",
+      "long": "cmpl-interleaved15-11-long-0-9bfd2cbb",
+      "sequence": "0",
+      "completed_blocks": "504",
+      "preemptions": "1",
+      "progress": "0.8064",
+      "wait_ms": "0.0"
+    },
+    {
+      "repeat": 3,
+      "short": "interleaved15-02-short",
+      "long": "cmpl-interleaved15-01-long-0-a322a376",
+      "sequence": "0",
+      "completed_blocks": "512",
+      "preemptions": "1",
+      "progress": "0.8192",
+      "wait_ms": "0.0"
+    },
+    {
+      "repeat": 3,
+      "short": "interleaved15-12-short",
+      "long": "cmpl-interleaved15-11-long-0-858356f8",
+      "sequence": "0",
+      "completed_blocks": "504",
+      "preemptions": "1",
+      "progress": "0.8064",
+      "wait_ms": "0.0"
+    }
+  ],
+  "note": "First transfer boundary is host transfer() entry estimated from end minus measured duration, not device DMA start. P-finish to D-first-submit includes transfer tail, notification and scheduling; not pure network time."
+}

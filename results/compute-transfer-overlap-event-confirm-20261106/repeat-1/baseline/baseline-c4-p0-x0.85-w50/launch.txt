@@ -1,0 +1,10 @@
+/home/ubuntu/zjj/code/results/compute-transfer-overlap-event-confirm-20261106/repeat-1/baseline/baseline-c4-p0-x0.85-w50/environment.json
+run_dir=/home/ubuntu/zjj/code/results/compute-transfer-overlap-event-confirm-20261106/repeat-1/baseline/baseline-c4-p0-x0.85-w50
+mode=baseline
+prefill_pid=231135
+decode_pid=231136
+prefill_side_channel=127.0.0.1:5600
+decode_side_channel=127.0.0.1:5601
+P endpoint: http://127.0.0.1:8100/v1/completions
+D endpoint: http://127.0.0.1:8200/v1/completions
+A PD router must submit paired P/D requests with kv_transfer_params; the worker endpoints are not a router.

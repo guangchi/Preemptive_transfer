@@ -1,0 +1,10 @@
+{
+  "updated_utc": "2026-11-06T04:08:05.260249+00:00",
+  "note": "Runtime sources frozen before experiment; report generator enhanced only after both runs completed.",
+  "sha256": {
+    "summarize_pd_experiment.py": "1e7f7e507491812e1df9d99ff4916827d9663d357ca1ec619db88012a6306c54",
+    "plot_pd_timeline.py": "44e559bd6b6efe4b74ec9058820c8997d35f10d8c2c57fee4491df3ba64e6317",
+    "PD_PREEMPTIVE_TRANSFER_PLAN.md": "3144b3a271e7f2cd3316e2c34d71ab2b67d3cc9d5d2408684700c0b071d77658",
+    "PD_PREEMPTIVE_TRANSFER_SYSTEM_REPORT.md": "9b4d7fbf75db247d63afd1a5e99485df97aeaa003fab2082b06254f8905c10b3"
+  }
+}

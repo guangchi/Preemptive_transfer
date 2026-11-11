@@ -1,0 +1,100 @@
+{"event": "gpu_clock_anchor", "t": 9204.148480296, "pid": 56602, "uncertainty_s": 1.939449975907337e-05}
+{"event": "gpu_forward", "t": 9204.170845833, "pid": 56602, "start": 9204.148621913495, "end": 9204.170655320944, "duration_ms": 22.03340721130371, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 9204.190654149, "pid": 56602, "start": 9204.173390424552, "end": 9204.190575193228, "duration_ms": 17.184768676757812, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 9204.207123467, "pid": 56602, "start": 9204.190612058463, "end": 9204.207062616171, "duration_ms": 16.450559616088867, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 9204.223587166, "pid": 56602, "start": 9204.207098459066, "end": 9204.223543897451, "duration_ms": 16.4454402923584, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 9204.240059665, "pid": 56602, "start": 9204.2235799616, "end": 9204.240020055595, "duration_ms": 16.440095901489258, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 9204.256541403, "pid": 56602, "start": 9204.240056119743, "end": 9204.25650850469, "duration_ms": 16.45238494873047, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 9204.273031042, "pid": 56602, "start": 9204.256545369924, "end": 9204.272997976126, "duration_ms": 16.452608108520508, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 9204.28952283, "pid": 56602, "start": 9204.273033819021, "end": 9204.289484372915, "duration_ms": 16.450559616088867, "mode": "2", "batch_size": 1}
+{"event": "gpu_clock_anchor", "t": 9209.734984111, "pid": 56647, "uncertainty_s": 1.5689999599999283e-05}
+{"event": "gpu_forward", "t": 9209.765981985, "pid": 56647, "start": 9209.735096398002, "end": 9209.765839886284, "duration_ms": 30.743488311767578, "mode": "1", "batch_size": 1}
+{"event": "gpu_forward", "t": 9210.570542874, "pid": 56647, "start": 9210.546596857643, "end": 9210.570472467994, "duration_ms": 23.87558364868164, "mode": "1", "batch_size": 1}
+{"event": "gpu_forward", "t": 9218.117969839, "pid": 56647, "start": 9217.780855829811, "end": 9218.11783239231, "duration_ms": 336.9768981933594, "mode": "1", "batch_size": 1}
+{"event": "chunk_enqueue_start", "t": 9218.118056248, "pid": 56647, "room": 1438566421840004411, "chunk_id": 0, "pages": 128}
+{"event": "chunk_enqueue_end", "t": 9218.118371947, "pid": 56647, "start": 9218.118050358, "room": 1438566421840004411, "chunk_id": 0, "pages": 128}
+{"event": "chunk_write_start", "t": 9218.118787306, "pid": 56647, "notif": "1438566421840004411_kv_0_0_0"}
+{"event": "chunk_write_end", "t": 9218.298585839, "pid": 56647, "start": 9218.118781006, "notif": "1438566421840004411_kv_0_0_0"}
+{"event": "chunk_complete", "t": 9218.300281793, "pid": 56647, "room": 1438566421840004411, "chunk_id": 0, "is_last": false, "failed": false}
+{"event": "gpu_forward", "t": 9227.363674909, "pid": 56647, "start": 9218.119223017311, "end": 9227.3634681345, "duration_ms": 9244.244140625, "mode": "1", "batch_size": 1}
+{"event": "chunk_enqueue_start", "t": 9227.363745769, "pid": 56647, "room": 1438566421840004411, "chunk_id": 1, "pages": 128}
+{"event": "chunk_enqueue_end", "t": 9227.364179977, "pid": 56647, "start": 9227.363741199, "room": 1438566421840004411, "chunk_id": 1, "pages": 128}
+{"event": "chunk_write_start", "t": 9227.364914954, "pid": 56647, "notif": "1438566421840004411_kv_1_0_0"}
+{"event": "gpu_forward", "t": 9227.584090135, "pid": 56647, "start": 9227.365807978249, "end": 9227.583901728249, "duration_ms": 218.09458923339844, "mode": "1", "batch_size": 1}
+{"event": "chunk_enqueue_start", "t": 9227.584222084, "pid": 56647, "room": 1438566421840004411, "chunk_id": 2, "pages": 128}
+{"event": "chunk_enqueue_end", "t": 9227.584353083, "pid": 56647, "start": 9227.584219004, "room": 1438566421840004411, "chunk_id": 2, "pages": 128}
+{"event": "gpu_forward", "t": 9227.814868201, "pid": 56647, "start": 9227.584722040749, "end": 9227.814622431373, "duration_ms": 229.8985595703125, "mode": "1", "batch_size": 1}
+{"event": "chunk_enqueue_start", "t": 9227.886040382, "pid": 56647, "room": 1438566421840004411, "chunk_id": 3, "pages": 128}
+{"event": "chunk_enqueue_end", "t": 9227.886178871, "pid": 56647, "start": 9227.886036902, "room": 1438566421840004411, "chunk_id": 3, "pages": 128}
+{"event": "chunk_write_end", "t": 9227.914377514, "pid": 56647, "start": 9227.364907744, "notif": "1438566421840004411_kv_1_0_0"}
+{"event": "chunk_complete", "t": 9227.914558674, "pid": 56647, "room": 1438566421840004411, "chunk_id": 1, "is_last": false, "failed": false}
+{"event": "chunk_write_start", "t": 9227.914816883, "pid": 56647, "notif": "1438566421840004411_kv_2_0_0"}
+{"event": "chunk_write_end", "t": 9228.037533868, "pid": 56647, "start": 9227.914812653, "notif": "1438566421840004411_kv_2_0_0"}
+{"event": "chunk_complete", "t": 9228.037671697, "pid": 56647, "room": 1438566421840004411, "chunk_id": 2, "is_last": false, "failed": false}
+{"event": "chunk_write_start", "t": 9228.037865236, "pid": 56647, "notif": "1438566421840004411_kv_3_0_0"}
+{"event": "gpu_forward", "t": 9228.127307338, "pid": 56647, "start": 9227.886579462624, "end": 9228.127095087624, "duration_ms": 240.51609802246094, "mode": "1", "batch_size": 2}
+{"event": "chunk_enqueue_start", "t": 9228.136717433, "pid": 56647, "room": 1438566421840004411, "chunk_id": 4, "pages": 113}
+{"event": "chunk_enqueue_end", "t": 9228.136847902, "pid": 56647, "start": 9228.136715103, "room": 1438566421840004411, "chunk_id": 4, "pages": 113}
+{"event": "chunk_enqueue_start", "t": 9228.140683718, "pid": 56647, "room": 8025234632796640882, "chunk_id": 0, "pages": 8}
+{"event": "chunk_enqueue_end", "t": 9228.140793298, "pid": 56647, "start": 9228.140681518, "room": 8025234632796640882, "chunk_id": 0, "pages": 8}
+{"event": "chunk_write_end", "t": 9228.16383881, "pid": 56647, "start": 9228.037862656, "notif": "1438566421840004411_kv_3_0_0"}
+{"event": "chunk_complete", "t": 9228.164178748, "pid": 56647, "room": 1438566421840004411, "chunk_id": 3, "is_last": false, "failed": false}
+{"event": "chunk_write_start", "t": 9228.164479128, "pid": 56647, "notif": "1438566421840004411_kv_4_1_0"}
+{"event": "chunk_write_end", "t": 9228.27214008, "pid": 56647, "start": 9228.164476588, "notif": "1438566421840004411_kv_4_1_0"}
+{"event": "chunk_complete", "t": 9228.273326765, "pid": 56647, "room": 1438566421840004411, "chunk_id": 4, "is_last": true, "failed": false}
+{"event": "chunk_write_start", "t": 9228.273655664, "pid": 56647, "notif": "8025234632796640882_kv_0_1_0"}
+{"event": "chunk_write_end", "t": 9228.282517951, "pid": 56647, "start": 9228.273652934, "notif": "8025234632796640882_kv_0_1_0"}
+{"event": "chunk_complete", "t": 9228.282893539, "pid": 56647, "room": 8025234632796640882, "chunk_id": 0, "is_last": true, "failed": false}
+{"event": "gpu_forward", "t": 9228.309809887, "pid": 56602, "start": 9228.29067245275, "end": 9228.309537687124, "duration_ms": 18.86502456665039, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 9228.551287203, "pid": 56602, "start": 9228.38840682775, "end": 9228.5510279215, "duration_ms": 162.62022399902344, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9228.569565174, "pid": 56602, "start": 9228.551066984, "end": 9228.569313077749, "duration_ms": 18.246559143066406, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9228.587849345, "pid": 56602, "start": 9228.56935214025, "end": 9228.587596280875, "duration_ms": 18.24358367919922, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9228.606141565, "pid": 56602, "start": 9228.58763339025, "end": 9228.6058872965, "duration_ms": 18.25484848022461, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9228.624440506, "pid": 56602, "start": 9228.605926359, "end": 9228.624176359, "duration_ms": 18.249727249145508, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9228.642708977, "pid": 56602, "start": 9228.6242154215, "end": 9228.642459562125, "duration_ms": 18.24460792541504, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9228.660996017, "pid": 56602, "start": 9228.642498624626, "end": 9228.6607466715, "duration_ms": 18.24665641784668, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9228.677527875, "pid": 56602, "start": 9228.660783780875, "end": 9228.677279874624, "duration_ms": 16.496639251708984, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 9231.014983776, "pid": 56647, "start": 9230.814778681373, "end": 9231.014751337623, "duration_ms": 199.97286987304688, "mode": "1", "batch_size": 1}
+{"event": "chunk_enqueue_start", "t": 9231.015198125, "pid": 56647, "room": 6222462817539421248, "chunk_id": 0, "pages": 128}
+{"event": "chunk_enqueue_end", "t": 9231.015380685, "pid": 56647, "start": 9231.015193385, "room": 6222462817539421248, "chunk_id": 0, "pages": 128}
+{"event": "chunk_write_start", "t": 9231.016015802, "pid": 56647, "notif": "6222462817539421248_kv_0_0_0"}
+{"event": "gpu_forward", "t": 9231.219131491, "pid": 56647, "start": 9231.016290400124, "end": 9231.218911493874, "duration_ms": 202.6209259033203, "mode": "1", "batch_size": 1}
+{"event": "chunk_enqueue_start", "t": 9231.219267281, "pid": 56647, "room": 6222462817539421248, "chunk_id": 1, "pages": 128}
+{"event": "chunk_enqueue_end", "t": 9231.219409991, "pid": 56647, "start": 9231.219264171, "room": 6222462817539421248, "chunk_id": 1, "pages": 128}
+{"event": "gpu_forward", "t": 9231.436256378, "pid": 56647, "start": 9231.219688837624, "end": 9231.436036493873, "duration_ms": 216.3486785888672, "mode": "1", "batch_size": 1}
+{"event": "chunk_enqueue_start", "t": 9231.436387018, "pid": 56647, "room": 6222462817539421248, "chunk_id": 2, "pages": 128}
+{"event": "chunk_enqueue_end", "t": 9231.436500287, "pid": 56647, "start": 9231.436383978, "room": 6222462817539421248, "chunk_id": 2, "pages": 128}
+{"event": "gpu_forward", "t": 9231.667476301, "pid": 56647, "start": 9231.436778681375, "end": 9231.667249384498, "duration_ms": 230.4706573486328, "mode": "1", "batch_size": 1}
+{"event": "chunk_enqueue_start", "t": 9231.667631111, "pid": 56647, "room": 6222462817539421248, "chunk_id": 3, "pages": 128}
+{"event": "chunk_enqueue_end", "t": 9231.66777753, "pid": 56647, "start": 9231.667628201, "room": 6222462817539421248, "chunk_id": 3, "pages": 128}
+{"event": "chunk_write_end", "t": 9231.777032915, "pid": 56647, "start": 9231.016009522, "notif": "6222462817539421248_kv_0_0_0"}
+{"event": "chunk_complete", "t": 9231.777238104, "pid": 56647, "room": 6222462817539421248, "chunk_id": 0, "is_last": false, "failed": false}
+{"event": "chunk_write_start", "t": 9231.777492393, "pid": 56647, "notif": "6222462817539421248_kv_1_0_0"}
+{"event": "chunk_write_end", "t": 9231.900241318, "pid": 56647, "start": 9231.777489543, "notif": "6222462817539421248_kv_1_0_0"}
+{"event": "chunk_complete", "t": 9231.900372557, "pid": 56647, "room": 6222462817539421248, "chunk_id": 1, "is_last": false, "failed": false}
+{"event": "chunk_write_start", "t": 9231.900552536, "pid": 56647, "notif": "6222462817539421248_kv_2_0_0"}
+{"event": "gpu_forward", "t": 9231.913501297, "pid": 56647, "start": 9231.668116571998, "end": 9231.913245478248, "duration_ms": 245.12716674804688, "mode": "1", "batch_size": 2}
+{"event": "chunk_enqueue_start", "t": 9231.922772482, "pid": 56647, "room": 6222462817539421248, "chunk_id": 4, "pages": 113}
+{"event": "chunk_enqueue_end", "t": 9231.922899392, "pid": 56647, "start": 9231.922769702, "room": 6222462817539421248, "chunk_id": 4, "pages": 113}
+{"event": "chunk_enqueue_start", "t": 9231.926433159, "pid": 56647, "room": 7915758854115939159, "chunk_id": 0, "pages": 8}
+{"event": "chunk_enqueue_end", "t": 9231.926531548, "pid": 56647, "start": 9231.926431119, "room": 7915758854115939159, "chunk_id": 0, "pages": 8}
+{"event": "chunk_write_end", "t": 9232.024478066, "pid": 56647, "start": 9231.900550016, "notif": "6222462817539421248_kv_2_0_0"}
+{"event": "chunk_complete", "t": 9232.024801875, "pid": 56647, "room": 6222462817539421248, "chunk_id": 2, "is_last": false, "failed": false}
+{"event": "chunk_write_start", "t": 9232.025138023, "pid": 56647, "notif": "6222462817539421248_kv_3_0_0"}
+{"event": "chunk_write_end", "t": 9232.149902309, "pid": 56647, "start": 9232.025135593, "notif": "6222462817539421248_kv_3_0_0"}
+{"event": "chunk_complete", "t": 9232.150125988, "pid": 56647, "room": 6222462817539421248, "chunk_id": 3, "is_last": false, "failed": false}
+{"event": "chunk_write_start", "t": 9232.150400278, "pid": 56647, "notif": "6222462817539421248_kv_4_1_0"}
+{"event": "chunk_write_end", "t": 9232.260278481, "pid": 56647, "start": 9232.150397878, "notif": "6222462817539421248_kv_4_1_0"}
+{"event": "chunk_complete", "t": 9232.260911308, "pid": 56647, "room": 6222462817539421248, "chunk_id": 4, "is_last": true, "failed": false}
+{"event": "chunk_write_start", "t": 9232.261212888, "pid": 56647, "notif": "7915758854115939159_kv_0_1_0"}
+{"event": "chunk_write_end", "t": 9232.270101393, "pid": 56647, "start": 9232.261210368, "notif": "7915758854115939159_kv_0_1_0"}
+{"event": "chunk_complete", "t": 9232.270597741, "pid": 56647, "room": 7915758854115939159, "chunk_id": 0, "is_last": true, "failed": false}
+{"event": "gpu_forward", "t": 9232.292735737, "pid": 56602, "start": 9232.2735747965, "end": 9232.292432218375, "duration_ms": 18.85593605041504, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 9232.314611735, "pid": 56602, "start": 9232.29518026525, "end": 9232.31431307775, "duration_ms": 19.131391525268555, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9232.332892715, "pid": 56602, "start": 9232.314352140249, "end": 9232.33259432775, "duration_ms": 18.2425594329834, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9232.351165126, "pid": 56602, "start": 9232.332631437124, "end": 9232.350879484, "duration_ms": 18.247615814208984, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9232.369449826, "pid": 56602, "start": 9232.350918546499, "end": 9232.36916464025, "duration_ms": 18.24665641784668, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9232.387732387, "pid": 56602, "start": 9232.36920370275, "end": 9232.38744589025, "duration_ms": 18.241535186767578, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9232.406021478, "pid": 56602, "start": 9232.38748495275, "end": 9232.40574276525, "duration_ms": 18.258943557739258, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9232.424306958, "pid": 56602, "start": 9232.40578182775, "end": 9232.424029874624, "duration_ms": 18.24870491027832, "mode": "2", "batch_size": 2}
+{"event": "gpu_forward", "t": 9232.440845316, "pid": 56602, "start": 9232.424070890249, "end": 9232.440566984, "duration_ms": 16.496639251708984, "mode": "2", "batch_size": 1}

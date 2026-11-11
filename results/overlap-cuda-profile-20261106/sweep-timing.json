@@ -1,0 +1,13 @@
+{
+  "start_unix_s": 1793959881.946027,
+  "end_unix_s": 1793959988.988286,
+  "total_sweep_wall_s": 107.04225897789001,
+  "includes_baseline": false,
+  "groups": [
+    {
+      "run_dir": "/home/ubuntu/zjj/code/results/overlap-cuda-profile-20261106/preemptive-c4-p3-x0.85-w50",
+      "group_wall_s": 106.84045505523682
+    }
+  ],
+  "sum_group_wall_s": 106.84045505523682
+}

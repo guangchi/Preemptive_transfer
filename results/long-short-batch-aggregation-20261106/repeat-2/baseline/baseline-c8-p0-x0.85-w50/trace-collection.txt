@@ -1,0 +1,3 @@
+/home/ubuntu/zjj/code/results/long-short-batch-aggregation-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/trace-request-phases.csv
+/home/ubuntu/zjj/code/results/long-short-batch-aggregation-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/trace-chunks.csv
+Saved workload totals for 1 runs to /home/ubuntu/zjj/code/results/long-short-batch-aggregation-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/workload-total-times.json

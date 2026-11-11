@@ -1,0 +1,410 @@
+{
+  "configurations": [
+    "baseline",
+    "c4-p5-x0.95-w50",
+    "c4-p5-x0.95-w100",
+    "c4-p3-x0.85-w50"
+  ],
+  "repeats": 3,
+  "commands": [
+    {
+      "repeat": 1,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T08:44:25.525135+00:00",
+      "wall_s": 94.91646807199868,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/timed-one-run.sh",
+      "runner_sha256": "396beaf02b948a607449141d2c5b67dbfa4ea7fb3acd13a4e36835ac45d51a28"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w50",
+      "start_utc": "2026-11-06T08:46:00.443670+00:00",
+      "wall_s": 91.10092099900066,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p5-x0.95-w50/timed-one-run.sh",
+      "runner_sha256": "69ebe5d64b7a1f56f8188433e9f93a3075f2f51d3431346a0ed621227ce2f81a"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w100",
+      "start_utc": "2026-11-06T08:47:31.546541+00:00",
+      "wall_s": 92.0409227420023,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p5-x0.95-w100/timed-one-run.sh",
+      "runner_sha256": "959a81fe9936507fa9766dc4d0632d76d1f7fa6129cc9abb1bbe13d98f6f09d7"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p3-x0.85-w50",
+      "start_utc": "2026-11-06T08:49:03.589491+00:00",
+      "wall_s": 93.75286366799992,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "b9bc92a267646484566329119703dfe11b7de4039033a064faecd5558a01a96e"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w50",
+      "start_utc": "2026-11-06T08:50:37.343576+00:00",
+      "wall_s": 92.37070041900006,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p5-x0.95-w50/timed-one-run.sh",
+      "runner_sha256": "69ebe5d64b7a1f56f8188433e9f93a3075f2f51d3431346a0ed621227ce2f81a"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w100",
+      "start_utc": "2026-11-06T08:52:09.715548+00:00",
+      "wall_s": 93.77250093900147,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p5-x0.95-w100/timed-one-run.sh",
+      "runner_sha256": "959a81fe9936507fa9766dc4d0632d76d1f7fa6129cc9abb1bbe13d98f6f09d7"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p3-x0.85-w50",
+      "start_utc": "2026-11-06T08:53:43.489752+00:00",
+      "wall_s": 93.18764516999727,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "b9bc92a267646484566329119703dfe11b7de4039033a064faecd5558a01a96e"
+    },
+    {
+      "repeat": 2,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T08:55:16.678477+00:00",
+      "wall_s": 89.1476112560049,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/timed-one-run.sh",
+      "runner_sha256": "396beaf02b948a607449141d2c5b67dbfa4ea7fb3acd13a4e36835ac45d51a28"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w100",
+      "start_utc": "2026-11-06T08:56:45.827638+00:00",
+      "wall_s": 94.73493330799829,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w100/timed-one-run.sh",
+      "runner_sha256": "959a81fe9936507fa9766dc4d0632d76d1f7fa6129cc9abb1bbe13d98f6f09d7"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p3-x0.85-w50",
+      "start_utc": "2026-11-06T08:58:20.564334+00:00",
+      "wall_s": 94.731613912998,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "b9bc92a267646484566329119703dfe11b7de4039033a064faecd5558a01a96e"
+    },
+    {
+      "repeat": 3,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T08:59:55.297462+00:00",
+      "wall_s": 88.39994166899851,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/timed-one-run.sh",
+      "runner_sha256": "396beaf02b948a607449141d2c5b67dbfa4ea7fb3acd13a4e36835ac45d51a28"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w50",
+      "start_utc": "2026-11-06T09:01:23.699093+00:00",
+      "wall_s": 90.95790348499577,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w50/timed-one-run.sh",
+      "runner_sha256": "69ebe5d64b7a1f56f8188433e9f93a3075f2f51d3431346a0ed621227ce2f81a"
+    }
+  ],
+  "total_confirmation_wall_s": 1109.1406265959995,
+  "ranking": [
+    {
+      "setting": "c4-p5-x0.95-w50",
+      "eligible": false,
+      "paired_runs": [
+        {
+          "repeat": 1,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 7525.988125,
+              "e2e_ms": 7778.127125
+            },
+            "medium": {
+              "ttft_ms": 10859.178666666667,
+              "e2e_ms": 11120.039333333334
+            },
+            "long": {
+              "ttft_ms": 10223.059,
+              "e2e_ms": 10545.230749999999
+            }
+          },
+          "max_long_e2e_ratio": 0.99571764956226,
+          "short_medium_score_ms": 9040.246107965571,
+          "workload_makespan_s": 17.045271,
+          "baseline_makespan_s": 18.098693,
+          "group_wall_s": 90.96576118469238
+        },
+        {
+          "repeat": 2,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 7293.18,
+              "e2e_ms": 7541.342125
+            },
+            "medium": {
+              "ttft_ms": 10927.654,
+              "e2e_ms": 11191.000666666667
+            },
+            "long": {
+              "ttft_ms": 9926.32275,
+              "e2e_ms": 10245.723750000001
+            }
+          },
+          "max_long_e2e_ratio": 1.322626744299505,
+          "short_medium_score_ms": 8927.337094549528,
+          "workload_makespan_s": 18.417074,
+          "baseline_makespan_s": 13.685299,
+          "group_wall_s": 92.23611617088318
+        },
+        {
+          "repeat": 3,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 6895.753875,
+              "e2e_ms": 7147.56675
+            },
+            "medium": {
+              "ttft_ms": 10120.505666666666,
+              "e2e_ms": 10384.868
+            },
+            "long": {
+              "ttft_ms": 9340.169,
+              "e2e_ms": 9660.9425
+            }
+          },
+          "max_long_e2e_ratio": 1.1648678179972776,
+          "short_medium_score_ms": 8353.952128656001,
+          "workload_makespan_s": 16.609126,
+          "baseline_makespan_s": 13.966988,
+          "group_wall_s": 90.86016821861267
+        }
+      ],
+      "median_score_ms": 8927.337094549528,
+      "mean_makespan_s": 17.357157,
+      "mean_group_wall_s": 91.35401519139607,
+      "categories": {
+        "short": {
+          "ttft_ms": 7238.307333333333,
+          "e2e_ms": 7489.012
+        },
+        "medium": {
+          "ttft_ms": 10635.779444444444,
+          "e2e_ms": 10898.636
+        },
+        "long": {
+          "ttft_ms": 9829.85025,
+          "e2e_ms": 10150.632333333333
+        }
+      }
+    },
+    {
+      "setting": "c4-p5-x0.95-w100",
+      "eligible": false,
+      "paired_runs": [
+        {
+          "repeat": 1,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 7174.124625,
+              "e2e_ms": 7419.633124999999
+            },
+            "medium": {
+              "ttft_ms": 11226.410333333333,
+              "e2e_ms": 11491.246333333333
+            },
+            "long": {
+              "ttft_ms": 10433.5245,
+              "e2e_ms": 10754.6055
+            }
+          },
+          "max_long_e2e_ratio": 1.002734026839814,
+          "short_medium_score_ms": 8974.389495822048,
+          "workload_makespan_s": 18.176525,
+          "baseline_makespan_s": 18.098693,
+          "group_wall_s": 91.9265627861023
+        },
+        {
+          "repeat": 2,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 7536.9135,
+              "e2e_ms": 7781.62075
+            },
+            "medium": {
+              "ttft_ms": 11847.144666666667,
+              "e2e_ms": 12111.703666666666
+            },
+            "long": {
+              "ttft_ms": 10948.205,
+              "e2e_ms": 11268.8285
+            }
+          },
+          "max_long_e2e_ratio": 1.3903630352319571,
+          "short_medium_score_ms": 9449.386465514732,
+          "workload_makespan_s": 19.148451,
+          "baseline_makespan_s": 13.685299,
+          "group_wall_s": 93.68586778640747
+        },
+        {
+          "repeat": 3,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 7411.974375,
+              "e2e_ms": 7662.14575
+            },
+            "medium": {
+              "ttft_ms": 11575.811,
+              "e2e_ms": 11838.719666666666
+            },
+            "long": {
+              "ttft_ms": 10712.526749999999,
+              "e2e_ms": 11033.51425
+            }
+          },
+          "max_long_e2e_ratio": 1.3135166907027773,
+          "short_medium_score_ms": 9262.808132626042,
+          "workload_makespan_s": 18.306494,
+          "baseline_makespan_s": 13.966988,
+          "group_wall_s": 94.61703610420227
+        }
+      ],
+      "median_score_ms": 9262.808132626042,
+      "mean_makespan_s": 18.543823333333336,
+      "mean_group_wall_s": 93.40982222557068,
+      "categories": {
+        "short": {
+          "ttft_ms": 7374.3375,
+          "e2e_ms": 7621.133208333333
+        },
+        "medium": {
+          "ttft_ms": 11549.788666666667,
+          "e2e_ms": 11813.889888888889
+        },
+        "long": {
+          "ttft_ms": 10698.085416666667,
+          "e2e_ms": 11018.98275
+        }
+      }
+    },
+    {
+      "setting": "c4-p3-x0.85-w50",
+      "eligible": false,
+      "paired_runs": [
+        {
+          "repeat": 1,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 7259.1497500000005,
+              "e2e_ms": 7509.705625
+            },
+            "medium": {
+              "ttft_ms": 10572.107333333333,
+              "e2e_ms": 10836.61
+            },
+            "long": {
+              "ttft_ms": 9813.75675,
+              "e2e_ms": 10134.223
+            }
+          },
+          "max_long_e2e_ratio": 0.9378103382357121,
+          "short_medium_score_ms": 8760.394414964421,
+          "workload_makespan_s": 17.07383,
+          "baseline_makespan_s": 18.098693,
+          "group_wall_s": 93.63493227958679
+        },
+        {
+          "repeat": 2,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 7623.92025,
+              "e2e_ms": 7871.138625
+            },
+            "medium": {
+              "ttft_ms": 11301.769,
+              "e2e_ms": 11566.611
+            },
+            "long": {
+              "ttft_ms": 10379.4645,
+              "e2e_ms": 10700.387999999999
+            }
+          },
+          "max_long_e2e_ratio": 1.3540032436684555,
+          "short_medium_score_ms": 9282.445019493638,
+          "workload_makespan_s": 18.690461,
+          "baseline_makespan_s": 13.685299,
+          "group_wall_s": 93.07991099357605
+        },
+        {
+          "repeat": 3,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 7934.834125,
+              "e2e_ms": 8183.4
+            },
+            "medium": {
+              "ttft_ms": 11606.596666666668,
+              "e2e_ms": 11870.476999999999
+            },
+            "long": {
+              "ttft_ms": 10829.4835,
+              "e2e_ms": 11149.731249999999
+            }
+          },
+          "max_long_e2e_ratio": 1.3408570628139973,
+          "short_medium_score_ms": 9596.687934166555,
+          "workload_makespan_s": 18.948111,
+          "baseline_makespan_s": 13.966988,
+          "group_wall_s": 94.59570407867432
+        }
+      ],
+      "median_score_ms": 9282.445019493638,
+      "mean_makespan_s": 18.237467333333335,
+      "mean_group_wall_s": 93.77018245061238,
+      "categories": {
+        "short": {
+          "ttft_ms": 7605.968041666667,
+          "e2e_ms": 7854.748083333333
+        },
+        "medium": {
+          "ttft_ms": 11160.157666666668,
+          "e2e_ms": 11424.566
+        },
+        "long": {
+          "ttft_ms": 10340.901583333334,
+          "e2e_ms": 10661.447416666666
+        }
+      }
+    }
+  ],
+  "recommended": null,
+  "errors": [],
+  "selection": "median short/medium geometric-mean TTFT under paired per-long E2E <= baseline +10% on every repeat; identical outputs required"
+}

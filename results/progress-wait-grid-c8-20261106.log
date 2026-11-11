@@ -1,0 +1,63 @@
+2026-11-06T14:26:02.439281+00:00 starting {'order': 1, 'setting': 'baseline', 'progress_pct': 85, 'wait_ms': 50}
+finished 1/31 setting=baseline x=85 w=50 makespan=6.118047s preemptions=0
+2026-11-06T14:27:23.185672+00:00 starting {'order': 2, 'setting': 'full', 'progress_pct': 80, 'wait_ms': 50}
+finished 2/31 setting=full x=80 w=50 makespan=5.653559s preemptions=0
+2026-11-06T14:28:50.480545+00:00 starting {'order': 3, 'setting': 'full', 'progress_pct': 75, 'wait_ms': 150}
+finished 3/31 setting=full x=75 w=150 makespan=5.698032s preemptions=0
+2026-11-06T14:30:11.949505+00:00 starting {'order': 4, 'setting': 'full', 'progress_pct': 60, 'wait_ms': 50}
+finished 4/31 setting=full x=60 w=50 makespan=5.622196s preemptions=0
+2026-11-06T14:31:37.002718+00:00 starting {'order': 5, 'setting': 'full', 'progress_pct': 70, 'wait_ms': 100}
+finished 5/31 setting=full x=70 w=100 makespan=5.624420s preemptions=0
+2026-11-06T14:32:58.673243+00:00 starting {'order': 6, 'setting': 'full', 'progress_pct': 75, 'wait_ms': 50}
+finished 6/31 setting=full x=75 w=50 makespan=5.619963s preemptions=0
+2026-11-06T14:34:18.752232+00:00 starting {'order': 7, 'setting': 'full', 'progress_pct': 55, 'wait_ms': 150}
+finished 7/31 setting=full x=55 w=150 makespan=5.618891s preemptions=0
+2026-11-06T14:35:38.024065+00:00 starting {'order': 8, 'setting': 'full', 'progress_pct': 85, 'wait_ms': 100}
+finished 8/31 setting=full x=85 w=100 makespan=5.720555s preemptions=2
+2026-11-06T14:36:57.901724+00:00 starting {'order': 9, 'setting': 'full', 'progress_pct': 65, 'wait_ms': 50}
+finished 9/31 setting=full x=65 w=50 makespan=5.641080s preemptions=0
+2026-11-06T14:38:17.464234+00:00 starting {'order': 10, 'setting': 'full', 'progress_pct': 65, 'wait_ms': 150}
+finished 10/31 setting=full x=65 w=150 makespan=5.649642s preemptions=0
+2026-11-06T14:39:40.348446+00:00 starting {'order': 11, 'setting': 'baseline', 'progress_pct': 85, 'wait_ms': 50}
+finished 11/31 setting=baseline x=85 w=50 makespan=6.174820s preemptions=0
+2026-11-06T14:41:00.753406+00:00 starting {'order': 12, 'setting': 'full', 'progress_pct': 90, 'wait_ms': 150}
+finished 12/31 setting=full x=90 w=150 makespan=5.661967s preemptions=3
+2026-11-06T14:42:24.071359+00:00 starting {'order': 13, 'setting': 'full', 'progress_pct': 90, 'wait_ms': 50}
+finished 13/31 setting=full x=90 w=50 makespan=5.671168s preemptions=2
+2026-11-06T14:43:44.649579+00:00 starting {'order': 14, 'setting': 'full', 'progress_pct': 85, 'wait_ms': 150}
+finished 14/31 setting=full x=85 w=150 makespan=5.663361s preemptions=2
+2026-11-06T14:45:04.578263+00:00 starting {'order': 15, 'setting': 'full', 'progress_pct': 55, 'wait_ms': 50}
+finished 15/31 setting=full x=55 w=50 makespan=5.746073s preemptions=0
+2026-11-06T14:46:26.863333+00:00 starting {'order': 16, 'setting': 'full', 'progress_pct': 90, 'wait_ms': 100}
+finished 16/31 setting=full x=90 w=100 makespan=5.621118s preemptions=2
+2026-11-06T14:47:47.639693+00:00 starting {'order': 17, 'setting': 'full', 'progress_pct': 70, 'wait_ms': 150}
+finished 17/31 setting=full x=70 w=150 makespan=5.642217s preemptions=0
+2026-11-06T14:49:09.649170+00:00 starting {'order': 18, 'setting': 'full', 'progress_pct': 75, 'wait_ms': 100}
+finished 18/31 setting=full x=75 w=100 makespan=5.916035s preemptions=2
+2026-11-06T14:50:29.336849+00:00 starting {'order': 19, 'setting': 'full', 'progress_pct': 85, 'wait_ms': 50}
+finished 19/31 setting=full x=85 w=50 makespan=5.668721s preemptions=4
+2026-11-06T14:51:49.434466+00:00 starting {'order': 20, 'setting': 'full', 'progress_pct': 60, 'wait_ms': 150}
+finished 20/31 setting=full x=60 w=150 makespan=5.733912s preemptions=0
+2026-11-06T14:53:09.201312+00:00 starting {'order': 21, 'setting': 'baseline', 'progress_pct': 85, 'wait_ms': 50}
+finished 21/31 setting=baseline x=85 w=50 makespan=6.244814s preemptions=0
+2026-11-06T14:54:30.380569+00:00 starting {'order': 22, 'setting': 'full', 'progress_pct': 70, 'wait_ms': 50}
+finished 22/31 setting=full x=70 w=50 makespan=5.618432s preemptions=0
+2026-11-06T14:55:50.410319+00:00 starting {'order': 23, 'setting': 'full', 'progress_pct': 65, 'wait_ms': 100}
+finished 23/31 setting=full x=65 w=100 makespan=5.617276s preemptions=0
+2026-11-06T14:57:10.664088+00:00 starting {'order': 24, 'setting': 'full', 'progress_pct': 80, 'wait_ms': 100}
+finished 24/31 setting=full x=80 w=100 makespan=5.620668s preemptions=0
+2026-11-06T14:58:30.664462+00:00 starting {'order': 25, 'setting': 'full', 'progress_pct': 50, 'wait_ms': 50}
+finished 25/31 setting=full x=50 w=50 makespan=5.635554s preemptions=0
+2026-11-06T14:59:50.805921+00:00 starting {'order': 26, 'setting': 'full', 'progress_pct': 60, 'wait_ms': 100}
+finished 26/31 setting=full x=60 w=100 makespan=5.627347s preemptions=0
+2026-11-06T15:01:10.915382+00:00 starting {'order': 27, 'setting': 'full', 'progress_pct': 55, 'wait_ms': 100}
+finished 27/31 setting=full x=55 w=100 makespan=5.619304s preemptions=0
+2026-11-06T15:02:31.081456+00:00 starting {'order': 28, 'setting': 'full', 'progress_pct': 50, 'wait_ms': 150}
+finished 28/31 setting=full x=50 w=150 makespan=5.633518s preemptions=0
+2026-11-06T15:03:52.451135+00:00 starting {'order': 29, 'setting': 'full', 'progress_pct': 50, 'wait_ms': 100}
+finished 29/31 setting=full x=50 w=100 makespan=5.637141s preemptions=0
+2026-11-06T15:05:12.482200+00:00 starting {'order': 30, 'setting': 'full', 'progress_pct': 80, 'wait_ms': 150}
+finished 30/31 setting=full x=80 w=150 makespan=5.991930s preemptions=2
+2026-11-06T15:06:33.581419+00:00 starting {'order': 31, 'setting': 'baseline', 'progress_pct': 85, 'wait_ms': 50}
+finished 31/31 setting=baseline x=85 w=50 makespan=6.094639s preemptions=0
+COMPLETE: 27 candidates, 4 baseline controls, 465 responses audited

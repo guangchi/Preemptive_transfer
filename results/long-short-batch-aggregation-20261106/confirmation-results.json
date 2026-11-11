@@ -1,0 +1,164 @@
+{
+  "configurations": [
+    "baseline",
+    "c8-p3-x0.85-w50"
+  ],
+  "repeats": 3,
+  "commands": [
+    {
+      "repeat": 1,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T10:40:44.960304+00:00",
+      "wall_s": 87.30584434999764,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-short-batch-aggregation-20261106/repeat-1/baseline/timed-one-run.sh",
+      "runner_sha256": "0f9f6246c6f8a03f59882cfb7497e95d48a323bfbced3df564d92921354548ec"
+    },
+    {
+      "repeat": 1,
+      "setting": "c8-p3-x0.85-w50",
+      "start_utc": "2026-11-06T10:42:12.267177+00:00",
+      "wall_s": 91.96139688200492,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-short-batch-aggregation-20261106/repeat-1/c8-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "305b44a224d6dd5b4d036a985fc3d324c2cad05ac2db856860d17bf81c007a4f"
+    },
+    {
+      "repeat": 2,
+      "setting": "c8-p3-x0.85-w50",
+      "start_utc": "2026-11-06T10:43:44.231238+00:00",
+      "wall_s": 107.75206824100314,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-short-batch-aggregation-20261106/repeat-2/c8-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "305b44a224d6dd5b4d036a985fc3d324c2cad05ac2db856860d17bf81c007a4f"
+    },
+    {
+      "repeat": 2,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T10:45:31.985058+00:00",
+      "wall_s": 90.85417723399587,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-short-batch-aggregation-20261106/repeat-2/baseline/timed-one-run.sh",
+      "runner_sha256": "0f9f6246c6f8a03f59882cfb7497e95d48a323bfbced3df564d92921354548ec"
+    },
+    {
+      "repeat": 3,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T10:47:02.841150+00:00",
+      "wall_s": 90.94513446399651,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-short-batch-aggregation-20261106/repeat-3/baseline/timed-one-run.sh",
+      "runner_sha256": "0f9f6246c6f8a03f59882cfb7497e95d48a323bfbced3df564d92921354548ec"
+    },
+    {
+      "repeat": 3,
+      "setting": "c8-p3-x0.85-w50",
+      "start_utc": "2026-11-06T10:48:33.787981+00:00",
+      "wall_s": 91.07566477699584,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/long-short-batch-aggregation-20261106/repeat-3/c8-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "305b44a224d6dd5b4d036a985fc3d324c2cad05ac2db856860d17bf81c007a4f"
+    }
+  ],
+  "total_confirmation_wall_s": 559.9079037569973,
+  "ranking": [
+    {
+      "setting": "c8-p3-x0.85-w50",
+      "eligible": false,
+      "paired_runs": [
+        {
+          "repeat": 1,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 7249.574125,
+              "e2e_ms": 7511.411375
+            },
+            "medium": {
+              "ttft_ms": 10728.757333333333,
+              "e2e_ms": 10993.545666666667
+            },
+            "long": {
+              "ttft_ms": 9895.6985,
+              "e2e_ms": 10219.233
+            }
+          },
+          "max_long_e2e_ratio": 1.231093872108754,
+          "short_medium_score_ms": 8819.235882837998,
+          "workload_makespan_s": 17.789052,
+          "baseline_makespan_s": 14.252745,
+          "group_wall_s": 91.83094239234924
+        },
+        {
+          "repeat": 2,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 7731.349625,
+              "e2e_ms": 7992.314875
+            },
+            "medium": {
+              "ttft_ms": 11381.028333333334,
+              "e2e_ms": 11645.981333333333
+            },
+            "long": {
+              "ttft_ms": 10562.5515,
+              "e2e_ms": 10882.245
+            }
+          },
+          "max_long_e2e_ratio": 1.3079446184174115,
+          "short_medium_score_ms": 9380.336301915355,
+          "workload_makespan_s": 18.669049,
+          "baseline_makespan_s": 14.784332,
+          "group_wall_s": 107.63981318473816
+        },
+        {
+          "repeat": 3,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 7096.89825,
+              "e2e_ms": 7358.435875
+            },
+            "medium": {
+              "ttft_ms": 10388.001,
+              "e2e_ms": 10652.560000000001
+            },
+            "long": {
+              "ttft_ms": 9654.968,
+              "e2e_ms": 9976.10125
+            }
+          },
+          "max_long_e2e_ratio": 1.2057485217711699,
+          "short_medium_score_ms": 8586.185772384513,
+          "workload_makespan_s": 16.998201,
+          "baseline_makespan_s": 13.875642,
+          "group_wall_s": 90.96327352523804
+        }
+      ],
+      "median_score_ms": 8819.235882837998,
+      "mean_makespan_s": 17.818767333333334,
+      "mean_group_wall_s": 96.81134303410848,
+      "categories": {
+        "short": {
+          "ttft_ms": 7359.274,
+          "e2e_ms": 7620.720708333333
+        },
+        "medium": {
+          "ttft_ms": 10832.595555555556,
+          "e2e_ms": 11097.362333333334
+        },
+        "long": {
+          "ttft_ms": 10037.739333333333,
+          "e2e_ms": 10359.193083333334
+        }
+      }
+    }
+  ],
+  "recommended": null,
+  "errors": [],
+  "selection": "median short/medium geometric-mean TTFT under paired per-long E2E <= baseline +10% on every repeat; identical outputs required"
+}

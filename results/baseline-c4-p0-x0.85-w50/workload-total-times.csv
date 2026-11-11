@@ -1,0 +1,2 @@
+run_dir,mode,requests,successful_requests,workload_makespan_s,successful_requests_per_s,client_replay_elapsed_s,group_wall_s
+/home/ubuntu/zjj/code/results/baseline-c4-p0-x0.85-w50,baseline,120,120,213.279842,0.562641,213.283861,287.905349

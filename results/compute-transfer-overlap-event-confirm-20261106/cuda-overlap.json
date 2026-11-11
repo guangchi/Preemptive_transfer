@@ -1,0 +1,31 @@
+{
+  "source": "/home/ubuntu/zjj/code/results/overlap-cuda-profile-final-20261106/prefill-cuda-trace.json",
+  "window": "first real prompt forward to all prompt finals; transfer tail excluded",
+  "kernel_count": 7826,
+  "dtoh_copy_count": 174720,
+  "kernel_streams": {
+    "7": 7826
+  },
+  "dtoh_streams": {
+    "3544": 174720
+  },
+  "copy_size_bytes_counts": {
+    "640": 5216,
+    "8172": 169216,
+    "160": 288
+  },
+  "dtoh_bytes": 1386217472,
+  "compute_busy_ms": 4779.841560058594,
+  "dtoh_busy_ms": 257.65635986328124,
+  "overlap_ms": 193.07887744140626,
+  "dtoh_overlap_ratio": 0.7493658512596336,
+  "compute_overlap_ratio": 0.04039440952495492,
+  "compute_span_ms": 6362.54599609375,
+  "dtoh_span_ms": 6182.063215332031,
+  "limitations": [
+    "CUPTI device intervals are used; no host enqueue timestamps are treated as DMA.",
+    "DtoH is the observed producer-side UCX staging leg; it excludes CPU/socket and D-side HtoD.",
+    "Profile overhead is material. This run is excluded from paired performance means.",
+    "NIXL xferDuration includes delayed checkXferReq polling, so it is not pure DMA time."
+  ]
+}

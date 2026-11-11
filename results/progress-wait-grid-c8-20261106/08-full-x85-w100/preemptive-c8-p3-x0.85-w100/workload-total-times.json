@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "requests": 15,
+      "successful_requests": 15,
+      "all_successful": true,
+      "first_client_send_monotonic_s": 53325.779968,
+      "last_client_finish_monotonic_s": 53331.500523,
+      "workload_makespan_s": 5.720555,
+      "first_submission_to_last_finish_s": 5.721682,
+      "successful_requests_per_s": 2.622123,
+      "generated_tokens": 120,
+      "note": "First client HTTP send to last response finish; includes interarrival and request queueing, excludes model startup/warmup/cleanup. Failed responses are retained in the end boundary.",
+      "run_dir": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/08-full-x85-w100/preemptive-c8-p3-x0.85-w100",
+      "mode": "preemptive",
+      "group_wall_s": 79.683603,
+      "phase_durations_s": {
+        "pair_launch_s": 2.1150453090667725,
+        "worker_health_s": 55.22677230834961,
+        "router_start_s": 0.35605669021606445,
+        "warmup_s": 15.005127429962158,
+        "load_replay_s": 5.874104022979736,
+        "trace_collection_s": 0.12438178062438965,
+        "cleanup_s": 0.8911898136138916,
+        "group_wall_s": 79.683602809906
+      },
+      "client_replay_elapsed_s": 5.724013
+    }
+  ]
+}

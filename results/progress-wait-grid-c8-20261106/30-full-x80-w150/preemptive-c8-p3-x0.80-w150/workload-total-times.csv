@@ -1,0 +1,2 @@
+run_dir,mode,requests,successful_requests,workload_makespan_s,successful_requests_per_s,client_replay_elapsed_s,group_wall_s
+/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150,preemptive,15,15,5.99193,2.503367,6.002707,80.799667

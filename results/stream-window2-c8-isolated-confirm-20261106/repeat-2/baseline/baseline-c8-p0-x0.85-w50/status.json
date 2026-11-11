@@ -1,0 +1,30 @@
+{
+  "chunk_size_blocks": 8,
+  "elapsed_s": 13.89,
+  "error": "",
+  "files": {
+    "decode.log": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/decode.log",
+    "environment.json": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/environment.json",
+    "experiment-timing.json": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/experiment-timing.json",
+    "gpu.csv": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/gpu.csv",
+    "load.json": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/load.json",
+    "prefill.log": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/prefill.log",
+    "requests.csv": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/requests.csv",
+    "router.log": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/router.log",
+    "run.json": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/run.json",
+    "trace-chunks.csv": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/trace-chunks.csv",
+    "trace-execution.csv": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/trace-execution.csv",
+    "trace-request-metrics.csv": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/trace-request-metrics.csv",
+    "trace-request-phases.csv": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/trace-request-phases.csv"
+  },
+  "max_preemptions": 0,
+  "mode": "baseline",
+  "ok": 15,
+  "protect_progress": 0.85,
+  "requests": 15,
+  "run_dir": "/home/ubuntu/zjj/code/results/stream-window2-c8-isolated-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50",
+  "status": "passed",
+  "success_rate": 1.0,
+  "tag": "baseline-c8-p0-x0.85-w50",
+  "wait_threshold_ms": 50.0
+}

@@ -1,0 +1,10 @@
+/home/ubuntu/zjj/code/logs/presweep-d-phases-20261105/environment.json
+run_dir=/home/ubuntu/zjj/code/logs/presweep-d-phases-20261105
+mode=preemptive
+prefill_pid=282499
+decode_pid=282500
+prefill_side_channel=127.0.0.1:5610
+decode_side_channel=127.0.0.1:5611
+P endpoint: http://127.0.0.1:8110/v1/completions
+D endpoint: http://127.0.0.1:8210/v1/completions
+A PD router must submit paired P/D requests with kv_transfer_params; the worker endpoints are not a router.

@@ -1,0 +1,32 @@
+{
+  "arrival_gaps_ms": [
+    250,
+    500
+  ],
+  "rounds": 3,
+  "orders": [
+    [
+      "baseline",
+      "old",
+      "new"
+    ],
+    [
+      "old",
+      "new",
+      "baseline"
+    ],
+    [
+      "new",
+      "baseline",
+      "old"
+    ]
+  ],
+  "group_size": 5,
+  "intra_group_gap_ms": 0,
+  "local_sort_window_ms": 20,
+  "naming": {
+    "baseline": "whole-request transfer",
+    "old": "prior full transfer scheme without sorting",
+    "new": "full scheme with P local sorting"
+  }
+}

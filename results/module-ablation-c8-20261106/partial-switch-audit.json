@@ -1,0 +1,133 @@
+[
+  {
+    "run_dir": "results/module-ablation-c8-20261106/confirmation/repeat-1/baseline/baseline-c8-p3-x0.85-w50",
+    "setting": "baseline",
+    "chunks": {},
+    "bypasses": 0,
+    "switches": {
+      "aggregate_short_medium": true,
+      "priority_preemption": true,
+      "stream_by_batch": true
+    }
+  },
+  {
+    "run_dir": "results/module-ablation-c8-20261106/confirmation/repeat-1/fifo/preemptive-c8-p3-x0.85-w50",
+    "setting": "fifo",
+    "chunks": {
+      "short": 9,
+      "long": 316,
+      "medium": 5
+    },
+    "bypasses": 0,
+    "switches": {
+      "aggregate_short_medium": true,
+      "priority_preemption": false,
+      "stream_by_batch": true
+    }
+  },
+  {
+    "run_dir": "results/module-ablation-c8-20261106/confirmation/repeat-1/full/preemptive-c8-p3-x0.85-w50",
+    "setting": "full",
+    "chunks": {
+      "short": 9,
+      "long": 316,
+      "medium": 5
+    },
+    "bypasses": 2,
+    "switches": {
+      "aggregate_short_medium": true,
+      "priority_preemption": true,
+      "stream_by_batch": true
+    }
+  },
+  {
+    "run_dir": "results/module-ablation-c8-20261106/confirmation/repeat-1/no_aggregation/preemptive-c8-p3-x0.85-w50",
+    "setting": "no_aggregation",
+    "chunks": {
+      "short": 8,
+      "long": 316,
+      "medium": 27
+    },
+    "bypasses": 2,
+    "switches": {
+      "aggregate_short_medium": false,
+      "priority_preemption": true,
+      "stream_by_batch": true
+    }
+  },
+  {
+    "run_dir": "results/module-ablation-c8-20261106/confirmation/repeat-1/no_stream/preemptive-c8-p3-x0.85-w50",
+    "setting": "no_stream",
+    "chunks": {
+      "short": 9,
+      "long": 316,
+      "medium": 5
+    },
+    "bypasses": 4,
+    "switches": {
+      "aggregate_short_medium": true,
+      "priority_preemption": true,
+      "stream_by_batch": false
+    }
+  },
+  {
+    "run_dir": "results/module-ablation-c8-20261106/confirmation/repeat-2/fifo/preemptive-c8-p3-x0.85-w50",
+    "setting": "fifo",
+    "chunks": {
+      "short": 9,
+      "long": 316,
+      "medium": 5
+    },
+    "bypasses": 0,
+    "switches": {
+      "aggregate_short_medium": true,
+      "priority_preemption": false,
+      "stream_by_batch": true
+    }
+  },
+  {
+    "run_dir": "results/module-ablation-c8-20261106/confirmation/repeat-2/full/preemptive-c8-p3-x0.85-w50",
+    "setting": "full",
+    "chunks": {
+      "short": 9,
+      "long": 316,
+      "medium": 5
+    },
+    "bypasses": 2,
+    "switches": {
+      "aggregate_short_medium": true,
+      "priority_preemption": true,
+      "stream_by_batch": true
+    }
+  },
+  {
+    "run_dir": "results/module-ablation-c8-20261106/confirmation/repeat-2/no_aggregation/preemptive-c8-p3-x0.85-w50",
+    "setting": "no_aggregation",
+    "chunks": {
+      "short": 8,
+      "long": 316,
+      "medium": 27
+    },
+    "bypasses": 2,
+    "switches": {
+      "aggregate_short_medium": false,
+      "priority_preemption": true,
+      "stream_by_batch": true
+    }
+  },
+  {
+    "run_dir": "results/module-ablation-c8-20261106/confirmation/repeat-2/no_stream/preemptive-c8-p3-x0.85-w50",
+    "setting": "no_stream",
+    "chunks": {
+      "short": 9,
+      "long": 316,
+      "medium": 5
+    },
+    "bypasses": 4,
+    "switches": {
+      "aggregate_short_medium": true,
+      "priority_preemption": true,
+      "stream_by_batch": false
+    }
+  }
+]

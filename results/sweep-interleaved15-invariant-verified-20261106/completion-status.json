@@ -1,0 +1,18 @@
+{
+  "completed_utc": "2026-11-06T04:06:20.812052+00:00",
+  "runner_exit_code": 0,
+  "output_and_reference_validation_exit_code": 0,
+  "all_http_200": true,
+  "all_outputs_match": true,
+  "all_direct_references_match": true,
+  "chunks": 698,
+  "chunk_continuity_success_and_receive_checks": true,
+  "preemption_decisions": 8,
+  "timeline_events": 4429,
+  "gpu_compute_processes_after_cleanup": 0,
+  "tests": "58 passed, 14 warnings",
+  "runtime_sources_match_launch_manifest": true,
+  "analysis_only_updates_after_run": [
+    "summarize_pd_experiment.py"
+  ]
+}

@@ -1,0 +1,135 @@
+--- before/vllm/distributed/kv_transfer/kv_connector/v1/nixl/push_worker.py
++++ after/vllm/distributed/kv_transfer/kv_connector/v1/nixl/push_worker.py
+@@ -150,6 +150,10 @@
+         self._stream_pending_chunks: dict[str, list[dict[str, Any]]] = defaultdict(list)
+         self._stream_waiting_handshakes: set[tuple[str, int]] = set()
+         self._stream_active: tuple[dict[str, Any], list[int]] | None = None
++        # A chunk waiting for a handshake owns the same single slot as an
++        # active WRITE. Otherwise later chunks (including final) can overtake
++        # it and a summary can expose incomplete KV to D.
++        self._stream_reserved_chunk: tuple[str, int] | None = None
+         self._stream_cancelled: set[str] = set()
+         self._stream_completed_sending: queue.Queue[str] = queue.Queue()
+         self._stream_success_pending: set[str] = set()
+@@ -274,17 +278,17 @@
+ 
+         if self.preemptive_config.enabled and metadata.push_chunks:
+             # ``start_load_kv`` runs after the model forward for this engine
+-            # step, but CUDA kernels are asynchronous.  Synchronize the
+-            # producer stream before handing source blocks to the background
+-            # NIXL writer so a WRITE can never race the KV store for this
+-            # batch.  This is intentionally scoped to the experimental
+-            # streaming path; the legacy path retains its existing lifecycle.
++            # step, but CUDA kernels are asynchronous and vLLM may execute
++            # model work on non-current streams. Synchronize the device before
++            # exposing source blocks to the NIXL writer; current_stream().
++            # synchronize() alone does not fence those streams.
+             sync_failed = False
++            sync_start = time.perf_counter()
+             try:
+                 import torch
+ 
+                 if torch.cuda.is_available():
+-                    torch.cuda.current_stream().synchronize()
++                    torch.cuda.synchronize()
+             except Exception:
+                 logger.exception("Failed to synchronize CUDA before KV streaming")
+                 sync_failed = True
+@@ -294,6 +298,12 @@
+                     self._stream_chunk_inbox.put(chunk)
+                     self._complete_stream_chunk(chunk, False)
+             if not sync_failed:
++                logger.info(
++                    "stream source KV device-synchronized chunks=%d elapsed_ms=%.3f monotonic_s=%.6f",
++                    len(metadata.push_chunks),
++                    (time.perf_counter() - sync_start) * 1000,
++                    time.perf_counter(),
++                )
+                 for chunk in metadata.push_chunks:
+                     self._stream_chunk_inbox.put(chunk)
+             self._push_writer_wake.set()
+@@ -403,7 +413,7 @@
+                         else:
+                             self._pending_completion_notifs.put(notif)
+ 
+-                if self.preemptive_config.enabled and self._stream_active is None:
++                if self.preemptive_config.enabled and self._stream_slot_available():
+                     chunk = self._stream_arbiter.pop_next(time.perf_counter())
+                     if chunk is not None:
+                         long_state = chunk.get("arbiter_long_state") or {}
+@@ -635,6 +645,7 @@
+                 if key in self._stream_waiting_handshakes:
+                     return
+                 self._stream_waiting_handshakes.add(key)
++                self._stream_reserved_chunk = key
+ 
+                 def _on_marker_handshake(
+                     f: Future[tuple[dict[tuple[int, int], str], float]],
+@@ -682,6 +693,7 @@
+             if key in self._stream_waiting_handshakes:
+                 return
+             self._stream_waiting_handshakes.add(key)
++            self._stream_reserved_chunk = key
+ 
+             def _on_chunk_handshake(
+                 f: Future[tuple[dict[tuple[int, int], str], float]],
+@@ -872,6 +884,9 @@
+         self._stream_waiting_handshakes = {
+             key for key in self._stream_waiting_handshakes if key[0] != request_id
+         }
++        reserved = getattr(self, "_stream_reserved_chunk", None)
++        if reserved is not None and reserved[0] == request_id:
++            self._stream_reserved_chunk = None
+         self._streaming_push_req_ids.discard(request_id)
+         if state is not None:
+             # Keep state alive while a WRITE for this request is still in
+@@ -918,6 +933,12 @@
+         self._stream_failed_sending.put(request_id)
+         self._push_writer_wake.set()
+ 
++    def _stream_slot_available(self) -> bool:
++        return (
++            self._stream_active is None
++            and getattr(self, "_stream_reserved_chunk", None) is None
++        )
++
+     def _start_next_deferred_stream_chunk(self) -> bool:
+         """Start one deferred chunk only when the single WRITE slot is free."""
+         if self._stream_active is not None:
+@@ -926,6 +947,9 @@
+             chunk, registration = self._stream_deferred_inbox.get_nowait()
+         except queue.Empty:
+             return False
++        key = (chunk["request_id"], int(chunk["chunk_sequence"]))
++        if getattr(self, "_stream_reserved_chunk", None) == key:
++            self._stream_reserved_chunk = None
+         if chunk.get("request_id") in self._stream_cancelled:
+             self._complete_stream_chunk(chunk, False)
+         else:
+@@ -936,6 +960,9 @@
+         self, chunk: dict[str, Any], success: bool
+     ) -> None:
+         request_id = chunk["request_id"]
++        key = (request_id, int(chunk["chunk_sequence"]))
++        if getattr(self, "_stream_reserved_chunk", None) == key:
++            self._stream_reserved_chunk = None
+         logger.info(
+             "stream chunk complete req=%s seq=%s success=%s final=%s monotonic_s=%.6f",
+             request_id,
+@@ -966,11 +993,15 @@
+             return
+         if chunk.get("is_final") and success:
+             state["final_completed"] = True
++            state["final_sequence"] = int(chunk["chunk_sequence"])
++        # A final chunk can finish before an earlier deferred chunk in legacy
++        # traces. Only all successful completions authorize STREAM_DONE.
++        if state["pending"] == 0 and state["final_completed"] and not state["failed"]:
+             if not state.get("summary_sent", False):
+                 registration = self._find_stream_registration(request_id)
+                 if registration is not None:
+                     try:
+-                        final_sequence = int(chunk["chunk_sequence"])
++                        final_sequence = state["final_sequence"]
+                         agent = self._remote_agents[registration["decode_engine_id"]][
+                             (0, 0)
+                         ]

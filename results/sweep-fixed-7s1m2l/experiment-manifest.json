@@ -1,0 +1,10 @@
+{
+  "workload": "/home/ubuntu/zjj/code/workload.sweep-fixed-7s1m2l.jsonl",
+  "workload_sha256": "0e42aeac323527a70a50214fe84f5d3ecae093ff0a04ea13c683d44b8bdaeac2",
+  "runs": [
+    "/home/ubuntu/zjj/code/results/sweep-fixed-7s1m2l/baseline-c4-p0-x0.85-w50/status.json",
+    "/home/ubuntu/zjj/code/results/sweep-fixed-7s1m2l/preemptive-c4-p3-x0.85-w50/status.json"
+  ],
+  "comparison": "/home/ubuntu/zjj/code/results/sweep-fixed-7s1m2l/comparison.json",
+  "request_comparison": "/home/ubuntu/zjj/code/results/sweep-fixed-7s1m2l/comparison-request-metrics.csv"
+}

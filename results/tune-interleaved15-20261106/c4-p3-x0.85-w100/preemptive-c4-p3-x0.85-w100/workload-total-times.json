@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "requests": 15,
+      "successful_requests": 15,
+      "all_successful": true,
+      "first_client_send_monotonic_s": 18414.977218,
+      "last_client_finish_monotonic_s": 18433.624497,
+      "workload_makespan_s": 18.647279,
+      "first_submission_to_last_finish_s": 18.648347,
+      "successful_requests_per_s": 0.804407,
+      "generated_tokens": 120,
+      "note": "First client HTTP send to last response finish; includes interarrival and request queueing, excludes model startup/warmup/cleanup. Failed responses are retained in the end boundary.",
+      "run_dir": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p3-x0.85-w100/preemptive-c4-p3-x0.85-w100",
+      "mode": "preemptive",
+      "group_wall_s": 93.09887,
+      "phase_durations_s": {
+        "pair_launch_s": 2.0128374099731445,
+        "worker_health_s": 55.78618812561035,
+        "router_start_s": 0.3729372024536133,
+        "warmup_s": 15.004903793334961,
+        "load_replay_s": 18.805196285247803,
+        "trace_collection_s": 0.1489403247833252,
+        "cleanup_s": 0.8965034484863281,
+        "group_wall_s": 93.09887027740479
+      },
+      "client_replay_elapsed_s": 18.650874
+    }
+  ]
+}

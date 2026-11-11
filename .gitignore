@@ -1,0 +1,11 @@
+**/__pycache__/
+*.py[cod]
+**/.pytest_cache/
+*.pid
+.env
+.env.*
+.venv/
+.vllm-backups/
+models/
+*.safetensors
+*.gguf

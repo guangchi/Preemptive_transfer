@@ -1,0 +1,2 @@
+run_dir,mode,requests,successful_requests,workload_makespan_s,successful_requests_per_s,client_replay_elapsed_s,group_wall_s
+/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p3-x0.70-w50/preemptive-c4-p3-x0.70-w50,preemptive,15,15,20.599089,0.728188,20.611968,94.668852

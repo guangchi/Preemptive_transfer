@@ -1,0 +1,164 @@
+{
+  "configurations": [
+    "baseline",
+    "c4-p3-x0.85-w50"
+  ],
+  "repeats": 3,
+  "commands": [
+    {
+      "repeat": 1,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T09:41:09.830766+00:00",
+      "wall_s": 86.46980607999285,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/compute-transfer-overlap-20261106/repeat-1/baseline/timed-one-run.sh",
+      "runner_sha256": "396beaf02b948a607449141d2c5b67dbfa4ea7fb3acd13a4e36835ac45d51a28"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p3-x0.85-w50",
+      "start_utc": "2026-11-06T09:42:36.302752+00:00",
+      "wall_s": 97.03333350199682,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/compute-transfer-overlap-20261106/repeat-1/c4-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "b9bc92a267646484566329119703dfe11b7de4039033a064faecd5558a01a96e"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p3-x0.85-w50",
+      "start_utc": "2026-11-06T09:44:13.338279+00:00",
+      "wall_s": 96.49508899800276,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/compute-transfer-overlap-20261106/repeat-2/c4-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "b9bc92a267646484566329119703dfe11b7de4039033a064faecd5558a01a96e"
+    },
+    {
+      "repeat": 2,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T09:45:49.834945+00:00",
+      "wall_s": 90.14552906400058,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/compute-transfer-overlap-20261106/repeat-2/baseline/timed-one-run.sh",
+      "runner_sha256": "396beaf02b948a607449141d2c5b67dbfa4ea7fb3acd13a4e36835ac45d51a28"
+    },
+    {
+      "repeat": 3,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T09:47:19.982587+00:00",
+      "wall_s": 87.8413201489966,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/compute-transfer-overlap-20261106/repeat-3/baseline/timed-one-run.sh",
+      "runner_sha256": "396beaf02b948a607449141d2c5b67dbfa4ea7fb3acd13a4e36835ac45d51a28"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p3-x0.85-w50",
+      "start_utc": "2026-11-06T09:48:47.825432+00:00",
+      "wall_s": 97.15433896700415,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/compute-transfer-overlap-20261106/repeat-3/c4-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "b9bc92a267646484566329119703dfe11b7de4039033a064faecd5558a01a96e"
+    }
+  ],
+  "total_confirmation_wall_s": 555.153812827004,
+  "ranking": [
+    {
+      "setting": "c4-p3-x0.85-w50",
+      "eligible": false,
+      "paired_runs": [
+        {
+          "repeat": 1,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 11416.517749999999,
+              "e2e_ms": 11677.990125
+            },
+            "medium": {
+              "ttft_ms": 14753.609,
+              "e2e_ms": 15016.485666666666
+            },
+            "long": {
+              "ttft_ms": 13995.31175,
+              "e2e_ms": 14317.272
+            }
+          },
+          "max_long_e2e_ratio": 1.6167842533130983,
+          "short_medium_score_ms": 12978.244836073163,
+          "workload_makespan_s": 21.334882,
+          "baseline_makespan_s": 13.305424,
+          "group_wall_s": 96.9191062450409
+        },
+        {
+          "repeat": 2,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 11790.54075,
+              "e2e_ms": 12051.578625
+            },
+            "medium": {
+              "ttft_ms": 15293.668666666666,
+              "e2e_ms": 15557.205333333333
+            },
+            "long": {
+              "ttft_ms": 14504.22825,
+              "e2e_ms": 14826.23575
+            }
+          },
+          "max_long_e2e_ratio": 1.5861125598130628,
+          "short_medium_score_ms": 13428.351485991552,
+          "workload_makespan_s": 22.140218,
+          "baseline_makespan_s": 16.362841,
+          "group_wall_s": 96.38110160827637
+        },
+        {
+          "repeat": 3,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 12068.15025,
+              "e2e_ms": 12329.51775
+            },
+            "medium": {
+              "ttft_ms": 15852.619666666667,
+              "e2e_ms": 16119.266333333333
+            },
+            "long": {
+              "ttft_ms": 14876.3535,
+              "e2e_ms": 15198.348
+            }
+          },
+          "max_long_e2e_ratio": 1.8197907016130233,
+          "short_medium_score_ms": 13831.55074434672,
+          "workload_makespan_s": 23.240199,
+          "baseline_makespan_s": 13.708871,
+          "group_wall_s": 97.02360486984253
+        }
+      ],
+      "median_score_ms": 13428.351485991552,
+      "mean_makespan_s": 22.238433,
+      "mean_group_wall_s": 96.77460424105327,
+      "categories": {
+        "short": {
+          "ttft_ms": 11758.402916666666,
+          "e2e_ms": 12019.6955
+        },
+        "medium": {
+          "ttft_ms": 15299.965777777777,
+          "e2e_ms": 15564.31911111111
+        },
+        "long": {
+          "ttft_ms": 14458.631166666666,
+          "e2e_ms": 14780.618583333333
+        }
+      }
+    }
+  ],
+  "recommended": null,
+  "errors": [],
+  "selection": "median short/medium geometric-mean TTFT under paired per-long E2E <= baseline +10% on every repeat; identical outputs required"
+}

@@ -1,0 +1,247 @@
+{
+  "workload": "/home/ubuntu/zjj/code/workload.sweep-interleaved-8s3m4l.jsonl",
+  "workload_sha256": "714990980c49534e539a125612ce1c8d36c68ac75a559e4bce93dabcb7ee9e14",
+  "requests": 15,
+  "order": [
+    "short",
+    "long",
+    "short",
+    "medium",
+    "short",
+    "long",
+    "short",
+    "long",
+    "short",
+    "medium",
+    "short",
+    "long",
+    "short",
+    "medium",
+    "short"
+  ],
+  "composition": {
+    "short": 8,
+    "medium": 3,
+    "long": 4
+  },
+  "modes": {
+    "baseline": {
+      "status": "passed",
+      "ok": 15,
+      "elapsed_s": 13.802243,
+      "batch_invariant": true,
+      "capture_logprobs": true,
+      "concurrency": 15,
+      "interarrival_ms": 100.0,
+      "prefix_caching": false,
+      "workload_checksum_match": true,
+      "submission_order_match": true,
+      "categories": {
+        "short": {
+          "n": 8,
+          "ttft_ms_mean": 9133.424,
+          "prefill_execution_ms_mean": 422.351,
+          "decode_execution_ms_mean": 665.487,
+          "e2e_ms_mean": 9381.878,
+          "generation_after_first_token_ms_mean": 248.453,
+          "decode_service_ms_mean": 370.081
+        },
+        "medium": {
+          "n": 3,
+          "ttft_ms_mean": 9898.219,
+          "prefill_execution_ms_mean": 503.539,
+          "decode_execution_ms_mean": 663.583,
+          "e2e_ms_mean": 10177.311,
+          "generation_after_first_token_ms_mean": 279.092,
+          "decode_service_ms_mean": 371.722
+        },
+        "long": {
+          "n": 4,
+          "ttft_ms_mean": 10739.173,
+          "prefill_execution_ms_mean": 2354.076,
+          "decode_execution_ms_mean": 698.269,
+          "e2e_ms_mean": 11028.451,
+          "generation_after_first_token_ms_mean": 289.279,
+          "decode_service_ms_mean": 383.851
+        }
+      },
+      "chunk_rows": 0,
+      "arbiter_decisions": {}
+    },
+    "preemptive": {
+      "status": "passed",
+      "ok": 15,
+      "elapsed_s": 18.196674,
+      "batch_invariant": true,
+      "capture_logprobs": true,
+      "concurrency": 15,
+      "interarrival_ms": 100.0,
+      "prefix_caching": false,
+      "workload_checksum_match": true,
+      "submission_order_match": true,
+      "categories": {
+        "short": {
+          "n": 8,
+          "ttft_ms_mean": 7497.125,
+          "prefill_execution_ms_mean": 385.363,
+          "decode_execution_ms_mean": 593.359,
+          "e2e_ms_mean": 7714.834,
+          "generation_after_first_token_ms_mean": 217.71,
+          "decode_service_ms_mean": 333.701
+        },
+        "medium": {
+          "n": 3,
+          "ttft_ms_mean": 10972.471,
+          "prefill_execution_ms_mean": 593.493,
+          "decode_execution_ms_mean": 570.31,
+          "e2e_ms_mean": 11238.546,
+          "generation_after_first_token_ms_mean": 266.074,
+          "decode_service_ms_mean": 308.789
+        },
+        "long": {
+          "n": 4,
+          "ttft_ms_mean": 10145.506,
+          "prefill_execution_ms_mean": 2436.775,
+          "decode_execution_ms_mean": 726.602,
+          "e2e_ms_mean": 10467.745,
+          "generation_after_first_token_ms_mean": 322.239,
+          "decode_service_ms_mean": 394.036
+        }
+      },
+      "chunk_rows": 698,
+      "arbiter_decisions": {
+        "dispatch_short": 8,
+        "dispatch_long": 268,
+        "protected_resume": 360,
+        "preempt_long": 8,
+        "dispatch_fifo": 54
+      }
+    }
+  },
+  "output_checks": [
+    {
+      "request_id": "interleaved15-00-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-01-long",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-02-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-03-medium",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-04-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-05-long",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-06-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-07-long",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-08-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-09-medium",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-10-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-11-long",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-12-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-13-medium",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-14-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    }
+  ],
+  "all_outputs_match": true,
+  "all_direct_references_match": true,
+  "passed": true,
+  "interpretation": "Single run per mode; shared host batch durations are not exclusive GPU compute times."
+}

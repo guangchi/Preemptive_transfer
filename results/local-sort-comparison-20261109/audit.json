@@ -1,0 +1,1867 @@
+{
+  "total_requests": 540,
+  "formal_requests": 270,
+  "outputs_match_reference": true,
+  "runs": [
+    {
+      "round": 1,
+      "system": "baseline",
+      "gap_ms": 250,
+      "requests": 15,
+      "makespan_s": 5.854382000001351,
+      "preemptions": 0,
+      "cross_batch_preemptions": 0,
+      "window_count": 0,
+      "window_sizes": [],
+      "max_client_schedule_deviation_ms": 7.850000001781154,
+      "short_ttft_ms": 2871.26525,
+      "short_e2e_ms": 3123.7821249999997,
+      "medium_ttft_ms": 2923.739,
+      "medium_e2e_ms": 3214.7306666666664,
+      "long_ttft_ms": 3598.70825,
+      "long_e2e_ms": 3906.07425,
+      "batch_0_short_ttft_ms": 1729.8200000000002,
+      "batch_1_short_ttft_ms": 2038.0605,
+      "batch_2_short_ttft_ms": 4568.180333333334
+    },
+    {
+      "round": 1,
+      "system": "baseline",
+      "gap_ms": 500,
+      "requests": 15,
+      "makespan_s": 5.975475999999617,
+      "preemptions": 0,
+      "cross_batch_preemptions": 0,
+      "window_count": 0,
+      "window_sizes": [],
+      "max_client_schedule_deviation_ms": 7.0320000013452955,
+      "short_ttft_ms": 2404.5860000000002,
+      "short_e2e_ms": 2654.996875,
+      "medium_ttft_ms": 3529.903,
+      "medium_e2e_ms": 3806.1470000000004,
+      "long_ttft_ms": 3410.458,
+      "long_e2e_ms": 3714.38675,
+      "batch_0_short_ttft_ms": 1236.7233333333334,
+      "batch_1_short_ttft_ms": 1822.8854999999999,
+      "batch_2_short_ttft_ms": 3960.2490000000003
+    },
+    {
+      "round": 1,
+      "system": "old",
+      "gap_ms": 250,
+      "requests": 15,
+      "makespan_s": 5.480336000000534,
+      "preemptions": 3,
+      "cross_batch_preemptions": 0,
+      "window_count": 0,
+      "window_sizes": [],
+      "max_client_schedule_deviation_ms": 9.604000002582325,
+      "short_ttft_ms": 3009.132125,
+      "short_e2e_ms": 3289.313,
+      "medium_ttft_ms": 3358.9333333333334,
+      "medium_e2e_ms": 3634.2953333333335,
+      "long_ttft_ms": 2962.578,
+      "long_e2e_ms": 3268.35475,
+      "batch_0_short_ttft_ms": 1524.2096666666666,
+      "batch_1_short_ttft_ms": 3033.3845,
+      "batch_2_short_ttft_ms": 4477.886333333334
+    },
+    {
+      "round": 1,
+      "system": "old",
+      "gap_ms": 500,
+      "requests": 15,
+      "makespan_s": 5.4439409999977215,
+      "preemptions": 0,
+      "cross_batch_preemptions": 0,
+      "window_count": 0,
+      "window_sizes": [],
+      "max_client_schedule_deviation_ms": 7.989999998244457,
+      "short_ttft_ms": 2496.10875,
+      "short_e2e_ms": 2755.318875,
+      "medium_ttft_ms": 3106.8606666666665,
+      "medium_e2e_ms": 3370.4236666666666,
+      "long_ttft_ms": 2668.16925,
+      "long_e2e_ms": 2976.563,
+      "batch_0_short_ttft_ms": 1693.5126666666667,
+      "batch_1_short_ttft_ms": 1741.2910000000002,
+      "batch_2_short_ttft_ms": 3801.9166666666665
+    },
+    {
+      "round": 1,
+      "system": "new",
+      "gap_ms": 250,
+      "requests": 15,
+      "makespan_s": 5.36646699999983,
+      "preemptions": 0,
+      "cross_batch_preemptions": 0,
+      "window_count": 3,
+      "window_sizes": [
+        5,
+        5,
+        5
+      ],
+      "max_client_schedule_deviation_ms": 6.83500000013737,
+      "short_ttft_ms": 1868.04425,
+      "short_e2e_ms": 2139.0495,
+      "medium_ttft_ms": 1949.5806666666667,
+      "medium_e2e_ms": 2205.004,
+      "long_ttft_ms": 3068.82375,
+      "long_e2e_ms": 3374.337,
+      "batch_0_short_ttft_ms": 439.77233333333334,
+      "batch_1_short_ttft_ms": 1483.9035,
+      "batch_2_short_ttft_ms": 3552.41
+    },
+    {
+      "round": 1,
+      "system": "new",
+      "gap_ms": 500,
+      "requests": 15,
+      "makespan_s": 5.336049000001367,
+      "preemptions": 0,
+      "cross_batch_preemptions": 0,
+      "window_count": 3,
+      "window_sizes": [
+        5,
+        5,
+        5
+      ],
+      "max_client_schedule_deviation_ms": 6.75500000215834,
+      "short_ttft_ms": 1608.795125,
+      "short_e2e_ms": 1880.11575,
+      "medium_ttft_ms": 1676.241,
+      "medium_e2e_ms": 1935.1113333333333,
+      "long_ttft_ms": 2807.75275,
+      "long_e2e_ms": 3110.3869999999997,
+      "batch_0_short_ttft_ms": 424.0783333333333,
+      "batch_1_short_ttft_ms": 1228.283,
+      "batch_2_short_ttft_ms": 3047.1866666666665
+    },
+    {
+      "round": 2,
+      "system": "baseline",
+      "gap_ms": 250,
+      "requests": 15,
+      "makespan_s": 5.777910000000702,
+      "preemptions": 0,
+      "cross_batch_preemptions": 0,
+      "window_count": 0,
+      "window_sizes": [],
+      "max_client_schedule_deviation_ms": 7.569000001240056,
+      "short_ttft_ms": 2612.790375,
+      "short_e2e_ms": 2911.734375,
+      "medium_ttft_ms": 2941.3493333333336,
+      "medium_e2e_ms": 3218.705,
+      "long_ttft_ms": 3579.2815,
+      "long_e2e_ms": 3888.06475,
+      "batch_0_short_ttft_ms": 1114.4073333333333,
+      "batch_1_short_ttft_ms": 3098.5495,
+      "batch_2_short_ttft_ms": 3787.334
+    },
+    {
+      "round": 2,
+      "system": "baseline",
+      "gap_ms": 500,
+      "requests": 15,
+      "makespan_s": 5.879845000003115,
+      "preemptions": 0,
+      "cross_batch_preemptions": 0,
+      "window_count": 0,
+      "window_sizes": [],
+      "max_client_schedule_deviation_ms": 9.288000001106411,
+      "short_ttft_ms": 2749.129625,
+      "short_e2e_ms": 3012.842125,
+      "medium_ttft_ms": 3576.662,
+      "medium_e2e_ms": 3860.4976666666666,
+      "long_ttft_ms": 3304.4165000000003,
+      "long_e2e_ms": 3615.805,
+      "batch_0_short_ttft_ms": 1188.115,
+      "batch_1_short_ttft_ms": 3555.3590000000004,
+      "batch_2_short_ttft_ms": 3772.658
+    },
+    {
+      "round": 2,
+      "system": "old",
+      "gap_ms": 250,
+      "requests": 15,
+      "makespan_s": 5.450090000002092,
+      "preemptions": 1,
+      "cross_batch_preemptions": 0,
+      "window_count": 0,
+      "window_sizes": [],
+      "max_client_schedule_deviation_ms": 6.889000000228407,
+      "short_ttft_ms": 2625.224125,
+      "short_e2e_ms": 2892.1527499999997,
+      "medium_ttft_ms": 3359.8713333333335,
+      "medium_e2e_ms": 3632.7376666666664,
+      "long_ttft_ms": 2954.10875,
+      "long_e2e_ms": 3260.79575,
+      "batch_0_short_ttft_ms": 1172.4316666666666,
+      "batch_1_short_ttft_ms": 2547.1895,
+      "batch_2_short_ttft_ms": 4130.039666666667
+    },
+    {
+      "round": 2,
+      "system": "old",
+      "gap_ms": 500,
+      "requests": 15,
+      "makespan_s": 5.435226000001421,
+      "preemptions": 2,
+      "cross_batch_preemptions": 0,
+      "window_count": 0,
+      "window_sizes": [],
+      "max_client_schedule_deviation_ms": 7.790999999997439,
+      "short_ttft_ms": 2919.310125,
+      "short_e2e_ms": 3202.670625,
+      "medium_ttft_ms": 3111.7726666666667,
+      "medium_e2e_ms": 3389.695,
+      "long_ttft_ms": 2725.5145,
+      "long_e2e_ms": 3031.0325000000003,
+      "batch_0_short_ttft_ms": 1524.4286666666667,
+      "batch_1_short_ttft_ms": 3391.486,
+      "batch_2_short_ttft_ms": 3999.4076666666665
+    },
+    {
+      "round": 2,
+      "system": "new",
+      "gap_ms": 250,
+      "requests": 15,
+      "makespan_s": 5.329846000000543,
+      "preemptions": 0,
+      "cross_batch_preemptions": 0,
+      "window_count": 3,
+      "window_sizes": [
+        5,
+        5,
+        5
+      ],
+      "max_client_schedule_deviation_ms": 6.683999999950174,
+      "short_ttft_ms": 1859.81975,
+      "short_e2e_ms": 2134.350625,
+      "medium_ttft_ms": 1961.6456666666668,
+      "medium_e2e_ms": 2218.5736666666667,
+      "long_ttft_ms": 3056.38175,
+      "long_e2e_ms": 3360.78025,
+      "batch_0_short_ttft_ms": 435.62966666666665,
+      "batch_1_short_ttft_ms": 1493.7775000000001,
+      "batch_2_short_ttft_ms": 3528.038
+    },
+    {
+      "round": 2,
+      "system": "new",
+      "gap_ms": 500,
+      "requests": 15,
+      "makespan_s": 5.352130999999645,
+      "preemptions": 3,
+      "cross_batch_preemptions": 3,
+      "window_count": 4,
+      "window_sizes": [
+        3,
+        2,
+        5,
+        5
+      ],
+      "max_client_schedule_deviation_ms": 7.684000000153901,
+      "short_ttft_ms": 1466.59625,
+      "short_e2e_ms": 1740.004375,
+      "medium_ttft_ms": 1686.147,
+      "medium_e2e_ms": 1956.0503333333334,
+      "long_ttft_ms": 2853.55525,
+      "long_e2e_ms": 3159.83625,
+      "batch_0_short_ttft_ms": 254.54366666666667,
+      "batch_1_short_ttft_ms": 1202.47,
+      "batch_2_short_ttft_ms": 2854.733
+    },
+    {
+      "round": 3,
+      "system": "baseline",
+      "gap_ms": 250,
+      "requests": 15,
+      "makespan_s": 6.002755000001343,
+      "preemptions": 0,
+      "cross_batch_preemptions": 0,
+      "window_count": 0,
+      "window_sizes": [],
+      "max_client_schedule_deviation_ms": 7.654000000911765,
+      "short_ttft_ms": 2904.205,
+      "short_e2e_ms": 3163.1665,
+      "medium_ttft_ms": 3870.657333333333,
+      "medium_e2e_ms": 4145.944666666666,
+      "long_ttft_ms": 3592.2532499999998,
+      "long_e2e_ms": 3899.6765,
+      "batch_0_short_ttft_ms": 1757.5083333333332,
+      "batch_1_short_ttft_ms": 3058.4475,
+      "batch_2_short_ttft_ms": 3948.0733333333333
+    },
+    {
+      "round": 3,
+      "system": "baseline",
+      "gap_ms": 500,
+      "requests": 15,
+      "makespan_s": 6.003010000000359,
+      "preemptions": 0,
+      "cross_batch_preemptions": 0,
+      "window_count": 0,
+      "window_sizes": [],
+      "max_client_schedule_deviation_ms": 7.048999999824446,
+      "short_ttft_ms": 2167.020625,
+      "short_e2e_ms": 2418.0498749999997,
+      "medium_ttft_ms": 3326.6703333333335,
+      "medium_e2e_ms": 3604.5836666666664,
+      "long_ttft_ms": 3357.43975,
+      "long_e2e_ms": 3665.642,
+      "batch_0_short_ttft_ms": 1209.5829999999999,
+      "batch_1_short_ttft_ms": 1354.5445,
+      "batch_2_short_ttft_ms": 3666.109
+    },
+    {
+      "round": 3,
+      "system": "old",
+      "gap_ms": 250,
+      "requests": 15,
+      "makespan_s": 5.503409000000829,
+      "preemptions": 0,
+      "cross_batch_preemptions": 0,
+      "window_count": 0,
+      "window_sizes": [],
+      "max_client_schedule_deviation_ms": 7.729000000836095,
+      "short_ttft_ms": 2419.551625,
+      "short_e2e_ms": 2678.71175,
+      "medium_ttft_ms": 3012.924,
+      "medium_e2e_ms": 3271.6383333333333,
+      "long_ttft_ms": 2965.1775000000002,
+      "long_e2e_ms": 3272.3835,
+      "batch_0_short_ttft_ms": 761.9646666666666,
+      "batch_1_short_ttft_ms": 2569.0190000000002,
+      "batch_2_short_ttft_ms": 3977.4936666666667
+    },
+    {
+      "round": 3,
+      "system": "old",
+      "gap_ms": 500,
+      "requests": 15,
+      "makespan_s": 5.512426000001142,
+      "preemptions": 2,
+      "cross_batch_preemptions": 0,
+      "window_count": 0,
+      "window_sizes": [],
+      "max_client_schedule_deviation_ms": 12.700999999651685,
+      "short_ttft_ms": 2349.708875,
+      "short_e2e_ms": 2615.177375,
+      "medium_ttft_ms": 2747.9356666666667,
+      "medium_e2e_ms": 3015.5503333333336,
+      "long_ttft_ms": 2747.652,
+      "long_e2e_ms": 3062.103,
+      "batch_0_short_ttft_ms": 686.5516666666666,
+      "batch_1_short_ttft_ms": 3395.068,
+      "batch_2_short_ttft_ms": 3315.96
+    },
+    {
+      "round": 3,
+      "system": "new",
+      "gap_ms": 250,
+      "requests": 15,
+      "makespan_s": 5.370793000001868,
+      "preemptions": 2,
+      "cross_batch_preemptions": 2,
+      "window_count": 4,
+      "window_sizes": [
+        2,
+        3,
+        5,
+        5
+      ],
+      "max_client_schedule_deviation_ms": 6.548000001203036,
+      "short_ttft_ms": 1739.14925,
+      "short_e2e_ms": 2014.87525,
+      "medium_ttft_ms": 1908.2793333333334,
+      "medium_e2e_ms": 2178.4463333333333,
+      "long_ttft_ms": 3085.8075,
+      "long_e2e_ms": 3393.22675,
+      "batch_0_short_ttft_ms": 301.7753333333333,
+      "batch_1_short_ttft_ms": 1452.2525,
+      "batch_2_short_ttft_ms": 3367.7876666666666
+    },
+    {
+      "round": 3,
+      "system": "new",
+      "gap_ms": 500,
+      "requests": 15,
+      "makespan_s": 5.3799030000009225,
+      "preemptions": 0,
+      "cross_batch_preemptions": 0,
+      "window_count": 3,
+      "window_sizes": [
+        5,
+        5,
+        5
+      ],
+      "max_client_schedule_deviation_ms": 5.919999999605352,
+      "short_ttft_ms": 1623.84825,
+      "short_e2e_ms": 1898.035375,
+      "medium_ttft_ms": 1708.4443333333334,
+      "medium_e2e_ms": 1964.2176666666667,
+      "long_ttft_ms": 2832.003,
+      "long_e2e_ms": 3138.3105,
+      "batch_0_short_ttft_ms": 441.6596666666667,
+      "batch_1_short_ttft_ms": 1241.779,
+      "batch_2_short_ttft_ms": 3060.7496666666666
+    }
+  ],
+  "aggregates": [
+    {
+      "gap_ms": 250,
+      "system": "baseline",
+      "repeats": 3,
+      "metrics": {
+        "makespan_s": {
+          "mean": 5.8783490000011325,
+          "sd": 0.11432248826483896
+        },
+        "short_ttft_ms": {
+          "mean": 2796.086875,
+          "sd": 159.59154729089855
+        },
+        "short_e2e_ms": {
+          "mean": 3066.2276666666667,
+          "sd": 135.2365155053783
+        },
+        "medium_ttft_ms": {
+          "mean": 3245.2485555555554,
+          "sd": 541.6914577978389
+        },
+        "medium_e2e_ms": {
+          "mean": 3526.460111111111,
+          "sd": 536.493042601914
+        },
+        "long_ttft_ms": {
+          "mean": 3590.081,
+          "sd": 9.893869639200835
+        },
+        "long_e2e_ms": {
+          "mean": 3897.9385,
+          "sd": 9.129677188296473
+        },
+        "batch_0_short_ttft_ms": {
+          "mean": 1533.9118888888888,
+          "sd": 363.565283064256
+        },
+        "batch_1_short_ttft_ms": {
+          "mean": 2731.6858333333334,
+          "sd": 601.0317128757296
+        },
+        "batch_2_short_ttft_ms": {
+          "mean": 4101.195888888889,
+          "sd": 412.32891826177575
+        }
+      },
+      "preemptions": [
+        0,
+        0,
+        0
+      ],
+      "cross_batch_preemptions": [
+        0,
+        0,
+        0
+      ],
+      "window_sizes": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "gap_ms": 250,
+      "system": "old",
+      "repeats": 3,
+      "metrics": {
+        "makespan_s": {
+          "mean": 5.477945000001152,
+          "sd": 0.026739794332868706
+        },
+        "short_ttft_ms": {
+          "mean": 2684.6359583333333,
+          "sd": 299.24674760151254
+        },
+        "short_e2e_ms": {
+          "mean": 2953.3925,
+          "sd": 309.87288016287835
+        },
+        "medium_ttft_ms": {
+          "mean": 3243.9095555555555,
+          "sd": 200.0399088119206
+        },
+        "medium_e2e_ms": {
+          "mean": 3512.8904444444443,
+          "sd": 208.93190856840664
+        },
+        "long_ttft_ms": {
+          "mean": 2960.621416666667,
+          "sd": 5.787959087263419
+        },
+        "long_e2e_ms": {
+          "mean": 3267.178,
+          "sd": 5.8828176019232545
+        },
+        "batch_0_short_ttft_ms": {
+          "mean": 1152.8686666666667,
+          "sd": 381.498877105818
+        },
+        "batch_1_short_ttft_ms": {
+          "mean": 2716.531,
+          "sd": 274.62016880456906
+        },
+        "batch_2_short_ttft_ms": {
+          "mean": 4195.139888888889,
+          "sd": 256.46975340862633
+        }
+      },
+      "preemptions": [
+        3,
+        1,
+        0
+      ],
+      "cross_batch_preemptions": [
+        0,
+        0,
+        0
+      ],
+      "window_sizes": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "gap_ms": 250,
+      "system": "new",
+      "repeats": 3,
+      "metrics": {
+        "makespan_s": {
+          "mean": 5.355702000000747,
+          "sd": 0.022496180142688692
+        },
+        "short_ttft_ms": {
+          "mean": 1822.33775,
+          "sd": 72.16062291340067
+        },
+        "short_e2e_ms": {
+          "mean": 2096.0917916666667,
+          "sd": 70.37481677977186
+        },
+        "medium_ttft_ms": {
+          "mean": 1939.8352222222222,
+          "sd": 27.986097422218894
+        },
+        "medium_e2e_ms": {
+          "mean": 2200.674666666667,
+          "sd": 20.410979041791318
+        },
+        "long_ttft_ms": {
+          "mean": 3070.337666666667,
+          "sd": 14.771176274110044
+        },
+        "long_e2e_ms": {
+          "mean": 3376.1146666666664,
+          "sd": 16.296131892134195
+        },
+        "batch_0_short_ttft_ms": {
+          "mean": 392.39244444444444,
+          "sd": 78.50405111438754
+        },
+        "batch_1_short_ttft_ms": {
+          "mean": 1476.6445,
+          "sd": 21.693344993338403
+        },
+        "batch_2_short_ttft_ms": {
+          "mean": 3482.7452222222223,
+          "sd": 100.29919381770463
+        }
+      },
+      "preemptions": [
+        0,
+        0,
+        2
+      ],
+      "cross_batch_preemptions": [
+        0,
+        0,
+        2
+      ],
+      "window_sizes": [
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          2,
+          3,
+          5,
+          5
+        ]
+      ]
+    },
+    {
+      "gap_ms": 500,
+      "system": "baseline",
+      "repeats": 3,
+      "metrics": {
+        "makespan_s": {
+          "mean": 5.9527770000010305,
+          "sd": 0.06464393054867648
+        },
+        "short_ttft_ms": {
+          "mean": 2440.2454166666666,
+          "sd": 292.688259873889
+        },
+        "short_e2e_ms": {
+          "mean": 2695.2962916666665,
+          "sd": 299.4369506302971
+        },
+        "medium_ttft_ms": {
+          "mean": 3477.745111111111,
+          "sd": 132.90708175527612
+        },
+        "medium_e2e_ms": {
+          "mean": 3757.076111111111,
+          "sd": 134.8293660567286
+        },
+        "long_ttft_ms": {
+          "mean": 3357.4380833333335,
+          "sd": 53.0207500196463
+        },
+        "long_e2e_ms": {
+          "mean": 3665.2779166666664,
+          "sd": 49.291883467472076
+        },
+        "batch_0_short_ttft_ms": {
+          "mean": 1211.4737777777777,
+          "sd": 24.359265132897903
+        },
+        "batch_1_short_ttft_ms": {
+          "mean": 2244.263,
+          "sd": 1159.3383302480129
+        },
+        "batch_2_short_ttft_ms": {
+          "mean": 3799.672,
+          "sd": 148.91911243020505
+        }
+      },
+      "preemptions": [
+        0,
+        0,
+        0
+      ],
+      "cross_batch_preemptions": [
+        0,
+        0,
+        0
+      ],
+      "window_sizes": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "gap_ms": 500,
+      "system": "old",
+      "repeats": 3,
+      "metrics": {
+        "makespan_s": {
+          "mean": 5.4638643333334285,
+          "sd": 0.042280780602934415
+        },
+        "short_ttft_ms": {
+          "mean": 2588.3759166666664,
+          "sd": 295.7977662760683
+        },
+        "short_e2e_ms": {
+          "mean": 2857.722291666667,
+          "sd": 306.84185586006004
+        },
+        "medium_ttft_ms": {
+          "mean": 2988.856333333333,
+          "sd": 208.6578722606298
+        },
+        "medium_e2e_ms": {
+          "mean": 3258.5563333333334,
+          "sd": 210.66984382941726
+        },
+        "long_ttft_ms": {
+          "mean": 2713.7785833333332,
+          "sd": 41.02043017687456
+        },
+        "long_e2e_ms": {
+          "mean": 3023.2328333333335,
+          "sd": 43.300103926934554
+        },
+        "batch_0_short_ttft_ms": {
+          "mean": 1301.4976666666666,
+          "sd": 539.2274909080583
+        },
+        "batch_1_short_ttft_ms": {
+          "mean": 2842.6150000000002,
+          "sd": 953.7762433679085
+        },
+        "batch_2_short_ttft_ms": {
+          "mean": 3705.7614444444444,
+          "sd": 351.7236817993372
+        }
+      },
+      "preemptions": [
+        0,
+        2,
+        2
+      ],
+      "cross_batch_preemptions": [
+        0,
+        0,
+        0
+      ],
+      "window_sizes": [
+        [],
+        [],
+        []
+      ]
+    },
+    {
+      "gap_ms": 500,
+      "system": "new",
+      "repeats": 3,
+      "metrics": {
+        "makespan_s": {
+          "mean": 5.356027666667312,
+          "sd": 0.022185160295328778
+        },
+        "short_ttft_ms": {
+          "mean": 1566.4132083333334,
+          "sd": 86.77106672880775
+        },
+        "short_e2e_ms": {
+          "mean": 1839.3851666666667,
+          "sd": 86.53140790635042
+        },
+        "medium_ttft_ms": {
+          "mean": 1690.2774444444444,
+          "sd": 16.494214074211808
+        },
+        "medium_e2e_ms": {
+          "mean": 1951.793111111111,
+          "sd": 15.012914967281201
+        },
+        "long_ttft_ms": {
+          "mean": 2831.103666666667,
+          "sd": 22.914489998597578
+        },
+        "long_e2e_ms": {
+          "mean": 3136.1779166666665,
+          "sd": 24.793507520031064
+        },
+        "batch_0_short_ttft_ms": {
+          "mean": 373.4272222222222,
+          "sd": 103.33078271547444
+        },
+        "batch_1_short_ttft_ms": {
+          "mean": 1224.1773333333333,
+          "sd": 19.97352608663108
+        },
+        "batch_2_short_ttft_ms": {
+          "mean": 2987.5564444444444,
+          "sd": 115.22820526162323
+        }
+      },
+      "preemptions": [
+        0,
+        3,
+        0
+      ],
+      "cross_batch_preemptions": [
+        0,
+        3,
+        0
+      ],
+      "window_sizes": [
+        [
+          5,
+          5,
+          5
+        ],
+        [
+          3,
+          2,
+          5,
+          5
+        ],
+        [
+          5,
+          5,
+          5
+        ]
+      ]
+    }
+  ],
+  "admission_windows": [
+    {
+      "round": 1,
+      "system": "baseline",
+      "gap_ms": 250,
+      "windows": []
+    },
+    {
+      "round": 1,
+      "system": "baseline",
+      "gap_ms": 500,
+      "windows": []
+    },
+    {
+      "round": 1,
+      "system": "old",
+      "gap_ms": 250,
+      "windows": []
+    },
+    {
+      "round": 1,
+      "system": "old",
+      "gap_ms": 500,
+      "windows": []
+    },
+    {
+      "round": 1,
+      "system": "new",
+      "gap_ms": 250,
+      "windows": [
+        [
+          {
+            "window": 6,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-00-short-run-1-gap-250-0-b39807e2",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31482.715108769,
+            "deadline_monotonic": 31482.735108769,
+            "released_monotonic": 31482.735488261,
+            "wait_ms": 20.37949200166622
+          },
+          {
+            "window": 6,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-02-short-run-1-gap-250-0-b2d1fe40",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31482.723249833,
+            "deadline_monotonic": 31482.735108769,
+            "released_monotonic": 31482.735488261,
+            "wait_ms": 12.238428000273416
+          },
+          {
+            "window": 6,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-04-short-run-1-gap-250-0-aec40ab1",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31482.723268283,
+            "deadline_monotonic": 31482.735108769,
+            "released_monotonic": 31482.735488261,
+            "wait_ms": 12.219978001667187
+          },
+          {
+            "window": 6,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-03-medium-run-1-gap-250-0-974963d2",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31482.723195292,
+            "deadline_monotonic": 31482.735108769,
+            "released_monotonic": 31482.735488261,
+            "wait_ms": 12.292969000554876
+          },
+          {
+            "window": 6,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-01-long-run-1-gap-250-0-99cf5b11",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31482.723229153,
+            "deadline_monotonic": 31482.735108769,
+            "released_monotonic": 31482.735488261,
+            "wait_ms": 12.259107999852858
+          }
+        ],
+        [
+          {
+            "window": 7,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-06-short-run-1-gap-250-0-a2810628",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31483.144025041,
+            "deadline_monotonic": 31483.16398655,
+            "released_monotonic": 31483.35245725,
+            "wait_ms": 208.43220899769221
+          },
+          {
+            "window": 7,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-08-short-run-1-gap-250-0-8496946b",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31483.144063282,
+            "deadline_monotonic": 31483.16398655,
+            "released_monotonic": 31483.35245725,
+            "wait_ms": 208.39396799783572
+          },
+          {
+            "window": 7,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-09-medium-run-1-gap-250-0-8a211ca4",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31483.144080282,
+            "deadline_monotonic": 31483.16398655,
+            "released_monotonic": 31483.35245725,
+            "wait_ms": 208.37696799935657
+          },
+          {
+            "window": 7,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-05-long-run-1-gap-250-0-87eaf7de",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31483.14398655,
+            "deadline_monotonic": 31483.16398655,
+            "released_monotonic": 31483.35245725,
+            "wait_ms": 208.47069999945234
+          },
+          {
+            "window": 7,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-07-long-run-1-gap-250-0-a7b47f7d",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31483.144045652,
+            "deadline_monotonic": 31483.16398655,
+            "released_monotonic": 31483.35245725,
+            "wait_ms": 208.4115979996568
+          }
+        ],
+        [
+          {
+            "window": 8,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-10-short-run-1-gap-250-0-99eda8f5",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31483.352339248,
+            "deadline_monotonic": 31483.372339248,
+            "released_monotonic": 31483.57673386,
+            "wait_ms": 224.39461200337973
+          },
+          {
+            "window": 8,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-12-short-run-1-gap-250-0-be95b09f",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31483.352380429,
+            "deadline_monotonic": 31483.372339248,
+            "released_monotonic": 31483.57673386,
+            "wait_ms": 224.35343100005412
+          },
+          {
+            "window": 8,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-14-short-run-1-gap-250-0-bd69ec57",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31483.35243536,
+            "deadline_monotonic": 31483.372339248,
+            "released_monotonic": 31483.57673386,
+            "wait_ms": 224.29850000116858
+          },
+          {
+            "window": 8,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-13-medium-run-1-gap-250-0-b0d112b2",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31483.3524185,
+            "deadline_monotonic": 31483.372339248,
+            "released_monotonic": 31483.57673386,
+            "wait_ms": 224.31536000294727
+          },
+          {
+            "window": 8,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-11-long-run-1-gap-250-0-9f1db0d9",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31483.352400449,
+            "deadline_monotonic": 31483.372339248,
+            "released_monotonic": 31483.57673386,
+            "wait_ms": 224.33341100258986
+          }
+        ]
+      ]
+    },
+    {
+      "round": 1,
+      "system": "new",
+      "gap_ms": 500,
+      "windows": [
+        [
+          {
+            "window": 9,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-02-short-run-1-gap-500-0-9d71de8e",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31490.234522854,
+            "deadline_monotonic": 31490.254522854,
+            "released_monotonic": 31490.255722437,
+            "wait_ms": 21.199582999543054
+          },
+          {
+            "window": 9,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-04-short-run-1-gap-500-0-8a1548d6",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31490.250444742,
+            "deadline_monotonic": 31490.254522854,
+            "released_monotonic": 31490.255722437,
+            "wait_ms": 5.277694999676896
+          },
+          {
+            "window": 9,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-00-short-run-1-gap-500-0-96f395b8",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31490.250480633,
+            "deadline_monotonic": 31490.254522854,
+            "released_monotonic": 31490.255722437,
+            "wait_ms": 5.2418039995245636
+          },
+          {
+            "window": 9,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-03-medium-run-1-gap-500-0-a481899b",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31490.244103776,
+            "deadline_monotonic": 31490.254522854,
+            "released_monotonic": 31490.255722437,
+            "wait_ms": 11.618660999374697
+          },
+          {
+            "window": 9,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-01-long-run-1-gap-500-0-b1407905",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31490.250499244,
+            "deadline_monotonic": 31490.254522854,
+            "released_monotonic": 31490.255722437,
+            "wait_ms": 5.223192998528248
+          }
+        ],
+        [
+          {
+            "window": 10,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-06-short-run-1-gap-500-0-91a3238b",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31490.874190818,
+            "deadline_monotonic": 31490.894124907,
+            "released_monotonic": 31491.098067669,
+            "wait_ms": 223.87685099965893
+          },
+          {
+            "window": 10,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-08-short-run-1-gap-500-0-8f75fa85",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31490.874229909,
+            "deadline_monotonic": 31490.894124907,
+            "released_monotonic": 31491.098067669,
+            "wait_ms": 223.83776000060607
+          },
+          {
+            "window": 10,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-09-medium-run-1-gap-500-0-bcc9d11b",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31490.874249509,
+            "deadline_monotonic": 31490.894124907,
+            "released_monotonic": 31491.098067669,
+            "wait_ms": 223.81816000051913
+          },
+          {
+            "window": 10,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-05-long-run-1-gap-500-0-8ee408b6",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31490.874124907,
+            "deadline_monotonic": 31490.894124907,
+            "released_monotonic": 31491.098067669,
+            "wait_ms": 223.94276200066088
+          },
+          {
+            "window": 10,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-07-long-run-1-gap-500-0-9a43a9ce",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31490.874211959,
+            "deadline_monotonic": 31490.894124907,
+            "released_monotonic": 31491.098067669,
+            "wait_ms": 223.855710002681
+          }
+        ],
+        [
+          {
+            "window": 11,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-10-short-run-1-gap-500-0-be88063d",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31491.335802417,
+            "deadline_monotonic": 31491.355802417,
+            "released_monotonic": 31491.5683082,
+            "wait_ms": 232.50578299848712
+          },
+          {
+            "window": 11,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-12-short-run-1-gap-500-0-97b2d5dd",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31491.335837798,
+            "deadline_monotonic": 31491.355802417,
+            "released_monotonic": 31491.5683082,
+            "wait_ms": 232.4704019993078
+          },
+          {
+            "window": 11,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-14-short-run-1-gap-500-0-b182d9a2",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31491.335856788,
+            "deadline_monotonic": 31491.355802417,
+            "released_monotonic": 31491.5683082,
+            "wait_ms": 232.45141200095532
+          },
+          {
+            "window": 11,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-13-medium-run-1-gap-500-0-9b96c3d7",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31491.335873828,
+            "deadline_monotonic": 31491.355802417,
+            "released_monotonic": 31491.5683082,
+            "wait_ms": 232.4343719992612
+          },
+          {
+            "window": 11,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-11-long-run-1-gap-500-0-b9482b68",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31491.335892259,
+            "deadline_monotonic": 31491.355802417,
+            "released_monotonic": 31491.5683082,
+            "wait_ms": 232.4159409981803
+          }
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "system": "baseline",
+      "gap_ms": 250,
+      "windows": []
+    },
+    {
+      "round": 2,
+      "system": "baseline",
+      "gap_ms": 500,
+      "windows": []
+    },
+    {
+      "round": 2,
+      "system": "old",
+      "gap_ms": 250,
+      "windows": []
+    },
+    {
+      "round": 2,
+      "system": "old",
+      "gap_ms": 500,
+      "windows": []
+    },
+    {
+      "round": 2,
+      "system": "new",
+      "gap_ms": 250,
+      "windows": [
+        [
+          {
+            "window": 10,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-00-short-run-1-gap-250-0-a9ffd44b",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31667.152829132,
+            "deadline_monotonic": 31667.17272221,
+            "released_monotonic": 31667.174387436,
+            "wait_ms": 21.558304000791395
+          },
+          {
+            "window": 10,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-02-short-run-1-gap-250-0-ab21db58",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31667.155106234,
+            "deadline_monotonic": 31667.17272221,
+            "released_monotonic": 31667.174387436,
+            "wait_ms": 19.281201999547193
+          },
+          {
+            "window": 10,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-04-short-run-1-gap-250-0-aa6c19c5",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31667.155157885,
+            "deadline_monotonic": 31667.17272221,
+            "released_monotonic": 31667.174387436,
+            "wait_ms": 19.22955099871615
+          },
+          {
+            "window": 10,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-03-medium-run-1-gap-250-0-866ca525",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31667.155137874,
+            "deadline_monotonic": 31667.17272221,
+            "released_monotonic": 31667.174387436,
+            "wait_ms": 19.24956199945882
+          },
+          {
+            "window": 10,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-01-long-run-1-gap-250-0-a3e6f46e",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31667.15272221,
+            "deadline_monotonic": 31667.17272221,
+            "released_monotonic": 31667.174387436,
+            "wait_ms": 21.66522599873133
+          }
+        ],
+        [
+          {
+            "window": 11,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-06-short-run-1-gap-250-0-90b6d07a",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31667.573266857,
+            "deadline_monotonic": 31667.593242437,
+            "released_monotonic": 31667.782777726,
+            "wait_ms": 209.51086899731308
+          },
+          {
+            "window": 11,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-08-short-run-1-gap-250-0-a3242c81",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31667.573294948,
+            "deadline_monotonic": 31667.593242437,
+            "released_monotonic": 31667.782777726,
+            "wait_ms": 209.48277799834614
+          },
+          {
+            "window": 11,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-09-medium-run-1-gap-250-0-a7ffe4e0",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31667.573285938,
+            "deadline_monotonic": 31667.593242437,
+            "released_monotonic": 31667.782777726,
+            "wait_ms": 209.49178799855872
+          },
+          {
+            "window": 11,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-05-long-run-1-gap-250-0-8df48db1",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31667.573242437,
+            "deadline_monotonic": 31667.593242437,
+            "released_monotonic": 31667.782777726,
+            "wait_ms": 209.53528899917728
+          },
+          {
+            "window": 11,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-07-long-run-1-gap-250-0-bf39e265",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31667.573276737,
+            "deadline_monotonic": 31667.593242437,
+            "released_monotonic": 31667.782777726,
+            "wait_ms": 209.50098899993463
+          }
+        ],
+        [
+          {
+            "window": 12,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-10-short-run-1-gap-250-0-8ec7443b",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31667.782660944,
+            "deadline_monotonic": 31667.802660944002,
+            "released_monotonic": 31668.006498153,
+            "wait_ms": 223.8372089996119
+          },
+          {
+            "window": 12,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-12-short-run-1-gap-250-0-894f7b5b",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31667.782700405,
+            "deadline_monotonic": 31667.802660944002,
+            "released_monotonic": 31668.006498153,
+            "wait_ms": 223.79774799992447
+          },
+          {
+            "window": 12,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-14-short-run-1-gap-250-0-9b9c7dce",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31667.782755466,
+            "deadline_monotonic": 31667.802660944002,
+            "released_monotonic": 31668.006498153,
+            "wait_ms": 223.74268700150424
+          },
+          {
+            "window": 12,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-13-medium-run-1-gap-250-0-9feb3ffb",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31667.782720205,
+            "deadline_monotonic": 31667.802660944002,
+            "released_monotonic": 31668.006498153,
+            "wait_ms": 223.7779480019526
+          },
+          {
+            "window": 12,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-11-long-run-1-gap-250-0-92491c12",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31667.782738315,
+            "deadline_monotonic": 31667.802660944002,
+            "released_monotonic": 31668.006498153,
+            "wait_ms": 223.75983800156973
+          }
+        ]
+      ]
+    },
+    {
+      "round": 2,
+      "system": "new",
+      "gap_ms": 500,
+      "windows": [
+        [
+          {
+            "window": 6,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-00-short-run-1-gap-500-0-a84bb398",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31659.6247725,
+            "deadline_monotonic": 31659.6447725,
+            "released_monotonic": 31659.650557609,
+            "wait_ms": 25.785108999116346
+          },
+          {
+            "window": 6,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-02-short-run-1-gap-500-0-95379c06",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31659.643250045,
+            "deadline_monotonic": 31659.6447725,
+            "released_monotonic": 31659.650557609,
+            "wait_ms": 7.307563999347622
+          },
+          {
+            "window": 6,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-04-short-run-1-gap-500-0-ab91a6ae",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31659.644685445,
+            "deadline_monotonic": 31659.6447725,
+            "released_monotonic": 31659.650557609,
+            "wait_ms": 5.872163997992175
+          }
+        ],
+        [
+          {
+            "window": 7,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-03-medium-run-1-gap-500-0-869976ca",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31659.650543999,
+            "deadline_monotonic": 31659.670526239,
+            "released_monotonic": 31659.704361199,
+            "wait_ms": 53.81720000150381
+          },
+          {
+            "window": 7,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-01-long-run-1-gap-500-0-8dd9480a",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31659.650526239,
+            "deadline_monotonic": 31659.670526239,
+            "released_monotonic": 31659.704361199,
+            "wait_ms": 53.83496000285959
+          }
+        ],
+        [
+          {
+            "window": 8,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-06-short-run-1-gap-500-0-b1e15fda",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31660.329340818,
+            "deadline_monotonic": 31660.349302787,
+            "released_monotonic": 31660.555696823,
+            "wait_ms": 226.35600500143482
+          },
+          {
+            "window": 8,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-08-short-run-1-gap-500-0-8b30ecbc",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31660.329378538,
+            "deadline_monotonic": 31660.349302787,
+            "released_monotonic": 31660.555696823,
+            "wait_ms": 226.31828500016127
+          },
+          {
+            "window": 8,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-09-medium-run-1-gap-500-0-8f27dee3",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31660.329360948,
+            "deadline_monotonic": 31660.349302787,
+            "released_monotonic": 31660.555696823,
+            "wait_ms": 226.33587500240537
+          },
+          {
+            "window": 8,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-05-long-run-1-gap-500-0-b52b7483",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31660.329302787,
+            "deadline_monotonic": 31660.349302787,
+            "released_monotonic": 31660.555696823,
+            "wait_ms": 226.39403600260266
+          },
+          {
+            "window": 8,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-07-long-run-1-gap-500-0-82bc5c3b",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31660.329399229,
+            "deadline_monotonic": 31660.349302787,
+            "released_monotonic": 31660.555696823,
+            "wait_ms": 226.2975940029719
+          }
+        ],
+        [
+          {
+            "window": 9,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-14-short-run-1-gap-500-0-aeca6f54",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31660.796555431,
+            "deadline_monotonic": 31660.816555431,
+            "released_monotonic": 31661.021315055,
+            "wait_ms": 224.7596240013081
+          },
+          {
+            "window": 9,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-10-short-run-1-gap-500-0-ba3eb4b7",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31660.796592791,
+            "deadline_monotonic": 31660.816555431,
+            "released_monotonic": 31661.021315055,
+            "wait_ms": 224.7222639998654
+          },
+          {
+            "window": 9,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-12-short-run-1-gap-500-0-b927e2e6",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31660.796652262,
+            "deadline_monotonic": 31660.816555431,
+            "released_monotonic": 31661.021315055,
+            "wait_ms": 224.66279299987946
+          },
+          {
+            "window": 9,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-13-medium-run-1-gap-500-0-b75a04e8",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31660.796612292,
+            "deadline_monotonic": 31660.816555431,
+            "released_monotonic": 31661.021315055,
+            "wait_ms": 224.70276300009573
+          },
+          {
+            "window": 9,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-11-long-run-1-gap-500-0-bd5cfafe",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31660.796630462,
+            "deadline_monotonic": 31660.816555431,
+            "released_monotonic": 31661.021315055,
+            "wait_ms": 224.68459300216637
+          }
+        ]
+      ]
+    },
+    {
+      "round": 3,
+      "system": "baseline",
+      "gap_ms": 250,
+      "windows": []
+    },
+    {
+      "round": 3,
+      "system": "baseline",
+      "gap_ms": 500,
+      "windows": []
+    },
+    {
+      "round": 3,
+      "system": "old",
+      "gap_ms": 250,
+      "windows": []
+    },
+    {
+      "round": 3,
+      "system": "old",
+      "gap_ms": 500,
+      "windows": []
+    },
+    {
+      "round": 3,
+      "system": "new",
+      "gap_ms": 250,
+      "windows": [
+        [
+          {
+            "window": 6,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-00-short-run-1-gap-250-0-b954edd2",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31838.322222174,
+            "deadline_monotonic": 31838.342222174,
+            "released_monotonic": 31838.343227925,
+            "wait_ms": 21.005751001212047
+          },
+          {
+            "window": 6,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-02-short-run-1-gap-250-0-9c6472f1",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31838.329611018,
+            "deadline_monotonic": 31838.342222174,
+            "released_monotonic": 31838.343227925,
+            "wait_ms": 13.616906999232015
+          }
+        ],
+        [
+          {
+            "window": 7,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-04-short-run-1-gap-250-0-b905a370",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31838.343205894,
+            "deadline_monotonic": 31838.363152544,
+            "released_monotonic": 31838.369308157,
+            "wait_ms": 26.10226300021168
+          },
+          {
+            "window": 7,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-03-medium-run-1-gap-250-0-8fe8db4a",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31838.343186324,
+            "deadline_monotonic": 31838.363152544,
+            "released_monotonic": 31838.369308157,
+            "wait_ms": 26.121833001525374
+          },
+          {
+            "window": 7,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-01-long-run-1-gap-250-0-9c56370c",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31838.343152544,
+            "deadline_monotonic": 31838.363152544,
+            "released_monotonic": 31838.369308157,
+            "wait_ms": 26.155613002629252
+          }
+        ],
+        [
+          {
+            "window": 8,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-06-short-run-1-gap-250-0-8f87471b",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31838.78050184,
+            "deadline_monotonic": 31838.80050184,
+            "released_monotonic": 31838.992259244,
+            "wait_ms": 211.75740400212817
+          },
+          {
+            "window": 8,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-08-short-run-1-gap-250-0-94889226",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31838.78053696,
+            "deadline_monotonic": 31838.80050184,
+            "released_monotonic": 31838.992259244,
+            "wait_ms": 211.7222840024624
+          },
+          {
+            "window": 8,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-09-medium-run-1-gap-250-0-968b97b8",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31838.7805564,
+            "deadline_monotonic": 31838.80050184,
+            "released_monotonic": 31838.992259244,
+            "wait_ms": 211.7028440006834
+          },
+          {
+            "window": 8,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-05-long-run-1-gap-250-0-bcab074d",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31838.78057724,
+            "deadline_monotonic": 31838.80050184,
+            "released_monotonic": 31838.992259244,
+            "wait_ms": 211.68200400279602
+          },
+          {
+            "window": 8,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-07-long-run-1-gap-250-0-946cc6b5",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31838.78059467,
+            "deadline_monotonic": 31838.80050184,
+            "released_monotonic": 31838.992259244,
+            "wait_ms": 211.66457400249783
+          }
+        ],
+        [
+          {
+            "window": 9,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-10-short-run-1-gap-250-0-98c3961c",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31838.992141233,
+            "deadline_monotonic": 31839.012141233,
+            "released_monotonic": 31839.217885269,
+            "wait_ms": 225.74403600083315
+          },
+          {
+            "window": 9,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-12-short-run-1-gap-250-0-993408b4",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31838.992198424,
+            "deadline_monotonic": 31839.012141233,
+            "released_monotonic": 31839.217885269,
+            "wait_ms": 225.68684500220115
+          },
+          {
+            "window": 9,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-14-short-run-1-gap-250-0-b24f2c1a",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31838.992235824,
+            "deadline_monotonic": 31839.012141233,
+            "released_monotonic": 31839.217885269,
+            "wait_ms": 225.64944500118145
+          },
+          {
+            "window": 9,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-13-medium-run-1-gap-250-0-a00f30ae",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31838.992177904,
+            "deadline_monotonic": 31839.012141233,
+            "released_monotonic": 31839.217885269,
+            "wait_ms": 225.70736499983468
+          },
+          {
+            "window": 9,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-11-long-run-1-gap-250-0-b8974a74",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31838.992218324,
+            "deadline_monotonic": 31839.012141233,
+            "released_monotonic": 31839.217885269,
+            "wait_ms": 225.66694499982987
+          }
+        ]
+      ]
+    },
+    {
+      "round": 3,
+      "system": "new",
+      "gap_ms": 500,
+      "windows": [
+        [
+          {
+            "window": 10,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-00-short-run-1-gap-500-0-a2256b51",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31845.877379421,
+            "deadline_monotonic": 31845.894170398,
+            "released_monotonic": 31845.895663681,
+            "wait_ms": 18.284260000655195
+          },
+          {
+            "window": 10,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-02-short-run-1-gap-500-0-83ecb2fa",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31845.877412351,
+            "deadline_monotonic": 31845.894170398,
+            "released_monotonic": 31845.895663681,
+            "wait_ms": 18.25132999874768
+          },
+          {
+            "window": 10,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-04-short-run-1-gap-500-0-bedd14f7",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31845.877447901,
+            "deadline_monotonic": 31845.894170398,
+            "released_monotonic": 31845.895663681,
+            "wait_ms": 18.21578000090085
+          },
+          {
+            "window": 10,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-03-medium-run-1-gap-500-0-9a625f85",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31845.877430321,
+            "deadline_monotonic": 31845.894170398,
+            "released_monotonic": 31845.895663681,
+            "wait_ms": 18.233359998703236
+          },
+          {
+            "window": 10,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-01-long-run-1-gap-500-0-97d20433",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31845.874170398,
+            "deadline_monotonic": 31845.894170398,
+            "released_monotonic": 31845.895663681,
+            "wait_ms": 21.49328299856279
+          }
+        ],
+        [
+          {
+            "window": 11,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-06-short-run-1-gap-500-0-b4160db5",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31846.510043493,
+            "deadline_monotonic": 31846.530043493,
+            "released_monotonic": 31846.735485473,
+            "wait_ms": 225.44198000105098
+          },
+          {
+            "window": 11,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-08-short-run-1-gap-500-0-8f39f22b",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31846.510122204,
+            "deadline_monotonic": 31846.530043493,
+            "released_monotonic": 31846.735485473,
+            "wait_ms": 225.36326900080894
+          },
+          {
+            "window": 11,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-09-medium-run-1-gap-500-0-8849e986",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31846.510138864,
+            "deadline_monotonic": 31846.530043493,
+            "released_monotonic": 31846.735485473,
+            "wait_ms": 225.34660900055314
+          },
+          {
+            "window": 11,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-07-long-run-1-gap-500-0-a6a5c513",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31846.510082893,
+            "deadline_monotonic": 31846.530043493,
+            "released_monotonic": 31846.735485473,
+            "wait_ms": 225.4025799993542
+          },
+          {
+            "window": 11,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-05-long-run-1-gap-500-0-bbd1be11",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31846.510104293,
+            "deadline_monotonic": 31846.530043493,
+            "released_monotonic": 31846.735485473,
+            "wait_ms": 225.3811800001131
+          }
+        ],
+        [
+          {
+            "window": 12,
+            "rank": 0,
+            "request_id": "cmpl-interleaved15-10-short-run-1-gap-500-0-8a11d196",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31846.976043878,
+            "deadline_monotonic": 31846.995962778,
+            "released_monotonic": 31847.208802558,
+            "wait_ms": 232.75868000200717
+          },
+          {
+            "window": 12,
+            "rank": 1,
+            "request_id": "cmpl-interleaved15-12-short-run-1-gap-500-0-9760235a",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31846.976078199,
+            "deadline_monotonic": 31846.995962778,
+            "released_monotonic": 31847.208802558,
+            "wait_ms": 232.72435900071287
+          },
+          {
+            "window": 12,
+            "rank": 2,
+            "request_id": "cmpl-interleaved15-14-short-run-1-gap-500-0-925ec75b",
+            "prompt_tokens": 128,
+            "arrived_monotonic": 31846.976133839,
+            "deadline_monotonic": 31846.995962778,
+            "released_monotonic": 31847.208802558,
+            "wait_ms": 232.6687189997756
+          },
+          {
+            "window": 12,
+            "rank": 3,
+            "request_id": "cmpl-interleaved15-13-medium-run-1-gap-500-0-aa60f2a8",
+            "prompt_tokens": 1107,
+            "arrived_monotonic": 31846.976106529,
+            "deadline_monotonic": 31846.995962778,
+            "released_monotonic": 31847.208802558,
+            "wait_ms": 232.6960290010902
+          },
+          {
+            "window": 12,
+            "rank": 4,
+            "request_id": "cmpl-interleaved15-11-long-run-1-gap-500-0-a2c1fa0b",
+            "prompt_tokens": 10000,
+            "arrived_monotonic": 31846.975962778,
+            "deadline_monotonic": 31846.995962778,
+            "released_monotonic": 31847.208802558,
+            "wait_ms": 232.83978000108618
+          }
+        ]
+      ]
+    }
+  ]
+}

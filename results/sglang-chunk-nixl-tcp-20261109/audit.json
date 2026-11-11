@@ -1,0 +1,157 @@
+{
+  "workload_sha256": "714990980c49534e539a125612ce1c8d36c68ac75a559e4bce93dabcb7ee9e14",
+  "systems": {
+    "vllm-baseline": {
+      "runs": [
+        {
+          "run": "run-1",
+          "requests": 15,
+          "input_replay_verified": false,
+          "arrival_span_s": 1.4222120000003997,
+          "max_client_queue_ms": 2.65
+        },
+        {
+          "run": "run-2",
+          "requests": 15,
+          "input_replay_verified": false,
+          "arrival_span_s": 1.4230070000003252,
+          "max_client_queue_ms": 2.681
+        },
+        {
+          "run": "run-3",
+          "requests": 15,
+          "input_replay_verified": false,
+          "arrival_span_s": 1.4214750000001004,
+          "max_client_queue_ms": 2.676
+        }
+      ],
+      "stable_output_inputs": 15
+    },
+    "vllm-full": {
+      "runs": [
+        {
+          "run": "run-1",
+          "requests": 15,
+          "input_replay_verified": true,
+          "arrival_span_s": 1.4222369999988587,
+          "max_client_queue_ms": 2.736
+        },
+        {
+          "run": "run-2",
+          "requests": 15,
+          "input_replay_verified": true,
+          "arrival_span_s": 1.4215580000000045,
+          "max_client_queue_ms": 2.89
+        },
+        {
+          "run": "run-3",
+          "requests": 15,
+          "input_replay_verified": true,
+          "arrival_span_s": 1.4208220000000438,
+          "max_client_queue_ms": 2.739
+        }
+      ],
+      "stable_output_inputs": 15
+    },
+    "sglang": {
+      "runs": [
+        {
+          "run": "run-1",
+          "requests": 15,
+          "input_replay_verified": true,
+          "arrival_span_s": 1.4198489999998856,
+          "max_client_queue_ms": 2.561
+        },
+        {
+          "run": "run-2",
+          "requests": 15,
+          "input_replay_verified": true,
+          "arrival_span_s": 1.4212690000003931,
+          "max_client_queue_ms": 2.624
+        },
+        {
+          "run": "run-3",
+          "requests": 15,
+          "input_replay_verified": true,
+          "arrival_span_s": 1.4193220000015572,
+          "max_client_queue_ms": 2.579
+        }
+      ],
+      "stable_output_inputs": 15
+    }
+  },
+  "vllm_output_matches": 15,
+  "sglang_different_output_inputs": [
+    "interleaved15-06-short",
+    "interleaved15-07-long"
+  ],
+  "full_preemption_events": {
+    "run-1": [
+      {
+        "long_request": "cmpl-interleaved15-01-long-run-1-0-b56c746d",
+        "progress": 0.8192
+      },
+      {
+        "long_request": "cmpl-interleaved15-11-long-run-1-0-bfe93ab7",
+        "progress": 0.8064
+      }
+    ],
+    "run-2": [
+      {
+        "long_request": "cmpl-interleaved15-01-long-run-2-0-a87ce51e",
+        "progress": 0.8192
+      },
+      {
+        "long_request": "cmpl-interleaved15-11-long-run-2-0-afe1db91",
+        "progress": 0.8064
+      }
+    ],
+    "run-3": [
+      {
+        "long_request": "cmpl-interleaved15-01-long-run-3-0-b7fc6768",
+        "progress": 0.8192
+      },
+      {
+        "long_request": "cmpl-interleaved15-11-long-run-3-0-8820b127",
+        "progress": 0.8064
+      }
+    ]
+  },
+  "sglang_smoke": {
+    "successful_chunks": 12,
+    "formal_long_chunk_windows": [
+      {
+        "chunk_id": 0,
+        "pages": 128,
+        "write_to_completion_ms": 761.2223019987141,
+        "overlap_with_prefill_gpu_forward_ms": 758.5609851230402
+      },
+      {
+        "chunk_id": 1,
+        "pages": 128,
+        "write_to_completion_ms": 122.88016400088964,
+        "overlap_with_prefill_gpu_forward_ms": 122.88016400088964
+      },
+      {
+        "chunk_id": 2,
+        "pages": 128,
+        "write_to_completion_ms": 124.24933900001633,
+        "overlap_with_prefill_gpu_forward_ms": 12.692942247667816
+      },
+      {
+        "chunk_id": 3,
+        "pages": 128,
+        "write_to_completion_ms": 124.98796500040044,
+        "overlap_with_prefill_gpu_forward_ms": 0
+      },
+      {
+        "chunk_id": 4,
+        "pages": 113,
+        "write_to_completion_ms": 110.5110299995431,
+        "overlap_with_prefill_gpu_forward_ms": 0
+      }
+    ],
+    "checksum_enabled": true,
+    "checksum_mismatch_log_count": 0
+  }
+}

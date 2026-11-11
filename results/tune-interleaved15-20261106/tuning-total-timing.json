@@ -1,0 +1,117 @@
+{
+  "start_unix_s": 1793939496.911025,
+  "end_unix_s": 1793942039.4255586,
+  "total_grid_wall_s": 2542.514533519745,
+  "completed_parameter_points": 27,
+  "points": [
+    {
+      "tag": "c4-p1-x0.70-w100",
+      "total_sweep_wall_s": 91.87565279006958
+    },
+    {
+      "tag": "c4-p1-x0.70-w25",
+      "total_sweep_wall_s": 91.05851602554321
+    },
+    {
+      "tag": "c4-p1-x0.70-w50",
+      "total_sweep_wall_s": 92.14223980903625
+    },
+    {
+      "tag": "c4-p1-x0.85-w100",
+      "total_sweep_wall_s": 91.38129925727844
+    },
+    {
+      "tag": "c4-p1-x0.85-w25",
+      "total_sweep_wall_s": 92.8151707649231
+    },
+    {
+      "tag": "c4-p1-x0.85-w50",
+      "total_sweep_wall_s": 91.87905263900757
+    },
+    {
+      "tag": "c4-p1-x0.95-w100",
+      "total_sweep_wall_s": 90.81608009338379
+    },
+    {
+      "tag": "c4-p1-x0.95-w25",
+      "total_sweep_wall_s": 123.35456991195679
+    },
+    {
+      "tag": "c4-p1-x0.95-w50",
+      "total_sweep_wall_s": 95.74952220916748
+    },
+    {
+      "tag": "c4-p3-x0.70-w100",
+      "total_sweep_wall_s": 91.52297115325928
+    },
+    {
+      "tag": "c4-p3-x0.70-w25",
+      "total_sweep_wall_s": 91.37575268745422
+    },
+    {
+      "tag": "c4-p3-x0.70-w50",
+      "total_sweep_wall_s": 94.90652370452881
+    },
+    {
+      "tag": "c4-p3-x0.85-w100",
+      "total_sweep_wall_s": 93.34418106079102
+    },
+    {
+      "tag": "c4-p3-x0.85-w25",
+      "total_sweep_wall_s": 95.02359437942505
+    },
+    {
+      "tag": "c4-p3-x0.85-w50",
+      "total_sweep_wall_s": 95.01023435592651
+    },
+    {
+      "tag": "c4-p3-x0.95-w100",
+      "total_sweep_wall_s": 93.10700559616089
+    },
+    {
+      "tag": "c4-p3-x0.95-w25",
+      "total_sweep_wall_s": 93.11173176765442
+    },
+    {
+      "tag": "c4-p3-x0.95-w50",
+      "total_sweep_wall_s": 95.65427350997925
+    },
+    {
+      "tag": "c4-p5-x0.70-w100",
+      "total_sweep_wall_s": 91.11204600334167
+    },
+    {
+      "tag": "c4-p5-x0.70-w25",
+      "total_sweep_wall_s": 97.92167401313782
+    },
+    {
+      "tag": "c4-p5-x0.70-w50",
+      "total_sweep_wall_s": 91.20019149780273
+    },
+    {
+      "tag": "c4-p5-x0.85-w100",
+      "total_sweep_wall_s": 93.08637619018555
+    },
+    {
+      "tag": "c4-p5-x0.85-w25",
+      "total_sweep_wall_s": 94.17306876182556
+    },
+    {
+      "tag": "c4-p5-x0.85-w50",
+      "total_sweep_wall_s": 95.09069156646729
+    },
+    {
+      "tag": "c4-p5-x0.95-w100",
+      "total_sweep_wall_s": 92.54769134521484
+    },
+    {
+      "tag": "c4-p5-x0.95-w25",
+      "total_sweep_wall_s": 91.72082185745239
+    },
+    {
+      "tag": "c4-p5-x0.95-w50",
+      "total_sweep_wall_s": 89.712557554245
+    }
+  ],
+  "grid_failed": true
+}

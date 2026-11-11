@@ -1,0 +1,164 @@
+{
+  "configurations": [
+    "baseline",
+    "c8-p3-x0.85-w50"
+  ],
+  "repeats": 3,
+  "commands": [
+    {
+      "repeat": 1,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T11:20:02.162236+00:00",
+      "wall_s": 93.99070648400084,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/stream-window4-c8-event-confirm-20261106/repeat-1/baseline/timed-one-run.sh",
+      "runner_sha256": "0f9f6246c6f8a03f59882cfb7497e95d48a323bfbced3df564d92921354548ec"
+    },
+    {
+      "repeat": 1,
+      "setting": "c8-p3-x0.85-w50",
+      "start_utc": "2026-11-06T11:21:36.155090+00:00",
+      "wall_s": 90.97902325200266,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/stream-window4-c8-event-confirm-20261106/repeat-1/c8-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "305b44a224d6dd5b4d036a985fc3d324c2cad05ac2db856860d17bf81c007a4f"
+    },
+    {
+      "repeat": 2,
+      "setting": "c8-p3-x0.85-w50",
+      "start_utc": "2026-11-06T11:23:07.136552+00:00",
+      "wall_s": 88.70168485300383,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/stream-window4-c8-event-confirm-20261106/repeat-2/c8-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "305b44a224d6dd5b4d036a985fc3d324c2cad05ac2db856860d17bf81c007a4f"
+    },
+    {
+      "repeat": 2,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T11:24:35.839235+00:00",
+      "wall_s": 87.98783716699836,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/stream-window4-c8-event-confirm-20261106/repeat-2/baseline/timed-one-run.sh",
+      "runner_sha256": "0f9f6246c6f8a03f59882cfb7497e95d48a323bfbced3df564d92921354548ec"
+    },
+    {
+      "repeat": 3,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T11:26:03.828815+00:00",
+      "wall_s": 92.18484357700072,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/stream-window4-c8-event-confirm-20261106/repeat-3/baseline/timed-one-run.sh",
+      "runner_sha256": "0f9f6246c6f8a03f59882cfb7497e95d48a323bfbced3df564d92921354548ec"
+    },
+    {
+      "repeat": 3,
+      "setting": "c8-p3-x0.85-w50",
+      "start_utc": "2026-11-06T11:27:36.015474+00:00",
+      "wall_s": 87.81625374899886,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/stream-window4-c8-event-confirm-20261106/repeat-3/c8-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "305b44a224d6dd5b4d036a985fc3d324c2cad05ac2db856860d17bf81c007a4f"
+    }
+  ],
+  "total_confirmation_wall_s": 541.6743914649996,
+  "ranking": [
+    {
+      "setting": "c8-p3-x0.85-w50",
+      "eligible": true,
+      "paired_runs": [
+        {
+          "repeat": 1,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 6839.98225,
+              "e2e_ms": 7100.186625
+            },
+            "medium": {
+              "ttft_ms": 10142.018333333333,
+              "e2e_ms": 10403.906333333332
+            },
+            "long": {
+              "ttft_ms": 9327.3605,
+              "e2e_ms": 9642.97775
+            }
+          },
+          "max_long_e2e_ratio": 0.9803013649094555,
+          "short_medium_score_ms": 8328.939030823469,
+          "workload_makespan_s": 16.45696,
+          "baseline_makespan_s": 16.856858,
+          "group_wall_s": 90.866703748703
+        },
+        {
+          "repeat": 2,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 5471.964875000001,
+              "e2e_ms": 5730.2655
+            },
+            "medium": {
+              "ttft_ms": 8543.514000000001,
+              "e2e_ms": 8804.115
+            },
+            "long": {
+              "ttft_ms": 7873.24975,
+              "e2e_ms": 8192.78225
+            }
+          },
+          "max_long_e2e_ratio": 0.9425083866368482,
+          "short_medium_score_ms": 6837.383162955749,
+          "workload_makespan_s": 13.852733,
+          "baseline_makespan_s": 14.114993,
+          "group_wall_s": 88.584219455719
+        },
+        {
+          "repeat": 3,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 5751.335875,
+              "e2e_ms": 6018.71125
+            },
+            "medium": {
+              "ttft_ms": 9052.287666666667,
+              "e2e_ms": 9314.293333333333
+            },
+            "long": {
+              "ttft_ms": 8410.187249999999,
+              "e2e_ms": 8725.371
+            }
+          },
+          "max_long_e2e_ratio": 0.91251589573578,
+          "short_medium_score_ms": 7215.451947599682,
+          "workload_makespan_s": 14.33165,
+          "baseline_makespan_s": 18.023902,
+          "group_wall_s": 87.70639300346375
+        }
+      ],
+      "median_score_ms": 7215.451947599682,
+      "mean_makespan_s": 14.880447666666667,
+      "mean_group_wall_s": 89.05243873596191,
+      "categories": {
+        "short": {
+          "ttft_ms": 6021.094333333333,
+          "e2e_ms": 6283.054458333334
+        },
+        "medium": {
+          "ttft_ms": 9245.94,
+          "e2e_ms": 9507.438222222221
+        },
+        "long": {
+          "ttft_ms": 8536.932499999999,
+          "e2e_ms": 8853.710333333333
+        }
+      }
+    }
+  ],
+  "recommended": "c8-p3-x0.85-w50",
+  "errors": [],
+  "selection": "median short/medium geometric-mean TTFT under paired per-long E2E <= baseline +10% on every repeat; identical outputs required"
+}

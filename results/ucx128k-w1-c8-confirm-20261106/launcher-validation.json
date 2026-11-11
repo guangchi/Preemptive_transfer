@@ -1,0 +1,6 @@
+{
+  "port_occupation_rejected": true,
+  "exit_code": 1,
+  "stderr": "P/D port unavailable before launch: [Errno 98] Address already in use\n",
+  "help_exits_without_launch": true
+}

@@ -1,0 +1,225 @@
+(APIServer pid=186948) INFO 11-06 16:44:34 [api_utils.py:347] 
+(APIServer pid=186948) INFO 11-06 16:44:34 [api_utils.py:347]        █     █     █▄   ▄█
+(APIServer pid=186948) INFO 11-06 16:44:34 [api_utils.py:347]  ▄▄ ▄█ █     █     █ ▀▄▀ █  version 0.32.0
+(APIServer pid=186948) INFO 11-06 16:44:34 [api_utils.py:347]   █▄█▀ █     █     █     █  model   /home/ubuntu/zjj/models/Llama-3.1-8B-Instruct
+(APIServer pid=186948) INFO 11-06 16:44:34 [api_utils.py:347]    ▀▀  ▀▀▀▀▀ ▀▀▀▀▀ ▀     ▀
+(APIServer pid=186948) INFO 11-06 16:44:34 [api_utils.py:347] 
+(APIServer pid=186948) INFO 11-06 16:44:34 [api_utils.py:286] non-default args: {'model_tag': '/home/ubuntu/zjj/models/Llama-3.1-8B-Instruct', 'port': 8100, 'model': '/home/ubuntu/zjj/models/Llama-3.1-8B-Instruct', 'max_model_len': 32768, 'served_model_name': ['local'], 'gpu_memory_utilization': 0.9, 'enable_prefix_caching': False, 'kv_transfer_config': KVTransferConfig(kv_connector='NixlPushConnector', engine_id='pd-prefill', kv_buffer_device='cuda', kv_role='kv_producer', kv_port=14579, kv_connector_extra_config={'short_request_preemptive_transfer': False, 'chunk_size_blocks': 4, 'short_request_threshold_tokens': 256, 'long_request_threshold_tokens': 8192, 'long_request_max_preemptions': 0, 'long_request_protect_progress': 0.85, 'long_request_max_preempt_wait_ms': 50.0}, kv_connector_module_path=None, enable_permute_local_kv=False, kv_load_failure_policy='fail')}
+(APIServer pid=186948) INFO 11-06 16:44:34 [model.py:733] Resolved architecture: LlamaForCausalLM
+(APIServer pid=186948) INFO 11-06 16:44:34 [model.py:2152] Using max model len 32768
+(APIServer pid=186948) INFO 11-06 16:44:34 [kernel.py:467] Final IR op priority after setting platform defaults: IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native'], gelu_and_mul_sparse=['triton', 'native'])
+(APIServer pid=186948) INFO 11-06 16:44:34 [nixl_utils.py:32] Setting UCX_RCACHE_MAX_UNRELEASED to '1024' to avoid a rare memory leak in UCX when using NIXL.
+(APIServer pid=186948) INFO 11-06 16:44:34 [nixl_utils.py:72] NIXL is available
+(EngineCore pid=187807) INFO 11-06 16:44:44 [core.py:133] Initializing a V1 LLM engine (v0.32.0) with config: model='/home/ubuntu/zjj/models/Llama-3.1-8B-Instruct', speculative_config=None, tokenizer='/home/ubuntu/zjj/models/Llama-3.1-8B-Instruct', skip_tokenizer_init=False, tokenizer_mode=auto, revision=None, tokenizer_revision=None, trust_remote_code=False, dtype=torch.bfloat16, max_seq_len=32768, download_dir=None, load_format=auto, tensor_parallel_size=1, pipeline_parallel_size=1, data_parallel_size=1, decode_context_parallel_size=1, dcp_comm_backend=ag_rs, disable_custom_all_reduce=False, quantization=None, quantization_config=None, enforce_eager=False, aux_output_config=AuxOutputConfig(enable_return_routed_experts=False, max_bytes=None), kv_cache_dtype=auto, device_config=cuda, structured_outputs_config=StructuredOutputsConfig(backend='auto', disable_any_whitespace=False, disable_additional_properties=False, reasoning_parser='', reasoning_parser_plugin='', enable_in_reasoning=False), observability_config=ObservabilityConfig(show_hidden_metrics_for_version=None, otlp_traces_endpoint=None, collect_detailed_traces=None, per_request_spec_decode_metrics='none', kv_cache_metrics=False, kv_cache_metrics_sample=0.01, custom_histogram_buckets=None, cudagraph_metrics=False, enable_layerwise_nvtx_tracing=False, enable_mfu_metrics=False, enable_mm_processor_stats=False, enable_logging_iteration_details=False, jit_monitor_mode='warn', jit_monitor_verbose=False), seed=0, served_model_name=local, enable_prefix_caching=False, enable_chunked_prefill=True, pooler_config=None, compilation_config={'mode': <CompilationMode.VLLM_COMPILE: 3>, 'debug_dump_path': None, 'cache_dir': '', 'compile_cache_save_format': 'binary', 'backend': 'inductor', 'custom_ops': ['none'], 'ir_enable_torch_wrap': True, 'splitting_ops': ['vllm::unified_attention_with_output', 'vllm::unified_mla_attention_with_output', 'vllm::mamba_mixer2', 'vllm::mamba_mixer', 'vllm::short_conv', 'vllm::qwen4_exp_ple_short_conv', 'vllm::qwen4_exp_qsa_with_output', 'vllm::qwen4_exp_qsa_prepare_with_output', 'vllm::linear_attention', 'vllm::qwen_gdn_attention_core', 'vllm::qwen_gdn_attention_core_fused_norm_packed', 'vllm::gdn_attention_core_xpu', 'vllm::olmo_hybrid_gdn_full_forward', 'vllm::sparse_attn_indexer', 'vllm::rocm_aiter_sparse_attn_indexer', 'vllm::deepseek_v4_attention', 'vllm::hpc_rope_norm_forward', 'vllm::unified_kv_cache_update', 'vllm::unified_mla_kv_cache_update'], 'compile_mm_encoder': False, 'cudagraph_mm_encoder': False, 'encoder_cudagraph_token_budgets': [], 'encoder_cudagraph_max_vision_items_per_batch': 0, 'encoder_cudagraph_max_frames_per_batch': None, 'cudagraph_decoder_replay': True, 'decoder_replay_cudagraph_capture_sizes': [], 'decoder_replay_trim_threshold': 768, 'compile_sizes': [], 'compile_ranges_endpoints': [2048], 'inductor_compile_config': {'enable_auto_functionalized_v2': False, 'combo_kernels': True, 'benchmark_combo_kernel': True}, 'inductor_passes': {}, 'cudagraph_mode': <CUDAGraphMode.FULL_AND_PIECEWISE: (2, 1)>, 'cudagraph_num_of_warmups': 1, 'cudagraph_capture_sizes': [1, 2, 4, 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120, 128, 136, 144, 152, 160, 168, 176, 184, 192, 200, 208, 216, 224, 232, 240, 248, 256, 272, 288, 304, 320, 336, 352, 368, 384, 400, 416, 432, 448, 464, 480, 496, 512], 'cudagraph_copy_inputs': False, 'cudagraph_specialize_lora': True, 'use_inductor_graph_partition': False, 'pass_config': {'fuse_norm_quant': False, 'fuse_act_quant': False, 'fuse_attn_quant': False, 'fuse_allreduce_rms': False, 'enable_qk_norm_rope_fusion': False, 'fuse_rope_kvcache_cat_mla': False, 'fuse_act_padding': False, 'fuse_qk_norm_rope_kvcache': False}, 'max_cudagraph_capture_size': 512, 'dynamic_shapes_config': {'type': <DynamicShapesType.BACKED: 'backed'>, 'evaluate_guards': False, 'assume_32_bit_indexing': False}, 'local_cache_dir': None, 'fast_moe_cold_start': False, 'static_all_moe_layers': []}, kernel_config=KernelConfig(ir_op_priority=IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native'], gelu_and_mul_sparse=['triton', 'native']), enable_flashinfer_autotune=True, enable_rocm_segmented_attn_autotune=False, enable_cutedsl_warmup=True, enable_jit_warmup=True, moe_backend='auto', sparse_indexer_topk_backend='auto', linear_backend='auto', linear_backend_per_quant=None)
+[W1106 16:44:46.631940527 Context.cpp:597] Warning: torch.backends.cuda.preferred_blas_library is an experimental feature. If you see any error or unexpected behavior when this flag is set please file an issue on GitHub. (function operator())
+(EngineCore pid=187807) INFO 11-06 16:44:46 [parallel_state.py:1906] world_size=1 rank=0 local_rank=0 distributed_init_method=file:///tmp/vllm_dist_e8e794090cc84405a1e449c402672936 backend=nccl
+(EngineCore pid=187807) INFO 11-06 16:44:46 [parallel_state.py:2350] rank 0 in world size 1 is assigned as DP rank 0, PP rank 0, PCP rank 0, TP rank 0, ETP rank 0, EP rank N/A, EPLB rank N/A
+(EngineCore pid=187807) INFO 11-06 16:44:46 [gpu_worker.py:518] Using V2 Model Runner
+(EngineCore pid=187807) INFO 11-06 16:44:47 [model_runner.py:392] Loading model from scratch...
+(EngineCore pid=187807) INFO 11-06 16:44:48 [cuda.py:506] Using FLASH_ATTN attention backend out of potential backends: ['FLASH_ATTN', 'TRITON_ATTN', 'FLEX_ATTENTION'].
+(EngineCore pid=187807) INFO 11-06 16:44:48 [flash_attn.py:1117] Using FlashAttention version 2
+(EngineCore pid=187807) INFO 11-06 16:44:49 [base_loader.py:82] Initializing model took 1.670243 seconds
+(EngineCore pid=187807) INFO 11-06 16:44:49 [weight_utils.py:1108] Filesystem type for checkpoints: EXT4. Checkpoint size: 14.96 GiB. Available RAM: 97.82 GiB.
+(EngineCore pid=187807) INFO 11-06 16:44:49 [weight_utils.py:1131] Auto-prefetch is disabled because the filesystem (EXT4) is not a recognized network FS (NFS/Lustre). If you want to force prefetching, start vLLM with --safetensors-load-strategy=prefetch.
+Loading safetensors checkpoint shards:   0% Completed | 0/4 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  25% Completed | 1/4 [00:00<00:02,  1.20it/s]
+Loading safetensors checkpoint shards:  50% Completed | 2/4 [00:01<00:01,  1.16it/s]
+Loading safetensors checkpoint shards:  75% Completed | 3/4 [00:02<00:00,  1.21it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:02<00:00,  1.69it/s]
+Loading safetensors checkpoint shards: 100% Completed | 4/4 [00:02<00:00,  1.47it/s]
+
+(EngineCore pid=187807) INFO 11-06 16:44:52 [default_loader.py:501] Loading weights took 2.75 seconds
+(EngineCore pid=187807) INFO 11-06 16:44:53 [model_runner.py:424] Model loading took 15.0 GiB memory and 6.064678 seconds
+(EngineCore pid=187807) INFO 11-06 16:44:53 [topk_topp_sampler.py:124] Using FlashInfer for top-p & top-k sampling.
+(EngineCore pid=187807) INFO 11-06 16:44:53 [torch_utils.py:295] Reducing Torch threads from 22 to 1 for serving. Set OMP_NUM_THREADS in the external environment to override.
+(EngineCore pid=187807) INFO 11-06 16:44:53 [nixl_utils.py:72] NIXL is available
+(EngineCore pid=187807) INFO 11-06 16:44:53 [connector.py:157] NixlConnector setting KV cache layout to LBHNC for better xfer performance.
+(EngineCore pid=187807) INFO 11-06 16:44:53 [utils.py:347] Using LBHNC KV cache layout.
+(EngineCore pid=187807) INFO 11-06 16:44:53 [monitor.py:40] [backbone] Starting torch.compile
+/home/ubuntu/miniconda3/envs/cc/lib/python3.11/site-packages/torch/_dynamo/variables/functions.py:2590: UserWarning: Dynamo detected a call to a `functools.lru_cache`-wrapped function at 'batch_invariant.py:293'. Dynamo ignores the cache wrapper and directly traces the wrapped function. Silent incorrectness is only a *potential* risk, not something we have observed. Enable TORCH_LOGS=+dynamo for a DEBUG stack trace.
+
+This call originates from:
+  File "/home/ubuntu/miniconda3/envs/cc/lib/python3.11/site-packages/vllm/model_executor/determinism/batch_invariant.py", line 293, in matmul_persistent
+    NUM_SMS = num_compute_units(a.device.index)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+  torch._dynamo.utils.warn_once(msg)
+(EngineCore pid=187807) INFO 11-06 16:45:03 [backends.py:1104] [backbone] Using cache directory: /home/ubuntu/.cache/vllm/torch_compile_cache/b1622de968/rank_0_0/backbone for vLLM's torch.compile
+(EngineCore pid=187807) INFO 11-06 16:45:03 [backends.py:1166] [backbone] Dynamo bytecode transform time: 10.21 s
+(EngineCore pid=187807) INFO 11-06 16:45:04 [backends.py:295] [backbone] Directly load the compiled graph(s) for compile range (1, 2048) from the cache, took 0.798 s
+(EngineCore pid=187807) INFO 11-06 16:45:05 [monitor.py:62] [backbone] torch.compile and initial profiling/warmup run together took 11.79 s in total
+Capturing CUDA graphs (PIECEWISE):   0%|          | 0/51 [00:00<?, ?it/s]Capturing CUDA graphs (PIECEWISE):   4%|▍         | 2/51 [00:00<00:04, 11.02it/s]Capturing CUDA graphs (PIECEWISE):   8%|▊         | 4/51 [00:00<00:04, 11.11it/s]Capturing CUDA graphs (PIECEWISE):  12%|█▏        | 6/51 [00:00<00:03, 11.32it/s]Capturing CUDA graphs (PIECEWISE):  16%|█▌        | 8/51 [00:00<00:03, 11.34it/s]Capturing CUDA graphs (PIECEWISE):  20%|█▉        | 10/51 [00:00<00:03, 11.66it/s]Capturing CUDA graphs (PIECEWISE):  24%|██▎       | 12/51 [00:01<00:03, 11.75it/s]Capturing CUDA graphs (PIECEWISE):  27%|██▋       | 14/51 [00:01<00:03,  9.37it/s]Capturing CUDA graphs (PIECEWISE):  31%|███▏      | 16/51 [00:01<00:03,  9.14it/s]Capturing CUDA graphs (PIECEWISE):  35%|███▌      | 18/51 [00:01<00:03, 10.18it/s]Capturing CUDA graphs (PIECEWISE):  39%|███▉      | 20/51 [00:01<00:02, 11.08it/s]Capturing CUDA graphs (PIECEWISE):  43%|████▎     | 22/51 [00:02<00:02, 11.79it/s]Capturing CUDA graphs (PIECEWISE):  47%|████▋     | 24/51 [00:02<00:02, 12.27it/s]Capturing CUDA graphs (PIECEWISE):  51%|█████     | 26/51 [00:02<00:01, 12.61it/s]Capturing CUDA graphs (PIECEWISE):  55%|█████▍    | 28/51 [00:02<00:01, 12.83it/s]Capturing CUDA graphs (PIECEWISE):  59%|█████▉    | 30/51 [00:02<00:01, 12.93it/s]Capturing CUDA graphs (PIECEWISE):  63%|██████▎   | 32/51 [00:02<00:01, 13.01it/s]Capturing CUDA graphs (PIECEWISE):  67%|██████▋   | 34/51 [00:02<00:01, 13.38it/s]Capturing CUDA graphs (PIECEWISE):  71%|███████   | 36/51 [00:03<00:01, 13.73it/s]Capturing CUDA graphs (PIECEWISE):  75%|███████▍  | 38/51 [00:03<00:00, 14.13it/s]Capturing CUDA graphs (PIECEWISE):  78%|███████▊  | 40/51 [00:03<00:00, 14.36it/s]Capturing CUDA graphs (PIECEWISE):  82%|████████▏ | 42/51 [00:03<00:00, 14.47it/s]Capturing CUDA graphs (PIECEWISE):  86%|████████▋ | 44/51 [00:03<00:00, 14.49it/s]Capturing CUDA graphs (PIECEWISE):  90%|█████████ | 46/51 [00:03<00:00, 14.51it/s]Capturing CUDA graphs (PIECEWISE):  94%|█████████▍| 48/51 [00:03<00:00, 14.48it/s]Capturing CUDA graphs (PIECEWISE):  98%|█████████▊| 50/51 [00:03<00:00, 14.36it/s]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 51/51 [00:04<00:00, 12.55it/s]
+Capturing CUDA graphs (FULL):   0%|          | 0/2 [00:00<?, ?it/s]Capturing CUDA graphs (FULL): 100%|██████████| 2/2 [00:00<00:00, 18.23it/s]Capturing CUDA graphs (FULL): 100%|██████████| 2/2 [00:00<00:00, 18.19it/s]
+(EngineCore pid=187807) INFO 11-06 16:45:11 [model_runner.py:1127] Graph capturing finished in 5 secs, took 0.36 GiB
+(EngineCore pid=187807) INFO 11-06 16:45:12 [gpu_worker.py:759] Available KV cache memory: 5.29 GiB
+(EngineCore pid=187807) INFO 11-06 16:45:12 [gpu_worker.py:774] CUDA graph memory profiling is enabled (default since v0.21.0). The current --gpu-memory-utilization=0.9000 is equivalent to --gpu-memory-utilization=0.8821 without CUDA graph memory profiling. To maintain the same effective KV cache size as before, increase --gpu-memory-utilization to 0.9179. To disable, set VLLM_MEMORY_PROFILER_ESTIMATE_CUDAGRAPHS=0.
+(EngineCore pid=187807) INFO 11-06 16:45:12 [kv_cache_utils.py:2327] GPU KV cache size: 43,296 tokens, Maximum concurrency for 32,768 tokens per request: 1.32x
+(EngineCore pid=187807) INFO 11-06 16:45:12 [factory.py:62] Creating v1 connector with name: NixlPushConnector and engine_id: pd-prefill
+(EngineCore pid=187807) WARNING 11-06 16:45:12 [base.py:214] Initializing KVConnectorBase_V1. This API is experimental and subject to change in the future as we iterate the design.
+(EngineCore pid=187807) INFO 11-06 16:45:12 [base_worker.py:515] Initializing NIXL wrapper
+(EngineCore pid=187807) INFO 11-06 16:45:12 [base_worker.py:516] Initializing NIXL worker pd-prefill
+W1106 16:45:12.381371  187807 telemetry.cpp:124] telemetry: no invariant CPU counter available; per-transfer timing falls back to steady_clock (higher overhead)
+2026-11-06 16:45:13 NIXL INFO    _api.py:405 Backend UCX was instantiated
+2026-11-06 16:45:13 NIXL INFO    _api.py:281 Initialized NIXL agent: 67e30726-9915-4257-ba05-dd815cc8a69f
+(EngineCore pid=187807) INFO 11-06 16:45:13 [base_worker.py:861] Detected attention backend(s) ['FLASH_ATTN']
+(EngineCore pid=187807) INFO 11-06 16:45:13 [base_worker.py:865] Detected kv cache layout LBHNC
+(EngineCore pid=187807) INFO 11-06 16:45:13 [base_worker.py:1416] Registering KV_Caches. use_mla: False, kv_buffer_device: cuda, use_host_buffer: False
+(EngineCore pid=187807) INFO 11-06 16:45:13 [push_worker.py:196] nixl-push-writer thread started (rank=0)
+(EngineCore pid=187807) INFO 11-06 16:45:13 [kernel_warmup.py:176] JIT kernel warmup starting.
+(EngineCore pid=187807) INFO 11-06 16:45:13 [kernel_warmup.py:189] JIT kernel warmup finished in 0.00s.
+(EngineCore pid=187807) WARNING 11-06 16:45:13 [sampling_params.py:607] Random sampling without an explicit seed may not be batch invariant. Set seed in SamplingParams or use temperature=0.
+Capturing CUDA graphs (PIECEWISE):   0%|          | 0/51 [00:00<?, ?it/s]Capturing CUDA graphs (PIECEWISE):   2%|▏         | 1/51 [00:00<00:05,  9.40it/s]Capturing CUDA graphs (PIECEWISE):   6%|▌         | 3/51 [00:00<00:04, 10.04it/s]Capturing CUDA graphs (PIECEWISE):  10%|▉         | 5/51 [00:00<00:04, 10.21it/s]Capturing CUDA graphs (PIECEWISE):  14%|█▎        | 7/51 [00:00<00:04, 10.18it/s]Capturing CUDA graphs (PIECEWISE):  18%|█▊        | 9/51 [00:00<00:04, 10.24it/s]Capturing CUDA graphs (PIECEWISE):  22%|██▏       | 11/51 [00:01<00:03, 10.45it/s]Capturing CUDA graphs (PIECEWISE):  25%|██▌       | 13/51 [00:01<00:03, 10.51it/s]Capturing CUDA graphs (PIECEWISE):  29%|██▉       | 15/51 [00:01<00:03, 10.48it/s]Capturing CUDA graphs (PIECEWISE):  33%|███▎      | 17/51 [00:01<00:03, 10.64it/s]Capturing CUDA graphs (PIECEWISE):  37%|███▋      | 19/51 [00:01<00:02, 11.03it/s]Capturing CUDA graphs (PIECEWISE):  41%|████      | 21/51 [00:01<00:02, 11.34it/s]Capturing CUDA graphs (PIECEWISE):  45%|████▌     | 23/51 [00:02<00:02, 11.49it/s]Capturing CUDA graphs (PIECEWISE):  49%|████▉     | 25/51 [00:02<00:02, 11.61it/s]Capturing CUDA graphs (PIECEWISE):  53%|█████▎    | 27/51 [00:02<00:02, 11.69it/s]Capturing CUDA graphs (PIECEWISE):  57%|█████▋    | 29/51 [00:02<00:01, 11.66it/s]Capturing CUDA graphs (PIECEWISE):  61%|██████    | 31/51 [00:02<00:01, 11.63it/s]Capturing CUDA graphs (PIECEWISE):  65%|██████▍   | 33/51 [00:02<00:01, 11.60it/s]Capturing CUDA graphs (PIECEWISE):  69%|██████▊   | 35/51 [00:03<00:01, 11.95it/s]Capturing CUDA graphs (PIECEWISE):  73%|███████▎  | 37/51 [00:03<00:01, 12.22it/s]Capturing CUDA graphs (PIECEWISE):  76%|███████▋  | 39/51 [00:03<00:00, 12.41it/s]Capturing CUDA graphs (PIECEWISE):  80%|████████  | 41/51 [00:03<00:00, 12.50it/s]Capturing CUDA graphs (PIECEWISE):  84%|████████▍ | 43/51 [00:03<00:00, 12.57it/s]Capturing CUDA graphs (PIECEWISE):  88%|████████▊ | 45/51 [00:03<00:00, 12.57it/s]Capturing CUDA graphs (PIECEWISE):  92%|█████████▏| 47/51 [00:04<00:00, 12.55it/s]Capturing CUDA graphs (PIECEWISE):  96%|█████████▌| 49/51 [00:04<00:00, 12.48it/s]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 51/51 [00:04<00:00, 12.46it/s]Capturing CUDA graphs (PIECEWISE): 100%|██████████| 51/51 [00:04<00:00, 11.57it/s]
+Capturing CUDA graphs (FULL):   0%|          | 0/35 [00:00<?, ?it/s]Capturing CUDA graphs (FULL):   6%|▌         | 2/35 [00:00<00:01, 17.98it/s]Capturing CUDA graphs (FULL):  11%|█▏        | 4/35 [00:00<00:01, 17.55it/s]Capturing CUDA graphs (FULL):  17%|█▋        | 6/35 [00:00<00:01, 17.40it/s]Capturing CUDA graphs (FULL):  23%|██▎       | 8/35 [00:00<00:01, 17.28it/s]Capturing CUDA graphs (FULL):  29%|██▊       | 10/35 [00:00<00:01, 17.18it/s]Capturing CUDA graphs (FULL):  34%|███▍      | 12/35 [00:00<00:01, 17.06it/s]Capturing CUDA graphs (FULL):  40%|████      | 14/35 [00:00<00:01, 16.92it/s]Capturing CUDA graphs (FULL):  46%|████▌     | 16/35 [00:00<00:01, 16.55it/s]Capturing CUDA graphs (FULL):  51%|█████▏    | 18/35 [00:01<00:00, 17.04it/s]Capturing CUDA graphs (FULL):  57%|█████▋    | 20/35 [00:01<00:00, 17.45it/s]Capturing CUDA graphs (FULL):  63%|██████▎   | 22/35 [00:01<00:00, 17.83it/s]Capturing CUDA graphs (FULL):  69%|██████▊   | 24/35 [00:01<00:00, 18.16it/s]Capturing CUDA graphs (FULL):  74%|███████▍  | 26/35 [00:01<00:00, 18.38it/s]Capturing CUDA graphs (FULL):  80%|████████  | 28/35 [00:01<00:00, 18.45it/s]Capturing CUDA graphs (FULL):  86%|████████▌ | 30/35 [00:01<00:00, 18.52it/s]Capturing CUDA graphs (FULL):  91%|█████████▏| 32/35 [00:01<00:00, 18.38it/s]Capturing CUDA graphs (FULL):  97%|█████████▋| 34/35 [00:01<00:00, 18.29it/s]Capturing CUDA graphs (FULL): 100%|██████████| 35/35 [00:01<00:00, 17.77it/s]
+(EngineCore pid=187807) INFO 11-06 16:45:21 [model_runner.py:1127] Graph capturing finished in 7 secs, took 0.24 GiB
+(EngineCore pid=187807) INFO 11-06 16:45:21 [gpu_worker.py:971] CUDA graph pool memory: 0.24 GiB (actual), 0.42 GiB (estimated), difference: 0.18 GiB (77.7%).
+(EngineCore pid=187807) INFO 11-06 16:45:21 [gpu_worker.py:1034] Free memory on device (23.1/23.52 GiB) on startup. Desired GPU memory utilization is (0.9, 21.17 GiB). Actual usage is 15.23 GiB for consumed memory (weights + non-torch), 0.65 GiB for peak activation, and 0.24 GiB for CUDAGraph memory. Replace gpu_memory_utilization config with `--kv-cache-memory=5264461927` (4.9 GiB) to fit into requested memory, or `--kv-cache-memory=7341861376` (6.84 GiB) to fully utilize gpu memory. Current kv cache memory in use is 5.29 GiB.
+(EngineCore pid=187807) INFO 11-06 16:45:21 [jit_monitor.py:84] Kernel JIT monitor activated; monitored JIT compilations during inference will use mode=warn.
+(EngineCore pid=187807) INFO 11-06 16:45:22 [core.py:395] init engine (profile, create kv cache, warmup model) took 29.04 s (compilation: 11.79 s)
+(EngineCore pid=187807) INFO 11-06 16:45:23 [factory.py:62] Creating v1 connector with name: NixlPushConnector and engine_id: pd-prefill
+(EngineCore pid=187807) WARNING 11-06 16:45:23 [base.py:214] Initializing KVConnectorBase_V1. This API is experimental and subject to change in the future as we iterate the design.
+(EngineCore pid=187807) INFO 11-06 16:45:23 [base_scheduler.py:109] Initializing NIXL Scheduler pd-prefill
+(EngineCore pid=187807) INFO 11-06 16:45:23 [kernel.py:467] Final IR op priority after setting platform defaults: IrOpPriorityConfig(rms_norm=['native'], fused_add_rms_norm=['native'], gelu_and_mul_sparse=['triton', 'native'])
+(APIServer pid=186948) INFO 11-06 16:45:23 [entry.py:136] Supported tasks: ['generate']
+(APIServer pid=186948) INFO 11-06 16:45:23 [factories.py:89] Scale-out endpoints are disabled. Restart vllm serve with --enable-scale-out to enable them.
+(APIServer pid=186948) INFO 11-06 16:45:25 [hf.py:648] Detected the chat template content format to be 'string'. You can set `--chat-template-content-format` to override this.
+(APIServer pid=186948) WARNING 11-06 16:45:25 [model.py:1893] Default vLLM sampling parameters have been overridden by the model's `generation_config.json`: `{'temperature': 0.6, 'top_p': 0.9}`. If this is not intended, please relaunch vLLM instance with `--generation-config vllm`.
+(APIServer pid=186948) INFO 11-06 16:45:25 [entry.py:140] Starting vLLM server on http://0.0.0.0:8100
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:186] Available routes are:
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /openapi.json, Methods: HEAD, GET
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /docs, Methods: HEAD, GET
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /docs/oauth2-redirect, Methods: HEAD, GET
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /redoc, Methods: HEAD, GET
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /load, Methods: GET
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /version, Methods: GET
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /kv_event_sources, Methods: GET
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /health, Methods: GET
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /metrics, Methods: GET
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /tokenize, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /detokenize, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/models, Methods: GET
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/systemone, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /ping, Methods: GET
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /ping, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /invocations, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/chat/completions, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/chat/completions/batch, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/responses, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/responses/{response_id}, Methods: GET
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/responses/{response_id}/cancel, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/completions, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/messages, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/messages/count_tokens, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /generative_scoring, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /scale_elastic_ep, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /is_scaling_elastic_ep, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/chat/completions/render, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/messages/render, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/completions/render, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/responses/render, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/chat/completions/derender, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /v1/completions/derender, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /inference/v1/generate, Methods: POST
+(APIServer pid=186948) INFO 11-06 16:45:25 [launcher.py:195] Route: /inference/v1/abort_requests, Methods: POST
+INFO:     Started server process [186948]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:58174 - "GET /health HTTP/1.1" 200 OK
+(EngineCore pid=187807) INFO 11-06 16:45:41 [core.py:684] PD execution step req=cmpl-interleaved15-00-short-0-99e24868 side=p step=0 scheduled_tokens=128 batch_requests=1 submitted_monotonic_s=32256.070244244 elapsed_ms=51.311270 monotonic_s=32256.121555514
+(EngineCore pid=187807) INFO 11-06 16:45:41 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-00-short-0-99e24868 status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32256.122287094
+INFO:     127.0.0.1:37620 - "POST /v1/completions HTTP/1.1" 200 OK
+(EngineCore pid=187807) INFO 11-06 16:45:41 [base_worker.py:1093] NIXL compatibility check passed (hash: a1d6271a2d8d949a165dfc5b4d16aff7c63e73bb30e533177bfbd09e784905bb)
+(EngineCore pid=187807) INFO 11-06 16:45:41 [base_worker.py:2255] Transfer plan: TransferTopology(tp_ratio=1, num_kv_heads=8, local_tp=1, remote_tp=1, remote_pp=0, local_dcp=1, remote_dcp=1, local_rank=0, remote_block_len=65536)
+(EngineCore pid=187807) INFO 11-06 16:45:41 [core.py:684] PD execution step req=cmpl-interleaved15-01-long-0-9b209439 side=p step=0 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32256.180574806 elapsed_ms=212.715502 monotonic_s=32256.393290308
+(EngineCore pid=187807) INFO 11-06 16:45:41 [core.py:684] PD execution step req=cmpl-interleaved15-01-long-0-9b209439 side=p step=1 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32256.228906650 elapsed_ms=371.404357 monotonic_s=32256.600311007
+(EngineCore pid=187807) INFO 11-06 16:45:41 [core.py:684] PD execution step req=cmpl-interleaved15-01-long-0-9b209439 side=p step=2 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32256.394292637 elapsed_ms=427.836602 monotonic_s=32256.822129239
+(EngineCore pid=187807) INFO 11-06 16:45:42 [core.py:684] PD execution step req=cmpl-interleaved15-01-long-0-9b209439 side=p step=3 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32256.601207606 elapsed_ms=457.202758 monotonic_s=32257.058410364
+(EngineCore pid=187807) INFO 11-06 16:45:42 [core.py:684] PD execution step req=cmpl-interleaved15-01-long-0-9b209439 side=p step=4 scheduled_tokens=1808 batch_requests=3 submitted_monotonic_s=32256.823384228 elapsed_ms=480.882440 monotonic_s=32257.304266668
+(EngineCore pid=187807) INFO 11-06 16:45:42 [core.py:684] PD execution step req=cmpl-interleaved15-02-short-0-8eea4944 side=p step=0 scheduled_tokens=128 batch_requests=3 submitted_monotonic_s=32256.823384228 elapsed_ms=480.882440 monotonic_s=32257.304266668
+(EngineCore pid=187807) INFO 11-06 16:45:42 [core.py:684] PD execution step req=cmpl-interleaved15-03-medium-0-aa8518c6 side=p step=0 scheduled_tokens=112 batch_requests=3 submitted_monotonic_s=32256.823384228 elapsed_ms=480.882440 monotonic_s=32257.304266668
+(EngineCore pid=187807) INFO 11-06 16:45:42 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-01-long-0-9b209439 status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32257.305138067
+(EngineCore pid=187807) INFO 11-06 16:45:42 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-02-short-0-8eea4944 status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32257.305760816
+INFO:     127.0.0.1:37622 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37624 - "POST /v1/completions HTTP/1.1" 200 OK
+(EngineCore pid=187807) INFO 11-06 16:45:42 [core.py:684] PD execution step req=cmpl-interleaved15-03-medium-0-aa8518c6 side=p step=1 scheduled_tokens=995 batch_requests=3 submitted_monotonic_s=32257.059734143 elapsed_ms=433.649125 monotonic_s=32257.493383268
+(EngineCore pid=187807) INFO 11-06 16:45:42 [core.py:684] PD execution step req=cmpl-interleaved15-04-short-0-83a309b6 side=p step=0 scheduled_tokens=128 batch_requests=3 submitted_monotonic_s=32257.059734143 elapsed_ms=433.649125 monotonic_s=32257.493383268
+(EngineCore pid=187807) INFO 11-06 16:45:42 [core.py:684] PD execution step req=cmpl-interleaved15-05-long-0-a8bdcfec side=p step=0 scheduled_tokens=925 batch_requests=3 submitted_monotonic_s=32257.059734143 elapsed_ms=433.649125 monotonic_s=32257.493383268
+(EngineCore pid=187807) INFO 11-06 16:45:42 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-03-medium-0-aa8518c6 status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32257.493972597
+(EngineCore pid=187807) INFO 11-06 16:45:42 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-04-short-0-83a309b6 status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32257.494432077
+INFO:     127.0.0.1:37630 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37642 - "POST /v1/completions HTTP/1.1" 200 OK
+(EngineCore pid=187807) INFO 11-06 16:45:42 [core.py:684] PD execution step req=cmpl-interleaved15-05-long-0-a8bdcfec side=p step=1 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32257.306751415 elapsed_ms=386.445911 monotonic_s=32257.693197326
+(EngineCore pid=187807) INFO 11-06 16:45:42 [core.py:684] PD execution step req=cmpl-interleaved15-05-long-0-a8bdcfec side=p step=2 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32257.495271526 elapsed_ms=412.235500 monotonic_s=32257.907507026
+(EngineCore pid=187807) INFO 11-06 16:45:43 [core.py:684] PD execution step req=cmpl-interleaved15-05-long-0-a8bdcfec side=p step=3 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32257.694157574 elapsed_ms=442.015956 monotonic_s=32258.136173530
+(EngineCore pid=187807) INFO 11-06 16:45:43 [core.py:684] PD execution step req=cmpl-interleaved15-05-long-0-a8bdcfec side=p step=4 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32257.908338455 elapsed_ms=470.846892 monotonic_s=32258.379185347
+(EngineCore pid=187807) INFO 11-06 16:45:43 [core.py:684] PD execution step req=cmpl-interleaved15-05-long-0-a8bdcfec side=p step=5 scheduled_tokens=883 batch_requests=3 submitted_monotonic_s=32258.137207029 elapsed_ms=463.433430 monotonic_s=32258.600640459
+(EngineCore pid=187807) INFO 11-06 16:45:43 [core.py:684] PD execution step req=cmpl-interleaved15-06-short-0-a341d8f3 side=p step=0 scheduled_tokens=128 batch_requests=3 submitted_monotonic_s=32258.137207029 elapsed_ms=463.433430 monotonic_s=32258.600640459
+(EngineCore pid=187807) INFO 11-06 16:45:43 [core.py:684] PD execution step req=cmpl-interleaved15-07-long-0-97b6adb6 side=p step=0 scheduled_tokens=1037 batch_requests=3 submitted_monotonic_s=32258.137207029 elapsed_ms=463.433430 monotonic_s=32258.600640459
+(EngineCore pid=187807) INFO 11-06 16:45:43 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-05-long-0-a8bdcfec status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32258.601914818
+(EngineCore pid=187807) INFO 11-06 16:45:43 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-06-short-0-a341d8f3 status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32258.602503907
+INFO:     127.0.0.1:37654 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37658 - "POST /v1/completions HTTP/1.1" 200 OK
+(EngineCore pid=187807) INFO 11-06 16:45:43 [core.py:684] PD execution step req=cmpl-interleaved15-07-long-0-97b6adb6 side=p step=1 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32258.380193936 elapsed_ms=421.378689 monotonic_s=32258.801572625
+(EngineCore pid=187807) INFO 11-06 16:45:44 [core.py:684] PD execution step req=cmpl-interleaved15-07-long-0-97b6adb6 side=p step=2 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32258.603295206 elapsed_ms=413.767368 monotonic_s=32259.017062574
+(EngineCore pid=187807) INFO 11-06 16:45:44 [core.py:684] PD execution step req=cmpl-interleaved15-07-long-0-97b6adb6 side=p step=3 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32258.802343084 elapsed_ms=444.930722 monotonic_s=32259.247273806
+(EngineCore pid=187807) INFO 11-06 16:45:44 [core.py:684] PD execution step req=cmpl-interleaved15-07-long-0-97b6adb6 side=p step=4 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32259.017804833 elapsed_ms=473.723908 monotonic_s=32259.491528741
+(EngineCore pid=187807) INFO 11-06 16:45:44 [core.py:684] PD execution step req=cmpl-interleaved15-07-long-0-97b6adb6 side=p step=5 scheduled_tokens=771 batch_requests=4 submitted_monotonic_s=32259.248743115 elapsed_ms=463.364819 monotonic_s=32259.712107934
+(EngineCore pid=187807) INFO 11-06 16:45:44 [core.py:684] PD execution step req=cmpl-interleaved15-08-short-0-8ee18941 side=p step=0 scheduled_tokens=128 batch_requests=4 submitted_monotonic_s=32259.248743115 elapsed_ms=463.364819 monotonic_s=32259.712107934
+(EngineCore pid=187807) INFO 11-06 16:45:44 [core.py:684] PD execution step req=cmpl-interleaved15-09-medium-0-ae6b4a9b side=p step=0 scheduled_tokens=1107 batch_requests=4 submitted_monotonic_s=32259.248743115 elapsed_ms=463.364819 monotonic_s=32259.712107934
+(EngineCore pid=187807) INFO 11-06 16:45:44 [core.py:684] PD execution step req=cmpl-interleaved15-10-short-0-a285266f side=p step=0 scheduled_tokens=42 batch_requests=4 submitted_monotonic_s=32259.248743115 elapsed_ms=463.364819 monotonic_s=32259.712107934
+(EngineCore pid=187807) INFO 11-06 16:45:44 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-07-long-0-97b6adb6 status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32259.713037973
+(EngineCore pid=187807) INFO 11-06 16:45:44 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-08-short-0-8ee18941 status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32259.713449073
+(EngineCore pid=187807) INFO 11-06 16:45:44 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-09-medium-0-ae6b4a9b status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32259.713798432
+INFO:     127.0.0.1:37668 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37670 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37676 - "POST /v1/completions HTTP/1.1" 200 OK
+(EngineCore pid=187807) INFO 11-06 16:45:44 [core.py:684] PD execution step req=cmpl-interleaved15-10-short-0-a285266f side=p step=1 scheduled_tokens=86 batch_requests=2 submitted_monotonic_s=32259.492809989 elapsed_ms=412.093021 monotonic_s=32259.904903010
+(EngineCore pid=187807) INFO 11-06 16:45:44 [core.py:684] PD execution step req=cmpl-interleaved15-11-long-0-850926b0 side=p step=0 scheduled_tokens=1962 batch_requests=2 submitted_monotonic_s=32259.492809989 elapsed_ms=412.093021 monotonic_s=32259.904903010
+(EngineCore pid=187807) INFO 11-06 16:45:44 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-10-short-0-a285266f status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32259.905324579
+INFO:     127.0.0.1:37690 - "POST /v1/completions HTTP/1.1" 200 OK
+(EngineCore pid=187807) INFO 11-06 16:45:45 [core.py:684] PD execution step req=cmpl-interleaved15-11-long-0-850926b0 side=p step=1 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32259.714505941 elapsed_ms=397.730607 monotonic_s=32260.112236548
+(EngineCore pid=187807) INFO 11-06 16:45:45 [core.py:684] PD execution step req=cmpl-interleaved15-11-long-0-850926b0 side=p step=2 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32259.906063768 elapsed_ms=428.017792 monotonic_s=32260.334081560
+(APIServer pid=186948) INFO 11-06 16:45:45 [loggers.py:335] Engine 000: Avg prompt throughput: 3298.2 tokens/s, Avg generation throughput: 1.1 tokens/s, Running: 1 reqs, Waiting: 3 reqs, GPU KV cache usage: 94.7%, External prefix cache hit rate: 0.0%
+(APIServer pid=186948) INFO 11-06 16:45:45 [metrics.py:103] KV Transfer metrics: Num successful transfers=1, Avg xfer time (ms)=73.73, P90 xfer time (ms)=73.73, Avg post time (ms)=73.73, P90 post time (ms)=73.73, Avg MB per transfer=16.0, Throughput (MB/s)=217.008, Avg number of descriptors=32.0, Num failed transfers=0, Num KV expired reqs=0, Num notifs after expiry=0
+(EngineCore pid=187807) INFO 11-06 16:45:45 [core.py:684] PD execution step req=cmpl-interleaved15-11-long-0-850926b0 side=p step=3 scheduled_tokens=2048 batch_requests=1 submitted_monotonic_s=32260.112960848 elapsed_ms=457.223157 monotonic_s=32260.570184005
+(EngineCore pid=187807) INFO 11-06 16:45:45 [core.py:684] PD execution step req=cmpl-interleaved15-11-long-0-850926b0 side=p step=4 scheduled_tokens=1894 batch_requests=2 submitted_monotonic_s=32260.335036909 elapsed_ms=481.767389 monotonic_s=32260.816804298
+(EngineCore pid=187807) INFO 11-06 16:45:45 [core.py:684] PD execution step req=cmpl-interleaved15-12-short-0-80bf0a93 side=p step=0 scheduled_tokens=128 batch_requests=2 submitted_monotonic_s=32260.335036909 elapsed_ms=481.767389 monotonic_s=32260.816804298
+(EngineCore pid=187807) INFO 11-06 16:45:45 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-11-long-0-850926b0 status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32260.817524847
+(EngineCore pid=187807) INFO 11-06 16:45:45 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-12-short-0-80bf0a93 status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32260.817896857
+INFO:     127.0.0.1:37692 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37704 - "POST /v1/completions HTTP/1.1" 200 OK
+(EngineCore pid=187807) WARNING 11-06 16:45:46 [push_worker.py:1286] _do_start_push_kv for cmpl-interleaved15-01-long-0-9b209439 took 3917.1ms (slow NIXL submission)
+(EngineCore pid=187807) INFO 11-06 16:45:46 [core.py:684] PD execution step req=cmpl-interleaved15-13-medium-0-837dce92 side=p step=0 scheduled_tokens=1107 batch_requests=2 submitted_monotonic_s=32261.263810158 elapsed_ms=133.063644 monotonic_s=32261.396873802
+(EngineCore pid=187807) INFO 11-06 16:45:46 [core.py:684] PD execution step req=cmpl-interleaved15-14-short-0-9d05efff side=p step=0 scheduled_tokens=128 batch_requests=2 submitted_monotonic_s=32261.263810158 elapsed_ms=133.063644 monotonic_s=32261.396873802
+(EngineCore pid=187807) INFO 11-06 16:45:46 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-13-medium-0-837dce92 status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32261.397326812
+(EngineCore pid=187807) INFO 11-06 16:45:46 [scheduler.py:2750] PD request finished req=cmpl-interleaved15-14-short-0-9d05efff status=FINISHED_LENGTH_CAPPED output_tokens=1 monotonic_s=32261.397557452
+INFO:     127.0.0.1:37708 - "POST /v1/completions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:37714 - "POST /v1/completions HTTP/1.1" 200 OK
+(EngineCore pid=187807) WARNING 11-06 16:45:46 [push_worker.py:1286] _do_start_push_kv for cmpl-interleaved15-03-medium-0-aa8518c6 took 418.4ms (slow NIXL submission)
+(EngineCore pid=187807) WARNING 11-06 16:45:50 [push_worker.py:1286] _do_start_push_kv for cmpl-interleaved15-05-long-0-a8bdcfec took 3737.7ms (slow NIXL submission)
+(EngineCore pid=187807) WARNING 11-06 16:45:54 [push_worker.py:1286] _do_start_push_kv for cmpl-interleaved15-07-long-0-97b6adb6 took 3645.9ms (slow NIXL submission)
+(EngineCore pid=187807) WARNING 11-06 16:45:54 [push_worker.py:1286] _do_start_push_kv for cmpl-interleaved15-09-medium-0-ae6b4a9b took 384.4ms (slow NIXL submission)
+(APIServer pid=186948) INFO 11-06 16:45:55 [loggers.py:335] Engine 000: Avg prompt throughput: 1134.8 tokens/s, Avg generation throughput: 0.4 tokens/s, Running: 0 reqs, Waiting: 0 reqs, GPU KV cache usage: 26.3%, External prefix cache hit rate: 0.0%
+(APIServer pid=186948) INFO 11-06 16:45:55 [metrics.py:103] KV Transfer metrics: Num successful transfers=10, Avg xfer time (ms)=1258.463, P90 xfer time (ms)=3754.57, Avg post time (ms)=1232.6, P90 post time (ms)=3754.57, Avg MB per transfer=411.0, Throughput (MB/s)=326.589, Avg number of descriptors=89.6, Num failed transfers=0, Num KV expired reqs=0, Num notifs after expiry=0
+(EngineCore pid=187807) WARNING 11-06 16:45:58 [push_worker.py:1286] _do_start_push_kv for cmpl-interleaved15-11-long-0-850926b0 took 3554.7ms (slow NIXL submission)
+(EngineCore pid=187807) INFO 11-06 16:45:59 [core.py:1523] [shutdown] EngineCore: trigger received signal=SIGTERM
+(EngineCore pid=187807) INFO 11-06 16:45:59 [core.py:1704] [shutdown] EngineCore: start mode=abort timeout=0s
+(EngineCore pid=187807) INFO 11-06 16:45:59 [core.py:1735] [shutdown] EngineCore: request processing complete; starting resource teardown
+(APIServer pid=186948) INFO 11-06 16:45:59 [launcher.py:254] [shutdown] API server: shutdown triggered
+(EngineCore pid=187807) INFO 11-06 16:45:59 [core.py:1568] [shutdown] EngineCore: exiting busy loop
+(APIServer pid=186948) INFO 11-06 16:45:59 [launcher.py:270] [shutdown] API server: stopping engine client mode=abort timeout=0s
+(APIServer pid=186948) INFO 11-06 16:45:59 [core_client.py:770] [shutdown] MPClient: start timeout=0s
+(APIServer pid=186948) INFO 11-06 16:45:59 [core_client.py:772] [shutdown] MPClient: stopping engine manager
+(APIServer pid=186948) INFO 11-06 16:45:59 [utils.py:628] [shutdown] Process manager: send sigterm to process EngineCore
+(APIServer pid=186948) WARNING 11-06 16:45:59 [utils.py:648] [shutdown] Process manager: force killing remaining processes count=1
+(APIServer pid=186948) WARNING 11-06 16:45:59 [utils.py:653] [shutdown] Process manager: force killing remaining process EngineCore pid 187807
+(APIServer pid=186948) INFO 11-06 16:45:59 [core_client.py:774] [shutdown] MPClient: engine manager stopped
+(APIServer pid=186948) INFO 11-06 16:45:59 [core_client.py:775] [shutdown] MPClient: cleaning up background resources
+(APIServer pid=186948) INFO 11-06 16:45:59 [core_client.py:777] [shutdown] MPClient: complete
+(APIServer pid=186948) INFO 11-06 16:45:59 [launcher.py:279] [shutdown] API server: engine client stopped
+(APIServer pid=186948) INFO 11-06 16:45:59 [launcher.py:282] [shutdown] API server: signalling HTTP server shutdown
+(APIServer pid=186948) INFO 11-06 16:45:59 [launcher.py:304] [shutdown] API server: shutting down FastAPI HTTP server
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+/home/ubuntu/miniconda3/envs/cc/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

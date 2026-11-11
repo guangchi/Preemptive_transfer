@@ -1,0 +1,4 @@
+request_id,category,prompt_tokens,max_tokens,status,latency_ms,prefill_ms,decode_ms,reported_prompt_tokens,output_tokens,error
+pd-19-00000,short,64,8,200,1479.294,340.23,1466.252,64,8,
+pd-19-00001,medium,1054,8,200,1476.208,147.921,1467.462,1054,8,
+pd-19-00002,long,11288,8,200,4795.698,1417.7,4783.463,11288,8,

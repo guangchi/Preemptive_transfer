@@ -1,0 +1,219 @@
+{
+  "passed": true,
+  "output_checks": [
+    {
+      "request_id": "interleaved15-00-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-01-long",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-02-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-03-medium",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-04-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-05-long",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-06-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-07-long",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-08-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-09-medium",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-10-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-11-long",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-12-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-13-medium",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    },
+    {
+      "request_id": "interleaved15-14-short",
+      "http_ok": true,
+      "text_match": true,
+      "tokens_present": true,
+      "tokens_match": true,
+      "direct_reference_match": true
+    }
+  ],
+  "modes": {
+    "baseline": {
+      "status": "passed",
+      "ok": 15,
+      "elapsed_s": 18.08335,
+      "batch_invariant": true,
+      "capture_logprobs": true,
+      "concurrency": 15,
+      "interarrival_ms": 100.0,
+      "prefix_caching": false,
+      "workload_checksum_match": true,
+      "submission_order_match": true,
+      "categories": {
+        "short": {
+          "n": 8,
+          "ttft_ms_mean": 12023.799,
+          "prefill_execution_ms_mean": 453.39,
+          "decode_execution_ms_mean": 660.64,
+          "e2e_ms_mean": 12282.129,
+          "generation_after_first_token_ms_mean": 258.33,
+          "decode_service_ms_mean": 373.989
+        },
+        "medium": {
+          "n": 3,
+          "ttft_ms_mean": 14477.23,
+          "prefill_execution_ms_mean": 745.281,
+          "decode_execution_ms_mean": 703.304,
+          "e2e_ms_mean": 14776.925,
+          "generation_after_first_token_ms_mean": 299.695,
+          "decode_service_ms_mean": 403.783
+        },
+        "long": {
+          "n": 4,
+          "ttft_ms_mean": 14299.549,
+          "prefill_execution_ms_mean": 7145.138,
+          "decode_execution_ms_mean": 714.935,
+          "e2e_ms_mean": 14614.328,
+          "generation_after_first_token_ms_mean": 314.779,
+          "decode_service_ms_mean": 401.482
+        }
+      },
+      "chunk_rows": 0,
+      "arbiter_decisions": {}
+    },
+    "preemptive": {
+      "status": "passed",
+      "ok": 15,
+      "elapsed_s": 19.120683,
+      "batch_invariant": true,
+      "capture_logprobs": true,
+      "concurrency": 15,
+      "interarrival_ms": 100.0,
+      "prefix_caching": false,
+      "workload_checksum_match": true,
+      "submission_order_match": true,
+      "categories": {
+        "short": {
+          "n": 8,
+          "ttft_ms_mean": 7872.614,
+          "prefill_execution_ms_mean": 386.571,
+          "decode_execution_ms_mean": 591.285,
+          "e2e_ms_mean": 8089.025,
+          "generation_after_first_token_ms_mean": 216.411,
+          "decode_service_ms_mean": 333.142
+        },
+        "medium": {
+          "n": 3,
+          "ttft_ms_mean": 11586.769,
+          "prefill_execution_ms_mean": 593.707,
+          "decode_execution_ms_mean": 567.711,
+          "e2e_ms_mean": 11852.239,
+          "generation_after_first_token_ms_mean": 265.47,
+          "decode_service_ms_mean": 308.197
+        },
+        "long": {
+          "n": 4,
+          "ttft_ms_mean": 10666.057,
+          "prefill_execution_ms_mean": 2437.739,
+          "decode_execution_ms_mean": 727.711,
+          "e2e_ms_mean": 10988.99,
+          "generation_after_first_token_ms_mean": 322.933,
+          "decode_service_ms_mean": 394.597
+        }
+      },
+      "chunk_rows": 698,
+      "arbiter_decisions": {
+        "dispatch_short": 8,
+        "dispatch_long": 134,
+        "protected_resume": 494,
+        "preempt_long": 8,
+        "dispatch_fifo": 54
+      }
+    }
+  }
+}

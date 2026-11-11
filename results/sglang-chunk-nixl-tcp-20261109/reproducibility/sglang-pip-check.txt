@@ -1,0 +1,35 @@
+exit_code=1
+smg-grpc-servicer 0.15.0 requires grpcio-health-checking, which is not installed.
+smg-grpc-servicer 0.15.0 requires grpcio-reflection, which is not installed.
+smg-grpc-servicer 0.15.0 requires smg-grpc-proto, which is not installed.
+modelscope 1.40.2 requires modelscope-hub, which is not installed.
+outlines 0.1.11 requires airportsdata, which is not installed.
+outlines 0.1.11 requires diskcache, which is not installed.
+outlines 0.1.11 requires nest-asyncio, which is not installed.
+sglang 0.5.21 requires flash-attn-4, which is not installed.
+sglang 0.5.21 requires nvidia-mathdx, which is not installed.
+sglang 0.5.21 requires nvshmem4py-cu13, which is not installed.
+sglang 0.5.21 requires sgl-deep-ep, which is not installed.
+sglang 0.5.21 requires sgl-deep-gemm, which is not installed.
+kernels 0.14.1 requires kernels-data, which is not installed.
+kernels 0.14.1 requires tomlkit, which is not installed.
+datasets 5.1.0 requires multiprocess, which is not installed.
+datasets 5.1.0 requires pandas, which is not installed.
+datasets 5.1.0 requires pyarrow, which is not installed.
+nixl 1.5.2 requires nixl-cu12, which is not installed.
+outlines 0.1.11 has requirement outlines_core==0.1.26, but you have outlines-core 0.2.14.
+sglang 0.5.21 has requirement blobfile==3.0.0, but you have blobfile 3.3.0.
+sglang 0.5.21 has requirement cuda-tile==1.6.0rc5, but you have cuda-tile 1.7.0.
+sglang 0.5.21 has requirement humming-kernels[cu13]==0.1.12, but you have humming-kernels 0.1.17.
+sglang 0.5.21 has requirement numba==0.65.1, but you have numba 0.65.0.
+sglang 0.5.21 has requirement nvidia-cutlass-dsl[cu13]==4.6.2, but you have nvidia-cutlass-dsl 4.8.0.
+sglang 0.5.21 has requirement openai==2.6.1, but you have openai 3.42.1.
+sglang 0.5.21 has requirement quack-kernels==0.6.4, but you have quack-kernels 0.6.5.
+sglang 0.5.21 has requirement tokenspeed_mla==0.1.8, but you have tokenspeed-mla 0.2.15.
+sglang 0.5.21 has requirement torchcodec==0.15.0; sys_platform != "linux" or (sys_platform == "linux" and platform_machine != "aarch64" and platform_machine != "arm64" and platform_machine != "armv7l"), but you have torchcodec 0.17.0.
+sglang 0.5.21 has requirement xgrammar==0.2.7, but you have xgrammar 0.2.8.
+datasets 5.1.0 has requirement fsspec[http]<=2026.7.0,>=2023.1.0, but you have fsspec 2026.9.0.
+vllm 0.32.0 has requirement compressed-tensors==0.17.0, but you have compressed-tensors 0.18.0.
+vllm 0.32.0 has requirement flashinfer-python==0.7.0.post1, but you have flashinfer-python 0.6.18.
+vllm 0.32.0 has requirement tokenizers>=0.23.2, but you have tokenizers 0.22.2.
+vllm 0.32.0 has requirement transformers<5.20.0,>=5.16.1, but you have transformers 5.12.1.

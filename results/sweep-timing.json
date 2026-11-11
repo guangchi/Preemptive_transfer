@@ -1,0 +1,17 @@
+{
+  "start_unix_s": 1793962991.7811575,
+  "end_unix_s": 1793963346.3159442,
+  "total_sweep_wall_s": 354.5347867012024,
+  "includes_baseline": true,
+  "groups": [
+    {
+      "run_dir": "/home/ubuntu/zjj/code/results/baseline-c4-p0-x0.85-w50",
+      "group_wall_s": 287.90534925460815
+    },
+    {
+      "run_dir": "/home/ubuntu/zjj/code/results/preemptive-c8-p3-x0.85-w50",
+      "group_wall_s": 66.41115069389343
+    }
+  ],
+  "sum_group_wall_s": 354.3164999485016
+}

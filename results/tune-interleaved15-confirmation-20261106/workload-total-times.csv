@@ -1,0 +1,13 @@
+run_dir,mode,requests,successful_requests,workload_makespan_s,successful_requests_per_s,client_replay_elapsed_s,group_wall_s
+/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/baseline/baseline-c4-p0-x0.85-w50,baseline,15,15,13.48023,1.112741,13.483894,86.971765
+/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50,preemptive,15,15,17.788624,0.843236,17.792049,91.342934
+/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100,preemptive,15,15,16.728168,0.896691,16.732274,90.487755
+/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50,preemptive,15,15,19.981555,0.750692,19.98533,93.166163
+/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-2/baseline/baseline-c4-p0-x0.85-w50,baseline,15,15,13.633534,1.100228,13.637494,88.17002
+/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-2/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50,preemptive,15,15,17.033942,0.880595,17.037623,91.616405
+/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-2/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100,preemptive,15,15,18.449064,0.813049,18.452941,92.171504
+/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-2/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50,preemptive,15,15,21.965815,0.682879,21.969214,95.7497
+/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-3/baseline/baseline-c4-p0-x0.85-w50,baseline,15,15,19.220133,0.780432,19.22341,93.238295
+/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-3/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50,preemptive,15,15,17.328524,0.865625,17.332386,92.447421
+/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-3/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100,preemptive,15,15,18.840865,0.796142,18.849163,92.957918
+/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-3/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50,preemptive,15,15,18.461291,0.812511,18.46454,92.466053

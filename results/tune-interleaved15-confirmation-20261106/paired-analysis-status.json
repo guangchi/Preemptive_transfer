@@ -1,0 +1,47 @@
+[
+  {
+    "point": "results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p3-x0.85-w50",
+    "summary_exit_code": 0,
+    "plot_exit_code": 0
+  },
+  {
+    "point": "results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100",
+    "summary_exit_code": 0,
+    "plot_exit_code": 0
+  },
+  {
+    "point": "results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w50",
+    "summary_exit_code": 0,
+    "plot_exit_code": 0
+  },
+  {
+    "point": "results/tune-interleaved15-confirmation-20261106/repeat-2/c4-p3-x0.85-w50",
+    "summary_exit_code": 1,
+    "plot_exit_code": 0
+  },
+  {
+    "point": "results/tune-interleaved15-confirmation-20261106/repeat-2/c4-p5-x0.95-w100",
+    "summary_exit_code": 0,
+    "plot_exit_code": 0
+  },
+  {
+    "point": "results/tune-interleaved15-confirmation-20261106/repeat-2/c4-p5-x0.95-w50",
+    "summary_exit_code": 0,
+    "plot_exit_code": 0
+  },
+  {
+    "point": "results/tune-interleaved15-confirmation-20261106/repeat-3/c4-p3-x0.85-w50",
+    "summary_exit_code": 0,
+    "plot_exit_code": 0
+  },
+  {
+    "point": "results/tune-interleaved15-confirmation-20261106/repeat-3/c4-p5-x0.95-w100",
+    "summary_exit_code": 0,
+    "plot_exit_code": 0
+  },
+  {
+    "point": "results/tune-interleaved15-confirmation-20261106/repeat-3/c4-p5-x0.95-w50",
+    "summary_exit_code": 0,
+    "plot_exit_code": 0
+  }
+]

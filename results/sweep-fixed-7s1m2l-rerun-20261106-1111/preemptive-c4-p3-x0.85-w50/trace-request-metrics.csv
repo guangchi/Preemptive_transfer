@@ -1,0 +1,11 @@
+request_id,category,status,error,prompt_tokens,output_tokens,ttft_ms,prefill_execution_ms,decode_execution_ms,prefill_gpu_forward_ms,decode_gpu_forward_ms,decode_service_ms,e2e_ms,arrival_to_finish_ms,generation_after_first_token_ms,prefill_execution_steps,decode_execution_steps,prefill_shared_batch_steps,decode_shared_batch_steps
+sweep-fixed-00-short,short,200,,68,8,373.785,41.609333,252.372324,,,143.036,491.804,492.974,118.019,1,8,0,3
+sweep-fixed-01-short,short,200,,96,8,358.591,25.558137,263.914632,,,151.346,473.798,474.415,115.207,1,8,0,6
+sweep-fixed-02-short,short,200,,128,8,558.787,27.468966,262.591335,,,151.034,676.651,677.413,117.864,1,8,0,8
+sweep-fixed-03-short,short,200,,160,8,236.859,28.248684,264.287991,,,152.346,356.283,356.945,119.424,1,8,0,7
+sweep-fixed-04-short,short,200,,192,8,205.532,29.430814,263.250848,,,151.415,324.407,325.156,118.875,1,8,0,5
+sweep-fixed-05-short,short,200,,224,8,224.459,30.67716,264.083785,,,152.011,341.037,341.343,116.578,1,8,0,7
+sweep-fixed-06-short,short,200,,255,8,241.662,31.986334,260.89644,,,151.357,357.513,358.009,115.851,1,8,0,3
+sweep-fixed-07-medium,medium,200,,1107,8,606.365,320.12453,252.211091,,,139.18,722.007,722.59,115.642,1,8,0,0
+sweep-fixed-08-long,long,200,,10645,8,5107.547,2705.736153,274.861035,,,154.14,5213.22,5215.779,105.673,6,8,1,0
+sweep-fixed-09-long,long,200,,12000,8,9890.938,2691.793396,276.617032,,,154.872,10001.347,10003.748,110.409,7,8,1,0

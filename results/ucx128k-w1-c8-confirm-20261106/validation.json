@@ -1,0 +1,13 @@
+{
+  "tests": {
+    "command": "PYTHONPATH=. pytest -q tests",
+    "passed": 77,
+    "warnings": 14,
+    "elapsed_s": 8.61
+  },
+  "shell_syntax": "passed",
+  "python_compile": "passed",
+  "runtime_snapshot_files": 10,
+  "runtime_snapshot_matches": true,
+  "gpu_cleanup": "both GPUs idle, 33 MiB each; no remaining experiment service processes"
+}

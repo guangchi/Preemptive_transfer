@@ -1,0 +1,110 @@
+[
+  {
+    "point": "c4-p1-x0.70-w100",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p1-x0.70-w25",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p1-x0.70-w50",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p1-x0.85-w100",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p1-x0.85-w25",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p1-x0.85-w50",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p1-x0.95-w100",
+    "exit_code": 1
+  },
+  {
+    "point": "c4-p1-x0.95-w25",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p1-x0.95-w50",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p3-x0.70-w100",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p3-x0.70-w25",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p3-x0.70-w50",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p3-x0.85-w100",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p3-x0.85-w25",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p3-x0.85-w50",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p3-x0.95-w100",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p3-x0.95-w25",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p3-x0.95-w50",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p5-x0.70-w100",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p5-x0.70-w25",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p5-x0.70-w50",
+    "exit_code": 1
+  },
+  {
+    "point": "c4-p5-x0.85-w100",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p5-x0.85-w25",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p5-x0.85-w50",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p5-x0.95-w100",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p5-x0.95-w25",
+    "exit_code": 0
+  },
+  {
+    "point": "c4-p5-x0.95-w50",
+    "exit_code": 0
+  }
+]

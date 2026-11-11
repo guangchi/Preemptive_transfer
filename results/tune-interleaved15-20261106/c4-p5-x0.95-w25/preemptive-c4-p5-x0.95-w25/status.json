@@ -1,0 +1,30 @@
+{
+  "chunk_size_blocks": 4,
+  "elapsed_s": 17.934,
+  "error": "",
+  "files": {
+    "decode.log": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25/decode.log",
+    "environment.json": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25/environment.json",
+    "experiment-timing.json": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25/experiment-timing.json",
+    "gpu.csv": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25/gpu.csv",
+    "load.json": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25/load.json",
+    "prefill.log": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25/prefill.log",
+    "requests.csv": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25/requests.csv",
+    "router.log": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25/router.log",
+    "run.json": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25/run.json",
+    "trace-chunks.csv": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25/trace-chunks.csv",
+    "trace-execution.csv": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25/trace-execution.csv",
+    "trace-request-metrics.csv": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25/trace-request-metrics.csv",
+    "trace-request-phases.csv": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25/trace-request-phases.csv"
+  },
+  "max_preemptions": 5,
+  "mode": "preemptive",
+  "ok": 15,
+  "protect_progress": 0.95,
+  "requests": 15,
+  "run_dir": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25",
+  "status": "passed",
+  "success_rate": 1.0,
+  "tag": "preemptive-c4-p5-x0.95-w25",
+  "wait_threshold_ms": 25.0
+}

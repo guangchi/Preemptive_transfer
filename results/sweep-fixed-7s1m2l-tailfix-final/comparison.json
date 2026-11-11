@@ -1,0 +1,130 @@
+{
+  "workload": "workload.sweep-fixed-7s1m2l.jsonl",
+  "workload_sha256": "0e42aeac323527a70a50214fe84f5d3ecae093ff0a04ea13c683d44b8bdaeac2",
+  "requests": 10,
+  "composition": {
+    "short": 7,
+    "medium": 1,
+    "long": 2
+  },
+  "same_request_order": true,
+  "all_http_200": true,
+  "all_hashes_match_between_modes": true,
+  "modes": {
+    "baseline": {
+      "short": {
+        "n": 7,
+        "ttft_ms_mean_ms": 291.204,
+        "ttft_ms_median_ms": 290.803,
+        "prefill_execution_ms_mean_ms": 29.853,
+        "prefill_execution_ms_median_ms": 28.316,
+        "decode_execution_ms_mean_ms": 258.708,
+        "decode_execution_ms_median_ms": 263.18,
+        "e2e_ms_mean_ms": 409.27,
+        "e2e_ms_median_ms": 407.844,
+        "decode_service_ms_mean_ms": 146.275,
+        "decode_service_ms_median_ms": 150.491
+      },
+      "medium": {
+        "n": 1,
+        "ttft_ms_mean_ms": 800.946,
+        "ttft_ms_median_ms": 800.946,
+        "prefill_execution_ms_mean_ms": 118.675,
+        "prefill_execution_ms_median_ms": 118.675,
+        "decode_execution_ms_mean_ms": 251.05,
+        "decode_execution_ms_median_ms": 251.05,
+        "e2e_ms_mean_ms": 916.921,
+        "e2e_ms_median_ms": 916.921,
+        "decode_service_ms_mean_ms": 138.33,
+        "decode_service_ms_median_ms": 138.33
+      },
+      "long": {
+        "n": 2,
+        "ttft_ms_mean_ms": 6708.201,
+        "ttft_ms_median_ms": 6708.201,
+        "prefill_execution_ms_mean_ms": 2746.532,
+        "prefill_execution_ms_median_ms": 2746.532,
+        "decode_execution_ms_mean_ms": 275.468,
+        "decode_execution_ms_median_ms": 275.468,
+        "e2e_ms_mean_ms": 6826.558,
+        "e2e_ms_median_ms": 6826.558,
+        "decode_service_ms_mean_ms": 153.238,
+        "decode_service_ms_median_ms": 153.238
+      },
+      "chunk_rows": 0,
+      "arbiter_decisions": {}
+    },
+    "preemptive": {
+      "short": {
+        "n": 7,
+        "ttft_ms_mean_ms": 292.954,
+        "ttft_ms_median_ms": 247.266,
+        "prefill_execution_ms_mean_ms": 28.632,
+        "prefill_execution_ms_median_ms": 29.444,
+        "decode_execution_ms_mean_ms": 261.999,
+        "decode_execution_ms_median_ms": 264.126,
+        "e2e_ms_mean_ms": 410.755,
+        "e2e_ms_median_ms": 362.695,
+        "decode_service_ms_mean_ms": 149.948,
+        "decode_service_ms_median_ms": 151.731
+      },
+      "medium": {
+        "n": 1,
+        "ttft_ms_mean_ms": 591.318,
+        "ttft_ms_median_ms": 591.318,
+        "prefill_execution_ms_mean_ms": 315.768,
+        "prefill_execution_ms_median_ms": 315.768,
+        "decode_execution_ms_mean_ms": 251.806,
+        "decode_execution_ms_median_ms": 251.806,
+        "e2e_ms_mean_ms": 707.595,
+        "e2e_ms_median_ms": 707.595,
+        "decode_service_ms_mean_ms": 139.233,
+        "decode_service_ms_median_ms": 139.233
+      },
+      "long": {
+        "n": 2,
+        "ttft_ms_mean_ms": 6506.636,
+        "ttft_ms_median_ms": 6506.636,
+        "prefill_execution_ms_mean_ms": 2690.099,
+        "prefill_execution_ms_median_ms": 2690.099,
+        "decode_execution_ms_mean_ms": 274.363,
+        "decode_execution_ms_median_ms": 274.363,
+        "e2e_ms_mean_ms": 6623.338,
+        "e2e_ms_median_ms": 6623.338,
+        "decode_service_ms_mean_ms": 151.722,
+        "decode_service_ms_median_ms": 151.722
+      },
+      "chunk_rows": 393,
+      "arbiter_decisions": {
+        "dispatch_fifo": 18,
+        "dispatch_long": 304,
+        "dispatch_short": 20,
+        "protected_resume": 51
+      }
+    }
+  },
+  "delta_preemptive_minus_baseline": {
+    "short": {
+      "ttft_ms_mean_ms": 1.75,
+      "prefill_execution_ms_mean_ms": -1.221,
+      "decode_execution_ms_mean_ms": 3.291,
+      "e2e_ms_mean_ms": 1.485,
+      "decode_service_ms_mean_ms": 3.673
+    },
+    "medium": {
+      "ttft_ms_mean_ms": -209.628,
+      "prefill_execution_ms_mean_ms": 197.093,
+      "decode_execution_ms_mean_ms": 0.756,
+      "e2e_ms_mean_ms": -209.326,
+      "decode_service_ms_mean_ms": 0.903
+    },
+    "long": {
+      "ttft_ms_mean_ms": -201.565,
+      "prefill_execution_ms_mean_ms": -56.433,
+      "decode_execution_ms_mean_ms": -1.105,
+      "e2e_ms_mean_ms": -203.22,
+      "decode_service_ms_mean_ms": -1.516
+    }
+  },
+  "interpretation": "Single fixed workload, one run per mode; descriptive comparison only, not stable percentiles or causal performance proof."
+}

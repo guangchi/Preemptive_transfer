@@ -1,0 +1,219 @@
+{
+  "off": {
+    "successful_requests": 15,
+    "outputs_match": true,
+    "D_only_after_KV_ready": true,
+    "makespan_s": 5.453021999997873,
+    "preemptions": 3,
+    "admission_windows": [],
+    "categories": {
+      "short": {
+        "mean_ttft_ms": 2271.42425,
+        "mean_e2e_ms": 2534.925125
+      },
+      "medium": {
+        "mean_ttft_ms": 2360.86,
+        "mean_e2e_ms": 2631.503
+      },
+      "long": {
+        "mean_ttft_ms": 2794.8697500000003,
+        "mean_e2e_ms": 3100.71825
+      }
+    }
+  },
+  "on": {
+    "successful_requests": 15,
+    "outputs_match": true,
+    "D_only_after_KV_ready": true,
+    "makespan_s": 5.306697999996686,
+    "preemptions": 2,
+    "admission_windows": [
+      {
+        "window": 3,
+        "rank": 0,
+        "request_id": "cmpl-interleaved15-02-short-run-1-0-826980f6",
+        "prompt_tokens": 128,
+        "arrived_monotonic": 29484.806787254,
+        "deadline_monotonic": 29484.826667066,
+        "released_monotonic": 29484.826882306,
+        "wait_ms": 20.095051997486735
+      },
+      {
+        "window": 3,
+        "rank": 1,
+        "request_id": "cmpl-interleaved15-00-short-run-1-0-95a5bc79",
+        "prompt_tokens": 128,
+        "arrived_monotonic": 29484.809422564,
+        "deadline_monotonic": 29484.826667066,
+        "released_monotonic": 29484.826882306,
+        "wait_ms": 17.459741997299716
+      },
+      {
+        "window": 3,
+        "rank": 2,
+        "request_id": "cmpl-interleaved15-04-short-run-1-0-ba935471",
+        "prompt_tokens": 128,
+        "arrived_monotonic": 29484.809475173,
+        "deadline_monotonic": 29484.826667066,
+        "released_monotonic": 29484.826882306,
+        "wait_ms": 17.407133000233443
+      },
+      {
+        "window": 3,
+        "rank": 3,
+        "request_id": "cmpl-interleaved15-03-medium-run-1-0-a225d3e6",
+        "prompt_tokens": 1107,
+        "arrived_monotonic": 29484.809499682,
+        "deadline_monotonic": 29484.826667066,
+        "released_monotonic": 29484.826882306,
+        "wait_ms": 17.382623998855706
+      },
+      {
+        "window": 3,
+        "rank": 4,
+        "request_id": "cmpl-interleaved15-01-long-run-1-0-a9b54f87",
+        "prompt_tokens": 10000,
+        "arrived_monotonic": 29484.806667066,
+        "deadline_monotonic": 29484.826667066,
+        "released_monotonic": 29484.826882306,
+        "wait_ms": 20.215239997924073
+      },
+      {
+        "window": 4,
+        "rank": 0,
+        "request_id": "cmpl-interleaved15-06-short-run-1-0-997997cd",
+        "prompt_tokens": 128,
+        "arrived_monotonic": 29485.437973277,
+        "deadline_monotonic": 29485.457906948,
+        "released_monotonic": 29485.500794506,
+        "wait_ms": 62.82122899938258
+      },
+      {
+        "window": 4,
+        "rank": 1,
+        "request_id": "cmpl-interleaved15-08-short-run-1-0-91161169",
+        "prompt_tokens": 128,
+        "arrived_monotonic": 29485.438007557,
+        "deadline_monotonic": 29485.457906948,
+        "released_monotonic": 29485.500794506,
+        "wait_ms": 62.78694899810944
+      },
+      {
+        "window": 4,
+        "rank": 2,
+        "request_id": "cmpl-interleaved15-09-medium-run-1-0-8e5cc104",
+        "prompt_tokens": 1107,
+        "arrived_monotonic": 29485.437906948,
+        "deadline_monotonic": 29485.457906948,
+        "released_monotonic": 29485.500794506,
+        "wait_ms": 62.88755800051149
+      },
+      {
+        "window": 4,
+        "rank": 3,
+        "request_id": "cmpl-interleaved15-07-long-run-1-0-bc8c01b5",
+        "prompt_tokens": 10000,
+        "arrived_monotonic": 29485.437953528,
+        "deadline_monotonic": 29485.457906948,
+        "released_monotonic": 29485.500794506,
+        "wait_ms": 62.840978000167524
+      },
+      {
+        "window": 4,
+        "rank": 4,
+        "request_id": "cmpl-interleaved15-05-long-run-1-0-be26e4a9",
+        "prompt_tokens": 10000,
+        "arrived_monotonic": 29485.437990807,
+        "deadline_monotonic": 29485.457906948,
+        "released_monotonic": 29485.500794506,
+        "wait_ms": 62.80369899832294
+      },
+      {
+        "window": 5,
+        "rank": 0,
+        "request_id": "cmpl-interleaved15-10-short-run-1-0-a9d0d09f",
+        "prompt_tokens": 128,
+        "arrived_monotonic": 29485.91554162,
+        "deadline_monotonic": 29485.93554162,
+        "released_monotonic": 29486.143212342,
+        "wait_ms": 227.67072200076655
+      },
+      {
+        "window": 5,
+        "rank": 1,
+        "request_id": "cmpl-interleaved15-12-short-run-1-0-be45cb27",
+        "prompt_tokens": 128,
+        "arrived_monotonic": 29485.915619509,
+        "deadline_monotonic": 29485.93554162,
+        "released_monotonic": 29486.143212342,
+        "wait_ms": 227.59283300183597
+      },
+      {
+        "window": 5,
+        "rank": 2,
+        "request_id": "cmpl-interleaved15-14-short-run-1-0-9dae81e3",
+        "prompt_tokens": 128,
+        "arrived_monotonic": 29485.915636229,
+        "deadline_monotonic": 29485.93554162,
+        "released_monotonic": 29486.143212342,
+        "wait_ms": 227.5761130003957
+      },
+      {
+        "window": 5,
+        "rank": 3,
+        "request_id": "cmpl-interleaved15-13-medium-run-1-0-b60e37d4",
+        "prompt_tokens": 1107,
+        "arrived_monotonic": 29485.915601499,
+        "deadline_monotonic": 29485.93554162,
+        "released_monotonic": 29486.143212342,
+        "wait_ms": 227.6108430014574
+      },
+      {
+        "window": 5,
+        "rank": 4,
+        "request_id": "cmpl-interleaved15-11-long-run-1-0-b0e68ea8",
+        "prompt_tokens": 10000,
+        "arrived_monotonic": 29485.9155806,
+        "deadline_monotonic": 29485.93554162,
+        "released_monotonic": 29486.143212342,
+        "wait_ms": 227.63174200008507
+      }
+    ],
+    "categories": {
+      "short": {
+        "mean_ttft_ms": 1545.0998749999999,
+        "mean_e2e_ms": 1807.575
+      },
+      "medium": {
+        "mean_ttft_ms": 1827.7406666666666,
+        "mean_e2e_ms": 2091.2123333333334
+      },
+      "long": {
+        "mean_ttft_ms": 2868.62525,
+        "mean_e2e_ms": 3176.08675
+      }
+    }
+  },
+  "legacy-off": {
+    "successful_requests": 15,
+    "outputs_match": true,
+    "D_only_after_KV_ready": true,
+    "makespan_s": 5.5042149999972025,
+    "preemptions": 2,
+    "admission_windows": [],
+    "categories": {
+      "short": {
+        "mean_ttft_ms": 2307.574,
+        "mean_e2e_ms": 2579.73875
+      },
+      "medium": {
+        "mean_ttft_ms": 2820.9513333333334,
+        "mean_e2e_ms": 3108.5243333333333
+      },
+      "long": {
+        "mean_ttft_ms": 2708.0299999999997,
+        "mean_e2e_ms": 3015.2195
+      }
+    }
+  }
+}

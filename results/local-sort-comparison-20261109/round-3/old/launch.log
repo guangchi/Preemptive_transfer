@@ -1,0 +1,10 @@
+/home/ubuntu/zjj/code/results/local-sort-comparison-20261109/round-3/old/environment.json
+run_dir=/home/ubuntu/zjj/code/results/local-sort-comparison-20261109/round-3/old
+mode=preemptive
+prefill_pid=146168
+decode_pid=146169
+prefill_side_channel=127.0.0.1:5600
+decode_side_channel=127.0.0.1:5601
+P endpoint: http://127.0.0.1:8300/v1/completions
+D endpoint: http://127.0.0.1:8400/v1/completions
+A PD router must submit paired P/D requests with kv_transfer_params; the worker endpoints are not a router.

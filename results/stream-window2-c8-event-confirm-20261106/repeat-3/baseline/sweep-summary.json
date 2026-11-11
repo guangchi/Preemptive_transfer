@@ -1,0 +1,27 @@
+{
+  "runs": [
+    {
+      "chunk_size_blocks": 8,
+      "elapsed_s": null,
+      "error": "worker_or_load_failed",
+      "files": {
+        "decode.log": "/home/ubuntu/zjj/code/results/stream-window2-c8-event-confirm-20261106/repeat-3/baseline/baseline-c8-p0-x0.85-w50/decode.log",
+        "environment.json": "/home/ubuntu/zjj/code/results/stream-window2-c8-event-confirm-20261106/repeat-3/baseline/baseline-c8-p0-x0.85-w50/environment.json",
+        "gpu.csv": "/home/ubuntu/zjj/code/results/stream-window2-c8-event-confirm-20261106/repeat-3/baseline/baseline-c8-p0-x0.85-w50/gpu.csv",
+        "load.json": "/home/ubuntu/zjj/code/results/stream-window2-c8-event-confirm-20261106/repeat-3/baseline/baseline-c8-p0-x0.85-w50/load.json",
+        "prefill.log": "/home/ubuntu/zjj/code/results/stream-window2-c8-event-confirm-20261106/repeat-3/baseline/baseline-c8-p0-x0.85-w50/prefill.log",
+        "router.log": "/home/ubuntu/zjj/code/results/stream-window2-c8-event-confirm-20261106/repeat-3/baseline/baseline-c8-p0-x0.85-w50/router.log"
+      },
+      "max_preemptions": 0,
+      "mode": "baseline",
+      "ok": 0,
+      "protect_progress": 0.85,
+      "requests": 0,
+      "run_dir": "/home/ubuntu/zjj/code/results/stream-window2-c8-event-confirm-20261106/repeat-3/baseline/baseline-c8-p0-x0.85-w50",
+      "status": "failed",
+      "success_rate": 0.0,
+      "tag": "baseline-c8-p0-x0.85-w50",
+      "wait_threshold_ms": 50.0
+    }
+  ]
+}

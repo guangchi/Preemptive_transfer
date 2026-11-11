@@ -1,0 +1,33 @@
+{
+  "runs": [
+    {
+      "chunk_size_blocks": 4,
+      "elapsed_s": 16.732,
+      "error": "",
+      "files": {
+        "decode.log": "/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100/decode.log",
+        "environment.json": "/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100/environment.json",
+        "gpu.csv": "/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100/gpu.csv",
+        "load.json": "/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100/load.json",
+        "prefill.log": "/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100/prefill.log",
+        "requests.csv": "/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100/requests.csv",
+        "router.log": "/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100/router.log",
+        "run.json": "/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100/run.json",
+        "trace-chunks.csv": "/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100/trace-chunks.csv",
+        "trace-execution.csv": "/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100/trace-execution.csv",
+        "trace-request-metrics.csv": "/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100/trace-request-metrics.csv",
+        "trace-request-phases.csv": "/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100/trace-request-phases.csv"
+      },
+      "max_preemptions": 5,
+      "mode": "preemptive",
+      "ok": 15,
+      "protect_progress": 0.95,
+      "requests": 15,
+      "run_dir": "/home/ubuntu/zjj/code/results/tune-interleaved15-confirmation-20261106/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100",
+      "status": "passed",
+      "success_rate": 1.0,
+      "tag": "preemptive-c4-p5-x0.95-w100",
+      "wait_threshold_ms": 100.0
+    }
+  ]
+}

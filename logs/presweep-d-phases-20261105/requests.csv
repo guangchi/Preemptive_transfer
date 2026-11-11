@@ -1,0 +1,4 @@
+request_id,category,prompt_tokens,max_tokens,status,submitted_at_monotonic_s,request_started_monotonic_s,queue_ms,router_received_monotonic_s,submit_to_router_ms,latency_ms,ttft_ms,router_ttft_ms,prefill_ms,decode_ms,reported_prompt_tokens,output_tokens,response_sha256,error
+pd-77-00000,short,68,8,200,53909.43134,53909.432374,1.034,53909.438718,7.377,495.973,380.119,372.967,49.336,,68,8,04bbe8b5d6879a71f3fa265bdf04a16a5d71a400728d5332312b0ee37b09d3d3,
+pd-77-00001,medium,1107,8,200,53909.684127,53909.684918,0.792,53909.686713,2.586,685.41,569.067,566.656,138.068,,1107,8,1ccba5c13b022e7083372f4fac535f17aad9a10e127639c6f5ee33599448feec,
+pd-77-00002,long,10645,8,200,53909.935313,53909.937837,2.524,53909.941145,5.832,3897.867,3783.618,3779.624,1221.002,,10645,8,fe83f56e9f3c637e57535a3dc68c966bcc205e0a48a8a0389e62af62f767e4ba,

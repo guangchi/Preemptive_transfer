@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "requests": 15,
+      "successful_requests": 15,
+      "all_successful": true,
+      "first_client_send_monotonic_s": 47105.561254,
+      "last_client_finish_monotonic_s": 47111.236681,
+      "workload_makespan_s": 5.675427,
+      "first_submission_to_last_finish_s": 5.676634,
+      "successful_requests_per_s": 2.642973,
+      "generated_tokens": 120,
+      "note": "First client HTTP send to last response finish; includes interarrival and request queueing, excludes model startup/warmup/cleanup. Failed responses are retained in the end boundary.",
+      "run_dir": "/home/ubuntu/zjj/code/results/eager-progress-c8-20261106/confirmation/repeat-3/c8-p3-x0.85-w50/preemptive-c8-p3-x0.85-w50",
+      "mode": "preemptive",
+      "group_wall_s": 79.41772,
+      "phase_durations_s": {
+        "pair_launch_s": 2.6186118125915527,
+        "worker_health_s": 54.77250623703003,
+        "router_start_s": 0.11207127571105957,
+        "warmup_s": 15.005247592926025,
+        "load_replay_s": 5.842304944992065,
+        "trace_collection_s": 0.09836435317993164,
+        "cleanup_s": 0.8915963172912598,
+        "group_wall_s": 79.417720079422
+      },
+      "client_replay_elapsed_s": 5.678986
+    }
+  ]
+}

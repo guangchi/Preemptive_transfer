@@ -1,0 +1,82 @@
+{
+  "conditional_contributions": {
+    "early_streaming": {
+      "mean_makespan_saved_s": 1.1238673333333338,
+      "reduction_pct_of_disabled_mean": 16.589266373145005,
+      "categories_saved_ms": {
+        "short": {
+          "ttft_ms": 415.4510000000002,
+          "e2e_ms": 402.108625
+        },
+        "medium": {
+          "ttft_ms": 1036.506,
+          "e2e_ms": 1015.9101111111113
+        },
+        "long": {
+          "ttft_ms": 914.2789999999999,
+          "e2e_ms": 917.2690833333331
+        }
+      },
+      "per_repeat_makespan_saved_s": [
+        1.2806930000000003,
+        1.0167070000000002,
+        1.0742020000000005
+      ]
+    },
+    "short_medium_aggregation": {
+      "mean_makespan_saved_s": 0.00987233333333363,
+      "reduction_pct_of_disabled_mean": 0.17440218508855132,
+      "categories_saved_ms": {
+        "short": {
+          "ttft_ms": -0.8887499999999212,
+          "e2e_ms": -0.29041666666656357
+        },
+        "medium": {
+          "ttft_ms": 3.7848888888888723,
+          "e2e_ms": 2.037222222222075
+        },
+        "long": {
+          "ttft_ms": -8.86966666666664,
+          "e2e_ms": -5.58000000000023
+        }
+      },
+      "per_repeat_makespan_saved_s": [
+        0.027423999999999893,
+        -0.005725999999999232,
+        0.007919000000000231
+      ]
+    },
+    "priority_preemption": {
+      "mean_makespan_saved_s": 0.1298573333333334,
+      "reduction_pct_of_disabled_mean": 2.2464118401332334,
+      "categories_saved_ms": {
+        "short": {
+          "ttft_ms": 165.39825000000005,
+          "e2e_ms": 166.59416666666675
+        },
+        "medium": {
+          "ttft_ms": 127.83722222222225,
+          "e2e_ms": 101.20100000000002
+        },
+        "long": {
+          "ttft_ms": 15.525499999999889,
+          "e2e_ms": 15.241749999999834
+        }
+      },
+      "per_repeat_makespan_saved_s": [
+        0.0590799999999998,
+        0.1523090000000007,
+        0.17818299999999976
+      ]
+    }
+  },
+  "baseline_to_full_reduction_pct": 8.7305005632067,
+  "all_outputs_correct": 225,
+  "long_e2e_full_minus_fifo_ms": {
+    "interleaved15-01-long": 132.90266666666685,
+    "interleaved15-05-long": -36.25533333333351,
+    "interleaved15-07-long": -112.55066666666698,
+    "interleaved15-11-long": -45.063666666666904
+  },
+  "non_additive": true
+}

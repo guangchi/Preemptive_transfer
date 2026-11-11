@@ -1,0 +1,13 @@
+{
+  "tests": "84 passed, 14 warnings in 8.79s",
+  "shell_syntax": "passed",
+  "python_compilation": "passed",
+  "module_defaults": "all enabled",
+  "invalid_module_flags": "rejected before service launch",
+  "runtime_files_unchanged_during_experiment": 10,
+  "audited_service_groups": 15,
+  "audited_requests": 225,
+  "all_correct": true,
+  "archived_source_files": 31,
+  "snapshot_files_identical": 10
+}

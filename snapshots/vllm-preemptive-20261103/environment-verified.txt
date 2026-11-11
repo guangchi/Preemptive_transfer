@@ -1,0 +1,18 @@
+Verified 2026-11-03
+Python environment: /home/ubuntu/miniconda3/envs/cc
+GPUs: 2 x RTX 4090
+TP=1 PP=1
+Torch CUDA runtime: 13.0
+CUDA compiler: nvidia/cu13/bin/nvcc 13.4.92
+torch==2.13.0
+vllm==0.32.0
+nixl==1.5.2
+nixl-cu13==1.5.2
+flashinfer-python==0.7.0.post1
+Experiment workaround: NVCC_PREPEND_FLAGS=-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK
+CUDA wheel has 13.0 headers and 13.4 compiler; complete correctness validation remains pending.
+CUDA_HOME and CUDA_ROOT: /home/ubuntu/miniconda3/envs/cc/lib/python3.11/site-packages/nvidia/cu13
+Local compatibility links: cu13/lib64 -> lib; cu13/lib/stubs/libcuda.so -> /usr/local/cuda/lib64/stubs/libcuda.so
+Do not add stub directory to runtime LD_LIBRARY_PATH.
+Validation: baseline mixed smoke 3/3; latest preemptive mixed smoke 2/3, long timed out.
+Services stopped after verification.

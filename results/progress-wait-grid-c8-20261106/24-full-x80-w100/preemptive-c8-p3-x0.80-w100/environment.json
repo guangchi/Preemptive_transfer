@@ -1,0 +1,71 @@
+{
+  "api_key_configured": false,
+  "batch_invariant": true,
+  "capture_logprobs": false,
+  "chunk_size_blocks": "8",
+  "cuda_home": "/home/ubuntu/miniconda3/envs/cc/lib/python3.11/site-packages/nvidia/cu13",
+  "cuda_profile_enabled": false,
+  "cuda_profile_window": "first real forward to all prompt finals",
+  "cuda_runtime_version": "13.0",
+  "cuda_toolkit_root": "/home/ubuntu/miniconda3/envs/cc/lib/python3.11/site-packages/nvidia/cu13",
+  "d_device": "1",
+  "d_port": "8200",
+  "d_side_channel_port": "5601",
+  "execution_timing_schema": 2,
+  "gpu_inventory": [
+    {
+      "driver_version": "595.99.02",
+      "index": "0",
+      "name": "NVIDIA GeForce RTX 4090",
+      "uuid": "GPU-66e8dd4f-4138-a093-d9fc-c637daf7833f"
+    },
+    {
+      "driver_version": "595.99.02",
+      "index": "1",
+      "name": "NVIDIA GeForce RTX 4090",
+      "uuid": "GPU-e0823ca1-4c06-76cf-2d5d-1ad040bd8a66"
+    }
+  ],
+  "gpu_memory_utilization": "0.90",
+  "kv_source_fence": "event",
+  "long_threshold_tokens": "8192",
+  "max_model_len": "32768",
+  "max_preemptions": "3",
+  "measure_execution": true,
+  "mode": "preemptive",
+  "model": "/home/ubuntu/zjj/models/Llama-3.1-8B-Instruct",
+  "module_switches": {
+    "aggregate_short_medium": true,
+    "priority_preemption": true,
+    "stream_by_batch": true
+  },
+  "nixl_side_channel_host": "127.0.0.1",
+  "nvcc_prepend_flags": "-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK",
+  "nvcc_version": "Cuda compilation tools, release 13.4, V13.4.92",
+  "p_device": "0",
+  "p_port": "8100",
+  "p_side_channel_port": "5600",
+  "packages": {
+    "nixl": "1.5.2",
+    "nixl-cu13": "1.5.2",
+    "pytest": "9.2.0",
+    "tokenizers": "0.23.3",
+    "torch": "2.13.0",
+    "vllm": "0.32.0"
+  },
+  "platform": "Linux-5.15.0-72-generic-x86_64-with-glibc2.35",
+  "prefix_caching": false,
+  "protect_progress": "0.80",
+  "python_executable": "/home/ubuntu/miniconda3/envs/cc/bin/python",
+  "python_version": "3.11.18",
+  "scale_out": false,
+  "short_threshold_tokens": "256",
+  "stream_eager_progress": false,
+  "stream_max_in_flight": 1,
+  "trace_write_phases": true,
+  "ucx_environment": {
+    "UCX_TCP_RX_SEG_SIZE": "128k",
+    "UCX_TCP_TX_SEG_SIZE": "128k"
+  },
+  "wait_threshold_ms": "100"
+}

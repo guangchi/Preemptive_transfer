@@ -1,0 +1,149 @@
+{
+  "strict_guardrail_recommendation": null,
+  "observed_lowest_latency_among_output_correct_settings": "c4-p5-x0.95-w100",
+  "grid_search_wall_s": 2710.86151099205,
+  "confirmation_wall_s": 1102.1780422240008,
+  "overall_search_and_confirmation_wall_s": 3837.7029592990875,
+  "summary": [
+    {
+      "setting": "baseline",
+      "repeats": 3,
+      "categories": {
+        "short": {
+          "ttft_ms": 11207.963666666667,
+          "e2e_ms": 11497.809791666667
+        },
+        "medium": {
+          "ttft_ms": 12338.226888888888,
+          "e2e_ms": 12628.093444444445
+        },
+        "long": {
+          "ttft_ms": 12794.1405,
+          "e2e_ms": 13089.557833333334
+        }
+      },
+      "workload_makespan_s_mean": 15.444632333333333,
+      "workload_makespan_s_min": 13.48023,
+      "workload_makespan_s_max": 19.220133,
+      "median_score_ms": 11437.357612889144,
+      "group_wall_s_mean": 89.4600264231364,
+      "successful_requests_per_s_mean": 0.9978003333333333,
+      "outputs_and_references_match": true,
+      "guardrail_pass": null,
+      "max_paired_long_e2e_ratio": null
+    },
+    {
+      "setting": "c4-p5-x0.95-w50",
+      "repeats": 3,
+      "categories": {
+        "short": {
+          "ttft_ms": 8430.16375,
+          "e2e_ms": 8679.358125
+        },
+        "medium": {
+          "ttft_ms": 12443.526222222223,
+          "e2e_ms": 12707.893333333333
+        },
+        "long": {
+          "ttft_ms": 11471.55,
+          "e2e_ms": 11793.98
+        }
+      },
+      "workload_makespan_s_mean": 20.136220333333334,
+      "workload_makespan_s_min": 18.461291,
+      "workload_makespan_s_max": 21.965815,
+      "median_score_ms": 10108.51356913211,
+      "group_wall_s_mean": 93.79397209485371,
+      "successful_requests_per_s_mean": 0.748694,
+      "outputs_and_references_match": true,
+      "guardrail_pass": false,
+      "max_paired_long_e2e_ratio": 1.609512511900671
+    },
+    {
+      "setting": "c4-p5-x0.95-w100",
+      "repeats": 3,
+      "categories": {
+        "short": {
+          "ttft_ms": 7061.426875,
+          "e2e_ms": 7306.856333333333
+        },
+        "medium": {
+          "ttft_ms": 11061.469333333333,
+          "e2e_ms": 11325.901222222223
+        },
+        "long": {
+          "ttft_ms": 10253.707750000001,
+          "e2e_ms": 10575.314416666666
+        }
+      },
+      "workload_makespan_s_mean": 18.006032333333334,
+      "workload_makespan_s_min": 16.728168,
+      "workload_makespan_s_max": 18.840865,
+      "median_score_ms": 9076.414761287631,
+      "group_wall_s_mean": 91.87239225705464,
+      "successful_requests_per_s_mean": 0.835294,
+      "outputs_and_references_match": true,
+      "guardrail_pass": false,
+      "max_paired_long_e2e_ratio": 1.3394911088767836
+    },
+    {
+      "setting": "c4-p3-x0.85-w50",
+      "repeats": 3,
+      "categories": {
+        "short": {
+          "ttft_ms": 7803.730375,
+          "e2e_ms": 8052.7001666666665
+        },
+        "medium": {
+          "ttft_ms": 10483.312222222223,
+          "e2e_ms": 10748.189
+        },
+        "long": {
+          "ttft_ms": 9673.275333333333,
+          "e2e_ms": 9993.678416666668
+        }
+      },
+      "workload_makespan_s_mean": 17.383696666666665,
+      "workload_makespan_s_min": 17.033942,
+      "workload_makespan_s_max": 17.788624,
+      "median_score_ms": 8904.450778256294,
+      "group_wall_s_mean": 91.80225332578023,
+      "successful_requests_per_s_mean": 0.863152,
+      "outputs_and_references_match": false,
+      "guardrail_pass": false,
+      "max_paired_long_e2e_ratio": 1.3026774934914616
+    }
+  ],
+  "scope": "Fixed 15-request workload, GPU/software configuration and searched discrete range; no global optimality or stable tail percentile claim.",
+  "default_parameters_changed": false,
+  "output_failures": [
+    {
+      "repeat": 2,
+      "setting": "c4-p3-x0.85-w50",
+      "request_id": "interleaved15-01-long",
+      "actual_token_ids": [
+        8481,
+        1715,
+        8481,
+        1715,
+        8481,
+        1715,
+        8481,
+        1715
+      ],
+      "reference_token_ids": [
+        [
+          1121,
+          1715,
+          8481,
+          1715,
+          1121,
+          6636,
+          1121,
+          8481
+        ]
+      ]
+    }
+  ],
+  "guardrail_is_analyst_choice": "Per-request long E2E at most +10% relative to fresh paired baseline, not a user SLA or a hard system guarantee."
+}

@@ -1,0 +1,13 @@
+{"event": "gpu_clock_anchor", "t": 6686.794251851, "pid": 41528, "uncertainty_s": 2.0549499822664075e-05}
+{"event": "gpu_forward", "t": 6686.816775711, "pid": 41528, "start": 6686.7944056774995, "end": 6686.816644910278, "duration_ms": 22.23923110961914, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 6686.83703959, "pid": 41528, "start": 6686.81983793396, "end": 6686.836992814483, "duration_ms": 17.15488052368164, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 6686.853527714, "pid": 41528, "start": 6686.837029675903, "end": 6686.853483308258, "duration_ms": 16.453632354736328, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 6686.870014707, "pid": 41528, "start": 6686.853520173492, "end": 6686.869972783508, "duration_ms": 16.452608108520508, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 6686.88651494, "pid": 41528, "start": 6686.870008618775, "end": 6686.886464299621, "duration_ms": 16.45568084716797, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 6686.902989594, "pid": 41528, "start": 6686.886501164856, "end": 6686.902948651733, "duration_ms": 16.44748878479004, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 6686.919432229, "pid": 41528, "start": 6686.902984494629, "end": 6686.919394093933, "duration_ms": 16.40959930419922, "mode": "2", "batch_size": 1}
+{"event": "gpu_forward", "t": 6686.935859074, "pid": 41528, "start": 6686.919427884522, "end": 6686.935818036499, "duration_ms": 16.39014434814453, "mode": "2", "batch_size": 1}
+{"event": "gpu_clock_anchor", "t": 6690.733772152, "pid": 41525, "uncertainty_s": 1.6659500033711083e-05}
+{"event": "gpu_forward", "t": 6690.766116667, "pid": 41525, "start": 6690.733881548504, "end": 6690.765992139796, "duration_ms": 32.110591888427734, "mode": "1", "batch_size": 1}
+{"event": "gpu_forward", "t": 6691.191269149, "pid": 41525, "start": 6691.164727510432, "end": 6691.191180482844, "duration_ms": 26.452991485595703, "mode": "1", "batch_size": 1}
+{"event": "gpu_forward", "t": 6698.386733554, "pid": 41525, "start": 6698.362479799251, "end": 6698.386571596126, "duration_ms": 24.091615676879883, "mode": "1", "batch_size": 1}

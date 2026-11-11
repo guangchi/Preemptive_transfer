@@ -1,0 +1,62 @@
+[
+  {
+    "run": "results/compute-transfer-overlap-event-confirm-20261106/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+    "direct_outputs_match": true,
+    "chunk_order_contiguous": true,
+    "stream_requests": 0,
+    "chunks": 0,
+    "event_batches": 0,
+    "device_sync_batches": 0,
+    "prefill_log_sha256": "7c6a2e92d26a5b6aed8154cba6bddbd41d3a081e8dcabef97e2c9b956007b560"
+  },
+  {
+    "run": "results/compute-transfer-overlap-event-confirm-20261106/repeat-1/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50",
+    "direct_outputs_match": true,
+    "chunk_order_contiguous": true,
+    "stream_requests": 15,
+    "chunks": 698,
+    "event_batches": 23,
+    "device_sync_batches": 0,
+    "prefill_log_sha256": "6cea5f6536a3e122cd0d57a3274520231c0419b6fa704e4a7903ef7b82773f1d"
+  },
+  {
+    "run": "results/compute-transfer-overlap-event-confirm-20261106/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+    "direct_outputs_match": true,
+    "chunk_order_contiguous": true,
+    "stream_requests": 0,
+    "chunks": 0,
+    "event_batches": 0,
+    "device_sync_batches": 0,
+    "prefill_log_sha256": "c2018496e05922dc3bc12ba219c3ef1ed65d469ccd8818dbe175a49085fd0a2d"
+  },
+  {
+    "run": "results/compute-transfer-overlap-event-confirm-20261106/repeat-2/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50",
+    "direct_outputs_match": true,
+    "chunk_order_contiguous": true,
+    "stream_requests": 15,
+    "chunks": 698,
+    "event_batches": 23,
+    "device_sync_batches": 0,
+    "prefill_log_sha256": "5fc470a7537e6a7ff57a508d6b0613ffa83e3f584a71afc9e017a611f424d393"
+  },
+  {
+    "run": "results/compute-transfer-overlap-event-confirm-20261106/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+    "direct_outputs_match": true,
+    "chunk_order_contiguous": true,
+    "stream_requests": 0,
+    "chunks": 0,
+    "event_batches": 0,
+    "device_sync_batches": 0,
+    "prefill_log_sha256": "b874a5a357d16ac66c8c6789bd334f153904f6d8cc7612ba661ca526a78b442e"
+  },
+  {
+    "run": "results/compute-transfer-overlap-event-confirm-20261106/repeat-3/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50",
+    "direct_outputs_match": true,
+    "chunk_order_contiguous": true,
+    "stream_requests": 15,
+    "chunks": 698,
+    "event_batches": 23,
+    "device_sync_batches": 0,
+    "prefill_log_sha256": "582a199945660d734c746a320a00cfd4f73e5dd967e9cae6a830b1e6110462ea"
+  }
+]

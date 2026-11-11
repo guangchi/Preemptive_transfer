@@ -1,0 +1,2 @@
+long 500 1.314 {"error": "upstream returned HTTP 500: {\"error\":{\"message\":\"Internal server error\",\"type\":\"InternalServerError\",\"param\":null,\"code\":500}}", "upstream_body": "{\"error\":{\"message\":\"Internal server error\",\"type\":\"Interna
+short 200 0.214 {"id":"cmpl-pd-7-00000","object":"text_completion","created":1793867163,"model":"local","choices":[{"index":0,"text":" r

@@ -1,0 +1,9 @@
+run_dir=/home/ubuntu/zjj/code/logs/d-abort-recovery-20261105
+mode=preemptive
+prefill_pid=159006
+decode_pid=159007
+prefill_side_channel=127.0.0.1:5660
+decode_side_channel=127.0.0.1:5661
+P endpoint: http://127.0.0.1:8160/v1/completions
+D endpoint: http://127.0.0.1:8260/v1/completions
+A PD router must submit paired P/D requests with kv_transfer_params; the worker endpoints are not a router.

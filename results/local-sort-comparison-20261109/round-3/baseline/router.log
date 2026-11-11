@@ -1,0 +1,64 @@
+PD router listening on http://127.0.0.1:8500
+P endpoint: http://127.0.0.1:8300/v1/completions (pd-prefill, 127.0.0.1:5600)
+D endpoint: http://127.0.0.1:8400/v1/completions (pd-decode, 127.0.0.1:5601)
+09/Nov/2026 18:52:22 127.0.0.1 "GET /health HTTP/1.1" 200 -
+09/Nov/2026 18:52:23 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:23 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:25 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:25 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:25 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:25 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:26 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:26 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:27 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:27 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:27 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -09/Nov/2026 18:52:27 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:27 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+
+09/Nov/2026 18:52:28 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:28 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:31 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:32 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:32 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:33 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -09/Nov/2026 18:52:33 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+
+09/Nov/2026 18:52:33 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:34 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:34 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:35 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -09/Nov/2026 18:52:35 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:35 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+
+09/Nov/2026 18:52:35 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -09/Nov/2026 18:52:35 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+
+09/Nov/2026 18:52:35 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:36 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:40 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:40 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:40 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -09/Nov/2026 18:52:40 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+
+09/Nov/2026 18:52:41 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:41 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:42 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:42 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:43 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -09/Nov/2026 18:52:43 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+
+09/Nov/2026 18:52:43 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:43 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:43 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:44 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:44 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:47 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:48 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:48 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -09/Nov/2026 18:52:48 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+
+09/Nov/2026 18:52:48 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:49 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -09/Nov/2026 18:52:49 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+
+09/Nov/2026 18:52:50 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:50 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:51 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:51 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:52 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:52 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:52 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+09/Nov/2026 18:52:52 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -

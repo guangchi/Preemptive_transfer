@@ -1,0 +1,30 @@
+{
+  "chunk_size_blocks": 8,
+  "elapsed_s": 6.003,
+  "error": "",
+  "files": {
+    "decode.log": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150/decode.log",
+    "environment.json": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150/environment.json",
+    "experiment-timing.json": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150/experiment-timing.json",
+    "gpu.csv": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150/gpu.csv",
+    "load.json": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150/load.json",
+    "prefill.log": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150/prefill.log",
+    "requests.csv": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150/requests.csv",
+    "router.log": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150/router.log",
+    "run.json": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150/run.json",
+    "trace-chunks.csv": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150/trace-chunks.csv",
+    "trace-execution.csv": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150/trace-execution.csv",
+    "trace-request-metrics.csv": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150/trace-request-metrics.csv",
+    "trace-request-phases.csv": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150/trace-request-phases.csv"
+  },
+  "max_preemptions": 3,
+  "mode": "preemptive",
+  "ok": 15,
+  "protect_progress": 0.8,
+  "requests": 15,
+  "run_dir": "/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/30-full-x80-w150/preemptive-c8-p3-x0.80-w150",
+  "status": "passed",
+  "success_rate": 1.0,
+  "tag": "preemptive-c8-p3-x0.80-w150",
+  "wait_threshold_ms": 150.0
+}

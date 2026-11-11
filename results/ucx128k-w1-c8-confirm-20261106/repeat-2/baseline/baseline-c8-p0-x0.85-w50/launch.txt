@@ -1,0 +1,10 @@
+/home/ubuntu/zjj/code/results/ucx128k-w1-c8-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50/environment.json
+run_dir=/home/ubuntu/zjj/code/results/ucx128k-w1-c8-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50
+mode=baseline
+prefill_pid=292944
+decode_pid=292945
+prefill_side_channel=127.0.0.1:5630
+decode_side_channel=127.0.0.1:5631
+P endpoint: http://127.0.0.1:8130/v1/completions
+D endpoint: http://127.0.0.1:8230/v1/completions
+A PD router must submit paired P/D requests with kv_transfer_params; the worker endpoints are not a router.

@@ -1,0 +1,1 @@
+/home/ubuntu/miniconda3/envs/cc/bin/python: can't open file '/home/ubuntu/zjj/code/logs/presweep-execution-20261106/run_smoke.py': [Errno 2] No such file or directory

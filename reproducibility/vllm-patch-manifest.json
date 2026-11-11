@@ -1,0 +1,57 @@
+{
+  "vllm_version": "0.32.0",
+  "vllm_commit": "g5df63a720",
+  "snapshot": "snapshots/vllm-preemptive-20261103",
+  "files": [
+    {
+      "path": "vllm/distributed/kv_transfer/kv_connector/v1/nixl/metadata.py",
+      "sha256": "6e6d9ea69cbe64fbe797744175a24ef1c15fa1976bf2ec4cf33d17d8a9d56219",
+      "original_sha256": "11b517d993688152fd6f3396497a93773420e5aefd8c6b7c216d01b1cc5e60b9"
+    },
+    {
+      "path": "vllm/distributed/kv_transfer/kv_connector/v1/nixl/preemptive_transfer.py",
+      "sha256": "c6746a4af68e33571165aba7e5b2b1898a500ca21658f1c2f181be30969d61c2",
+      "original_sha256": null
+    },
+    {
+      "path": "vllm/v1/core/sched/scheduler.py",
+      "sha256": "e76fd5c4284b373ee6e9c93b09b9c6793d751b1bebf6d7d60f11e56553280491",
+      "original_sha256": "d9a39870286c424cef2fc0730e24092ee3df67e848608e2278944846bab804ae"
+    },
+    {
+      "path": "vllm/v1/engine/core.py",
+      "sha256": "a4f4ecbf21172f687906d7acfac7936d4e5e7979ccf1000385ed3596cca65552",
+      "original_sha256": "458fd729771681b124d3a4d5b1c575f689bf789a5e0c8cc9f5c524eb6ec84f87"
+    },
+    {
+      "path": "vllm/v1/worker/gpu_model_runner.py",
+      "sha256": "b62d671eb029e2311a0b2099fd1fbe989bf50fbc2ac00cd38ea169cb06d233fc",
+      "original_sha256": "4cf95efe4ea8caa3110dcd231ff95ceb97e8136f5056e6bdd388300a484c4a81"
+    },
+    {
+      "path": "vllm/v1/worker/pd_execution_timing.py",
+      "sha256": "018728eb6561bc106d46d1892571407af82456ad1053dbb2b6307e5ebcb8bdde",
+      "original_sha256": null
+    },
+    {
+      "path": "vllm/distributed/kv_transfer/kv_connector/v1/nixl/push_worker.py",
+      "sha256": "80e28451caa23a371c3a64adad12fcbdfe2a670a8ea8b45b39ea930a453b5204",
+      "original_sha256": "bc7eb8e821a5f9a9a4a7cd3a02d7e8541ffd893f2ad188eef2f9670e739a2613"
+    },
+    {
+      "path": "vllm/v1/worker/gpu/kv_connector.py",
+      "sha256": "936fc0a983fdcdce6de286234349329254849f15912d93bc4db95e3ecc413f13",
+      "original_sha256": "7d9fec7b8b81c09c0bd87e5b9b4e2b829b0231b5805e86111df6a1eef2b4fe97"
+    },
+    {
+      "path": "vllm/v1/worker/gpu/model_runner.py",
+      "sha256": "af056f084c78fe547f1299089d630a0fe6a633ab23d4925f8bcc3f67b4d817a9",
+      "original_sha256": "5240fe8d62d403e466a4aa07a28fb7af5c0f1e9b9c3bb08c4003185bde461f87"
+    },
+    {
+      "path": "vllm/distributed/kv_transfer/kv_connector/v1/nixl/push_scheduler.py",
+      "sha256": "850ca187599687ff1d73bdb1c7fd226729ab9cab9c327aaa8a8ca09804329d9c",
+      "original_sha256": "2d9008e33937a4d6c5cf9cc2f96160f2bdbc8e987fe37f0798a7fd7eb84c9572"
+    }
+  ]
+}

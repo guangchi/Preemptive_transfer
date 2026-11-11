@@ -1,0 +1,2 @@
+run_dir,mode,requests,successful_requests,workload_makespan_s,successful_requests_per_s,client_replay_elapsed_s,group_wall_s
+/home/ubuntu/zjj/code/results/stream-window4-c8-event-confirm-20261106/repeat-1/c8-p3-x0.85-w50/preemptive-c8-p3-x0.85-w50,preemptive,15,15,16.45696,0.911468,16.460054,90.866704

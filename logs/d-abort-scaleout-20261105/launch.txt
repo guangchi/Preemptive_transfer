@@ -1,0 +1,9 @@
+run_dir=/home/ubuntu/zjj/code/logs/d-abort-scaleout-20261105
+mode=preemptive
+prefill_pid=166755
+decode_pid=166756
+prefill_side_channel=127.0.0.1:5690
+decode_side_channel=127.0.0.1:5691
+P endpoint: http://127.0.0.1:8190/v1/completions
+D endpoint: http://127.0.0.1:8290/v1/completions
+A PD router must submit paired P/D requests with kv_transfer_params; the worker endpoints are not a router.

@@ -1,0 +1,21 @@
+{
+  "chunk_size_blocks": 8,
+  "elapsed_s": null,
+  "error": "worker_or_load_failed",
+  "files": {
+    "decode.log": "/home/ubuntu/zjj/code/results/preemptive-c8-p3-x0.85-w50/decode.log",
+    "environment.json": "/home/ubuntu/zjj/code/results/preemptive-c8-p3-x0.85-w50/environment.json",
+    "experiment-timing.json": "/home/ubuntu/zjj/code/results/preemptive-c8-p3-x0.85-w50/experiment-timing.json",
+    "prefill.log": "/home/ubuntu/zjj/code/results/preemptive-c8-p3-x0.85-w50/prefill.log"
+  },
+  "max_preemptions": 3,
+  "mode": "preemptive",
+  "ok": 0,
+  "protect_progress": 0.85,
+  "requests": 0,
+  "run_dir": "/home/ubuntu/zjj/code/results/preemptive-c8-p3-x0.85-w50",
+  "status": "failed",
+  "success_rate": 0.0,
+  "tag": "preemptive-c8-p3-x0.85-w50",
+  "wait_threshold_ms": 50.0
+}

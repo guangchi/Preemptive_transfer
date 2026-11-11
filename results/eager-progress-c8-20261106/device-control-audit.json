@@ -1,0 +1,239 @@
+{
+  "runs": [
+    {
+      "run_dir": "results/eager-progress-c8-20261106/control-device/preemptive-c8-p3-x0.85-w50",
+      "makespan_s": 5.823801,
+      "requests": 15,
+      "successful_requests": 15,
+      "chunk_count": 330,
+      "chunk_violations": [],
+      "group_wall_s": 80.433892,
+      "phase_durations_s": {
+        "pair_launch_s": 2.2691030502319336,
+        "worker_health_s": 55.76680374145508,
+        "router_start_s": 0.33170080184936523,
+        "warmup_s": 15.005234241485596,
+        "load_replay_s": 5.961772441864014,
+        "trace_collection_s": 0.1235358715057373,
+        "cleanup_s": 0.8949875831604004,
+        "group_wall_s": 80.43389248847961
+      },
+      "source_fences": {
+        "event_ready_batches": 0,
+        "device_sync_batches": 23,
+        "device_sync_host_ms": {
+          "n": 23,
+          "sum": 4327.374000000001,
+          "mean": 188.14669565217392,
+          "median": 197.661,
+          "max": 226.768
+        }
+      },
+      "writer_submission_gaps_ms": {
+        "n": 329,
+        "sum": 961.1610000042879,
+        "mean": 2.92146200609206,
+        "median": 1.5749999983590097,
+        "max": 87.96000000491459
+      },
+      "writer_submission_gaps_below_10ms": {
+        "n": 316,
+        "sum": 539.6379999921155,
+        "mean": 1.7077151898484664,
+        "median": 1.572999999446096,
+        "max": 7.6550000002896414
+      },
+      "output_violations": [],
+      "chunks_by_tier": {
+        "short": 9,
+        "long": 316,
+        "medium": 5
+      },
+      "long_chunk_block_sizes": {
+        "8": 312,
+        "1": 4
+      },
+      "categories": {
+        "short": {
+          "ttft_ms": {
+            "n": 8,
+            "sum": 19683.385,
+            "mean": 2460.423125,
+            "median": 2721.9195,
+            "max": 4131.469
+          },
+          "e2e_ms": {
+            "n": 8,
+            "sum": 21671.775,
+            "mean": 2708.971875,
+            "median": 3005.4970000000003,
+            "max": 4402.223
+          },
+          "prefill_execution_ms": {
+            "n": 8,
+            "sum": 3105.5904,
+            "mean": 388.1988,
+            "median": 410.678907,
+            "max": 832.590944
+          },
+          "prefill_gpu_forward_ms": {
+            "n": 8,
+            "sum": 1694.096505,
+            "mean": 211.762063125,
+            "median": 220.18917850000003,
+            "max": 411.89888
+          },
+          "chunk_queue_ms": {
+            "n": 9,
+            "sum": 866.4279999999999,
+            "mean": 96.26977777777778,
+            "median": 96.032,
+            "max": 271.166
+          }
+        },
+        "medium": {
+          "ttft_ms": {
+            "n": 3,
+            "sum": 8974.241000000002,
+            "mean": 2991.413666666667,
+            "median": 3254.023,
+            "max": 4232.747
+          },
+          "e2e_ms": {
+            "n": 3,
+            "sum": 9808.765,
+            "mean": 3269.588333333333,
+            "median": 3521.833,
+            "max": 4502.584
+          },
+          "prefill_execution_ms": {
+            "n": 3,
+            "sum": 1786.137549,
+            "mean": 595.379183,
+            "median": 518.9478,
+            "max": 844.329129
+          },
+          "prefill_gpu_forward_ms": {
+            "n": 3,
+            "sum": 1028.438141,
+            "mean": 342.8127136666667,
+            "median": 374.83844,
+            "max": 433.753052
+          },
+          "chunk_queue_ms": {
+            "n": 5,
+            "sum": 772.207,
+            "mean": 154.4414,
+            "median": 166.219,
+            "max": 288.364
+          }
+        },
+        "long": {
+          "ttft_ms": {
+            "n": 4,
+            "sum": 11285.067,
+            "mean": 2821.26675,
+            "median": 2779.591,
+            "max": 4164.929
+          },
+          "e2e_ms": {
+            "n": 4,
+            "sum": 12431.849,
+            "mean": 3107.96225,
+            "median": 3039.21,
+            "max": 4479.089
+          },
+          "prefill_execution_ms": {
+            "n": 4,
+            "sum": 9819.444298,
+            "mean": 2454.8610745,
+            "median": 2469.0537320000003,
+            "max": 2692.024149
+          },
+          "prefill_gpu_forward_ms": {
+            "n": 4,
+            "sum": 4832.9335169999995,
+            "mean": 1208.2333792499999,
+            "median": 1201.9332125,
+            "max": 1327.842285
+          },
+          "chunk_queue_ms": {
+            "n": 316,
+            "sum": 36748.80099999998,
+            "mean": 116.29367405063292,
+            "median": 114.47749999999999,
+            "max": 297.609
+          }
+        }
+      },
+      "host_write_phases": {
+        "all": {
+          "descriptors": {
+            "n": 330,
+            "sum": 88768.0,
+            "mean": 268.9939393939394,
+            "median": 256.0,
+            "max": 2240.0
+          },
+          "desc_ms": {
+            "n": 330,
+            "sum": 24.273000000000007,
+            "mean": 0.07355454545454546,
+            "median": 0.07,
+            "max": 0.285
+          },
+          "make_ms": {
+            "n": 330,
+            "sum": 8.369999999999992,
+            "mean": 0.025363636363636363,
+            "median": 0.017,
+            "max": 0.849
+          },
+          "submit_ms": {
+            "n": 330,
+            "sum": 4029.190999999999,
+            "mean": 12.209669696969698,
+            "median": 11.249500000000001,
+            "max": 90.679
+          }
+        },
+        "long": {
+          "descriptors": {
+            "n": 316,
+            "sum": 80000.0,
+            "mean": 253.16455696202533,
+            "median": 256.0,
+            "max": 256.0
+          },
+          "desc_ms": {
+            "n": 316,
+            "sum": 22.861000000000008,
+            "mean": 0.07234493670886076,
+            "median": 0.07,
+            "max": 0.285
+          },
+          "make_ms": {
+            "n": 316,
+            "sum": 7.562999999999993,
+            "mean": 0.023933544303797467,
+            "median": 0.017,
+            "max": 0.849
+          },
+          "submit_ms": {
+            "n": 316,
+            "sum": 3714.8649999999993,
+            "mean": 11.755901898734177,
+            "median": 11.241,
+            "max": 21.519
+          }
+        }
+      },
+      "long_kv_tail_ms": {
+        "interleaved15-01-long": 59.72512199514313,
+        "interleaved15-05-long": -107.19719300686847,
+        "interleaved15-07-long": -111.60169199865777,
+        "interleaved15-11-long": 209.41269800096052
+      }
+    }
+  ]
+}

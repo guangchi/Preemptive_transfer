@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "requests": 15,
+      "successful_requests": 15,
+      "all_successful": true,
+      "first_client_send_monotonic_s": 48865.468998,
+      "last_client_finish_monotonic_s": 48871.127876,
+      "workload_makespan_s": 5.658878,
+      "first_submission_to_last_finish_s": 5.659867,
+      "successful_requests_per_s": 2.650702,
+      "generated_tokens": 120,
+      "note": "First client HTTP send to last response finish; includes interarrival and request queueing, excludes model startup/warmup/cleanup. Failed responses are retained in the end boundary.",
+      "run_dir": "/home/ubuntu/zjj/code/results/module-ablation-c8-20261106/confirmation/repeat-2/full/preemptive-c8-p3-x0.85-w50",
+      "mode": "preemptive",
+      "group_wall_s": 81.002865,
+      "phase_durations_s": {
+        "pair_launch_s": 2.22143816947937,
+        "worker_health_s": 56.49971556663513,
+        "router_start_s": 0.37567853927612305,
+        "warmup_s": 15.004353761672974,
+        "load_replay_s": 5.8109049797058105,
+        "trace_collection_s": 0.12028908729553223,
+        "cleanup_s": 0.8785552978515625,
+        "group_wall_s": 81.00286483764648
+      },
+      "client_replay_elapsed_s": 5.662281
+    }
+  ]
+}

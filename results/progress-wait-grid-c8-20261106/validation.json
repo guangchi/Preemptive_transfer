@@ -1,0 +1,17 @@
+{
+  "candidate_runs": 27,
+  "baseline_runs": 4,
+  "successful_responses": 465,
+  "token_and_hash_matches": 465,
+  "chunk_violations": 0,
+  "output_violations": 0,
+  "grid_enumeration": "27 distinct requested combinations",
+  "runtime_hashes_unchanged": 10,
+  "workload_hash_unchanged": true,
+  "protection_bounds": "All bypasses within configured count/progress/wait bounds",
+  "independent_audit_runs": 31,
+  "independent_audit_failures": 0,
+  "syntax": "Both new scripts parse",
+  "runtime_tests": "Not rerun: runtime unchanged; most recent runtime suite 84 passed",
+  "default_parameters_changed": false
+}

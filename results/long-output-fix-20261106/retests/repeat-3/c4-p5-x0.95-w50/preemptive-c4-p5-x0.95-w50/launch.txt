@@ -1,0 +1,10 @@
+/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50/environment.json
+run_dir=/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50
+mode=preemptive
+prefill_pid=203589
+decode_pid=203590
+prefill_side_channel=127.0.0.1:5600
+decode_side_channel=127.0.0.1:5601
+P endpoint: http://127.0.0.1:8100/v1/completions
+D endpoint: http://127.0.0.1:8200/v1/completions
+A PD router must submit paired P/D requests with kv_transfer_params; the worker endpoints are not a router.

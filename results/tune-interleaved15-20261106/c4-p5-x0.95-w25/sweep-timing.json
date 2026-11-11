@@ -1,0 +1,13 @@
+{
+  "start_unix_s": 1793941765.241053,
+  "end_unix_s": 1793941856.961875,
+  "total_sweep_wall_s": 91.72082185745239,
+  "includes_baseline": false,
+  "groups": [
+    {
+      "run_dir": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p5-x0.95-w25/preemptive-c4-p5-x0.95-w25",
+      "group_wall_s": 91.4865255355835
+    }
+  ],
+  "sum_group_wall_s": 91.4865255355835
+}

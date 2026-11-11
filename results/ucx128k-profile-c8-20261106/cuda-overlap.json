@@ -1,0 +1,39 @@
+{
+  "source": "/home/ubuntu/zjj/code/results/ucx128k-profile-c8-20261106/prefill-cuda-trace.json",
+  "window": "first real prompt forward to all prompt finals; transfer tail excluded",
+  "kernel_count": 7826,
+  "dtoh_copy_count": 62528,
+  "kernel_streams": {
+    "7": 7826
+  },
+  "dtoh_streams": {
+    "3544": 62528
+  },
+  "copy_size_bytes_counts": {
+    "131052": 22464,
+    "80": 4960,
+    "65536": 34656,
+    "65596": 128,
+    "66156": 32,
+    "20": 96,
+    "60": 64,
+    "65576": 32,
+    "65556": 32,
+    "65676": 32,
+    "400": 32
+  },
+  "dtoh_bytes": 5232394240,
+  "compute_busy_ms": 4782.561035644531,
+  "dtoh_busy_ms": 314.166720703125,
+  "overlap_ms": 313.5078764648438,
+  "dtoh_overlap_ratio": 0.9979028834218764,
+  "compute_overlap_ratio": 0.06555230014384819,
+  "compute_span_ms": 4790.38174609375,
+  "dtoh_span_ms": 4582.037840820312,
+  "limitations": [
+    "CUPTI device intervals are used; no host enqueue timestamps are treated as DMA.",
+    "DtoH is the observed producer-side UCX staging leg; it excludes CPU/socket and D-side HtoD.",
+    "Profile overhead is material. This run is excluded from paired performance means.",
+    "NIXL xferDuration includes delayed checkXferReq polling, so it is not pure DMA time."
+  ]
+}

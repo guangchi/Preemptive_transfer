@@ -1,0 +1,18 @@
+{
+  "resolved_launcher_defaults": {
+    "fence": "event",
+    "eager": "0",
+    "window": "1",
+    "tx": "128k",
+    "rx": "128k"
+  },
+  "invalid_eager_flag_rejected_before_service_launch": true,
+  "shell_syntax": "passed",
+  "python_compilation": "passed",
+  "pytest": "80 passed, 14 warnings in 9.52s",
+  "runtime_snapshot_files": 10,
+  "runtime_snapshot_identical": true,
+  "archived_source_files": 30,
+  "audited_requests": 135,
+  "audited_service_groups": 9
+}

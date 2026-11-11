@@ -1,0 +1,52 @@
+{
+  "settings": {
+    "baseline": [
+      "baseline",
+      true,
+      true,
+      true
+    ],
+    "full": [
+      "preemptive",
+      true,
+      true,
+      true
+    ],
+    "no_stream": [
+      "preemptive",
+      false,
+      true,
+      true
+    ],
+    "no_aggregation": [
+      "preemptive",
+      true,
+      false,
+      true
+    ],
+    "fifo": [
+      "preemptive",
+      true,
+      true,
+      false
+    ]
+  },
+  "repeats": 3,
+  "workload_sha256": "714990980c49534e539a125612ce1c8d36c68ac75a559e4bce93dabcb7ee9e14",
+  "controls": {
+    "WAIT_SECONDS": "15",
+    "INTERARRIVAL_MS": "100",
+    "CONCURRENCY": "15",
+    "PD_KV_SOURCE_FENCE": "event",
+    "PD_STREAM_MAX_IN_FLIGHT": "1",
+    "PD_STREAM_EAGER_PROGRESS": "0",
+    "UCX_TCP_TX_SEG_SIZE": "128k",
+    "UCX_TCP_RX_SEG_SIZE": "128k"
+  },
+  "fixed_protection": {
+    "progress": 0.85,
+    "max_preemptions": 3,
+    "wait_ms": 50
+  },
+  "scope": "Per-request short/medium batch aggregation; no cross-request packing. Long C8 in every modular mode. No-stream retains chunk boundaries until prompt-final; FIFO keeps protection values but disables bypass."
+}

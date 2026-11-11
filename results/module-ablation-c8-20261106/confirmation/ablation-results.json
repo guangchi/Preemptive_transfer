@@ -1,0 +1,437 @@
+{
+  "groups": {
+    "baseline": {
+      "repeats": 3,
+      "makespan_s": 6.191332666666667,
+      "makespan_range_s": [
+        6.18004,
+        6.210717
+      ],
+      "group_wall_s": 80.26435866666667,
+      "categories": {
+        "short": {
+          "ttft_ms": 2772.578958333333,
+          "e2e_ms": 3049.936958333333
+        },
+        "medium": {
+          "ttft_ms": 3532.201,
+          "e2e_ms": 3833.440666666667
+        },
+        "long": {
+          "ttft_ms": 3490.8748333333333,
+          "e2e_ms": 3805.7964166666666
+        }
+      },
+      "write_count": 15,
+      "preemptions": [
+        0,
+        0,
+        0
+      ]
+    },
+    "full": {
+      "repeats": 3,
+      "makespan_s": 5.650798333333333,
+      "makespan_range_s": [
+        5.633888,
+        5.659629
+      ],
+      "group_wall_s": 81.25402966666667,
+      "categories": {
+        "short": {
+          "ttft_ms": 2366.6723333333334,
+          "e2e_ms": 2642.8507916666667
+        },
+        "medium": {
+          "ttft_ms": 2873.9255555555555,
+          "e2e_ms": 3160.255777777778
+        },
+        "long": {
+          "ttft_ms": 2726.2724166666667,
+          "e2e_ms": 3040.575166666667
+        }
+      },
+      "write_count": 330,
+      "preemptions": [
+        2,
+        2,
+        2
+      ]
+    },
+    "no_stream": {
+      "repeats": 3,
+      "makespan_s": 6.7746656666666665,
+      "makespan_range_s": [
+        6.675585,
+        6.914581
+      ],
+      "group_wall_s": 81.76172700000001,
+      "categories": {
+        "short": {
+          "ttft_ms": 2782.1233333333334,
+          "e2e_ms": 3044.9594166666666
+        },
+        "medium": {
+          "ttft_ms": 3910.4315555555554,
+          "e2e_ms": 4176.165888888889
+        },
+        "long": {
+          "ttft_ms": 3640.5514166666667,
+          "e2e_ms": 3957.84425
+        }
+      },
+      "write_count": 330,
+      "preemptions": [
+        4,
+        4,
+        4
+      ]
+    },
+    "no_aggregation": {
+      "repeats": 3,
+      "makespan_s": 5.660670666666666,
+      "makespan_range_s": [
+        5.653152,
+        5.667548
+      ],
+      "group_wall_s": 80.87860599999999,
+      "categories": {
+        "short": {
+          "ttft_ms": 2365.7835833333334,
+          "e2e_ms": 2642.560375
+        },
+        "medium": {
+          "ttft_ms": 2877.7104444444444,
+          "e2e_ms": 3162.2929999999997
+        },
+        "long": {
+          "ttft_ms": 2717.40275,
+          "e2e_ms": 3034.9951666666666
+        }
+      },
+      "write_count": 351,
+      "preemptions": [
+        2,
+        2,
+        2
+      ]
+    },
+    "fifo": {
+      "repeats": 3,
+      "makespan_s": 5.780655666666666,
+      "makespan_range_s": [
+        5.692968,
+        5.837812
+      ],
+      "group_wall_s": 79.89499733333334,
+      "categories": {
+        "short": {
+          "ttft_ms": 2532.070583333333,
+          "e2e_ms": 2809.4449583333335
+        },
+        "medium": {
+          "ttft_ms": 3001.762777777778,
+          "e2e_ms": 3261.456777777778
+        },
+        "long": {
+          "ttft_ms": 2741.7979166666664,
+          "e2e_ms": 3055.8169166666667
+        }
+      },
+      "write_count": 330,
+      "preemptions": [
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  "contributions": {
+    "early_streaming": {
+      "without_setting": "no_stream",
+      "paired": [
+        {
+          "repeat": 1,
+          "makespan_saved_s": 1.2806930000000003,
+          "makespan_reduction_pct": 18.521628425496793,
+          "categories_saved_ms": {
+            "short": {
+              "ttft_ms": 465.8188750000004,
+              "e2e_ms": 454.3858750000004
+            },
+            "medium": {
+              "ttft_ms": 1116.6946666666668,
+              "e2e_ms": 1098.4953333333333
+            },
+            "long": {
+              "ttft_ms": 1012.4967500000002,
+              "e2e_ms": 1019.3834999999999
+            }
+          },
+          "per_long_e2e_delta_ms": {
+            "interleaved15-01-long": 715.5949999999998,
+            "interleaved15-05-long": 1007.3699999999999,
+            "interleaved15-07-long": 1182.496,
+            "interleaved15-11-long": 1172.0730000000003
+          }
+        },
+        {
+          "repeat": 2,
+          "makespan_saved_s": 1.0167070000000002,
+          "makespan_reduction_pct": 15.23023075880242,
+          "categories_saved_ms": {
+            "short": {
+              "ttft_ms": 368.88149999999996,
+              "e2e_ms": 356.50412499999993
+            },
+            "medium": {
+              "ttft_ms": 975.9870000000001,
+              "e2e_ms": 956.2386666666671
+            },
+            "long": {
+              "ttft_ms": 859.0064999999995,
+              "e2e_ms": 863.62475
+            }
+          },
+          "per_long_e2e_delta_ms": {
+            "interleaved15-01-long": 642.9180000000001,
+            "interleaved15-05-long": 854.038,
+            "interleaved15-07-long": 979.2969999999996,
+            "interleaved15-11-long": 978.2460000000001
+          }
+        },
+        {
+          "repeat": 3,
+          "makespan_saved_s": 1.0742020000000005,
+          "makespan_reduction_pct": 15.952315999614486,
+          "categories_saved_ms": {
+            "short": {
+              "ttft_ms": 411.65262500000017,
+              "e2e_ms": 395.43587499999967
+            },
+            "medium": {
+              "ttft_ms": 1016.8363333333332,
+              "e2e_ms": 992.9963333333335
+            },
+            "long": {
+              "ttft_ms": 871.3337499999998,
+              "e2e_ms": 868.7989999999995
+            }
+          },
+          "per_long_e2e_delta_ms": {
+            "interleaved15-01-long": 630.5349999999999,
+            "interleaved15-05-long": 843.9779999999996,
+            "interleaved15-07-long": 965.2829999999999,
+            "interleaved15-11-long": 1035.3999999999996
+          }
+        }
+      ],
+      "mean_makespan_saved_s": 1.1238673333333338,
+      "categories_saved_ms": {
+        "short": {
+          "ttft_ms": 415.4510000000002,
+          "e2e_ms": 402.108625
+        },
+        "medium": {
+          "ttft_ms": 1036.506,
+          "e2e_ms": 1015.9101111111113
+        },
+        "long": {
+          "ttft_ms": 914.2789999999999,
+          "e2e_ms": 917.2690833333331
+        }
+      }
+    },
+    "short_medium_aggregation": {
+      "without_setting": "no_aggregation",
+      "paired": [
+        {
+          "repeat": 1,
+          "makespan_saved_s": 0.027423999999999893,
+          "makespan_reduction_pct": 0.48441068077506033,
+          "categories_saved_ms": {
+            "short": {
+              "ttft_ms": -16.96324999999979,
+              "e2e_ms": -12.788000000000011
+            },
+            "medium": {
+              "ttft_ms": 6.090333333333547,
+              "e2e_ms": 0.7019999999997708
+            },
+            "long": {
+              "ttft_ms": -29.58299999999963,
+              "e2e_ms": -21.400500000000193
+            }
+          },
+          "per_long_e2e_delta_ms": {
+            "interleaved15-01-long": -61.42000000000007,
+            "interleaved15-05-long": -10.851000000000113,
+            "interleaved15-07-long": -6.3969999999999345,
+            "interleaved15-11-long": -6.9340000000001965
+          }
+        },
+        {
+          "repeat": 2,
+          "makespan_saved_s": -0.005725999999999232,
+          "makespan_reduction_pct": -0.10128862623894896,
+          "categories_saved_ms": {
+            "short": {
+              "ttft_ms": -16.77837499999987,
+              "e2e_ms": -15.460999999999785
+            },
+            "medium": {
+              "ttft_ms": -49.91133333333346,
+              "e2e_ms": -41.108000000000175
+            },
+            "long": {
+              "ttft_ms": -4.26700000000028,
+              "e2e_ms": -5.470000000000255
+            }
+          },
+          "per_long_e2e_delta_ms": {
+            "interleaved15-01-long": -7.849999999999909,
+            "interleaved15-05-long": -14.157999999999902,
+            "interleaved15-07-long": 1.638999999999669,
+            "interleaved15-11-long": -1.511000000000422
+          }
+        },
+        {
+          "repeat": 3,
+          "makespan_saved_s": 0.007919000000000231,
+          "makespan_reduction_pct": 0.139725327425555,
+          "categories_saved_ms": {
+            "short": {
+              "ttft_ms": 31.075374999999894,
+              "e2e_ms": 27.377750000000106
+            },
+            "medium": {
+              "ttft_ms": 55.17566666666653,
+              "e2e_ms": 46.51766666666663
+            },
+            "long": {
+              "ttft_ms": 7.2409999999999854,
+              "e2e_ms": 10.130499999999756
+            }
+          },
+          "per_long_e2e_delta_ms": {
+            "interleaved15-01-long": 13.124000000000024,
+            "interleaved15-05-long": 15.085999999999785,
+            "interleaved15-07-long": 6.1720000000000255,
+            "interleaved15-11-long": 6.140000000000327
+          }
+        }
+      ],
+      "mean_makespan_saved_s": 0.00987233333333363,
+      "categories_saved_ms": {
+        "short": {
+          "ttft_ms": -0.8887499999999212,
+          "e2e_ms": -0.29041666666656357
+        },
+        "medium": {
+          "ttft_ms": 3.7848888888888723,
+          "e2e_ms": 2.037222222222075
+        },
+        "long": {
+          "ttft_ms": -8.86966666666664,
+          "e2e_ms": -5.58000000000023
+        }
+      }
+    },
+    "priority_preemption": {
+      "without_setting": "fifo",
+      "paired": [
+        {
+          "repeat": 1,
+          "makespan_saved_s": 0.0590799999999998,
+          "makespan_reduction_pct": 1.037771510396679,
+          "categories_saved_ms": {
+            "short": {
+              "ttft_ms": 81.79199999999992,
+              "e2e_ms": 86.83737500000007
+            },
+            "medium": {
+              "ttft_ms": 7.772000000000389,
+              "e2e_ms": -10.182999999999993
+            },
+            "long": {
+              "ttft_ms": -59.61299999999983,
+              "e2e_ms": -58.133000000000266
+            }
+          },
+          "per_long_e2e_delta_ms": {
+            "interleaved15-01-long": -162.78700000000003,
+            "interleaved15-05-long": -18.532000000000153,
+            "interleaved15-07-long": -2.000999999999749,
+            "interleaved15-11-long": -49.211999999999534
+          }
+        },
+        {
+          "repeat": 2,
+          "makespan_saved_s": 0.1523090000000007,
+          "makespan_reduction_pct": 2.620961948049527,
+          "categories_saved_ms": {
+            "short": {
+              "ttft_ms": 180.84675000000016,
+              "e2e_ms": 180.74500000000035
+            },
+            "medium": {
+              "ttft_ms": 155.22633333333306,
+              "e2e_ms": 125.46533333333309
+            },
+            "long": {
+              "ttft_ms": 38.67249999999967,
+              "e2e_ms": 31.42724999999973
+            }
+          },
+          "per_long_e2e_delta_ms": {
+            "interleaved15-01-long": -127.55099999999993,
+            "interleaved15-05-long": 32.215000000000146,
+            "interleaved15-07-long": 141.1029999999996,
+            "interleaved15-11-long": 79.94200000000001
+          }
+        },
+        {
+          "repeat": 3,
+          "makespan_saved_s": 0.17818299999999976,
+          "makespan_reduction_pct": 3.0522223052061204,
+          "categories_saved_ms": {
+            "short": {
+              "ttft_ms": 233.55600000000004,
+              "e2e_ms": 232.20012499999984
+            },
+            "medium": {
+              "ttft_ms": 220.51333333333332,
+              "e2e_ms": 188.32066666666697
+            },
+            "long": {
+              "ttft_ms": 67.51699999999983,
+              "e2e_ms": 72.43100000000004
+            }
+          },
+          "per_long_e2e_delta_ms": {
+            "interleaved15-01-long": -108.37000000000012,
+            "interleaved15-05-long": 95.08299999999963,
+            "interleaved15-07-long": 198.55000000000018,
+            "interleaved15-11-long": 104.46100000000024
+          }
+        }
+      ],
+      "mean_makespan_saved_s": 0.1298573333333334,
+      "categories_saved_ms": {
+        "short": {
+          "ttft_ms": 165.39825000000005,
+          "e2e_ms": 166.59416666666675
+        },
+        "medium": {
+          "ttft_ms": 127.83722222222225,
+          "e2e_ms": 101.20100000000002
+        },
+        "long": {
+          "ttft_ms": 15.525499999999889,
+          "e2e_ms": 15.241749999999834
+        }
+      }
+    }
+  },
+  "interpretation": "Positive saved time favors enabling the module. Effects are conditional on the other two modules being enabled, include interactions, and must not be added as independent shares."
+}

@@ -1,0 +1,10 @@
+/home/ubuntu/zjj/code/results/sweep-fixed-7s1m2l/baseline-c4-p0-x0.85-w50/environment.json
+run_dir=/home/ubuntu/zjj/code/results/sweep-fixed-7s1m2l/baseline-c4-p0-x0.85-w50
+mode=baseline
+prefill_pid=32293
+decode_pid=32294
+prefill_side_channel=127.0.0.1:5600
+decode_side_channel=127.0.0.1:5601
+P endpoint: http://127.0.0.1:8100/v1/completions
+D endpoint: http://127.0.0.1:8200/v1/completions
+A PD router must submit paired P/D requests with kv_transfer_params; the worker endpoints are not a router.

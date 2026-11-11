@@ -1,0 +1,130 @@
+{
+  "start_unix_s": 1793939496.911025,
+  "end_unix_s": 1793942207.772536,
+  "total_search_wall_s": 2710.86151099205,
+  "initial_grid_wall_s": 2542.514533519745,
+  "retry_wall_s": 93.93006992340088,
+  "sum_point_runner_wall_s": 2634.6235604286194,
+  "initial_grid_exit_code": 1,
+  "retry_exit_code": 0,
+  "attempts": 28,
+  "completed_workload_configs": 27,
+  "http_success_configs": 27,
+  "output_match_configs": 25,
+  "eligible_screening_configs": 21,
+  "note": "Initial exit 1 retains one startup timeout and two token-mismatch runs. Startup failure was moved intact to failed-attempts and retried once; output mismatches remain excluded. No failed observation overwritten.",
+  "point_timings": [
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p1-x0.70-w100/sweep-timing.json",
+      "sweep_wall_s": 91.87565279006958
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p1-x0.70-w25/sweep-timing.json",
+      "sweep_wall_s": 91.05851602554321
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p1-x0.70-w50/sweep-timing.json",
+      "sweep_wall_s": 92.14223980903625
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p1-x0.85-w100/sweep-timing.json",
+      "sweep_wall_s": 91.38129925727844
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p1-x0.85-w25/sweep-timing.json",
+      "sweep_wall_s": 92.8151707649231
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p1-x0.85-w50/sweep-timing.json",
+      "sweep_wall_s": 91.87905263900757
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p1-x0.95-w100/sweep-timing.json",
+      "sweep_wall_s": 90.81608009338379
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p1-x0.95-w25/sweep-timing.json",
+      "sweep_wall_s": 93.93006992340088
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p1-x0.95-w50/sweep-timing.json",
+      "sweep_wall_s": 95.74952220916748
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p3-x0.70-w100/sweep-timing.json",
+      "sweep_wall_s": 91.52297115325928
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p3-x0.70-w25/sweep-timing.json",
+      "sweep_wall_s": 91.37575268745422
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p3-x0.70-w50/sweep-timing.json",
+      "sweep_wall_s": 94.90652370452881
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p3-x0.85-w100/sweep-timing.json",
+      "sweep_wall_s": 93.34418106079102
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p3-x0.85-w25/sweep-timing.json",
+      "sweep_wall_s": 95.02359437942505
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p3-x0.85-w50/sweep-timing.json",
+      "sweep_wall_s": 95.01023435592651
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p3-x0.95-w100/sweep-timing.json",
+      "sweep_wall_s": 93.10700559616089
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p3-x0.95-w25/sweep-timing.json",
+      "sweep_wall_s": 93.11173176765442
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p3-x0.95-w50/sweep-timing.json",
+      "sweep_wall_s": 95.65427350997925
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p5-x0.70-w100/sweep-timing.json",
+      "sweep_wall_s": 91.11204600334167
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p5-x0.70-w25/sweep-timing.json",
+      "sweep_wall_s": 97.92167401313782
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p5-x0.70-w50/sweep-timing.json",
+      "sweep_wall_s": 91.20019149780273
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p5-x0.85-w100/sweep-timing.json",
+      "sweep_wall_s": 93.08637619018555
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p5-x0.85-w25/sweep-timing.json",
+      "sweep_wall_s": 94.17306876182556
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p5-x0.85-w50/sweep-timing.json",
+      "sweep_wall_s": 95.09069156646729
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p5-x0.95-w100/sweep-timing.json",
+      "sweep_wall_s": 92.54769134521484
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p5-x0.95-w25/sweep-timing.json",
+      "sweep_wall_s": 91.72082185745239
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/c4-p5-x0.95-w50/sweep-timing.json",
+      "sweep_wall_s": 89.712557554245
+    },
+    {
+      "path": "results/tune-interleaved15-20261106/failed-attempts/startup-c4-p1-x0.95-w25/sweep-timing.json",
+      "sweep_wall_s": 123.35456991195679
+    }
+  ]
+}

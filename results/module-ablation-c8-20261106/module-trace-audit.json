@@ -1,0 +1,502 @@
+{
+  "runs": [
+    {
+      "repeat": 1,
+      "setting": "baseline",
+      "chunks_by_tier": {},
+      "preemptions": [],
+      "max_reported_long_wait_ms": 0,
+      "long_first_write_relative_to_p_finish_ms": {},
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 1,
+      "setting": "full",
+      "chunks_by_tier": {
+        "short": 9,
+        "long": 316,
+        "medium": 5
+      },
+      "preemptions": [
+        {
+          "request_id": "interleaved15-02-short",
+          "long_request_id": "cmpl-interleaved15-01-long-0-b8941e1c",
+          "long_progress": "0.8192",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-12-short",
+          "long_request_id": "cmpl-interleaved15-11-long-0-ba8006bf",
+          "long_progress": "0.8064",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        }
+      ],
+      "max_reported_long_wait_ms": 18.515520998334978,
+      "long_first_write_relative_to_p_finish_ms": {
+        "interleaved15-01-long": -910.282807002659,
+        "interleaved15-05-long": -953.7643980002031,
+        "interleaved15-07-long": -985.9065990021918,
+        "interleaved15-11-long": -895.2085279961466
+      },
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 1,
+      "setting": "no_stream",
+      "chunks_by_tier": {
+        "short": 9,
+        "long": 316,
+        "medium": 5
+      },
+      "preemptions": [
+        {
+          "request_id": "interleaved15-02-short",
+          "long_request_id": "cmpl-interleaved15-01-long-0-b00fc0ac",
+          "long_progress": "0.0",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-06-short",
+          "long_request_id": "cmpl-interleaved15-05-long-0-af28a18a",
+          "long_progress": "0.0",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-08-short",
+          "long_request_id": "cmpl-interleaved15-07-long-0-a54ed90e",
+          "long_progress": "0.0",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-12-short",
+          "long_request_id": "cmpl-interleaved15-11-long-0-897f2cc5",
+          "long_progress": "0.0",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        }
+      ],
+      "max_reported_long_wait_ms": 49.05467700154986,
+      "long_first_write_relative_to_p_finish_ms": {
+        "interleaved15-01-long": 33.60274000442587,
+        "interleaved15-05-long": 60.02724400605075,
+        "interleaved15-07-long": 34.73606499755988,
+        "interleaved15-11-long": 313.9467049986706
+      },
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 1,
+      "setting": "no_aggregation",
+      "chunks_by_tier": {
+        "short": 8,
+        "long": 316,
+        "medium": 27
+      },
+      "preemptions": [
+        {
+          "request_id": "interleaved15-02-short",
+          "long_request_id": "cmpl-interleaved15-01-long-0-98fe8b5d",
+          "long_progress": "0.8192",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-12-short",
+          "long_request_id": "cmpl-interleaved15-11-long-0-bbff870b",
+          "long_progress": "0.8064",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        }
+      ],
+      "max_reported_long_wait_ms": 16.219937002460938,
+      "long_first_write_relative_to_p_finish_ms": {
+        "interleaved15-01-long": -910.1811009968515,
+        "interleaved15-05-long": -996.1985620029736,
+        "interleaved15-07-long": -986.5406960016116,
+        "interleaved15-11-long": -901.1923579964787
+      },
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 1,
+      "setting": "fifo",
+      "chunks_by_tier": {
+        "short": 9,
+        "long": 316,
+        "medium": 5
+      },
+      "preemptions": [],
+      "max_reported_long_wait_ms": 0.0,
+      "long_first_write_relative_to_p_finish_ms": {
+        "interleaved15-01-long": -909.0198000048986,
+        "interleaved15-05-long": -1018.3231829942088,
+        "interleaved15-07-long": -1000.2587130002212,
+        "interleaved15-11-long": -899.3621319968952
+      },
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 2,
+      "setting": "full",
+      "chunks_by_tier": {
+        "short": 9,
+        "long": 316,
+        "medium": 5
+      },
+      "preemptions": [
+        {
+          "request_id": "interleaved15-02-short",
+          "long_request_id": "cmpl-interleaved15-01-long-0-a78bf6b7",
+          "long_progress": "0.8192",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-12-short",
+          "long_request_id": "cmpl-interleaved15-11-long-0-b0464b0a",
+          "long_progress": "0.8064",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        }
+      ],
+      "max_reported_long_wait_ms": 18.822385995008517,
+      "long_first_write_relative_to_p_finish_ms": {
+        "interleaved15-01-long": -911.8459809978958,
+        "interleaved15-05-long": -1017.0774449943565,
+        "interleaved15-07-long": -991.130290000001,
+        "interleaved15-11-long": -900.803005999478
+      },
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 2,
+      "setting": "no_stream",
+      "chunks_by_tier": {
+        "short": 9,
+        "long": 316,
+        "medium": 5
+      },
+      "preemptions": [
+        {
+          "request_id": "interleaved15-02-short",
+          "long_request_id": "cmpl-interleaved15-01-long-0-80046c55",
+          "long_progress": "0.0",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-06-short",
+          "long_request_id": "cmpl-interleaved15-05-long-0-b24d55c5",
+          "long_progress": "0.0",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-08-short",
+          "long_request_id": "cmpl-interleaved15-07-long-0-ab00fd73",
+          "long_progress": "0.0",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-12-short",
+          "long_request_id": "cmpl-interleaved15-11-long-0-9a3adc23",
+          "long_progress": "0.0",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        }
+      ],
+      "max_reported_long_wait_ms": 25.1216770047904,
+      "long_first_write_relative_to_p_finish_ms": {
+        "interleaved15-01-long": 22.377644003427122,
+        "interleaved15-05-long": 38.57283200341044,
+        "interleaved15-07-long": 34.98037200188264,
+        "interleaved15-11-long": 260.61298599961447
+      },
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 2,
+      "setting": "no_aggregation",
+      "chunks_by_tier": {
+        "short": 8,
+        "long": 316,
+        "medium": 27
+      },
+      "preemptions": [
+        {
+          "request_id": "interleaved15-02-short",
+          "long_request_id": "cmpl-interleaved15-01-long-0-8b51b746",
+          "long_progress": "0.8192",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-12-short",
+          "long_request_id": "cmpl-interleaved15-11-long-0-a4a3db11",
+          "long_progress": "0.8064",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        }
+      ],
+      "max_reported_long_wait_ms": 16.40151900210185,
+      "long_first_write_relative_to_p_finish_ms": {
+        "interleaved15-01-long": -911.2426749998122,
+        "interleaved15-05-long": -995.6887300068047,
+        "interleaved15-07-long": -1002.404758000921,
+        "interleaved15-11-long": -898.5242560011102
+      },
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 2,
+      "setting": "fifo",
+      "chunks_by_tier": {
+        "short": 9,
+        "long": 316,
+        "medium": 5
+      },
+      "preemptions": [],
+      "max_reported_long_wait_ms": 0.0,
+      "long_first_write_relative_to_p_finish_ms": {
+        "interleaved15-01-long": -909.2525129963178,
+        "interleaved15-05-long": -991.8970079961582,
+        "interleaved15-07-long": -963.2091029998264,
+        "interleaved15-11-long": -769.1196779996972
+      },
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 2,
+      "setting": "baseline",
+      "chunks_by_tier": {},
+      "preemptions": [],
+      "max_reported_long_wait_ms": 0,
+      "long_first_write_relative_to_p_finish_ms": {},
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 3,
+      "setting": "no_stream",
+      "chunks_by_tier": {
+        "short": 9,
+        "long": 316,
+        "medium": 5
+      },
+      "preemptions": [
+        {
+          "request_id": "interleaved15-02-short",
+          "long_request_id": "cmpl-interleaved15-01-long-0-8621d7f9",
+          "long_progress": "0.0",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-06-short",
+          "long_request_id": "cmpl-interleaved15-05-long-0-aae290d8",
+          "long_progress": "0.0",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-08-short",
+          "long_request_id": "cmpl-interleaved15-07-long-0-b8481fee",
+          "long_progress": "0.0",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-12-short",
+          "long_request_id": "cmpl-interleaved15-11-long-0-9325a8a0",
+          "long_progress": "0.0",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        }
+      ],
+      "max_reported_long_wait_ms": 35.490203998051584,
+      "long_first_write_relative_to_p_finish_ms": {
+        "interleaved15-01-long": 30.425067998294253,
+        "interleaved15-05-long": 36.001185006171,
+        "interleaved15-07-long": 61.30534400290344,
+        "interleaved15-11-long": 275.9682970063295
+      },
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 3,
+      "setting": "no_aggregation",
+      "chunks_by_tier": {
+        "short": 8,
+        "long": 316,
+        "medium": 27
+      },
+      "preemptions": [
+        {
+          "request_id": "interleaved15-02-short",
+          "long_request_id": "cmpl-interleaved15-01-long-0-8d7e5522",
+          "long_progress": "0.8192",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-12-short",
+          "long_request_id": "cmpl-interleaved15-11-long-0-937c400d",
+          "long_progress": "0.7808",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        }
+      ],
+      "max_reported_long_wait_ms": 17.919933001394384,
+      "long_first_write_relative_to_p_finish_ms": {
+        "interleaved15-01-long": -907.0100929966429,
+        "interleaved15-05-long": -958.4061019995715,
+        "interleaved15-07-long": -995.1834839957883,
+        "interleaved15-11-long": -877.4496220066794
+      },
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 3,
+      "setting": "fifo",
+      "chunks_by_tier": {
+        "short": 9,
+        "long": 316,
+        "medium": 5
+      },
+      "preemptions": [],
+      "max_reported_long_wait_ms": 0.0,
+      "long_first_write_relative_to_p_finish_ms": {
+        "interleaved15-01-long": -911.2959179983591,
+        "interleaved15-05-long": -962.9115409989026,
+        "interleaved15-07-long": -912.5944490006077,
+        "interleaved15-11-long": -700.5430650024209
+      },
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 3,
+      "setting": "baseline",
+      "chunks_by_tier": {},
+      "preemptions": [],
+      "max_reported_long_wait_ms": 0,
+      "long_first_write_relative_to_p_finish_ms": {},
+      "requests": 15,
+      "correctness_passed": true
+    },
+    {
+      "repeat": 3,
+      "setting": "full",
+      "chunks_by_tier": {
+        "short": 9,
+        "long": 316,
+        "medium": 5
+      },
+      "preemptions": [
+        {
+          "request_id": "interleaved15-02-short",
+          "long_request_id": "cmpl-interleaved15-01-long-0-abf402b2",
+          "long_progress": "0.8192",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        },
+        {
+          "request_id": "interleaved15-12-short",
+          "long_request_id": "cmpl-interleaved15-11-long-0-a804c7bd",
+          "long_progress": "0.8064",
+          "long_preemptions": "1",
+          "long_wait_ms": "0.0"
+        }
+      ],
+      "max_reported_long_wait_ms": 16.397527004301082,
+      "long_first_write_relative_to_p_finish_ms": {
+        "interleaved15-01-long": -910.863460994733,
+        "interleaved15-05-long": -1023.4524499974214,
+        "interleaved15-07-long": -1005.6126679992303,
+        "interleaved15-11-long": -899.8600479972083
+      },
+      "requests": 15,
+      "correctness_passed": true
+    }
+  ],
+  "audited_requests": 225,
+  "all_output_and_coverage_checks_passed": true,
+  "long_e2e_three_repeat_means_ms": {
+    "baseline": {
+      "interleaved15-01-long": 2439.1976666666665,
+      "interleaved15-05-long": 3293.5883333333336,
+      "interleaved15-07-long": 4517.709,
+      "interleaved15-11-long": 4972.690666666666
+    },
+    "full": {
+      "interleaved15-01-long": 1856.8343333333335,
+      "interleaved15-05-long": 2535.522,
+      "interleaved15-07-long": 3412.6466666666665,
+      "interleaved15-11-long": 4357.297666666666
+    },
+    "no_stream": {
+      "interleaved15-01-long": 2519.8503333333333,
+      "interleaved15-05-long": 3437.3173333333334,
+      "interleaved15-07-long": 4455.0053333333335,
+      "interleaved15-11-long": 5419.204
+    },
+    "no_aggregation": {
+      "interleaved15-01-long": 1838.1190000000001,
+      "interleaved15-05-long": 2532.2143333333333,
+      "interleaved15-07-long": 3413.118,
+      "interleaved15-11-long": 4356.529333333333
+    },
+    "fifo": {
+      "interleaved15-01-long": 1723.9316666666666,
+      "interleaved15-05-long": 2571.7773333333334,
+      "interleaved15-07-long": 3525.1973333333335,
+      "interleaved15-11-long": 4402.361333333333
+    }
+  },
+  "preemption_long_e2e_cost_full_minus_fifo_ms": {
+    "interleaved15-01-long": 132.90266666666685,
+    "interleaved15-05-long": -36.25533333333351,
+    "interleaved15-07-long": -112.55066666666698,
+    "interleaved15-11-long": -45.063666666666904
+  },
+  "long_first_write_relative_to_p_finish_ms": {
+    "full": {
+      "min": -1023.4524499974214,
+      "max": -895.2085279961466,
+      "mean": -950.483973415127
+    },
+    "no_stream": {
+      "min": 22.377644003427122,
+      "max": 313.9467049986706,
+      "mean": 100.21304016906167
+    },
+    "no_aggregation": {
+      "min": -1002.404758000921,
+      "max": -877.4496220066794,
+      "mean": -945.0018697504371
+    },
+    "fifo": {
+      "min": -1018.3231829942088,
+      "max": -700.5430650024209,
+      "mean": -912.3155919157094
+    }
+  },
+  "timing_note": "First WRITE is a host trace boundary, not a device DMA timestamp. Full-minus-FIFO is a whole-schedule effect, not just the arbiter's recorded inserted wait."
+}

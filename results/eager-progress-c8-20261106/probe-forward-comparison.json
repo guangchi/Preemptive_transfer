@@ -1,0 +1,20 @@
+[
+  {
+    "setting": "probe-eager-on",
+    "makespan_s": 5.691363,
+    "deduplicated_producer_forward_ms": 4754.144066,
+    "producer_forward_batches": 23
+  },
+  {
+    "setting": "probe-eager-off",
+    "makespan_s": 5.626502,
+    "deduplicated_producer_forward_ms": 4766.2719799999995,
+    "producer_forward_batches": 23
+  },
+  {
+    "setting": "control-device",
+    "makespan_s": 5.823801,
+    "deduplicated_producer_forward_ms": 4774.5277940000005,
+    "producer_forward_batches": 23
+  }
+]

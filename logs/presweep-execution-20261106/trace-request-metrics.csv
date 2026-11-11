@@ -1,0 +1,4 @@
+request_id,category,status,error,prompt_tokens,output_tokens,ttft_ms,prefill_execution_ms,decode_execution_ms,prefill_gpu_forward_ms,decode_gpu_forward_ms,decode_service_ms,e2e_ms,arrival_to_finish_ms,generation_after_first_token_ms,prefill_execution_steps,decode_execution_steps,prefill_shared_batch_steps,decode_shared_batch_steps
+pd-77-00000,short,200,,68,8,369.701,28.299978,250.546567,,,137.928,486.437,487.453,116.736,1,8,0,0
+pd-77-00001,medium,200,,1107,8,610.878,121.742054,252.401029,,,139.271,727.062,727.941,116.184,1,8,0,0
+pd-77-00002,long,200,,10645,8,4398.763,2187.213976,272.638617,,,151.013,4513.674,4516.053,114.911,6,8,0,0

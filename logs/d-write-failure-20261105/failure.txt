@@ -1,0 +1,1 @@
+500 0.679 {"error": "upstream returned HTTP 500: {\"error\":{\"message\":\"EngineCore encountered an issue. See stack trace (above) for the root cause.\",\"type\":\"InternalServerError\",\"param\":null,\"code\":500}}", "upstream_b

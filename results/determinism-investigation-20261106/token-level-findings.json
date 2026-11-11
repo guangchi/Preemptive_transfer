@@ -1,0 +1,125 @@
+{
+  "direct_no_transfer_controls": {
+    "0": {
+      "cases": [
+        "solo-1",
+        "mixed-1",
+        "mixed-2",
+        "solo-2"
+      ],
+      "token_sequences_identical": true,
+      "top_logprobs_identical": false,
+      "examples": [
+        {
+          "case": "solo-1",
+          "response_text": " request latency prefill result request transfer request",
+          "response_token_ids": "[1715, 40370, 864, 7712, 1121, 1715, 8481, 1715]",
+          "response_sha256": "cc395de8470acbbaa1a0d2aa0c2f0fea974db57bf0c9463cf0215843abbc6a17"
+        },
+        {
+          "case": "mixed-1",
+          "response_text": " request latency prefill result request transfer request",
+          "response_token_ids": "[1715, 40370, 864, 7712, 1121, 1715, 8481, 1715]",
+          "response_sha256": "cc395de8470acbbaa1a0d2aa0c2f0fea974db57bf0c9463cf0215843abbc6a17"
+        },
+        {
+          "case": "mixed-2",
+          "response_text": " request latency prefill result request transfer request",
+          "response_token_ids": "[1715, 40370, 864, 7712, 1121, 1715, 8481, 1715]",
+          "response_sha256": "cc395de8470acbbaa1a0d2aa0c2f0fea974db57bf0c9463cf0215843abbc6a17"
+        },
+        {
+          "case": "solo-2",
+          "response_text": " request latency prefill result request transfer request",
+          "response_token_ids": "[1715, 40370, 864, 7712, 1121, 1715, 8481, 1715]",
+          "response_sha256": "cc395de8470acbbaa1a0d2aa0c2f0fea974db57bf0c9463cf0215843abbc6a17"
+        }
+      ]
+    },
+    "1": {
+      "cases": [
+        "solo-1",
+        "mixed-1",
+        "mixed-2",
+        "solo-2"
+      ],
+      "token_sequences_identical": true,
+      "top_logprobs_identical": true,
+      "examples": [
+        {
+          "case": "solo-1",
+          "response_text": " request latency prefill result request transfer request",
+          "response_token_ids": "[1715, 40370, 864, 7712, 1121, 1715, 8481, 1715]",
+          "response_sha256": "cc395de8470acbbaa1a0d2aa0c2f0fea974db57bf0c9463cf0215843abbc6a17"
+        },
+        {
+          "case": "mixed-1",
+          "response_text": " request latency prefill result request transfer request",
+          "response_token_ids": "[1715, 40370, 864, 7712, 1121, 1715, 8481, 1715]",
+          "response_sha256": "cc395de8470acbbaa1a0d2aa0c2f0fea974db57bf0c9463cf0215843abbc6a17"
+        },
+        {
+          "case": "mixed-2",
+          "response_text": " request latency prefill result request transfer request",
+          "response_token_ids": "[1715, 40370, 864, 7712, 1121, 1715, 8481, 1715]",
+          "response_sha256": "cc395de8470acbbaa1a0d2aa0c2f0fea974db57bf0c9463cf0215843abbc6a17"
+        },
+        {
+          "case": "solo-2",
+          "response_text": " request latency prefill result request transfer request",
+          "response_token_ids": "[1715, 40370, 864, 7712, 1121, 1715, 8481, 1715]",
+          "response_sha256": "cc395de8470acbbaa1a0d2aa0c2f0fea974db57bf0c9463cf0215843abbc6a17"
+        }
+      ]
+    }
+  },
+  "default_kernel_pd_differences": [
+    {
+      "request_id": "interleaved15-07-long",
+      "first_divergent_token_1based": 4,
+      "common_prefix": [
+        1121,
+        1715,
+        40370
+      ],
+      "baseline_tokens": [
+        1121,
+        1715,
+        40370,
+        864,
+        7712,
+        1715,
+        1121,
+        864
+      ],
+      "preemptive_tokens": [
+        1121,
+        1715,
+        40370,
+        2532,
+        864,
+        7712,
+        1715,
+        40370
+      ],
+      "baseline_text": " result request latency prefill request result pre",
+      "preemptive_text": " result request latency service prefill request latency",
+      "baseline_divergent_top_logprobs": {
+        "token_id:864": -2.2801387310028076,
+        "token_id:1715": -2.2801387310028076,
+        "token_id:2532": -2.2801387310028076,
+        "token_id:8481": -2.2801387310028076,
+        "token_id:1887": -2.4051387310028076
+      },
+      "preemptive_divergent_top_logprobs": {
+        "token_id:2532": -2.1881446838378906,
+        "token_id:1887": -2.3131446838378906,
+        "token_id:864": -2.3131446838378906,
+        "token_id:8481": -2.3131446838378906,
+        "token_id:1715": -2.3131446838378906
+      }
+    }
+  ],
+  "historical_limitation": "Original experiment stored hashes only; exact historical divergent token cannot be recovered. Token-level findings are from the diagnostic rerun.",
+  "interpretation": "Default kernels exhibit numerical dependence on batch/prefill layout; ties and ranking changes can change greedy token choice. Batch-invariant controls remove observed logprob drift. Full PD-to-direct token validation required for final acceptance."
+}

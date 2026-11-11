@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "requests": 15,
+      "successful_requests": 15,
+      "all_successful": true,
+      "first_client_send_monotonic_s": 32347.889682,
+      "last_client_finish_monotonic_s": 32364.934953,
+      "workload_makespan_s": 17.045271,
+      "first_submission_to_last_finish_s": 17.046052,
+      "successful_requests_per_s": 0.880009,
+      "generated_tokens": 120,
+      "note": "First client HTTP send to last response finish; includes interarrival and request queueing, excludes model startup/warmup/cleanup. Failed responses are retained in the end boundary.",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50",
+      "mode": "preemptive",
+      "group_wall_s": 90.965761,
+      "phase_durations_s": {
+        "pair_launch_s": 2.2734475135803223,
+        "worker_health_s": 55.012537479400635,
+        "router_start_s": 0.11270570755004883,
+        "warmup_s": 15.004607677459717,
+        "load_replay_s": 17.20569372177124,
+        "trace_collection_s": 0.15155696868896484,
+        "cleanup_s": 1.134984016418457,
+        "group_wall_s": 90.96576118469238
+      },
+      "client_replay_elapsed_s": 17.049077
+    }
+  ]
+}

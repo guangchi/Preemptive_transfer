@@ -1,0 +1,1 @@
+{"status": 200, "elapsed": 0.893, "body": "{\"id\":\"cmpl-warm-prefix\",\"object\":\"text_completion\",\"created\":1793867518,\"model\":\"local\",\"choices\":[{\"index\":0,\"text\":\" "}

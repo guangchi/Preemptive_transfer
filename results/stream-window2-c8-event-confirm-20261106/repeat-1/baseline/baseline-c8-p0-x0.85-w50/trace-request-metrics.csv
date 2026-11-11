@@ -1,0 +1,16 @@
+request_id,category,status,error,prompt_tokens,output_tokens,ttft_ms,prefill_execution_ms,decode_execution_ms,prefill_gpu_forward_ms,decode_gpu_forward_ms,decode_service_ms,e2e_ms,arrival_to_finish_ms,generation_after_first_token_ms,prefill_execution_steps,decode_execution_steps,prefill_shared_batch_steps,decode_shared_batch_steps
+interleaved15-00-short,short,200,,128,8,4777.039,,,,,,5053.061,5053.912,276.022,0,0,0,0
+interleaved15-01-long,long,200,,10000,8,10450.372,,,,,,10769.206,10771.642,318.834,0,0,0,0
+interleaved15-02-short,short,200,,128,8,8354.815,,,,,,8688.363,8689.082,333.548,0,0,0,0
+interleaved15-03-medium,medium,200,,1107,8,8253.682,,,,,,8587.702,8588.707,334.02,0,0,0,0
+interleaved15-04-short,short,200,,128,8,8152.912,,,,,,8486.777,8487.41,333.865,0,0,0,0
+interleaved15-05-long,long,200,,10000,8,14230.853,,,,,,14556.02,14558.379,325.167,0,0,0,0
+interleaved15-06-short,short,200,,128,8,12337.745,,,,,,12674.497,12675.122,336.752,0,0,0,0
+interleaved15-07-long,long,200,,10000,8,20919.515,,,,,,21245.174,21247.503,325.659,0,0,0,0
+interleaved15-08-short,short,200,,128,8,16994.765,,,,,,17253.048,17253.602,258.283,0,0,0,0
+interleaved15-09-medium,medium,200,,1107,8,18691.569,,,,,,19024.07,19024.77,332.501,0,0,0,0
+interleaved15-10-short,short,200,,128,8,16794.272,,,,,,17052.024,17052.568,257.752,0,0,0,0
+interleaved15-11-long,long,200,,10000,8,22814.186,,,,,,23143.056,23144.482,328.87,0,0,0,0
+interleaved15-12-short,short,200,,128,8,16590.955,,,,,,16850.848,16851.423,259.893,0,0,0,0
+interleaved15-13-medium,medium,200,,1107,8,23419.681,,,,,,23683.25,23683.972,263.569,0,0,0,0
+interleaved15-14-short,short,200,,128,8,16389.507,,,,,,16648.739,16649.208,259.232,0,0,0,0

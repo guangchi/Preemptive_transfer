@@ -1,0 +1,9 @@
+run_dir=/home/ubuntu/zjj/code/logs/d-write-failure-fixed-20261105
+mode=preemptive
+prefill_pid=173721
+decode_pid=173722
+prefill_side_channel=127.0.0.1:5710
+decode_side_channel=127.0.0.1:5711
+P endpoint: http://127.0.0.1:8210/v1/completions
+D endpoint: http://127.0.0.1:8310/v1/completions
+A PD router must submit paired P/D requests with kv_transfer_params; the worker endpoints are not a router.

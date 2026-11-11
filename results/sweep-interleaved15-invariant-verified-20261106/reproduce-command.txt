@@ -1,0 +1,3 @@
+cd /home/ubuntu/zjj/code
+VLLM_BATCH_INVARIANT=1 PD_CAPTURE_LOGPROBS=1 WORKLOAD=/home/ubuntu/zjj/code/workload.sweep-interleaved-8s3m4l.jsonl RESULT_ROOT=/home/ubuntu/zjj/code/results/sweep-interleaved15-invariant-verified-20261106 REQUESTS=15 CONCURRENCY=15 INTERARRIVAL_MS=100 CHUNK_SIZES=4 MAX_PREEMPTIONS=3 PROTECT_PROGRESS_VALUES=0.85 WAIT_THRESHOLDS_MS=50 WAIT_SECONDS=15 ENABLE_PREFIX_CACHING=false STREAM_RESPONSES=true PD_MEASURE_EXECUTION=1 bash run_pd_sweep.sh
+# Reproduction must use a NEW RESULT_ROOT to preserve this run.

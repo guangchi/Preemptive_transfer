@@ -1,0 +1,7 @@
+PD router listening on http://127.0.0.1:8010
+P endpoint: http://127.0.0.1:8210/v1/completions (pd-prefill, 127.0.0.1:5790)
+D endpoint: http://127.0.0.1:8310/v1/completions (pd-decode, 127.0.0.1:5791)
+05/Nov/2026 21:13:38 127.0.0.1 "GET /health HTTP/1.1" 200 -
+05/Nov/2026 21:14:46 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+05/Nov/2026 21:14:47 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -
+05/Nov/2026 21:14:50 127.0.0.1 "POST /v1/completions HTTP/1.1" 200 -

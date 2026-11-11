@@ -1,0 +1,37 @@
+--- original/srt/model_executor/model_runner.py
++++ observed/srt/model_executor/model_runner.py
+@@ -1703,6 +1703,7 @@
+         forward_batch.split_index = next_split_index
+         return ret
+ 
++    @__import__("pd_sglang_trace").gpu_forward
+     def forward(
+         self,
+         forward_batch: ForwardBatch,
+--- original/srt/disaggregation/nixl/conn.py
++++ observed/srt/disaggregation/nixl/conn.py
+@@ -1466,6 +1466,8 @@
+                 # decode's KV pages, and the failure path below tells the decode
+                 # those pages are free.
+                 settled, any_failed = self._await_handles(handles, failure_seen=False)
++                if __import__("os").environ.get("PD_SGLANG_TRACE"):
++                    __import__("pd_sglang_trace").emit("chunk_complete", room=room, chunk_id=kv_chunk.chunk_id, is_last=kv_chunk.is_last_chunk, failed=any_failed)
+                 if not settled:
+                     settle_timed_out = True
+                     raise RuntimeError(
+@@ -1616,6 +1618,7 @@
+         if self.disaggregation_mode == DisaggregationMode.PREFILL:
+             self._prepare_payload_xfer(decode_kv_args)
+ 
++    @__import__("pd_sglang_trace").host_span("chunk_write")
+     def _send_kvcache_generic(
+         self,
+         peer_name: str,
+@@ -3121,6 +3124,7 @@
+         self._send_error: Optional[Exception] = None
+         self._transfer_start_time: Optional[float] = None
+ 
++    @__import__("pd_sglang_trace").host_span("chunk_enqueue")
+     def send(
+         self,
+         kv_indices: npt.NDArray[np.int32],

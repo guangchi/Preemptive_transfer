@@ -1,0 +1,14 @@
+{
+  "workload": "workload.sweep-interleaved-8s3m4l.jsonl",
+  "workload_sha256": "714990980c49534e539a125612ce1c8d36c68ac75a559e4bce93dabcb7ee9e14",
+  "candidate": "c8-p3-x0.85-w50",
+  "repeats": 3,
+  "ucx_environment": {
+    "UCX_TCP_TX_SEG_SIZE": "128k",
+    "UCX_TCP_RX_SEG_SIZE": "128k"
+  },
+  "stream_max_in_flight": 1,
+  "stream_eager_progress": false,
+  "kv_source_fence": "event",
+  "note": "Identical UCX settings and fixed workload for baseline/candidate. Eager on/off probes precede final progress-accounting fix; the final device control and confirmation use source-runtime."
+}

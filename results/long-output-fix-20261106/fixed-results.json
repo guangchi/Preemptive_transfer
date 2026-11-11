@@ -1,0 +1,939 @@
+{
+  "summary": [
+    {
+      "setting": "baseline",
+      "repeats": 3,
+      "mean_makespan_s": 15.250326666666668,
+      "min_makespan_s": 13.685299,
+      "max_makespan_s": 18.098693,
+      "median_score_ms": 10761.267496125603,
+      "max_long_e2e_ms": 16457.044,
+      "max_paired_long_e2e_ratio": null,
+      "categories": {
+        "short": {
+          "ttft_ms": 10296.961458333333,
+          "e2e_ms": 10587.432083333333,
+          "prefill_execution_ms": 424.00331266666666,
+          "decode_execution_ms": 672.6569680416667
+        },
+        "medium": {
+          "ttft_ms": 11915.633,
+          "e2e_ms": 12205.388333333332,
+          "prefill_execution_ms": 506.0537307777778,
+          "decode_execution_ms": 658.4518394444444
+        },
+        "long": {
+          "ttft_ms": 11605.610916666667,
+          "e2e_ms": 11915.625083333334,
+          "prefill_execution_ms": 2356.307066916667,
+          "decode_execution_ms": 717.073203
+        }
+      }
+    },
+    {
+      "setting": "c4-p3-x0.85-w50",
+      "repeats": 3,
+      "mean_makespan_s": 18.237467333333335,
+      "min_makespan_s": 17.07383,
+      "max_makespan_s": 18.948111,
+      "median_score_ms": 9282.445019493638,
+      "max_long_e2e_ms": 17225.512,
+      "max_paired_long_e2e_ratio": 1.3540032436684555,
+      "categories": {
+        "short": {
+          "ttft_ms": 7605.968041666667,
+          "e2e_ms": 7854.748083333333,
+          "prefill_execution_ms": 389.026124125,
+          "decode_execution_ms": 590.2752939583334
+        },
+        "medium": {
+          "ttft_ms": 11160.157666666666,
+          "e2e_ms": 11424.566,
+          "prefill_execution_ms": 511.4180987777778,
+          "decode_execution_ms": 567.4776572222222
+        },
+        "long": {
+          "ttft_ms": 10340.901583333334,
+          "e2e_ms": 10661.447416666666,
+          "prefill_execution_ms": 2453.4374209166667,
+          "decode_execution_ms": 725.182058
+        }
+      }
+    },
+    {
+      "setting": "c4-p5-x0.95-w50",
+      "repeats": 3,
+      "mean_makespan_s": 18.000212,
+      "min_makespan_s": 16.609126,
+      "max_makespan_s": 18.974436,
+      "median_score_ms": 8927.337094549528,
+      "max_long_e2e_ms": 17292.835,
+      "max_paired_long_e2e_ratio": 1.322626744299505,
+      "categories": {
+        "short": {
+          "ttft_ms": 7397.526583333333,
+          "e2e_ms": 7647.990041666667,
+          "prefill_execution_ms": 382.4121015416667,
+          "decode_execution_ms": 590.0785837083333
+        },
+        "medium": {
+          "ttft_ms": 10928.87488888889,
+          "e2e_ms": 11192.598,
+          "prefill_execution_ms": 552.9582657777778,
+          "decode_execution_ms": 567.279486111111
+        },
+        "long": {
+          "ttft_ms": 10047.385583333333,
+          "e2e_ms": 10367.714333333333,
+          "prefill_execution_ms": 2437.2299449166667,
+          "decode_execution_ms": 723.9651836666667
+        }
+      }
+    },
+    {
+      "setting": "c4-p5-x0.95-w100",
+      "repeats": 3,
+      "mean_makespan_s": 18.543823333333336,
+      "min_makespan_s": 18.176525,
+      "max_makespan_s": 19.148451,
+      "median_score_ms": 9262.808132626042,
+      "max_long_e2e_ms": 17469.614,
+      "max_paired_long_e2e_ratio": 1.3903630352319571,
+      "categories": {
+        "short": {
+          "ttft_ms": 7374.3375,
+          "e2e_ms": 7621.133208333334,
+          "prefill_execution_ms": 370.28764875,
+          "decode_execution_ms": 578.3599479583334
+        },
+        "medium": {
+          "ttft_ms": 11549.788666666667,
+          "e2e_ms": 11813.889888888889,
+          "prefill_execution_ms": 466.1032245555556,
+          "decode_execution_ms": 567.0044605555555
+        },
+        "long": {
+          "ttft_ms": 10698.085416666667,
+          "e2e_ms": 11018.982750000001,
+          "prefill_execution_ms": 2412.9230775833335,
+          "decode_execution_ms": 727.1337408333334
+        }
+      }
+    }
+  ],
+  "audits": [
+    {
+      "repeat": 1,
+      "setting": "baseline",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "requests": 15,
+      "outputs_match": true,
+      "chunk_count": 0,
+      "completion_sequence_errors": [],
+      "cuda_sync_calls": 0,
+      "cuda_sync_elapsed_ms_sum": 0,
+      "cuda_sync_elapsed_ms_max": 0,
+      "workload_makespan_s": 18.098693
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w100",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100",
+      "requests": 15,
+      "outputs_match": true,
+      "chunk_count": 698,
+      "completion_sequence_errors": [],
+      "cuda_sync_calls": 23,
+      "cuda_sync_elapsed_ms_sum": 4379.532999999999,
+      "cuda_sync_elapsed_ms_max": 229.319,
+      "workload_makespan_s": 18.176525
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p3-x0.85-w50",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50",
+      "requests": 15,
+      "outputs_match": true,
+      "chunk_count": 698,
+      "completion_sequence_errors": [],
+      "cuda_sync_calls": 23,
+      "cuda_sync_elapsed_ms_sum": 4231.141,
+      "cuda_sync_elapsed_ms_max": 225.329,
+      "workload_makespan_s": 17.07383
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w50",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50",
+      "requests": 15,
+      "outputs_match": true,
+      "chunk_count": 698,
+      "completion_sequence_errors": [],
+      "cuda_sync_calls": 23,
+      "cuda_sync_elapsed_ms_sum": 4315.191,
+      "cuda_sync_elapsed_ms_max": 230.326,
+      "workload_makespan_s": 18.417074
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w100",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100",
+      "requests": 15,
+      "outputs_match": true,
+      "chunk_count": 698,
+      "completion_sequence_errors": [],
+      "cuda_sync_calls": 23,
+      "cuda_sync_elapsed_ms_sum": 4321.08,
+      "cuda_sync_elapsed_ms_max": 230.396,
+      "workload_makespan_s": 19.148451
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p3-x0.85-w50",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50",
+      "requests": 15,
+      "outputs_match": true,
+      "chunk_count": 698,
+      "completion_sequence_errors": [],
+      "cuda_sync_calls": 23,
+      "cuda_sync_elapsed_ms_sum": 4349.0380000000005,
+      "cuda_sync_elapsed_ms_max": 227.342,
+      "workload_makespan_s": 18.690461
+    },
+    {
+      "repeat": 2,
+      "setting": "baseline",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+      "requests": 15,
+      "outputs_match": true,
+      "chunk_count": 0,
+      "completion_sequence_errors": [],
+      "cuda_sync_calls": 0,
+      "cuda_sync_elapsed_ms_sum": 0,
+      "cuda_sync_elapsed_ms_max": 0,
+      "workload_makespan_s": 13.685299
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w100",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100",
+      "requests": 15,
+      "outputs_match": true,
+      "chunk_count": 698,
+      "completion_sequence_errors": [],
+      "cuda_sync_calls": 23,
+      "cuda_sync_elapsed_ms_sum": 4284.081,
+      "cuda_sync_elapsed_ms_max": 229.375,
+      "workload_makespan_s": 18.306494
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p3-x0.85-w50",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50",
+      "requests": 15,
+      "outputs_match": true,
+      "chunk_count": 698,
+      "completion_sequence_errors": [],
+      "cuda_sync_calls": 23,
+      "cuda_sync_elapsed_ms_sum": 4356.0960000000005,
+      "cuda_sync_elapsed_ms_max": 227.59,
+      "workload_makespan_s": 18.948111
+    },
+    {
+      "repeat": 3,
+      "setting": "baseline",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+      "requests": 15,
+      "outputs_match": true,
+      "chunk_count": 0,
+      "completion_sequence_errors": [],
+      "cuda_sync_calls": 0,
+      "cuda_sync_elapsed_ms_sum": 0,
+      "cuda_sync_elapsed_ms_max": 0,
+      "workload_makespan_s": 13.966988
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w50",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50",
+      "requests": 15,
+      "outputs_match": true,
+      "chunk_count": 698,
+      "completion_sequence_errors": [],
+      "cuda_sync_calls": 23,
+      "cuda_sync_elapsed_ms_sum": 4374.688000000001,
+      "cuda_sync_elapsed_ms_max": 228.904,
+      "workload_makespan_s": 16.609126
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w50",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/supplement/repeat-1/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50",
+      "requests": 15,
+      "outputs_match": true,
+      "chunk_count": 698,
+      "completion_sequence_errors": [],
+      "cuda_sync_calls": 23,
+      "cuda_sync_elapsed_ms_sum": 4291.079,
+      "cuda_sync_elapsed_ms_max": 225.031,
+      "workload_makespan_s": 18.974436
+    }
+  ],
+  "excluded": [
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w50",
+      "run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50",
+      "reason": "device sync only; started before handshake slot and summary fixes"
+    }
+  ],
+  "supplement_pairing": "Supplement uses original repeat-1 baseline, not an adjacent new baseline; timing drift remains possible.",
+  "original_runner_wall_s": 1109.1406265959995,
+  "supplement_group_wall_s": 94.234218,
+  "selected_group_wall_s_sum": 1111.0012786388397,
+  "correct_requests": 180,
+  "long_pairs": [
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w100",
+      "request_id": "interleaved15-01-long",
+      "baseline_e2e_ms": 5507.723,
+      "candidate_e2e_ms": 4873.576,
+      "ratio": 0.8848622198320432,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w100",
+      "request_id": "interleaved15-05-long",
+      "baseline_e2e_ms": 9350.911,
+      "candidate_e2e_ms": 9043.995,
+      "ratio": 0.967177957313464,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w100",
+      "request_id": "interleaved15-07-long",
+      "baseline_e2e_ms": 12835.54,
+      "candidate_e2e_ms": 12598.813,
+      "ratio": 0.9815569115128775,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w100",
+      "request_id": "interleaved15-11-long",
+      "baseline_e2e_ms": 16457.044,
+      "candidate_e2e_ms": 16502.038,
+      "ratio": 1.002734026839814,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p3-x0.85-w50",
+      "request_id": "interleaved15-01-long",
+      "baseline_e2e_ms": 5507.723,
+      "candidate_e2e_ms": 4771.555,
+      "ratio": 0.8663389571334652,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p3-x0.85-w50",
+      "request_id": "interleaved15-05-long",
+      "baseline_e2e_ms": 9350.911,
+      "candidate_e2e_ms": 8465.615,
+      "ratio": 0.9053251602972159,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p3-x0.85-w50",
+      "request_id": "interleaved15-07-long",
+      "baseline_e2e_ms": 12835.54,
+      "candidate_e2e_ms": 11866.136,
+      "ratio": 0.924475012348526,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p3-x0.85-w50",
+      "request_id": "interleaved15-11-long",
+      "baseline_e2e_ms": 16457.044,
+      "candidate_e2e_ms": 15433.586,
+      "ratio": 0.9378103382357121,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w50",
+      "request_id": "interleaved15-01-long",
+      "baseline_e2e_ms": 10397.441,
+      "candidate_e2e_ms": 4206.823,
+      "ratio": 0.4046017669155324,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w50",
+      "request_id": "interleaved15-05-long",
+      "baseline_e2e_ms": 12943.2,
+      "candidate_e2e_ms": 7910.81,
+      "ratio": 0.6111942950738611,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w50",
+      "request_id": "interleaved15-07-long",
+      "baseline_e2e_ms": 12743.154,
+      "candidate_e2e_ms": 12246.74,
+      "ratio": 0.9610446518970107,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w50",
+      "request_id": "interleaved15-11-long",
+      "baseline_e2e_ms": 12564.786,
+      "candidate_e2e_ms": 16618.522,
+      "ratio": 1.322626744299505,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w100",
+      "request_id": "interleaved15-01-long",
+      "baseline_e2e_ms": 10397.441,
+      "candidate_e2e_ms": 5088.534,
+      "ratio": 0.48940253664339134,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w100",
+      "request_id": "interleaved15-05-long",
+      "baseline_e2e_ms": 12943.2,
+      "candidate_e2e_ms": 9295.957,
+      "ratio": 0.7182116478150689,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w100",
+      "request_id": "interleaved15-07-long",
+      "baseline_e2e_ms": 12743.154,
+      "candidate_e2e_ms": 13221.209,
+      "ratio": 1.03751465296582,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w100",
+      "request_id": "interleaved15-11-long",
+      "baseline_e2e_ms": 12564.786,
+      "candidate_e2e_ms": 17469.614,
+      "ratio": 1.3903630352319571,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p3-x0.85-w50",
+      "request_id": "interleaved15-01-long",
+      "baseline_e2e_ms": 10397.441,
+      "candidate_e2e_ms": 4594.2,
+      "ratio": 0.4418587227376428,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p3-x0.85-w50",
+      "request_id": "interleaved15-05-long",
+      "baseline_e2e_ms": 12943.2,
+      "candidate_e2e_ms": 8609.488,
+      "ratio": 0.6651746090611286,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p3-x0.85-w50",
+      "request_id": "interleaved15-07-long",
+      "baseline_e2e_ms": 12743.154,
+      "candidate_e2e_ms": 12585.103,
+      "ratio": 0.987597183554401,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50"
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p3-x0.85-w50",
+      "request_id": "interleaved15-11-long",
+      "baseline_e2e_ms": 12564.786,
+      "candidate_e2e_ms": 17012.761,
+      "ratio": 1.3540032436684555,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-2/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w100",
+      "request_id": "interleaved15-01-long",
+      "baseline_e2e_ms": 10719.96,
+      "candidate_e2e_ms": 5275.715,
+      "ratio": 0.49213942962473745,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w100",
+      "request_id": "interleaved15-05-long",
+      "baseline_e2e_ms": 13411.893,
+      "candidate_e2e_ms": 9037.995,
+      "ratio": 0.6738791459192226,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w100",
+      "request_id": "interleaved15-07-long",
+      "baseline_e2e_ms": 13209.206,
+      "candidate_e2e_ms": 12946.067,
+      "ratio": 0.9800791205769672,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w100",
+      "request_id": "interleaved15-11-long",
+      "baseline_e2e_ms": 12846.643,
+      "candidate_e2e_ms": 16874.28,
+      "ratio": 1.3135166907027773,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w100/preemptive-c4-p5-x0.95-w100"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p3-x0.85-w50",
+      "request_id": "interleaved15-01-long",
+      "baseline_e2e_ms": 10719.96,
+      "candidate_e2e_ms": 4641.516,
+      "ratio": 0.4329788543987104,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p3-x0.85-w50",
+      "request_id": "interleaved15-05-long",
+      "baseline_e2e_ms": 13411.893,
+      "candidate_e2e_ms": 9492.192,
+      "ratio": 0.7077443877609223,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p3-x0.85-w50",
+      "request_id": "interleaved15-07-long",
+      "baseline_e2e_ms": 13209.206,
+      "candidate_e2e_ms": 13239.705,
+      "ratio": 1.002308920006244,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p3-x0.85-w50",
+      "request_id": "interleaved15-11-long",
+      "baseline_e2e_ms": 12846.643,
+      "candidate_e2e_ms": 17225.512,
+      "ratio": 1.3408570628139973,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w50",
+      "request_id": "interleaved15-01-long",
+      "baseline_e2e_ms": 10719.96,
+      "candidate_e2e_ms": 4505.668,
+      "ratio": 0.42030641905380245,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w50",
+      "request_id": "interleaved15-05-long",
+      "baseline_e2e_ms": 13411.893,
+      "candidate_e2e_ms": 7872.949,
+      "ratio": 0.5870125119548747,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w50",
+      "request_id": "interleaved15-07-long",
+      "baseline_e2e_ms": 13209.206,
+      "candidate_e2e_ms": 11300.512,
+      "ratio": 0.8555027455851624,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50"
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w50",
+      "request_id": "interleaved15-11-long",
+      "baseline_e2e_ms": 12846.643,
+      "candidate_e2e_ms": 14964.641,
+      "ratio": 1.1648678179972776,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-3/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w50",
+      "request_id": "interleaved15-01-long",
+      "baseline_e2e_ms": 5507.723,
+      "candidate_e2e_ms": 4977.517,
+      "ratio": 0.9037340839399512,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/supplement/repeat-1/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w50",
+      "request_id": "interleaved15-05-long",
+      "baseline_e2e_ms": 9350.911,
+      "candidate_e2e_ms": 9272.319,
+      "ratio": 0.9915952574032626,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/supplement/repeat-1/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w50",
+      "request_id": "interleaved15-07-long",
+      "baseline_e2e_ms": 12835.54,
+      "candidate_e2e_ms": 13243.236,
+      "ratio": 1.0317630578845922,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/supplement/repeat-1/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50"
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w50",
+      "request_id": "interleaved15-11-long",
+      "baseline_e2e_ms": 16457.044,
+      "candidate_e2e_ms": 17292.835,
+      "ratio": 1.0507862165283144,
+      "baseline_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/retests/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "candidate_run_dir": "/home/ubuntu/zjj/code/results/long-output-fix-20261106/supplement/repeat-1/c4-p5-x0.95-w50/preemptive-c4-p5-x0.95-w50"
+    }
+  ],
+  "preemptions": [
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w100",
+      "count": 8,
+      "first_protection": {
+        "interleaved15-01-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "51.64706799769192",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-05-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "97.8389240008255",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-07-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "0.0",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-11-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "47.2124440020707",
+          "protection_reasons": "progress"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p3-x0.85-w50",
+      "count": 8,
+      "first_protection": {
+        "interleaved15-01-long": {
+          "sequence": "36",
+          "long_progress": "0.2304",
+          "long_wait_ms": "51.61991799832322",
+          "protection_reasons": "wait"
+        },
+        "interleaved15-05-long": {
+          "sequence": "0",
+          "long_progress": "0.0",
+          "long_wait_ms": "50.343719998636516",
+          "protection_reasons": "wait"
+        },
+        "interleaved15-07-long": {
+          "sequence": "134",
+          "long_progress": "0.8512",
+          "long_wait_ms": "45.01988599804463",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-11-long": {
+          "sequence": "134",
+          "long_progress": "0.8512",
+          "long_wait_ms": "44.1326369982562",
+          "protection_reasons": "progress"
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w50",
+      "count": 8,
+      "first_protection": {
+        "interleaved15-01-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "48.45330299940542",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-05-long": {
+          "sequence": "0",
+          "long_progress": "0.0",
+          "long_wait_ms": "71.86959400132764",
+          "protection_reasons": "wait"
+        },
+        "interleaved15-07-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "32.409860999905504",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-11-long": {
+          "sequence": "0",
+          "long_progress": "0.0",
+          "long_wait_ms": "50.544559002446476",
+          "protection_reasons": "wait"
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p5-x0.95-w100",
+      "count": 8,
+      "first_protection": {
+        "interleaved15-01-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "47.23282299892162",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-05-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "93.35684699908597",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-07-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "0.0",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-11-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "52.124896999885095",
+          "protection_reasons": "progress"
+        }
+      }
+    },
+    {
+      "repeat": 2,
+      "setting": "c4-p3-x0.85-w50",
+      "count": 8,
+      "first_protection": {
+        "interleaved15-01-long": {
+          "sequence": "134",
+          "long_progress": "0.8512",
+          "long_wait_ms": "49.59697999584023",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-05-long": {
+          "sequence": "0",
+          "long_progress": "0.0",
+          "long_wait_ms": "72.1363630000269",
+          "protection_reasons": "max_preemptions,wait"
+        },
+        "interleaved15-07-long": {
+          "sequence": "134",
+          "long_progress": "0.8512",
+          "long_wait_ms": "25.515909001114778",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-11-long": {
+          "sequence": "0",
+          "long_progress": "0.0",
+          "long_wait_ms": "59.235518994682934",
+          "protection_reasons": "wait"
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w100",
+      "count": 8,
+      "first_protection": {
+        "interleaved15-01-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "64.76666500384454",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-05-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "90.02311799849849",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-07-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "0.0",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-11-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "51.47436600236688",
+          "protection_reasons": "progress"
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p3-x0.85-w50",
+      "count": 8,
+      "first_protection": {
+        "interleaved15-01-long": {
+          "sequence": "134",
+          "long_progress": "0.8512",
+          "long_wait_ms": "48.81210799794644",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-05-long": {
+          "sequence": "0",
+          "long_progress": "0.0",
+          "long_wait_ms": "57.77060899708886",
+          "protection_reasons": "wait"
+        },
+        "interleaved15-07-long": {
+          "sequence": "0",
+          "long_progress": "0.0",
+          "long_wait_ms": "51.51499299972784",
+          "protection_reasons": "wait"
+        },
+        "interleaved15-11-long": {
+          "sequence": "134",
+          "long_progress": "0.8512",
+          "long_wait_ms": "49.83126599836396",
+          "protection_reasons": "progress"
+        }
+      }
+    },
+    {
+      "repeat": 3,
+      "setting": "c4-p5-x0.95-w50",
+      "count": 8,
+      "first_protection": {
+        "interleaved15-01-long": {
+          "sequence": "31",
+          "long_progress": "0.1984",
+          "long_wait_ms": "54.70505799894454",
+          "protection_reasons": "wait"
+        },
+        "interleaved15-05-long": {
+          "sequence": "0",
+          "long_progress": "0.0",
+          "long_wait_ms": "61.38066400308162",
+          "protection_reasons": "wait"
+        },
+        "interleaved15-07-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "25.415771997359116",
+          "protection_reasons": "progress"
+        },
+        "interleaved15-11-long": {
+          "sequence": "0",
+          "long_progress": "0.0",
+          "long_wait_ms": "50.2053660020465",
+          "protection_reasons": "wait"
+        }
+      }
+    },
+    {
+      "repeat": 1,
+      "setting": "c4-p5-x0.95-w50",
+      "count": 8,
+      "first_protection": {
+        "interleaved15-01-long": {
+          "sequence": "33",
+          "long_progress": "0.2112",
+          "long_wait_ms": "54.50832599308342",
+          "protection_reasons": "wait"
+        },
+        "interleaved15-05-long": {
+          "sequence": "0",
+          "long_progress": "0.0",
+          "long_wait_ms": "51.0034809994977",
+          "protection_reasons": "wait"
+        },
+        "interleaved15-07-long": {
+          "sequence": "0",
+          "long_progress": "0.0",
+          "long_wait_ms": "50.76672200084431",
+          "protection_reasons": "wait"
+        },
+        "interleaved15-11-long": {
+          "sequence": "150",
+          "long_progress": "0.9536",
+          "long_wait_ms": "48.60959600046044",
+          "protection_reasons": "progress"
+        }
+      }
+    }
+  ],
+  "eligible": []
+}

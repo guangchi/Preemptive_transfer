@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "requests": 15,
+      "successful_requests": 15,
+      "all_successful": true,
+      "first_client_send_monotonic_s": 36842.984102,
+      "last_client_finish_monotonic_s": 36857.535794,
+      "workload_makespan_s": 14.551692,
+      "first_submission_to_last_finish_s": 14.552723,
+      "successful_requests_per_s": 1.030808,
+      "generated_tokens": 120,
+      "note": "First client HTTP send to last response finish; includes interarrival and request queueing, excludes model startup/warmup/cleanup. Failed responses are retained in the end boundary.",
+      "run_dir": "/home/ubuntu/zjj/code/results/compute-transfer-overlap-event-confirm-20261106/repeat-1/baseline/baseline-c4-p0-x0.85-w50",
+      "mode": "baseline",
+      "group_wall_s": 90.814108,
+      "phase_durations_s": {
+        "pair_launch_s": 2.196959972381592,
+        "worker_health_s": 57.26450252532959,
+        "router_start_s": 0.33121490478515625,
+        "warmup_s": 15.005329370498657,
+        "load_replay_s": 14.716336011886597,
+        "trace_collection_s": 0.08719730377197266,
+        "cleanup_s": 1.1529037952423096,
+        "group_wall_s": 90.81410837173462
+      },
+      "client_replay_elapsed_s": 14.555151
+    }
+  ]
+}

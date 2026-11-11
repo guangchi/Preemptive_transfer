@@ -1,0 +1,22 @@
+{
+  "created_utc": "2026-11-06T03:57:01.501568+00:00",
+  "sha256": {
+    "run_pd_pair.sh": "abd79f89ab53085ea2d2a0af025740109fcbd9641cb3a80ddbf5ef0beb61d637",
+    "run_pd_sweep.sh": "b09d793e301c8a36a7d004477443bb6457e396d61280153cd2b1508bfe35ffd6",
+    "run_pd_load.py": "0e4df4057f44e55d079ba1e379f09cc7651fc6fa53f994f2f583a595186e6778",
+    "run_pd_router.py": "ec424350bc347ff60bc7372b763edea46c821c7c4b458cedb45980fbcc997c04",
+    "collect_pd_trace.py": "f7a75675f93955f1fa415ff97b832741e23816a47205dfd700d71af87a15b4ea",
+    "write_pd_run_environment.py": "1df0ecfd005c88b2836b819a4f48365947cbe7c1486e1979b73a3e013358c524",
+    "summarize_pd_experiment.py": "4880c91674b216aff7ef9780632f4f3f2ecc27bccc48db2f3fc01b7be9873e85",
+    "diagnose_batch_determinism.py": "b3c0f6faa13184479e45b38a0b170cf81501d81b2d27d4bec1aeadd86ec34743",
+    "workload.sweep-interleaved-8s3m4l.jsonl": "714990980c49534e539a125612ce1c8d36c68ac75a559e4bce93dabcb7ee9e14",
+    "installed:vllm/distributed/kv_transfer/kv_connector/v1/nixl/metadata.py": "6e6d9ea69cbe64fbe797744175a24ef1c15fa1976bf2ec4cf33d17d8a9d56219",
+    "installed:vllm/distributed/kv_transfer/kv_connector/v1/nixl/preemptive_transfer.py": "13e9fadaaa5537822f40c17cc17e53454e1797d7a0b6dbef92086a85277ff6da",
+    "installed:vllm/distributed/kv_transfer/kv_connector/v1/nixl/push_scheduler.py": "a1a493d6c4e89749842c80fc29d9785f395cb8d6c6d2869decc3fa8a1480bdd1",
+    "installed:vllm/distributed/kv_transfer/kv_connector/v1/nixl/push_worker.py": "d2ba6f95573aa958554851d94616bc5bf39af2b5d6b65382b9b8e243946af580",
+    "installed:vllm/v1/core/sched/scheduler.py": "e76fd5c4284b373ee6e9c93b09b9c6793d751b1bebf6d7d60f11e56553280491",
+    "installed:vllm/v1/engine/core.py": "a4f4ecbf21172f687906d7acfac7936d4e5e7979ccf1000385ed3596cca65552",
+    "installed:vllm/v1/worker/gpu_model_runner.py": "b62d671eb029e2311a0b2099fd1fbe989bf50fbc2ac00cd38ea169cb06d233fc",
+    "installed:vllm/v1/worker/pd_execution_timing.py": "c93c1a669d72a4090be06f1c188af21122eea8b531a6ede2bb2fb2ee7f2c215e"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "workload": "/home/ubuntu/zjj/code/workload.sweep-interleaved-8s3m4l.jsonl",
+  "workload_sha256": "714990980c49534e539a125612ce1c8d36c68ac75a559e4bce93dabcb7ee9e14",
+  "commands": [
+    [
+      "bash",
+      "-c",
+      "\"$1\"; exec tail -f /dev/null",
+      "bash",
+      "/home/ubuntu/zjj/code/run_pd_pair.sh"
+    ]
+  ],
+  "environment": {
+    "CUDA_ROOT": "/home/ubuntu/miniconda3/envs/cc/lib/python3.11/site-packages/nvidia/cu13",
+    "CUDA_HOME": "/home/ubuntu/miniconda3/envs/cc/lib/python3.11/site-packages/nvidia/cu13",
+    "SGLANG_DISAGGREGATION_NIXL_BACKEND": "UCX",
+    "UCX_TLS": "tcp,cuda_copy",
+    "UCX_NET_DEVICES": "lo",
+    "UCX_TCP_TX_SEG_SIZE": "128k",
+    "UCX_TCP_RX_SEG_SIZE": "128k",
+    "NVCC_PREPEND_FLAGS": "-DCCCL_DISABLE_CTK_COMPATIBILITY_CHECK",
+    "PD_STREAM_BY_BATCH": "1",
+    "PD_AGGREGATE_SHORT_MEDIUM": "1",
+    "PD_PRIORITY_PREEMPTION": "1"
+  },
+  "repeats": 3,
+  "trace": false,
+  "chunk_size": 2048,
+  "system": "vllm-full",
+  "interarrival_ms": 100,
+  "concurrency": 15,
+  "router_command": [
+    "/home/ubuntu/miniconda3/envs/cc/bin/python",
+    "/home/ubuntu/zjj/code/run_pd_router.py"
+  ]
+}

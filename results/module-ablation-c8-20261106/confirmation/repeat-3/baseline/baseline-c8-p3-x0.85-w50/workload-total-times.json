@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "requests": 15,
+      "successful_requests": 15,
+      "all_successful": true,
+      "first_client_send_monotonic_s": 49509.119742,
+      "last_client_finish_monotonic_s": 49515.330459,
+      "workload_makespan_s": 6.210717,
+      "first_submission_to_last_finish_s": 6.211952,
+      "successful_requests_per_s": 2.41518,
+      "generated_tokens": 120,
+      "note": "First client HTTP send to last response finish; includes interarrival and request queueing, excludes model startup/warmup/cleanup. Failed responses are retained in the end boundary.",
+      "run_dir": "/home/ubuntu/zjj/code/results/module-ablation-c8-20261106/confirmation/repeat-3/baseline/baseline-c8-p3-x0.85-w50",
+      "mode": "baseline",
+      "group_wall_s": 80.46777,
+      "phase_durations_s": {
+        "pair_launch_s": 2.4797234535217285,
+        "worker_health_s": 55.21604132652283,
+        "router_start_s": 0.3613417148590088,
+        "warmup_s": 15.00565791130066,
+        "load_replay_s": 6.363556861877441,
+        "trace_collection_s": 0.08931159973144531,
+        "cleanup_s": 0.8812565803527832,
+        "group_wall_s": 80.46776962280273
+      },
+      "client_replay_elapsed_s": 6.214434
+    }
+  ]
+}

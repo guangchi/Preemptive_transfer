@@ -1,0 +1,164 @@
+{
+  "configurations": [
+    "baseline",
+    "c8-p3-x0.85-w50"
+  ],
+  "repeats": 3,
+  "commands": [
+    {
+      "repeat": 1,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T11:31:20.289440+00:00",
+      "wall_s": 81.25904418199934,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/ucx128k-w1-c8-confirm-20261106/repeat-1/baseline/timed-one-run.sh",
+      "runner_sha256": "0f9f6246c6f8a03f59882cfb7497e95d48a323bfbced3df564d92921354548ec"
+    },
+    {
+      "repeat": 1,
+      "setting": "c8-p3-x0.85-w50",
+      "start_utc": "2026-11-06T11:32:41.550568+00:00",
+      "wall_s": 79.48452070899657,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/ucx128k-w1-c8-confirm-20261106/repeat-1/c8-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "305b44a224d6dd5b4d036a985fc3d324c2cad05ac2db856860d17bf81c007a4f"
+    },
+    {
+      "repeat": 2,
+      "setting": "c8-p3-x0.85-w50",
+      "start_utc": "2026-11-06T11:34:01.037351+00:00",
+      "wall_s": 79.74875762400188,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/ucx128k-w1-c8-confirm-20261106/repeat-2/c8-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "305b44a224d6dd5b4d036a985fc3d324c2cad05ac2db856860d17bf81c007a4f"
+    },
+    {
+      "repeat": 2,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T11:35:20.787906+00:00",
+      "wall_s": 82.09305553900049,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/ucx128k-w1-c8-confirm-20261106/repeat-2/baseline/timed-one-run.sh",
+      "runner_sha256": "0c5c46f756586a895c384212c422f42ec41bd85c931859fd7156f04db7b8f441"
+    },
+    {
+      "repeat": 3,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T11:36:42.882684+00:00",
+      "wall_s": 85.31925367900112,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/ucx128k-w1-c8-confirm-20261106/repeat-3/baseline/timed-one-run.sh",
+      "runner_sha256": "0c5c46f756586a895c384212c422f42ec41bd85c931859fd7156f04db7b8f441"
+    },
+    {
+      "repeat": 3,
+      "setting": "c8-p3-x0.85-w50",
+      "start_utc": "2026-11-06T11:38:08.203616+00:00",
+      "wall_s": 81.74843980500009,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/ucx128k-w1-c8-confirm-20261106/repeat-3/c8-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "3dbce905dbece0973ec8823fa30a8621161a7c743d5eb03292d838d3102c8902"
+    }
+  ],
+  "total_confirmation_wall_s": 489.66704284900334,
+  "ranking": [
+    {
+      "setting": "c8-p3-x0.85-w50",
+      "eligible": true,
+      "paired_runs": [
+        {
+          "repeat": 1,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 2332.66875,
+              "e2e_ms": 2613.941375
+            },
+            "medium": {
+              "ttft_ms": 2847.329,
+              "e2e_ms": 3137.378
+            },
+            "long": {
+              "ttft_ms": 2718.48925,
+              "e2e_ms": 3032.707
+            }
+          },
+          "max_long_e2e_ratio": 0.9009221739333769,
+          "short_medium_score_ms": 2577.1836138057274,
+          "workload_makespan_s": 5.583879,
+          "baseline_makespan_s": 6.140078,
+          "group_wall_s": 79.37070989608765
+        },
+        {
+          "repeat": 2,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 2341.126625,
+              "e2e_ms": 2621.23225
+            },
+            "medium": {
+              "ttft_ms": 2847.6023333333333,
+              "e2e_ms": 3138.0816666666665
+            },
+            "long": {
+              "ttft_ms": 2719.0462500000003,
+              "e2e_ms": 3032.326
+            }
+          },
+          "max_long_e2e_ratio": 0.8787556155126991,
+          "short_medium_score_ms": 2581.9755304763817,
+          "workload_makespan_s": 5.581918,
+          "baseline_makespan_s": 6.260393,
+          "group_wall_s": 79.66156220436096
+        },
+        {
+          "repeat": 3,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 2361.836625,
+              "e2e_ms": 2643.70225
+            },
+            "medium": {
+              "ttft_ms": 2879.347333333333,
+              "e2e_ms": 3167.915
+            },
+            "long": {
+              "ttft_ms": 2733.077,
+              "e2e_ms": 3049.23675
+            }
+          },
+          "max_long_e2e_ratio": 0.8429286123601267,
+          "short_medium_score_ms": 2607.7860318597363,
+          "workload_makespan_s": 5.636318,
+          "baseline_makespan_s": 6.483298,
+          "group_wall_s": 81.61068439483643
+        }
+      ],
+      "median_score_ms": 2581.9755304763817,
+      "mean_makespan_s": 5.600705,
+      "mean_group_wall_s": 80.21431883176167,
+      "categories": {
+        "short": {
+          "ttft_ms": 2345.2106666666664,
+          "e2e_ms": 2626.2919583333332
+        },
+        "medium": {
+          "ttft_ms": 2858.092888888889,
+          "e2e_ms": 3147.7915555555555
+        },
+        "long": {
+          "ttft_ms": 2723.5375000000004,
+          "e2e_ms": 3038.089916666667
+        }
+      }
+    }
+  ],
+  "recommended": "c8-p3-x0.85-w50",
+  "errors": [],
+  "selection": "median short/medium geometric-mean TTFT under paired per-long E2E <= baseline +10% on every repeat; identical outputs required"
+}

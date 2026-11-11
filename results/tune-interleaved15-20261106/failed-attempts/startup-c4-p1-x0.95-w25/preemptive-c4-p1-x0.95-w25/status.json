@@ -1,0 +1,21 @@
+{
+  "chunk_size_blocks": 4,
+  "elapsed_s": null,
+  "error": "worker_or_load_failed",
+  "files": {
+    "decode.log": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p1-x0.95-w25/preemptive-c4-p1-x0.95-w25/decode.log",
+    "environment.json": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p1-x0.95-w25/preemptive-c4-p1-x0.95-w25/environment.json",
+    "experiment-timing.json": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p1-x0.95-w25/preemptive-c4-p1-x0.95-w25/experiment-timing.json",
+    "prefill.log": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p1-x0.95-w25/preemptive-c4-p1-x0.95-w25/prefill.log"
+  },
+  "max_preemptions": 1,
+  "mode": "preemptive",
+  "ok": 0,
+  "protect_progress": 0.95,
+  "requests": 0,
+  "run_dir": "/home/ubuntu/zjj/code/results/tune-interleaved15-20261106/c4-p1-x0.95-w25/preemptive-c4-p1-x0.95-w25",
+  "status": "failed",
+  "success_rate": 0.0,
+  "tag": "preemptive-c4-p1-x0.95-w25",
+  "wait_threshold_ms": 25.0
+}

@@ -1,0 +1,218 @@
+[
+  {
+    "run_dir": "results/ucx128k-w1-c8-confirm-20261106/repeat-1/baseline/baseline-c8-p0-x0.85-w50",
+    "mode": "baseline",
+    "workload_makespan_s": 6.140078,
+    "group_wall_s": 81.143448,
+    "phase_durations_s": {
+      "pair_launch_s": 2.402358293533325,
+      "worker_health_s": 55.75809621810913,
+      "router_start_s": 0.3606226444244385,
+      "warmup_s": 15.005168676376343,
+      "load_replay_s": 6.298722982406616,
+      "trace_collection_s": 0.07980680465698242,
+      "cleanup_s": 1.1448664665222168,
+      "group_wall_s": 81.14344811439514
+    },
+    "write_count": 15,
+    "write_submit_sum_ms": 1531.668,
+    "submit_gap_median_ms": 0.7049999985611066,
+    "submit_gap_lt10_sum_ms": 5.12900000467198,
+    "submit_gap_lt10_count": 9,
+    "preemption_count": 0,
+    "categories": {
+      "short": {
+        "ttft_ms": 2742.426375,
+        "e2e_ms": 3020.676
+      },
+      "medium": {
+        "ttft_ms": 3473.3363333333336,
+        "e2e_ms": 3774.4416666666666
+      },
+      "long": {
+        "ttft_ms": 3459.76625,
+        "e2e_ms": 3771.5387499999997
+      }
+    }
+  },
+  {
+    "run_dir": "results/ucx128k-w1-c8-confirm-20261106/repeat-1/c8-p3-x0.85-w50/preemptive-c8-p3-x0.85-w50",
+    "mode": "preemptive",
+    "workload_makespan_s": 5.583879,
+    "group_wall_s": 79.37071,
+    "phase_durations_s": {
+      "pair_launch_s": 2.1636955738067627,
+      "worker_health_s": 55.24498009681702,
+      "router_start_s": 0.1134939193725586,
+      "warmup_s": 15.005569458007812,
+      "load_replay_s": 5.741771459579468,
+      "trace_collection_s": 0.12314867973327637,
+      "cleanup_s": 0.8855903148651123,
+      "group_wall_s": 79.37070989608765
+    },
+    "write_count": 330,
+    "write_submit_sum_ms": 3571.1789999999987,
+    "submit_gap_median_ms": 1.4999999984866008,
+    "submit_gap_lt10_sum_ms": 512.2820000106003,
+    "submit_gap_lt10_count": 312,
+    "preemption_count": 2,
+    "categories": {
+      "short": {
+        "ttft_ms": 2332.66875,
+        "e2e_ms": 2613.941375
+      },
+      "medium": {
+        "ttft_ms": 2847.329,
+        "e2e_ms": 3137.378
+      },
+      "long": {
+        "ttft_ms": 2718.48925,
+        "e2e_ms": 3032.707
+      }
+    }
+  },
+  {
+    "run_dir": "results/ucx128k-w1-c8-confirm-20261106/repeat-2/baseline/baseline-c8-p0-x0.85-w50",
+    "mode": "baseline",
+    "workload_makespan_s": 6.260393,
+    "group_wall_s": 81.978108,
+    "phase_durations_s": {
+      "pair_launch_s": 2.164121150970459,
+      "worker_health_s": 56.756309509277344,
+      "router_start_s": 0.3714292049407959,
+      "warmup_s": 15.005105972290039,
+      "load_replay_s": 6.413878917694092,
+      "trace_collection_s": 0.04515886306762695,
+      "cleanup_s": 1.1316413879394531,
+      "group_wall_s": 81.9781084060669
+    },
+    "write_count": 15,
+    "write_submit_sum_ms": 2537.5829999999996,
+    "submit_gap_median_ms": 1.23399999938556,
+    "submit_gap_lt10_sum_ms": 5.816000011691358,
+    "submit_gap_lt10_count": 8,
+    "preemption_count": 0,
+    "categories": {
+      "short": {
+        "ttft_ms": 2788.299875,
+        "e2e_ms": 3060.515375
+      },
+      "medium": {
+        "ttft_ms": 3762.4563333333335,
+        "e2e_ms": 4028.8996666666662
+      },
+      "long": {
+        "ttft_ms": 3508.62325,
+        "e2e_ms": 3823.7065000000002
+      }
+    }
+  },
+  {
+    "run_dir": "results/ucx128k-w1-c8-confirm-20261106/repeat-2/c8-p3-x0.85-w50/preemptive-c8-p3-x0.85-w50",
+    "mode": "preemptive",
+    "workload_makespan_s": 5.581918,
+    "group_wall_s": 79.661562,
+    "phase_durations_s": {
+      "pair_launch_s": 2.1744911670684814,
+      "worker_health_s": 55.272029399871826,
+      "router_start_s": 0.35985875129699707,
+      "warmup_s": 15.004183053970337,
+      "load_replay_s": 5.743273973464966,
+      "trace_collection_s": 0.12674474716186523,
+      "cleanup_s": 0.8828070163726807,
+      "group_wall_s": 79.66156220436096
+    },
+    "write_count": 330,
+    "write_submit_sum_ms": 3563.5949999999975,
+    "submit_gap_median_ms": 1.4860000010230578,
+    "submit_gap_lt10_sum_ms": 512.5840000619064,
+    "submit_gap_lt10_count": 312,
+    "preemption_count": 2,
+    "categories": {
+      "short": {
+        "ttft_ms": 2341.126625,
+        "e2e_ms": 2621.23225
+      },
+      "medium": {
+        "ttft_ms": 2847.6023333333333,
+        "e2e_ms": 3138.0816666666665
+      },
+      "long": {
+        "ttft_ms": 2719.0462500000003,
+        "e2e_ms": 3032.326
+      }
+    }
+  },
+  {
+    "run_dir": "results/ucx128k-w1-c8-confirm-20261106/repeat-3/baseline/baseline-c8-p0-x0.85-w50",
+    "mode": "baseline",
+    "workload_makespan_s": 6.483298,
+    "group_wall_s": 85.203724,
+    "phase_durations_s": {
+      "pair_launch_s": 2.120929718017578,
+      "worker_health_s": 60.002188205718994,
+      "router_start_s": 0.36156535148620605,
+      "warmup_s": 15.005577087402344,
+      "load_replay_s": 6.647746801376343,
+      "trace_collection_s": 0.08802938461303711,
+      "cleanup_s": 0.884575605392456,
+      "group_wall_s": 85.20372414588928
+    },
+    "write_count": 15,
+    "write_submit_sum_ms": 2100.4369999999994,
+    "submit_gap_median_ms": 0.8139999954437371,
+    "submit_gap_lt10_sum_ms": 4.408000000694301,
+    "submit_gap_lt10_count": 8,
+    "preemption_count": 0,
+    "categories": {
+      "short": {
+        "ttft_ms": 2767.134375,
+        "e2e_ms": 3049.5155
+      },
+      "medium": {
+        "ttft_ms": 3801.248333333333,
+        "e2e_ms": 4085.994
+      },
+      "long": {
+        "ttft_ms": 3593.6839999999997,
+        "e2e_ms": 3905.27675
+      }
+    }
+  },
+  {
+    "run_dir": "results/ucx128k-w1-c8-confirm-20261106/repeat-3/c8-p3-x0.85-w50/preemptive-c8-p3-x0.85-w50",
+    "mode": "preemptive",
+    "workload_makespan_s": 5.636318,
+    "group_wall_s": 81.610684,
+    "phase_durations_s": {
+      "pair_launch_s": 2.0889110565185547,
+      "worker_health_s": 57.032346963882446,
+      "router_start_s": 0.3591029644012451,
+      "warmup_s": 15.004230737686157,
+      "load_replay_s": 5.789245128631592,
+      "trace_collection_s": 0.13063406944274902,
+      "cleanup_s": 1.126908302307129,
+      "group_wall_s": 81.61068439483643
+    },
+    "write_count": 330,
+    "write_submit_sum_ms": 3495.1899999999996,
+    "submit_gap_median_ms": 1.5199999979813583,
+    "submit_gap_lt10_sum_ms": 512.5709999119863,
+    "submit_gap_lt10_count": 310,
+    "preemption_count": 2,
+    "categories": {
+      "short": {
+        "ttft_ms": 2361.836625,
+        "e2e_ms": 2643.70225
+      },
+      "medium": {
+        "ttft_ms": 2879.347333333333,
+        "e2e_ms": 3167.915
+      },
+      "long": {
+        "ttft_ms": 2733.077,
+        "e2e_ms": 3049.23675
+      }
+    }
+  }
+]

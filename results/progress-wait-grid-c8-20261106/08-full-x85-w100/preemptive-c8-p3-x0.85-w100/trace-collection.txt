@@ -1,0 +1,3 @@
+/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/08-full-x85-w100/preemptive-c8-p3-x0.85-w100/trace-request-phases.csv
+/home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/08-full-x85-w100/preemptive-c8-p3-x0.85-w100/trace-chunks.csv
+Saved workload totals for 1 runs to /home/ubuntu/zjj/code/results/progress-wait-grid-c8-20261106/08-full-x85-w100/preemptive-c8-p3-x0.85-w100/workload-total-times.json

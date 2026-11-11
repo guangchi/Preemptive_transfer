@@ -1,0 +1,284 @@
+[
+  {
+    "repeat": 1,
+    "setting": "c4-p5-x0.95-w50",
+    "preempt_long_chunks": 8,
+    "max_long_preemption_count": 2,
+    "first_protection": {
+      "interleaved15-01-long": {
+        "sequence": "150",
+        "long_progress": "0.9536",
+        "long_wait_ms": "46.28419300206588",
+        "protection_reasons": "progress"
+      },
+      "interleaved15-05-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "56.41163600012078",
+        "protection_reasons": "wait"
+      },
+      "interleaved15-07-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "58.995418999984395",
+        "protection_reasons": "wait"
+      },
+      "interleaved15-11-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "57.90525300108129",
+        "protection_reasons": "wait"
+      }
+    }
+  },
+  {
+    "repeat": 1,
+    "setting": "c4-p5-x0.95-w100",
+    "preempt_long_chunks": 8,
+    "max_long_preemption_count": 4,
+    "first_protection": {
+      "interleaved15-01-long": {
+        "sequence": "150",
+        "long_progress": "0.9536",
+        "long_wait_ms": "49.30568399868207",
+        "protection_reasons": "progress"
+      },
+      "interleaved15-05-long": {
+        "sequence": "150",
+        "long_progress": "0.9536",
+        "long_wait_ms": "91.87421499882475",
+        "protection_reasons": "progress"
+      },
+      "interleaved15-07-long": {
+        "sequence": "150",
+        "long_progress": "0.9536",
+        "long_wait_ms": "0.0",
+        "protection_reasons": "progress"
+      },
+      "interleaved15-11-long": {
+        "sequence": "150",
+        "long_progress": "0.9536",
+        "long_wait_ms": "47.58319899701746",
+        "protection_reasons": "progress"
+      }
+    }
+  },
+  {
+    "repeat": 1,
+    "setting": "c4-p3-x0.85-w50",
+    "preempt_long_chunks": 8,
+    "max_long_preemption_count": 2,
+    "first_protection": {
+      "interleaved15-01-long": {
+        "sequence": "134",
+        "long_progress": "0.8512",
+        "long_wait_ms": "48.88317099903361",
+        "protection_reasons": "progress"
+      },
+      "interleaved15-05-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "54.368689001421444",
+        "protection_reasons": "wait"
+      },
+      "interleaved15-07-long": {
+        "sequence": "134",
+        "long_progress": "0.8512",
+        "long_wait_ms": "48.296433000359684",
+        "protection_reasons": "progress"
+      },
+      "interleaved15-11-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "54.975808001472615",
+        "protection_reasons": "wait"
+      }
+    }
+  },
+  {
+    "repeat": 2,
+    "setting": "c4-p5-x0.95-w50",
+    "preempt_long_chunks": 8,
+    "max_long_preemption_count": 2,
+    "first_protection": {
+      "interleaved15-01-long": {
+        "sequence": "30",
+        "long_progress": "0.192",
+        "long_wait_ms": "64.00617300096201",
+        "protection_reasons": "wait"
+      },
+      "interleaved15-05-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "63.70584400065127",
+        "protection_reasons": "wait"
+      },
+      "interleaved15-07-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "60.034572998119984",
+        "protection_reasons": "wait"
+      },
+      "interleaved15-11-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "63.58022499989602",
+        "protection_reasons": "wait"
+      }
+    }
+  },
+  {
+    "repeat": 2,
+    "setting": "c4-p5-x0.95-w100",
+    "preempt_long_chunks": 8,
+    "max_long_preemption_count": 4,
+    "first_protection": {
+      "interleaved15-01-long": {
+        "sequence": "150",
+        "long_progress": "0.9536",
+        "long_wait_ms": "49.94830099894898",
+        "protection_reasons": "progress"
+      },
+      "interleaved15-05-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "110.91978699914762",
+        "protection_reasons": "wait"
+      },
+      "interleaved15-07-long": {
+        "sequence": "150",
+        "long_progress": "0.9536",
+        "long_wait_ms": "0.0",
+        "protection_reasons": "progress"
+      },
+      "interleaved15-11-long": {
+        "sequence": "150",
+        "long_progress": "0.9536",
+        "long_wait_ms": "50.12283099858905",
+        "protection_reasons": "progress"
+      }
+    }
+  },
+  {
+    "repeat": 2,
+    "setting": "c4-p3-x0.85-w50",
+    "preempt_long_chunks": 8,
+    "max_long_preemption_count": 2,
+    "first_protection": {
+      "interleaved15-05-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "53.00325800271821",
+        "protection_reasons": "wait"
+      },
+      "interleaved15-07-long": {
+        "sequence": "134",
+        "long_progress": "0.8512",
+        "long_wait_ms": "45.310366000194335",
+        "protection_reasons": "progress"
+      },
+      "interleaved15-11-long": {
+        "sequence": "134",
+        "long_progress": "0.8512",
+        "long_wait_ms": "46.68003199913073",
+        "protection_reasons": "progress"
+      }
+    }
+  },
+  {
+    "repeat": 3,
+    "setting": "c4-p5-x0.95-w100",
+    "preempt_long_chunks": 8,
+    "max_long_preemption_count": 4,
+    "first_protection": {
+      "interleaved15-01-long": {
+        "sequence": "150",
+        "long_progress": "0.9536",
+        "long_wait_ms": "51.92334100138396",
+        "protection_reasons": "progress"
+      },
+      "interleaved15-05-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "101.90975200021057",
+        "protection_reasons": "wait"
+      },
+      "interleaved15-07-long": {
+        "sequence": "150",
+        "long_progress": "0.9536",
+        "long_wait_ms": "0.0",
+        "protection_reasons": "progress"
+      },
+      "interleaved15-11-long": {
+        "sequence": "150",
+        "long_progress": "0.9536",
+        "long_wait_ms": "51.54443200081005",
+        "protection_reasons": "progress"
+      }
+    }
+  },
+  {
+    "repeat": 3,
+    "setting": "c4-p3-x0.85-w50",
+    "preempt_long_chunks": 8,
+    "max_long_preemption_count": 2,
+    "first_protection": {
+      "interleaved15-01-long": {
+        "sequence": "134",
+        "long_progress": "0.8512",
+        "long_wait_ms": "47.24653499943088",
+        "protection_reasons": "progress"
+      },
+      "interleaved15-05-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "57.94200099990121",
+        "protection_reasons": "wait"
+      },
+      "interleaved15-07-long": {
+        "sequence": "134",
+        "long_progress": "0.8512",
+        "long_wait_ms": "44.879984998260625",
+        "protection_reasons": "progress"
+      },
+      "interleaved15-11-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "51.873183001589496",
+        "protection_reasons": "wait"
+      }
+    }
+  },
+  {
+    "repeat": 3,
+    "setting": "c4-p5-x0.95-w50",
+    "preempt_long_chunks": 8,
+    "max_long_preemption_count": 2,
+    "first_protection": {
+      "interleaved15-01-long": {
+        "sequence": "36",
+        "long_progress": "0.2304",
+        "long_wait_ms": "53.49373100034427",
+        "protection_reasons": "wait"
+      },
+      "interleaved15-05-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "51.63256300147623",
+        "protection_reasons": "wait"
+      },
+      "interleaved15-07-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "62.08700700153713",
+        "protection_reasons": "wait"
+      },
+      "interleaved15-11-long": {
+        "sequence": "0",
+        "long_progress": "0.0",
+        "long_wait_ms": "61.914191999676405",
+        "protection_reasons": "wait"
+      }
+    }
+  }
+]

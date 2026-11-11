@@ -1,0 +1,244 @@
+2026-11-06T12:45:14.038886+00:00 starting repeat=1 config=baseline
+finished repeat=1 config=baseline makespan=6.155s
+2026-11-06T12:46:33.617760+00:00 starting repeat=1 config=c8-p3-x0.85-w50
+finished repeat=1 config=c8-p3-x0.85-w50 makespan=5.623s
+2026-11-06T12:47:54.468504+00:00 starting repeat=2 config=c8-p3-x0.85-w50
+finished repeat=2 config=c8-p3-x0.85-w50 makespan=5.672s
+2026-11-06T12:49:14.037730+00:00 starting repeat=2 config=baseline
+finished repeat=2 config=baseline makespan=6.211s
+2026-11-06T12:50:35.133564+00:00 starting repeat=3 config=baseline
+finished repeat=3 config=baseline makespan=6.158s
+2026-11-06T12:51:58.004303+00:00 starting repeat=3 config=c8-p3-x0.85-w50
+finished repeat=3 config=c8-p3-x0.85-w50 makespan=5.675s
+{
+  "configurations": [
+    "baseline",
+    "c8-p3-x0.85-w50"
+  ],
+  "repeats": 3,
+  "commands": [
+    {
+      "repeat": 1,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T12:45:14.038886+00:00",
+      "wall_s": 79.57671767300053,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/eager-progress-c8-20261106/confirmation/repeat-1/baseline/timed-one-run.sh",
+      "runner_sha256": "0c5c46f756586a895c384212c422f42ec41bd85c931859fd7156f04db7b8f441"
+    },
+    {
+      "repeat": 1,
+      "setting": "c8-p3-x0.85-w50",
+      "start_utc": "2026-11-06T12:46:33.617760+00:00",
+      "wall_s": 80.84945694400085,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/eager-progress-c8-20261106/confirmation/repeat-1/c8-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "3dbce905dbece0973ec8823fa30a8621161a7c743d5eb03292d838d3102c8902"
+    },
+    {
+      "repeat": 2,
+      "setting": "c8-p3-x0.85-w50",
+      "start_utc": "2026-11-06T12:47:54.468504+00:00",
+      "wall_s": 79.56745595800021,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/eager-progress-c8-20261106/confirmation/repeat-2/c8-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "3dbce905dbece0973ec8823fa30a8621161a7c743d5eb03292d838d3102c8902"
+    },
+    {
+      "repeat": 2,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T12:49:14.037730+00:00",
+      "wall_s": 81.0941029270034,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/eager-progress-c8-20261106/confirmation/repeat-2/baseline/timed-one-run.sh",
+      "runner_sha256": "0c5c46f756586a895c384212c422f42ec41bd85c931859fd7156f04db7b8f441"
+    },
+    {
+      "repeat": 3,
+      "setting": "baseline",
+      "start_utc": "2026-11-06T12:50:35.133564+00:00",
+      "wall_s": 82.86901239400322,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/eager-progress-c8-20261106/confirmation/repeat-3/baseline/timed-one-run.sh",
+      "runner_sha256": "0c5c46f756586a895c384212c422f42ec41bd85c931859fd7156f04db7b8f441"
+    },
+    {
+      "repeat": 3,
+      "setting": "c8-p3-x0.85-w50",
+      "start_utc": "2026-11-06T12:51:58.004303+00:00",
+      "wall_s": 79.52840032500535,
+      "exit_code": 0,
+      "runner": "/home/ubuntu/zjj/code/results/eager-progress-c8-20261106/confirmation/repeat-3/c8-p3-x0.85-w50/timed-one-run.sh",
+      "runner_sha256": "3dbce905dbece0973ec8823fa30a8621161a7c743d5eb03292d838d3102c8902"
+    }
+  ],
+  "baseline_summary": {
+    "completed_repeats": 3,
+    "mean_makespan_s": 6.1747396666666665,
+    "mean_group_wall_s": 81.06402047475179,
+    "categories": {
+      "short": {
+        "ttft_ms": 2789.6609583333334,
+        "e2e_ms": 3060.2847916666665
+      },
+      "medium": {
+        "ttft_ms": 3615.0417777777775,
+        "e2e_ms": 3900.4985555555554
+      },
+      "long": {
+        "ttft_ms": 3463.8275,
+        "e2e_ms": 3777.3557499999997
+      }
+    }
+  },
+  "timing_definitions": {
+    "workload_makespan_s": "First client send to last response finish, including arrivals and queueing; excludes service startup and cleanup.",
+    "group_wall_s": "Service launch, health checks, fixed wait, workload, trace collection, and cleanup for one service group."
+  },
+  "total_confirmation_wall_s": 483.4989610170014,
+  "ranking": [
+    {
+      "setting": "c8-p3-x0.85-w50",
+      "eligible": true,
+      "paired_runs": [
+        {
+          "repeat": 1,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 2359.443,
+              "e2e_ms": 2637.6057499999997
+            },
+            "medium": {
+              "ttft_ms": 2866.9010000000003,
+              "e2e_ms": 3155.1226666666666
+            },
+            "long": {
+              "ttft_ms": 2719.91925,
+              "e2e_ms": 3036.8292500000002
+            }
+          },
+          "baseline_categories": {
+            "short": {
+              "ttft_ms": 2730.0045,
+              "e2e_ms": 3008.034625
+            },
+            "medium": {
+              "ttft_ms": 3481.627,
+              "e2e_ms": 3779.613
+            },
+            "long": {
+              "ttft_ms": 3455.49025,
+              "e2e_ms": 3765.6885
+            }
+          },
+          "max_long_e2e_ratio": 0.905347567121629,
+          "short_medium_score_ms": 2600.824772287245,
+          "workload_makespan_s": 5.623398,
+          "baseline_makespan_s": 6.155059,
+          "group_wall_s": 80.73342943191528,
+          "baseline_group_wall_s": 79.45726776123047
+        },
+        {
+          "repeat": 2,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 2372.582125,
+              "e2e_ms": 2649.575375
+            },
+            "medium": {
+              "ttft_ms": 2905.6113333333333,
+              "e2e_ms": 3188.4946666666665
+            },
+            "long": {
+              "ttft_ms": 2733.29775,
+              "e2e_ms": 3050.10525
+            }
+          },
+          "baseline_categories": {
+            "short": {
+              "ttft_ms": 2798.427125,
+              "e2e_ms": 3065.169
+            },
+            "medium": {
+              "ttft_ms": 3742.9156666666668,
+              "e2e_ms": 4009.489
+            },
+            "long": {
+              "ttft_ms": 3447.14825,
+              "e2e_ms": 3764.205
+            }
+          },
+          "max_long_e2e_ratio": 0.8903528670049093,
+          "short_medium_score_ms": 2625.6049801263107,
+          "workload_makespan_s": 5.672021,
+          "baseline_makespan_s": 6.211085,
+          "group_wall_s": 79.48452663421631,
+          "baseline_group_wall_s": 80.97930312156677
+        },
+        {
+          "repeat": 3,
+          "outputs_match": true,
+          "direct_reference_match": true,
+          "categories": {
+            "short": {
+              "ttft_ms": 2378.955,
+              "e2e_ms": 2654.0675
+            },
+            "medium": {
+              "ttft_ms": 2908.770666666667,
+              "e2e_ms": 3189.0156666666667
+            },
+            "long": {
+              "ttft_ms": 2732.0164999999997,
+              "e2e_ms": 3046.9715
+            }
+          },
+          "baseline_categories": {
+            "short": {
+              "ttft_ms": 2840.55125,
+              "e2e_ms": 3107.6507500000002
+            },
+            "medium": {
+              "ttft_ms": 3620.5826666666667,
+              "e2e_ms": 3912.393666666667
+            },
+            "long": {
+              "ttft_ms": 3488.844,
+              "e2e_ms": 3802.17375
+            }
+          },
+          "max_long_e2e_ratio": 0.8871849880099331,
+          "short_medium_score_ms": 2630.557834627477,
+          "workload_makespan_s": 5.675427,
+          "baseline_makespan_s": 6.158075,
+          "group_wall_s": 79.417720079422,
+          "baseline_group_wall_s": 82.75549054145813
+        }
+      ],
+      "median_score_ms": 2625.6049801263107,
+      "mean_makespan_s": 5.656948666666667,
+      "mean_group_wall_s": 79.87855871518452,
+      "categories": {
+        "short": {
+          "ttft_ms": 2370.3267083333335,
+          "e2e_ms": 2647.082875
+        },
+        "medium": {
+          "ttft_ms": 2893.761,
+          "e2e_ms": 3177.5443333333333
+        },
+        "long": {
+          "ttft_ms": 2728.4111666666668,
+          "e2e_ms": 3044.6353333333336
+        }
+      }
+    }
+  ],
+  "recommended": "c8-p3-x0.85-w50",
+  "errors": [],
+  "selection": "median short/medium geometric-mean TTFT under paired per-long E2E <= baseline +10% on every repeat; identical outputs required"
+}

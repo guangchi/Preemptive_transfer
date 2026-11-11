@@ -1,0 +1,28 @@
+{
+  "recorded_utc": "2026-11-06T05:47:21.789213+00:00",
+  "source_sha256": {
+    "collect_pd_total_time.py": "130945d98611b663c3723328d544d87e319882af1622d699ee2f396f0a34c4af",
+    "run_pd_sweep.sh": "e474bc2720203b2b9ae546094bc7ababb929d58acc7169cc9ae3487c431b729f",
+    "run_pd_param_tuning.sh": "5c8a5bb1040fa3860ba8c7446d211595a0f2b07e6e4a646764b6d64c6452dcd4",
+    "analyze_pd_tuning.py": "5cd7acf6577afd9acbae5fb2ae6c75f7ae5f97f6c53b0253133088bb455efcf3",
+    "plot_pd_tuning.py": "f401991ebd0e96cf2bc14450847e491d30ce975abdbd556f174277c5041462a6",
+    "run_pd_tuning_confirm.py": "cef6e5e4dc09e53645d1143ecf23bc47ed4c9d83bf617f04411106536043998e",
+    "report_pd_tuning_confirmation.py": "a2ea06295941fa03f10fa71400e99e8049b8b4a1f5a1fc999b9b568b6b029b8c",
+    "summarize_pd_experiment.py": "3f03aaa22f57d4b4174c15ed4370a37ea8929c4afdfb0605180cf061c383c5ef",
+    "plot_pd_timeline.py": "a64d926ca9f309c9615355b73aa98759bd7cd2f435b2bc43c77dac926d67d4d1",
+    "run_pd_pair.sh": "abd79f89ab53085ea2d2a0af025740109fcbd9641cb3a80ddbf5ef0beb61d637",
+    "run_pd_load.py": "0e4df4057f44e55d079ba1e379f09cc7651fc6fa53f994f2f583a595186e6778",
+    "run_pd_router.py": "ec424350bc347ff60bc7372b763edea46c821c7c4b458cedb45980fbcc997c04",
+    "collect_pd_trace.py": "f7a75675f93955f1fa415ff97b832741e23816a47205dfd700d71af87a15b4ea",
+    "write_pd_run_environment.py": "1df0ecfd005c88b2836b819a4f48365947cbe7c1486e1979b73a3e013358c524",
+    "tests/test_pd_total_time.py": "df487f948fdd65d293f75cf58ee8217a54f8407b4c901791cbe8815fea714d9d",
+    "requirements-test.txt": "543a97dbbb696f6cc90304e2b2a3140e70ec7bb2b9545949c612578e789e0b39",
+    "workload.sweep-interleaved-8s3m4l.jsonl": "714990980c49534e539a125612ce1c8d36c68ac75a559e4bce93dabcb7ee9e14",
+    "PD_PREEMPTIVE_TRANSFER_PLAN.md": "c77dc486e50f461806ea30c418c424b0b7c05d5ddc9def36b7e37f240683b817",
+    "PD_PREEMPTIVE_TRANSFER_SYSTEM_REPORT.md": "a224b39af7005ec39c05f059340058d03ceb217795512a0ccf680c4d6c5f9beb"
+  },
+  "snapshot": "source-final contains final analysis and measurement code; executed timed-one-run.sh/runner-v1.sh/runner-v2.sh preserved separately; search-design.json records original run tool hashes",
+  "tests": "60 passed, 14 warnings (8.86s)",
+  "default_changed": false,
+  "historical_archive_verified_unchanged": true
+}

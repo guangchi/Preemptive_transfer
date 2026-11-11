@@ -1,0 +1,2 @@
+run_dir,mode,requests,successful_requests,workload_makespan_s,successful_requests_per_s,client_replay_elapsed_s,group_wall_s
+/home/ubuntu/zjj/code/results/compute-transfer-overlap-20261106/repeat-1/baseline/baseline-c4-p0-x0.85-w50,baseline,15,15,13.305424,1.12736,13.309162,86.336657

@@ -1,0 +1,2 @@
+run_dir,mode,requests,successful_requests,workload_makespan_s,successful_requests_per_s,client_replay_elapsed_s,group_wall_s
+/home/ubuntu/zjj/code/results/ucx128k-w1-c8-confirm-20261106/repeat-3/c8-p3-x0.85-w50/preemptive-c8-p3-x0.85-w50,preemptive,15,15,5.636318,2.661312,5.639591,81.610684

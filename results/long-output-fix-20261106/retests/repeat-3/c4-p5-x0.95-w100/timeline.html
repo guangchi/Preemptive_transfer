@@ -1,0 +1,117 @@
+<!doctype html><meta charset="utf-8"><title>PD timeline</title><style>body{margin:24px;font-family:Arial}svg{max-width:100%;height:auto}</style><svg xmlns="http://www.w3.org/2000/svg" width="1140" height="910" viewBox="0 0 1140 910">
+<rect width="100%" height="100%" fill="white"/>
+<style>text{font-family:Arial,sans-serif;font-size:12px;fill:#243342} .title{font-size:18px;font-weight:bold}</style>
+<text x="20" y="27" class="title">Interleaved 15-request PD experiment</text>
+<text x="20" y="49">Gray: send to first text | Blue: first text to finish | Orange diamond: short bypasses long (arbiter decision)</text>
+<text x="20" y="68">Time is relative to each replay start. Hover for values. S=short, M=medium, L=long. Decisions are not WRITE start times.</text>
+<text x="20" y="95" class="title">baseline</text>
+<line x1="140.0" x2="140.0" y1="103" y2="448" stroke="#e5e9ed"/>
+<text x="133.0" y="467">0s</text>
+<line x1="237.89473684210526" x2="237.89473684210526" y1="103" y2="448" stroke="#e5e9ed"/>
+<text x="230.89473684210526" y="467">2s</text>
+<line x1="335.7894736842105" x2="335.7894736842105" y1="103" y2="448" stroke="#e5e9ed"/>
+<text x="328.7894736842105" y="467">4s</text>
+<line x1="433.6842105263158" x2="433.6842105263158" y1="103" y2="448" stroke="#e5e9ed"/>
+<text x="426.6842105263158" y="467">6s</text>
+<line x1="531.578947368421" x2="531.578947368421" y1="103" y2="448" stroke="#e5e9ed"/>
+<text x="524.578947368421" y="467">8s</text>
+<line x1="629.4736842105262" x2="629.4736842105262" y1="103" y2="448" stroke="#e5e9ed"/>
+<text x="622.4736842105262" y="467">10s</text>
+<line x1="727.3684210526316" x2="727.3684210526316" y1="103" y2="448" stroke="#e5e9ed"/>
+<text x="720.3684210526316" y="467">12s</text>
+<line x1="825.2631578947368" x2="825.2631578947368" y1="103" y2="448" stroke="#e5e9ed"/>
+<text x="818.2631578947368" y="467">14s</text>
+<line x1="923.1578947368421" x2="923.1578947368421" y1="103" y2="448" stroke="#e5e9ed"/>
+<text x="916.1578947368421" y="467">16s</text>
+<line x1="1021.0526315789473" x2="1021.0526315789473" y1="103" y2="448" stroke="#e5e9ed"/>
+<text x="1014.0526315789473" y="467">18s</text>
+<text x="80" y="120">00 S</text>
+<g><title>interleaved15-00-short: send=0.002s, first=0.626s, finish=0.894s; TTFT=623.889ms, E2E=891.782ms</title><rect x="140.09" y="110" width="30.54" height="13" fill="#cdd9e5"/><rect x="170.62" y="110" width="13.11" height="13" fill="#356bad"/></g>
+<text x="80" y="143">01 L</text>
+<g><title>interleaved15-01-long: send=0.106s, first=10.508s, finish=10.826s; TTFT=10401.769ms, E2E=10719.96ms</title><rect x="145.20" y="133" width="509.14" height="13" fill="#cdd9e5"/><rect x="654.34" y="133" width="15.57" height="13" fill="#356bad"/></g>
+<text x="80" y="166">02 S</text>
+<g><title>interleaved15-02-short: send=0.207s, first=10.509s, finish=10.827s; TTFT=10301.544ms, E2E=10619.697ms</title><rect x="150.14" y="156" width="504.23" height="13" fill="#cdd9e5"/><rect x="654.37" y="156" width="15.57" height="13" fill="#356bad"/></g>
+<text x="80" y="189">03 M</text>
+<g><title>interleaved15-03-medium: send=0.308s, first=13.400s, finish=13.691s; TTFT=13091.511ms, E2E=13382.457ms</title><rect x="155.10" y="179" width="640.80" height="13" fill="#cdd9e5"/><rect x="795.89" y="179" width="14.24" height="13" fill="#356bad"/></g>
+<text x="80" y="212">04 S</text>
+<g><title>interleaved15-04-short: send=0.410s, first=13.624s, finish=13.923s; TTFT=13214.639ms, E2E=13513.161ms</title><rect x="160.05" y="202" width="646.82" height="13" fill="#cdd9e5"/><rect x="806.87" y="202" width="14.61" height="13" fill="#356bad"/></g>
+<text x="80" y="235">05 L</text>
+<g><title>interleaved15-05-long: send=0.511s, first=13.629s, finish=13.923s; TTFT=13117.959ms, E2E=13411.893ms</title><rect x="165.04" y="225" width="642.09" height="13" fill="#cdd9e5"/><rect x="807.13" y="225" width="14.39" height="13" fill="#356bad"/></g>
+<text x="80" y="258">06 S</text>
+<g><title>interleaved15-06-short: send=0.612s, first=13.633s, finish=13.924s; TTFT=13020.601ms, E2E=13311.466ms</title><rect x="169.98" y="248" width="637.32" height="13" fill="#cdd9e5"/><rect x="807.30" y="248" width="14.24" height="13" fill="#356bad"/></g>
+<text x="80" y="281">07 L</text>
+<g><title>interleaved15-07-long: send=0.715s, first=13.633s, finish=13.924s; TTFT=12917.381ms, E2E=13209.206ms</title><rect x="175.01" y="271" width="632.27" height="13" fill="#cdd9e5"/><rect x="807.28" y="271" width="14.28" height="13" fill="#356bad"/></g>
+<text x="80" y="304">08 S</text>
+<g><title>interleaved15-08-short: send=0.816s, first=13.633s, finish=13.925s; TTFT=12816.61ms, E2E=13108.859ms</title><rect x="179.95" y="294" width="627.34" height="13" fill="#cdd9e5"/><rect x="807.29" y="294" width="14.30" height="13" fill="#356bad"/></g>
+<text x="80" y="327">09 M</text>
+<g><title>interleaved15-09-medium: send=0.917s, first=13.634s, finish=13.926s; TTFT=12716.734ms, E2E=13008.713ms</title><rect x="184.88" y="317" width="622.45" height="13" fill="#cdd9e5"/><rect x="807.33" y="317" width="14.29" height="13" fill="#356bad"/></g>
+<text x="80" y="350">10 S</text>
+<g><title>interleaved15-10-short: send=1.017s, first=13.631s, finish=13.926s; TTFT=12613.631ms, E2E=12909.0ms</title><rect x="189.79" y="340" width="617.40" height="13" fill="#cdd9e5"/><rect x="807.20" y="340" width="14.46" height="13" fill="#356bad"/></g>
+<text x="80" y="373">11 L</text>
+<g><title>interleaved15-11-long: send=1.120s, first=13.663s, finish=13.967s; TTFT=12543.023ms, E2E=12846.643ms</title><rect x="194.82" y="363" width="613.95" height="13" fill="#cdd9e5"/><rect x="808.77" y="363" width="14.86" height="13" fill="#356bad"/></g>
+<text x="80" y="396">12 S</text>
+<g><title>interleaved15-12-short: send=1.221s, first=13.664s, finish=13.968s; TTFT=12442.322ms, E2E=12746.238ms</title><rect x="199.78" y="386" width="609.02" height="13" fill="#cdd9e5"/><rect x="808.80" y="386" width="14.88" height="13" fill="#356bad"/></g>
+<text x="80" y="419">13 M</text>
+<g><title>interleaved15-13-medium: send=1.323s, first=13.663s, finish=13.968s; TTFT=12340.877ms, E2E=12645.678ms</title><rect x="204.73" y="409" width="604.05" height="13" fill="#cdd9e5"/><rect x="808.79" y="409" width="14.92" height="13" fill="#356bad"/></g>
+<text x="80" y="442">14 S</text>
+<g><title>interleaved15-14-short: send=1.424s, first=13.661s, finish=13.969s; TTFT=12237.304ms, E2E=12545.174ms</title><rect x="209.68" y="432" width="598.98" height="13" fill="#cdd9e5"/><rect x="808.66" y="432" width="15.07" height="13" fill="#356bad"/></g>
+<text x="20" y="495" class="title">preemptive</text>
+<line x1="140.0" x2="140.0" y1="503" y2="848" stroke="#e5e9ed"/>
+<text x="133.0" y="867">0s</text>
+<line x1="237.89473684210526" x2="237.89473684210526" y1="503" y2="848" stroke="#e5e9ed"/>
+<text x="230.89473684210526" y="867">2s</text>
+<line x1="335.7894736842105" x2="335.7894736842105" y1="503" y2="848" stroke="#e5e9ed"/>
+<text x="328.7894736842105" y="867">4s</text>
+<line x1="433.6842105263158" x2="433.6842105263158" y1="503" y2="848" stroke="#e5e9ed"/>
+<text x="426.6842105263158" y="867">6s</text>
+<line x1="531.578947368421" x2="531.578947368421" y1="503" y2="848" stroke="#e5e9ed"/>
+<text x="524.578947368421" y="867">8s</text>
+<line x1="629.4736842105262" x2="629.4736842105262" y1="503" y2="848" stroke="#e5e9ed"/>
+<text x="622.4736842105262" y="867">10s</text>
+<line x1="727.3684210526316" x2="727.3684210526316" y1="503" y2="848" stroke="#e5e9ed"/>
+<text x="720.3684210526316" y="867">12s</text>
+<line x1="825.2631578947368" x2="825.2631578947368" y1="503" y2="848" stroke="#e5e9ed"/>
+<text x="818.2631578947368" y="867">14s</text>
+<line x1="923.1578947368421" x2="923.1578947368421" y1="503" y2="848" stroke="#e5e9ed"/>
+<text x="916.1578947368421" y="867">16s</text>
+<line x1="1021.0526315789473" x2="1021.0526315789473" y1="503" y2="848" stroke="#e5e9ed"/>
+<text x="1014.0526315789473" y="867">18s</text>
+<text x="80" y="520">00 S</text>
+<g><title>interleaved15-00-short: send=0.002s, first=0.446s, finish=0.713s; TTFT=444.568ms, E2E=711.952ms</title><rect x="140.07" y="510" width="21.76" height="13" fill="#cdd9e5"/><rect x="161.83" y="510" width="13.09" height="13" fill="#356bad"/></g>
+<text x="80" y="543">01 L</text>
+<g><title>interleaved15-01-long: send=0.107s, first=5.058s, finish=5.382s; TTFT=4950.987ms, E2E=5275.715ms</title><rect x="145.22" y="533" width="242.34" height="13" fill="#cdd9e5"/><rect x="387.56" y="533" width="15.89" height="13" fill="#356bad"/></g>
+<text x="80" y="566">02 S</text>
+<g><title>interleaved15-02-short: send=0.208s, first=1.486s, finish=1.685s; TTFT=1277.71ms, E2E=1476.582ms</title><rect x="150.19" y="556" width="62.54" height="13" fill="#cdd9e5"/><rect x="212.73" y="556" width="9.73" height="13" fill="#356bad"/></g>
+<polygon points="204.08,556 208.08,562 204.08,568 200.08,562" fill="#d96d12"><title>interleaved15-02-short chunk 0 bypasses cmpl-interleaved15-01-long-0-9abe4830; t=1309.147ms, count=1, progress=0.1728, wait=0.0ms</title></polygon>
+<polygon points="205.65,556 209.65,562 205.65,568 201.65,562" fill="#d96d12"><title>interleaved15-02-short chunk 1 bypasses cmpl-interleaved15-01-long-0-9abe4830; t=1341.147ms, count=2, progress=0.1792, wait=32.03082800609991ms</title></polygon>
+<text x="80" y="589">03 M</text>
+<g><title>interleaved15-03-medium: send=0.309s, first=5.437s, finish=5.701s; TTFT=5127.336ms, E2E=5391.181ms</title><rect x="155.15" y="579" width="250.97" height="13" fill="#cdd9e5"/><rect x="406.12" y="579" width="12.91" height="13" fill="#356bad"/></g>
+<text x="80" y="612">04 S</text>
+<g><title>interleaved15-04-short: send=0.410s, first=5.626s, finish=5.881s; TTFT=5215.803ms, E2E=5470.556ms</title><rect x="160.09" y="602" width="255.30" height="13" fill="#cdd9e5"/><rect x="415.39" y="602" width="12.47" height="13" fill="#356bad"/></g>
+<text x="80" y="635">05 L</text>
+<g><title>interleaved15-05-long: send=0.514s, first=9.235s, finish=9.552s; TTFT=8721.072ms, E2E=9037.995ms</title><rect x="165.14" y="625" width="426.87" height="13" fill="#cdd9e5"/><rect x="592.01" y="625" width="15.51" height="13" fill="#356bad"/></g>
+<text x="80" y="658">06 S</text>
+<g><title>interleaved15-06-short: send=0.615s, first=5.663s, finish=5.918s; TTFT=5048.718ms, E2E=5303.115ms</title><rect x="170.08" y="648" width="247.12" height="13" fill="#cdd9e5"/><rect x="417.20" y="648" width="12.45" height="13" fill="#356bad"/></g>
+<polygon points="405.43,648 409.43,654 405.43,660 401.43,654" fill="#d96d12"><title>interleaved15-06-short chunk 0 bypasses cmpl-interleaved15-05-long-0-8fa434e1; t=5422.732ms, count=1, progress=0.0, wait=0.0ms</title></polygon>
+<polygon points="406.56,648 410.56,654 406.56,660 402.56,654" fill="#d96d12"><title>interleaved15-06-short chunk 1 bypasses cmpl-interleaved15-05-long-0-8fa434e1; t=5445.857ms, count=2, progress=0.0, wait=23.149587999796495ms</title></polygon>
+<text x="80" y="681">07 L</text>
+<g><title>interleaved15-07-long: send=0.717s, first=13.341s, finish=13.663s; TTFT=12623.997ms, E2E=12946.067ms</title><rect x="175.11" y="671" width="617.91" height="13" fill="#cdd9e5"/><rect x="793.02" y="671" width="15.76" height="13" fill="#356bad"/></g>
+<text x="80" y="704">08 S</text>
+<g><title>interleaved15-08-short: send=0.816s, first=5.702s, finish=5.954s; TTFT=4885.963ms, E2E=5137.687ms</title><rect x="179.94" y="694" width="239.16" height="13" fill="#cdd9e5"/><rect x="419.09" y="694" width="12.32" height="13" fill="#356bad"/></g>
+<polygon points="407.67,694 411.67,700 407.67,706 403.67,700" fill="#d96d12"><title>interleaved15-08-short chunk 0 bypasses cmpl-interleaved15-05-long-0-8fa434e1; t=5468.484ms, count=3, progress=0.0, wait=45.739066998066846ms</title></polygon>
+<polygon points="408.75,694 412.75,700 408.75,706 404.75,700" fill="#d96d12"><title>interleaved15-08-short chunk 1 bypasses cmpl-interleaved15-05-long-0-8fa434e1; t=5490.671ms, count=4, progress=0.0, wait=67.9202079991228ms</title></polygon>
+<text x="80" y="727">09 M</text>
+<g><title>interleaved15-09-medium: send=0.917s, first=13.794s, finish=14.058s; TTFT=12877.192ms, E2E=13140.629ms</title><rect x="184.89" y="717" width="630.30" height="13" fill="#cdd9e5"/><rect x="815.20" y="717" width="12.89" height="13" fill="#356bad"/></g>
+<text x="80" y="750">10 S</text>
+<g><title>interleaved15-10-short: send=1.018s, first=13.982s, finish=14.240s; TTFT=12963.603ms, E2E=13221.688ms</title><rect x="189.83" y="740" width="634.53" height="13" fill="#cdd9e5"/><rect x="824.36" y="740" width="12.63" height="13" fill="#356bad"/></g>
+<text x="80" y="773">11 L</text>
+<g><title>interleaved15-11-long: send=1.121s, first=17.675s, finish=17.995s; TTFT=16554.051ms, E2E=16874.28ms</title><rect x="194.86" y="763" width="810.28" height="13" fill="#cdd9e5"/><rect x="1005.14" y="763" width="15.67" height="13" fill="#356bad"/></g>
+<text x="80" y="796">12 S</text>
+<g><title>interleaved15-12-short: send=1.222s, first=14.059s, finish=14.313s; TTFT=12837.093ms, E2E=13091.652ms</title><rect x="199.80" y="786" width="628.34" height="13" fill="#cdd9e5"/><rect x="828.15" y="786" width="12.46" height="13" fill="#356bad"/></g>
+<polygon points="814.96,786 818.96,792 814.96,798 810.96,792" fill="#d96d12"><title>interleaved15-12-short chunk 0 bypasses cmpl-interleaved15-11-long-0-a8df7066; t=13789.587ms, count=1, progress=0.0, wait=0.0ms</title></polygon>
+<polygon points="816.24,786 820.24,792 816.24,798 812.24,792" fill="#d96d12"><title>interleaved15-12-short chunk 1 bypasses cmpl-interleaved15-11-long-0-a8df7066; t=13815.693ms, count=2, progress=0.0, wait=26.152651997108478ms</title></polygon>
+<text x="80" y="819">13 M</text>
+<g><title>interleaved15-13-medium: send=1.323s, first=18.046s, finish=18.307s; TTFT=16722.905ms, E2E=16984.349ms</title><rect x="204.76" y="809" width="818.54" height="13" fill="#cdd9e5"/><rect x="1023.30" y="809" width="12.80" height="13" fill="#356bad"/></g>
+<text x="80" y="842">14 S</text>
+<g><title>interleaved15-14-short: send=1.424s, first=18.046s, finish=18.308s; TTFT=16622.337ms, E2E=16883.934ms</title><rect x="209.71" y="832" width="813.62" height="13" fill="#cdd9e5"/><rect x="1023.32" y="832" width="12.80" height="13" fill="#356bad"/></g>
+</svg><p><a href="EXPERIMENT_REPORT.md">Experiment report</a> | <a href="preemptions.csv">Preemptions</a> | <a href="experiment-timeline.csv">All events</a></p>

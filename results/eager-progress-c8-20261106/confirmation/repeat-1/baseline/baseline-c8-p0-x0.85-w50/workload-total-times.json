@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "requests": 15,
+      "successful_requests": 15,
+      "all_successful": true,
+      "first_client_send_monotonic_s": 46701.174331,
+      "last_client_finish_monotonic_s": 46707.32939,
+      "workload_makespan_s": 6.155059,
+      "first_submission_to_last_finish_s": 6.155921,
+      "successful_requests_per_s": 2.43702,
+      "generated_tokens": 120,
+      "note": "First client HTTP send to last response finish; includes interarrival and request queueing, excludes model startup/warmup/cleanup. Failed responses are retained in the end boundary.",
+      "run_dir": "/home/ubuntu/zjj/code/results/eager-progress-c8-20261106/confirmation/repeat-1/baseline/baseline-c8-p0-x0.85-w50",
+      "mode": "baseline",
+      "group_wall_s": 79.457268,
+      "phase_durations_s": {
+        "pair_launch_s": 2.214308500289917,
+        "worker_health_s": 54.76261591911316,
+        "router_start_s": 0.10991525650024414,
+        "warmup_s": 15.005184412002563,
+        "load_replay_s": 6.300153493881226,
+        "trace_collection_s": 0.09321045875549316,
+        "cleanup_s": 0.8989801406860352,
+        "group_wall_s": 79.45726776123047
+      },
+      "client_replay_elapsed_s": 6.158054
+    }
+  ]
+}

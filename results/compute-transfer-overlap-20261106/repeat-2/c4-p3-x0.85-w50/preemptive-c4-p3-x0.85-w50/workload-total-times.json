@@ -1,0 +1,30 @@
+{
+  "runs": [
+    {
+      "requests": 15,
+      "successful_requests": 15,
+      "all_successful": true,
+      "first_client_send_monotonic_s": 35841.340601,
+      "last_client_finish_monotonic_s": 35863.480819,
+      "workload_makespan_s": 22.140218,
+      "first_submission_to_last_finish_s": 22.141486,
+      "successful_requests_per_s": 0.6775,
+      "generated_tokens": 120,
+      "note": "First client HTTP send to last response finish; includes interarrival and request queueing, excludes model startup/warmup/cleanup. Failed responses are retained in the end boundary.",
+      "run_dir": "/home/ubuntu/zjj/code/results/compute-transfer-overlap-20261106/repeat-2/c4-p3-x0.85-w50/preemptive-c4-p3-x0.85-w50",
+      "mode": "preemptive",
+      "group_wall_s": 96.381102,
+      "phase_durations_s": {
+        "pair_launch_s": 2.3331871032714844,
+        "worker_health_s": 55.25635647773743,
+        "router_start_s": 0.35886478424072266,
+        "warmup_s": 15.005333185195923,
+        "load_replay_s": 22.306378602981567,
+        "trace_collection_s": 0.14908838272094727,
+        "cleanup_s": 0.8780431747436523,
+        "group_wall_s": 96.38110160827637
+      },
+      "client_replay_elapsed_s": 22.144136
+    }
+  ]
+}
